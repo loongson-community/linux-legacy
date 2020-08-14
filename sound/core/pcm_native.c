@@ -3107,7 +3107,11 @@ static int snd_pcm_mmap_data_fault(struct vm_area_struct *area,
 			return VM_FAULT_SIGBUS;
 	} else {
 		vaddr = runtime->dma_area + offset;
+#if defined(__mips__) && defined(CONFIG_DMA_NONCOHERENT) && !(defined(CONFIG_SND_DRIVER_OWN_BUF))  
+		page = virt_to_page(CAC_ADDR(vaddr));
+#else
 		page = virt_to_page(vaddr);
+#endif
 	}
 	get_page(page);
 	vmf->page = page;
@@ -3221,6 +3225,12 @@ static int snd_pcm_mmap(struct file *file, struct vm_area_struct *area)
 	pcm_file = file->private_data;
 	substream = pcm_file->substream;
 	snd_assert(substream != NULL, return -ENXIO);
+
+#if defined(__mips__) && defined(CONFIG_DMA_NONCOHERENT) && !(defined(CONFIG_SND_DRIVER_OWN_BUF))  
+	/* all mmap using uncached mode */
+	area->vm_page_prot = pgprot_noncached(area->vm_page_prot);
+	area->vm_flags |= ( VM_RESERVED | VM_IO);
+#endif
 
 	offset = area->vm_pgoff << PAGE_SHIFT;
 	switch (offset) {

@@ -143,7 +143,7 @@ static int i8042_wait_write(void)
  * of the i8042 down the toilet.
  */
 
-static int i8042_flush(void)
+int i8042_flush(void)
 {
 	unsigned long flags;
 	unsigned char data, str;
@@ -716,15 +716,27 @@ static int i8042_controller_selftest(void)
 	if (!i8042_reset)
 		return 0;
 
+	if (1) {
+		unsigned char ctr;
+		ctr |= I8042_CTR_KBDDIS;
+		ctr &= ~I8042_CTR_KBDINT;
+
+		printk("Disable kbd before selftest\n");
+		if (i8042_command(&ctr, I8042_CMD_CTL_WCTR)) {
+			printk(KERN_ERR "i8042.c: Failed to disable KBD port.\n");
+			return -EIO;
+		}
+	}
+
 	if (i8042_command(&param, I8042_CMD_CTL_TEST)) {
 		printk(KERN_ERR "i8042.c: i8042 controller self test timeout.\n");
-		return -ENODEV;
+		//return -ENODEV;
 	}
 
 	if (param != I8042_RET_CTL_TEST) {
 		printk(KERN_ERR "i8042.c: i8042 controller selftest failed. (%#x != %#x)\n",
 			 param, I8042_RET_CTL_TEST);
-		return -EIO;
+		//return -EIO;
 	}
 
 	return 0;
@@ -746,7 +758,7 @@ static int i8042_controller_init(void)
 
 	if (i8042_command(&i8042_ctr, I8042_CMD_CTL_RCTR)) {
 		printk(KERN_ERR "i8042.c: Can't read CTR while initializing i8042.\n");
-		return -EIO;
+		//return -EIO;
 	}
 
 	i8042_initial_ctr = i8042_ctr;
@@ -795,7 +807,7 @@ static int i8042_controller_init(void)
 
 	if (i8042_command(&i8042_ctr, I8042_CMD_CTL_WCTR)) {
 		printk(KERN_ERR "i8042.c: Can't write CTR while initializing i8042.\n");
-		return -EIO;
+		//return -EIO;
 	}
 
 	return 0;
@@ -956,7 +968,7 @@ static int i8042_resume(struct platform_device *dev)
 		msleep(50);
 		if (i8042_command(&i8042_ctr, I8042_CMD_CTL_WCTR)) {
 			printk(KERN_ERR "i8042: CTR write retry failed\n");
-			return -EIO;
+			//return -EIO;
 		}
 	}
 
@@ -1181,6 +1193,7 @@ static int __devinit i8042_probe(struct platform_device *dev)
 		return error;
 
 	error = i8042_controller_init();
+	error = 0; //FIXME
 	if (error)
 		return error;
 
@@ -1192,13 +1205,13 @@ static int __devinit i8042_probe(struct platform_device *dev)
 	if (!i8042_noaux) {
 		error = i8042_setup_aux();
 		if (error && error != -ENODEV && error != -EBUSY)
-			goto out_fail;
+			;//goto out_fail; //FIXME
 	}
 
 	if (!i8042_nokbd) {
 		error = i8042_setup_kbd();
 		if (error)
-			goto out_fail;
+			;//goto out_fail; //FIXME
 	}
 /*
  * Ok, everything is ready, let's register all serio ports

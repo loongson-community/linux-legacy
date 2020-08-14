@@ -305,6 +305,32 @@ load-$(CONFIG_LEMOTE_FULONG) +=0xffffffff80100000
 cflags-$(CONFIG_LEMOTE_FULONG) += -Iinclude/asm-mips/mach-lemote
 
 #
+# common lemote loongson2f stuffs
+#
+core-$(CONFIG_MACH_LM2F) +=arch/mips/lemote/lm2f/common/
+
+#
+# lemote loongson2f fulong mini-PC board
+#
+core-$(CONFIG_LEMOTE_FULONG2F) +=arch/mips/lemote/lm2f/lmbox/
+load-$(CONFIG_LEMOTE_FULONG2F) +=0xffffffff80200000
+cflags-$(CONFIG_LEMOTE_FULONG2F) += -Iinclude/asm-mips/mach-lemote
+
+#
+# lemote loongson2f notebook
+#
+core-$(CONFIG_LEMOTE_2FNOTEBOOK) +=arch/mips/lemote/lm2f/lmbook/
+load-$(CONFIG_LEMOTE_2FNOTEBOOK) +=0xffffffff80200000
+cflags-$(CONFIG_LEMOTE_2FNOTEBOOK) += -Iinclude/asm-mips/mach-lemote
+
+#
+# lemote loongson2f lyn-9003 
+#
+core-$(CONFIG_LEMOTE_LYNLOONG_9003) +=arch/mips/lemote/lm2f/lyn/
+load-$(CONFIG_LEMOTE_LYNLOONG_9003) +=0xffffffff80200000
+cflags-$(CONFIG_LEMOTE_LYNLOONG_9003) += -Iinclude/asm-mips/mach-lemote
+
+#
 # MIPS Malta board
 #
 core-$(CONFIG_MIPS_MALTA)	+= arch/mips/mti-malta/
@@ -649,6 +675,9 @@ core-y			+= arch/mips/kernel/ arch/mips/mm/ arch/mips/math-emu/
 
 drivers-$(CONFIG_OPROFILE)	+= arch/mips/oprofile/
 
+#Support hibernate
+drivers-$(CONFIG_PM)	+= arch/mips/power/
+
 ifdef CONFIG_LASAT
 rom.bin rom.sw: vmlinux
 	$(Q)$(MAKE) $(build)=arch/mips/lasat/image $@
@@ -695,6 +724,13 @@ ifdef CONFIG_MIPS32_O32
 	$(Q)$(MAKE) $(build)=. missing-syscalls EXTRA_CFLAGS="-mabi=32"
 endif
 
+zboot := arch/mips/zboot
+bzImage: KBUILD_IMAGE := arch/mips/zboot/bzImage
+
+BOOT_TARGETS = bzImage
+
+$(BOOT_TARGETS):  vmlinux
+	$(Q)$(MAKE) $(build)=$(zboot) $(KBUILD_IMAGE) ZBOOT_FLAGS=$(CFLAGS)
 archclean:
 	@$(MAKE) $(clean)=arch/mips/boot
 	@$(MAKE) $(clean)=arch/mips/lasat

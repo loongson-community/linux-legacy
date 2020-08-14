@@ -634,6 +634,7 @@ struct uvc_device {
 	/* Status Interrupt Endpoint */
 	struct usb_host_endpoint *int_ep;
 	struct urb *int_urb;
+	__u32  padding[7];
 	__u8 status[16];
 	struct input_dev *input;
 

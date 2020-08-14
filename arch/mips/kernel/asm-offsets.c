@@ -14,6 +14,7 @@
 #include <linux/mm.h>
 #include <linux/interrupt.h>
 #include <linux/kbuild.h>
+#include <linux/suspend.h>
 #include <asm/ptrace.h>
 #include <asm/processor.h>
 
@@ -294,4 +295,14 @@ void output_irq_cpustat_t_defines(void)
 			offsetof(irq_cpustat_t, __softirq_pending));
 	DEFINE(IC_IRQ_CPUSTAT_T, sizeof(irq_cpustat_t));
 	BLANK();
+}
+
+void output_pbe_defines(void)
+{
+ 	COMMENT(" Linux struct pbe offsets. ");
+ 	OFFSET(PBE_ADDRESS , pbe, address);
+ 	OFFSET(PBE_ORIG_ADDRESS  , pbe, orig_address);
+ 	OFFSET(PBE_NEXT  , pbe, next);
+ 	DEFINE(PBE_SIZE  , sizeof(struct pbe));
+ 	BLANK();
 }

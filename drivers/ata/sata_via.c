@@ -404,6 +404,12 @@ static void svia_configure(struct pci_dev *pdev)
 		tmp8 |= NATIVE_MODE_ALL;
 		pci_write_config_byte(pdev, SATA_NATIVE_MODE, tmp8);
 	}
+
+	if(pdev->device == 0x3249){
+		pci_read_config_byte(pdev,0x52,&tmp8);
+		tmp8 |= (1<<2);
+		pci_write_config_byte(pdev,0x52,tmp8);
+	}
 }
 
 static int svia_init_one(struct pci_dev *pdev, const struct pci_device_id *ent)

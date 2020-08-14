@@ -9,6 +9,12 @@
 #include <linux/init.h>
 #include <linux/serial_8250.h>
 
+#ifdef CONFIG_64BIT
+#define	UART_BASE  (void*)0xffffffffbff003f8
+#else
+#define	UART_BASE  (void*)0xbff003f8
+#endif	
+
 #define PORT(base, int)							\
 {									\
 	.iobase		= base,						\
@@ -20,10 +26,24 @@
 }
 
 static struct plat_serial8250_port uart8250_data[] = {
+#ifdef CONFIG_MACH_LM2F
+#if defined(CONFIG_LEMOTE_NAS) || defined(CONFIG_LEMOTE_2FNOTEBOOK) || defined(CONFIG_LEMOTE_LYNLOONG_9003)
+	{ .membase = UART_BASE,
+	  .irq = MIPS_CPU_IRQ_BASE + 3,
+	  .uartclk = 3686400,
+	  .iotype = UPIO_MEM,
+	  .flags = UPF_BOOT_AUTOCONF | UPF_SKIP_TEST,
+	  .regshift = 0,
+	},
+#else
+	PORT(0x2F8, 3),
+#endif
+#else
 	PORT(0x3F8, 4),
 	PORT(0x2F8, 3),
 	PORT(0x3E8, 4),
 	PORT(0x2E8, 3),
+#endif
 	{ },
 };
 

@@ -1,0 +1,68 @@
+#
+# Yeeloong various drivers
+#
+menuconfig LOONGSON2_PLATFROM_SUPPORT
+	bool "Loongson Platfrom Drivers Support"
+	depends on CPU_LOONGSON2
+	default y
+	help
+	 Say Y here to enable support various drivers on the loongson2 platfrom	
+
+if LOONGSON2_PLATFROM_SUPPORT
+
+config EC_COMMON_OPERATION
+	bool "Yeeloong laptop EC common operation support"
+	depends on LEMOTE_2FNOTEBOOK
+	default y
+	help
+	 Suspend code needs these operations, so buildin the kernel. 
+	 Say Y here to enable it
+
+
+config EC_ROM_UPDATE_DRIVER
+	tristate "EC update driver"
+	depends on EC_COMMON_OPERATION
+	default m
+	help 
+	 Say Y here to enable support ec rom update driver
+
+config EC_SCI_DRIVER
+	tristate "EC SCI driver"
+	depends on EC_COMMON_OPERATION
+	default m
+	help
+	 Say Y here to support ec sci event driver 
+
+config LAPTOP_YEELOONG
+	tristate "Yeeloong laptop drivers"
+	depends on EC_COMMON_OPERATION
+	select BACKLIGHT_CLASS_DEVICE
+	select HWMON
+	select POWER_SUPPLY
+	select THERMAL
+	select VIDEO_OUTPUT_CONTROL
+	default m
+	help
+	 Include backlight control,fan speed set,hardmare monitor, input event,
+	 battery status and so on. Say Y or M here to enable it	
+
+config LYNLOONG_9003_BACKLIGHT 
+	tristate "Lynloong 9003 backlight driver"
+	depends on LEMOTE_LYNLOONG_9003 
+	select BACKLIGHT_CLASS_DEVICE
+	default m
+	help
+	 Backlight control driver for Lynloong 9003. Say Y or M here to enable it
+
+config BIOS_DRIVER
+	tristate "BIOS update driver"
+	select MTD
+	default m
+	help
+	 Update yeeloong laptop BIOS driver, enable it to say M or Y  
+config IO_MSR_DEBUG_DRIVER
+	tristate "IO_MSR_DEBUG_DRIVER"
+	default n
+	help
+	 Debug system to use wrsmr and rdmsr which used to access the CS5536.
+endif  #LOONGSON2_PLATFROM_SUPPORT

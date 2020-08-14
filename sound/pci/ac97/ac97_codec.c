@@ -518,11 +518,24 @@ static int snd_ac97_info_volsw(struct snd_kcontrol *kcontrol,
 	int mask = (kcontrol->private_value >> 16) & 0xff;
 	int shift = (kcontrol->private_value >> 8) & 0x0f;
 	int rshift = (kcontrol->private_value >> 12) & 0x0f;
+#if 1
+	int max = mask;
+#endif
 
 	uinfo->type = mask == 1 ? SNDRV_CTL_ELEM_TYPE_BOOLEAN : SNDRV_CTL_ELEM_TYPE_INTEGER;
 	uinfo->count = shift == rshift ? 1 : 2;
 	uinfo->value.integer.min = 0;
+#if 1	
+	{
+		int reg = kcontrol->private_value & 0xff;
+		if (reg == AC97_MASTER && mask != 1) {
+			max = (mask * 90) /100;	
+		}
+	}
+	uinfo->value.integer.max = max;
+#else
 	uinfo->value.integer.max = mask;
+#endif
 	return 0;
 }
 
@@ -606,8 +619,13 @@ AC97_SINGLE("PC Speaker Playback Switch", AC97_PC_BEEP, 15, 1, 1),
 AC97_SINGLE("PC Speaker Playback Volume", AC97_PC_BEEP, 1, 15, 1)
 };
 
+#ifndef __no_noise_on_play_mic__
+static const struct snd_kcontrol_new snd_ac97_controls_mic_boost =
+	AC97_SINGLE("Mic Boost (+20dB)", AC97_MIC, 5, 1, 0);
+#else
 static const struct snd_kcontrol_new snd_ac97_controls_mic_boost =
 	AC97_SINGLE("Mic Boost (+20dB)", AC97_MIC, 6, 1, 0);
+#endif
 
 
 static const char* std_rec_sel[] = {"Mic", "CD", "Video", "Aux", "Line", "Mix", "Mix Mono", "Phone"};
@@ -1309,6 +1327,9 @@ static int snd_ac97_mixer_build(struct snd_ac97 * ac97)
 	unsigned int idx;
 	unsigned char max;
 
+#ifndef __no_noise_on_play_mic__
+	ac97->flags |= AC97_HAS_NO_PHONE|AC97_HAS_NO_PC_BEEP;
+#endif
 	/* build master controls */
 	/* AD claims to remove this control from AD1887, although spec v2.2 does not allow this */
 	if (snd_ac97_try_volume_mix(ac97, AC97_MASTER)) {
@@ -1369,12 +1390,14 @@ static int snd_ac97_mixer_build(struct snd_ac97 * ac97)
 			return err;
 	}
 	
+#if 0
 	/* build master mono controls */
 	if (snd_ac97_try_volume_mix(ac97, AC97_MASTER_MONO)) {
 		if ((err = snd_ac97_cmix_new(card, "Master Mono Playback",
 					     AC97_MASTER_MONO, 0, ac97)) < 0)
 			return err;
 	}
+#endif
 	
 	/* build master tone controls */
 	if (!(ac97->flags & AC97_HAS_NO_TONE)) {

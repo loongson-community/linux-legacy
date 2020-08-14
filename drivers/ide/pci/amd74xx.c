@@ -23,6 +23,13 @@
 
 #define DRV_NAME "amd74xx"
 
+const char *amd74xx_quirk_drives[] = {
+	"FUJITSU MHZ2160BH G2",
+	"WDC WD1600BEVT-22ZCT0",
+	"ST9160310AS",
+	NULL
+};
+
 enum {
 	AMD_IDE_CONFIG		= 0x41,
 	AMD_CABLE_DETECT	= 0x42,
@@ -112,6 +119,21 @@ static void amd_set_pio_mode(ide_drive_t *drive, const u8 pio)
 	amd_set_drive(drive, XFER_PIO_0 + pio);
 }
 
+static void amd_quirkproc(ide_drive_t *drive)
+{	
+	const char **list, *m = (char *)&drive->id->model;
+#ifdef CONFIG_LEMOTE_2FNOTEBOOK
+/*	for(list = amd74xx_quirk_drives; *list != NULL; list++)
+		if(strstr(m, *list) != NULL){
+*/
+			drive->quirk_list = 2;
+			return;
+/*		}
+*/
+#endif
+	drive->quirk_list = 0;
+}
+
 static void __devinit amd7409_cable_detect(struct pci_dev *dev)
 {
 	/* no host side cable detection */
@@ -194,6 +216,7 @@ static void __devinit init_hwif_amd74xx(ide_hwif_t *hwif)
 static const struct ide_port_ops amd_port_ops = {
 	.set_pio_mode		= amd_set_pio_mode,
 	.set_dma_mode		= amd_set_drive,
+	.quirkproc			= amd_quirkproc,
 	.cable_detect		= amd_cable_detect,
 };
 

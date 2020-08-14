@@ -157,7 +157,17 @@ typedef struct { unsigned long pgprot; } pgprot_t;
 
 #ifdef CONFIG_FLATMEM
 
+#ifdef CONFIG_MACH_LM2F
+#define pfn_valid(pfn) 		\
+({								\
+ 	(max_mapnr > (0x10000000 >> PAGE_SHIFT)) ?	\
+		(((pfn) >= ARCH_PFN_OFFSET && (pfn) < (0x10000000 >> PAGE_SHIFT)) ||	\
+		  (((pfn) >=(0x90000000 >> PAGE_SHIFT) && (pfn) < max_mapnr))) :	\
+		((pfn) >= ARCH_PFN_OFFSET && (pfn) < max_mapnr);	\
+ })
+#else
 #define pfn_valid(pfn)		((pfn) >= ARCH_PFN_OFFSET && (pfn) < max_mapnr)
+#endif
 
 #elif defined(CONFIG_SPARSEMEM)
 

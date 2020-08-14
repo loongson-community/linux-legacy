@@ -279,7 +279,12 @@ static int usb_unbind_interface(struct device *dev)
 	 * altsetting means creating new endpoint device entries).
 	 * When either of these happens, defer the Set-Interface.
 	 */
-	if (!error && intf->dev.power.status == DPM_ON)
+	if (intf->cur_altsetting->desc.bAlternateSetting == 0) {
+		/* Already in altsetting 0 so skip Set-Interface.
+		 * Just re-enable it without affecting the endpoint toggles.
+		 */
+		usb_enable_interface(udev, intf, false);
+	} else if (!error && intf->dev.power.status == DPM_ON)
 		usb_set_interface(udev, intf->altsetting[0].
 				desc.bInterfaceNumber, 0);
 	else
@@ -1609,7 +1614,8 @@ int usb_external_resume_device(struct usb_device *udev)
 	status = usb_resume_both(udev);
 	udev->last_busy = jiffies;
 	usb_pm_unlock(udev);
-	do_unbind_rebind(udev, DO_REBIND);
+	if (status == 0)
+		do_unbind_rebind(udev, DO_REBIND);
 
 	/* Now that the device is awake, we can start trying to autosuspend
 	 * it again. */

@@ -28,6 +28,7 @@
 #include "lifebook.h"
 #include "trackpoint.h"
 #include "touchkit_ps2.h"
+#include "sentelic.h"
 
 #define DRIVER_DESC	"PS/2 mouse driver"
 
@@ -630,6 +631,20 @@ static int psmouse_extensions(struct psmouse *psmouse,
 		}
 	}
 
+/*
+ * Try Finger Sensing Pad
+ */
+	if (max_proto > PSMOUSE_IMEX) {
+		if (fsp_detect(psmouse, set_properties) == 0) {
+			if (!set_properties || fsp_init(psmouse) == 0)
+				return PSMOUSE_FSP;
+/*
+ * Init failed, try basic relative protocols
+ */
+			max_proto = PSMOUSE_IMEX;
+		}
+	}
+
 	if (max_proto > PSMOUSE_IMEX) {
 
 		if (genius_detect(psmouse, set_properties) == 0)
@@ -712,6 +727,13 @@ static const struct psmouse_protocol psmouse_protocols[] = {
 		.alias		= "imps",
 		.maxproto	= 1,
 		.detect		= intellimouse_detect,
+	},
+ 	{
+		.type		= PSMOUSE_FSP,
+		.name		= "FSPPS/2",
+		.alias		= "fsp",
+		.detect		= fsp_detect,
+		.init		= fsp_init,
 	},
 	{
 		.type		= PSMOUSE_IMEX,

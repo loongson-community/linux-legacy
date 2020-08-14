@@ -27,7 +27,18 @@ static inline dma_addr_t plat_map_dma_mem_page(struct device *dev,
 
 static inline unsigned long plat_dma_addr_to_phys(dma_addr_t dma_addr)
 {
+#ifdef CONFIG_64BIT
+#ifdef CONFIG_MACH_LM2F
+	if(dma_addr > 0x8fffffff)
+		return dma_addr;
+	else
+		return dma_addr & 0x0fffffff;
+#else
 	return dma_addr & 0x7fffffff;
+#endif
+#else
+	return dma_addr & 0x7fffffff;
+#endif
 }
 
 static inline void plat_unmap_dma_mem(dma_addr_t dma_addr)

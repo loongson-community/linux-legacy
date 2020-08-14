@@ -6,7 +6,7 @@ config MIPS
 	select HAVE_ARCH_KGDB
 	# Horrible source of confusion.  Die, die, die ...
 	select EMBEDDED
-	select RTC_LIB
+	select RTC_LIB if !MACH_LM2F
 
 mainmenu "Linux/MIPS Kernel Configuration"
 
@@ -180,6 +180,9 @@ config LEMOTE_FULONG
 	help
 	  Lemote Fulong mini-PC board based on the Chinese Loongson-2E CPU and
 	  an FPGA northbridge
+
+config MACH_LM2F
+	bool "Lemote LOONGSON2F based machines"
 
 config MIPS_MALTA
 	bool "MIPS Malta board"
@@ -607,6 +610,7 @@ source "arch/mips/sgi-ip27/Kconfig"
 source "arch/mips/sibyte/Kconfig"
 source "arch/mips/txx9/Kconfig"
 source "arch/mips/vr41xx/Kconfig"
+source "arch/mips/lemote/lm2f/Kconfig"
 
 endmenu
 
@@ -954,7 +958,7 @@ config CPU_LOONGSON2
 	select CPU_SUPPORTS_64BIT_KERNEL
 	select CPU_SUPPORTS_HIGHMEM
 	help
-	  The Loongson 2E processor implements the MIPS III instruction set
+	  The Loongson 2E/2F processor implements the MIPS III instruction set
 	  with many extensions.
 
 config CPU_MIPS32_R1
@@ -2015,11 +2019,31 @@ endmenu
 
 menu "Power management options"
 
+config ARCH_HIBERNATION_POSSIBLE
+	def_bool y
+
 config ARCH_SUSPEND_POSSIBLE
 	def_bool y
 	depends on !SMP
 
 source "kernel/power/Kconfig"
+
+endmenu
+
+menu "CPU Frequency scaling"
+
+source "drivers/cpufreq/Kconfig"
+
+config LS2F_CPU_FREQ
+	tristate "Loongson-2F CPU Frequency driver"
+	depends on CPU_LOONGSON2 && CPU_FREQ
+	select CPU_FREQ_TABLE
+	help
+	  This adds the cpufreq driver for Loongson-2F.
+
+	  For details, take a look at <file:Documentation/cpu-freq>.
+
+	  If unsure, say N.
 
 endmenu
 

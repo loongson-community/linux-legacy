@@ -829,9 +829,13 @@ static irqreturn_t ohci_irq (struct usb_hcd *hcd)
 	}
 
 	if (ints & OHCI_INTR_WDH) {
-		spin_lock (&ohci->lock);
-		dl_done_list (ohci);
-		spin_unlock (&ohci->lock);
+		if (ohci->hcca->done_head == 0) {
+			ints &= ~OHCI_INTR_WDH;
+		} else {
+			spin_lock(&ohci->lock);
+			dl_done_list(ohci);
+			spin_unlock(&ohci->lock);
+		}
 	}
 
 	if (quirk_zfmicro(ohci) && (ints & OHCI_INTR_SF)) {
@@ -1073,7 +1077,8 @@ MODULE_LICENSE ("GPL");
 #define SSB_OHCI_DRIVER		ssb_ohci_driver
 #endif
 
-#ifdef CONFIG_MFD_SM501
+#if  0
+//#ifdef CONFIG_MFD_SM501
 #include "ohci-sm501.c"
 #define SM501_OHCI_DRIVER	ohci_hcd_sm501_driver
 #endif
@@ -1098,6 +1103,7 @@ static int __init ohci_hcd_mod_init(void)
 	printk (KERN_DEBUG "%s: " DRIVER_INFO "\n", hcd_name);
 	pr_debug ("%s: block sizes: ed %Zd td %Zd\n", hcd_name,
 		sizeof (struct ed), sizeof (struct td));
+	set_bit(USB_OHCI_LOADED, &usb_hcds_loaded);
 
 #ifdef DEBUG
 	ohci_debug_root = debugfs_create_dir("ohci", NULL);
@@ -1184,6 +1190,7 @@ static int __init ohci_hcd_mod_init(void)
  error_debug:
 #endif
 
+	clear_bit(USB_OHCI_LOADED, &usb_hcds_loaded);
 	return retval;
 }
 module_init(ohci_hcd_mod_init);
@@ -1214,6 +1221,7 @@ static void __exit ohci_hcd_mod_exit(void)
 #ifdef DEBUG
 	debugfs_remove(ohci_debug_root);
 #endif
+	clear_bit(USB_OHCI_LOADED, &usb_hcds_loaded);
 }
 module_exit(ohci_hcd_mod_exit);
 

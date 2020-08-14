@@ -35,6 +35,8 @@
 # include <linux/efi.h>
 #endif
 
+static unsigned int uca = 1;
+static unsigned long fb_start = 0xffffffffUL, fb_end = 0xffffffffUL;
 /*
  * Architectures vary in how they handle caching for addresses
  * outside of main memory.
@@ -353,6 +355,13 @@ static int mmap_mem(struct file * file, struct vm_area_struct * vma)
 	vma->vm_page_prot = phys_mem_access_prot(file, vma->vm_pgoff,
 						 size,
 						 vma->vm_page_prot);
+
+	if (uca) {
+		unsigned offset = vma->vm_pgoff << PAGE_SHIFT;
+		if (offset >= fb_start && (offset + size) <= fb_end){
+			vma->vm_page_prot = __pgprot((pgprot_val(vma->vm_page_prot)&~_CACHE_MASK)|_CACHE_UNCACHED_ACCELERATED);
+		}
+	}
 
 	vma->vm_ops = &mmap_mem_ops;
 
@@ -1000,3 +1009,47 @@ static int __init chr_dev_init(void)
 }
 
 fs_initcall(chr_dev_init);
+
+/* setup for godson uncache acceleration */
+
+#include <linux/pci.h>
+#ifndef pci_for_each_dev
+#define pci_for_each_dev for_each_pci_dev
+#endif
+
+static int __init find_vga_mem_init(void)
+{
+	struct pci_dev *dev = 0;
+	struct resource *r;
+	int idx;
+	printk("begin to find the vga mem range\n");
+	if(!uca)return 0;
+	pci_for_each_dev(dev) {
+		if ((dev->class >> 16) == PCI_BASE_CLASS_DISPLAY){
+			for (idx=0; idx < PCI_NUM_RESOURCES; idx++) {
+				r = &dev->resource[idx];
+				if (!r->start && r->end) {
+					continue;
+				}
+				if (r->flags & IORESOURCE_IO)
+					continue;
+				if (r->flags & IORESOURCE_MEM){
+					fb_start = r->start;
+#ifdef CONFIG_LEMOTE_2FNOTEBOOK
+					fb_end  = fb_start + 0x400000; /*sm712 have 4M memory*/
+#else
+					fb_end  = r->end;
+#endif
+					printk("find the frame buffer:start=%lx,end=%lx\n", fb_start, fb_end);
+					return 0;
+				}
+			}
+
+		}
+	}
+	printk("<0>can not find vga device\n");
+	return 0;
+}
+
+late_initcall(find_vga_mem_init);
+

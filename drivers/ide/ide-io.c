@@ -345,11 +345,11 @@ void ide_end_drive_cmd (ide_drive_t *drive, u8 stat, u8 err)
 		if (pm->pm_step == ide_pm_state_completed)
 			ide_complete_pm_request(drive, rq);
 		return;
-	}
+	} else
+		rq->errors = err;
 
 	spin_lock_irqsave(&ide_lock, flags);
 	HWGROUP(drive)->rq = NULL;
-	rq->errors = err;
 	if (unlikely(__blk_end_request(rq, (rq->errors ? -EIO : 0),
 				       blk_rq_bytes(rq))))
 		BUG();

@@ -194,7 +194,22 @@ static int ehci_bus_resume (struct usb_hcd *hcd)
 	u32			temp;
 	u32			power_okay;
 	int			i;
+#ifdef CONFIG_MACH_LM2F
+	struct pci_dev *pdev = to_pci_dev(ehci_to_hcd(ehci)->self.controller);
 
+	if (pdev->vendor == PCI_VENDOR_ID_AMD && 
+		 pdev->device == PCI_DEVICE_ID_AMD_CS5536_EHC) {
+		u32 tmp;
+		tmp = ehci_readl(ehci, &ehci->regs->port_status[0]);
+		ehci_writel(ehci, tmp | 0x1000, &ehci->regs->port_status[0]);
+		tmp = ehci_readl(ehci, &ehci->regs->port_status[1]);
+		ehci_writel(ehci, tmp | 0x1000, &ehci->regs->port_status[1]);
+		tmp = ehci_readl(ehci, &ehci->regs->port_status[2]);
+		ehci_writel(ehci, tmp | 0x1000, &ehci->regs->port_status[2]);
+		tmp = ehci_readl(ehci, &ehci->regs->port_status[3]);
+		ehci_writel(ehci, tmp | 0x1000, &ehci->regs->port_status[3]);
+	}
+#endif
 	if (time_before (jiffies, ehci->next_statechange))
 		msleep(5);
 	spin_lock_irq (&ehci->lock);
@@ -507,6 +522,7 @@ ehci_hub_descriptor (
 ) {
 	int		ports = HCS_N_PORTS (ehci->hcs_params);
 	u16		temp;
+	struct pci_dev *pdev = to_pci_dev(ehci_to_hcd(ehci)->self.controller);
 
 	desc->bDescriptorType = 0x29;
 	desc->bPwrOn2PwrGood = 10;	/* ehci 1.0, 2.3.9 says 20ms max */
@@ -551,6 +567,7 @@ static int ehci_hub_control (
 	unsigned long	flags;
 	int		retval = 0;
 	unsigned	selector;
+	struct pci_dev *pdev = to_pci_dev(hcd->self.controller);
 
 	/*
 	 * FIXME:  support SetPortFeatures USB_PORT_FEAT_INDICATOR.

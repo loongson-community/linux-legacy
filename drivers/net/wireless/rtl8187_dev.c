@@ -1034,6 +1034,8 @@ static int __devinit rtl8187_probe(struct usb_interface *intf,
 	priv = dev->priv;
 	priv->is_rtl8187b = (id->driver_info == DEVICE_RTL8187B);
 
+	priv->reg_buf = kmalloc(REG_BUF_SIZE, GFP_KERNEL);
+
 	SET_IEEE80211_DEV(dev, &intf->dev);
 	usb_set_intfdata(intf, dev);
 	priv->udev = udev;
@@ -1228,6 +1230,10 @@ static void __devexit rtl8187_disconnect(struct usb_interface *intf)
 	ieee80211_unregister_hw(dev);
 
 	priv = dev->priv;
+	if(priv->reg_buf) {
+		kfree(priv->reg_buf);
+		priv->reg_buf = NULL;
+	}
 	usb_put_dev(interface_to_usbdev(intf));
 	ieee80211_free_hw(dev);
 }

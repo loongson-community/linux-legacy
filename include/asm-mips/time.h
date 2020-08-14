@@ -76,4 +76,8 @@ extern void clocksource_set_clock(struct clocksource *cs, unsigned int clock);
 extern void clockevent_set_clock(struct clock_event_device *cd,
 		unsigned int clock);
 
+#define get_wallclock() mach_get_cmos_time()
+#define set_wallclock(x) mach_set_rtc_mmss(x)
+
+
 #endif /* _ASM_TIME_H */

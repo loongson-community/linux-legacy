@@ -1,0 +1,97 @@
+choice
+	prompt "Machine type"
+	depends on MACH_LM2F
+	default LEMOTE_FULONG2F
+
+config LEMOTE_FULONG2F
+	bool "Lemote Fulong mini-PC"
+	select ARCH_SPARSEMEM_ENABLE
+	select CEVT_R4K
+	select CSRC_R4K
+	select SYS_HAS_CPU_LOONGSON2
+	select DMA_NONCOHERENT
+	select BOOT_ELF32
+	select BOARD_SCACHE
+	select HAVE_STD_PC_SERIAL_PORT
+	select HW_HAS_PCI
+	select I8259
+	select ISA
+	select IRQ_CPU
+	select SYS_SUPPORTS_32BIT_KERNEL
+	select SYS_SUPPORTS_64BIT_KERNEL
+	select SYS_SUPPORTS_LITTLE_ENDIAN
+	select SYS_SUPPORTS_HIGHMEM
+	select SYS_HAS_EARLY_PRINTK
+	select GENERIC_HARDIRQS_NO__DO_IRQ
+	select GENERIC_ISA_DMA_SUPPORT_BROKEN
+	select CPU_HAS_WB
+	select CS5536
+	help
+	  Lemote Fulong mini-PC board based on the Chinese Loongson-2F CPU
+
+config LEMOTE_2FNOTEBOOK
+	bool "Lemote mini Notebook"
+	select ARCH_SPARSEMEM_ENABLE
+	select CEVT_R4K
+	select CSRC_R4K
+	select SYS_HAS_CPU_LOONGSON2
+	select DMA_NONCOHERENT
+	select BOOT_ELF32
+	select BOARD_SCACHE
+	select HAVE_STD_PC_SERIAL_PORT
+	select HW_HAS_PCI
+	select I8259
+	select ISA
+	select IRQ_CPU
+	select SYS_SUPPORTS_32BIT_KERNEL
+	select SYS_SUPPORTS_64BIT_KERNEL
+	select SYS_SUPPORTS_LITTLE_ENDIAN
+	select SYS_SUPPORTS_HIGHMEM
+	select SYS_HAS_EARLY_PRINTK
+	select GENERIC_HARDIRQS_NO__DO_IRQ
+	select GENERIC_ISA_DMA_SUPPORT_BROKEN
+	select CPU_HAS_WB
+	select CS5536
+	help
+	  Lemote Notebook based on the Chinese Loongson-2F CPU
+
+config LEMOTE_LYNLOONG_9003
+	bool "Lemote LynLoong 9003"
+	select ARCH_SPARSEMEM_ENABLE
+	select CEVT_R4K
+	select CSRC_R4K
+	select SYS_HAS_CPU_LOONGSON2
+	select DMA_NONCOHERENT
+	select BOOT_ELF32
+	select BOARD_SCACHE
+	select HAVE_STD_PC_SERIAL_PORT
+	select HW_HAS_PCI
+	select ISA
+	select IRQ_CPU
+	select SYS_SUPPORTS_32BIT_KERNEL
+	select SYS_SUPPORTS_64BIT_KERNEL
+	select SYS_SUPPORTS_LITTLE_ENDIAN
+	select SYS_SUPPORTS_HIGHMEM
+	select SYS_HAS_EARLY_PRINTK
+	select GENERIC_HARDIRQS_NO__DO_IRQ
+	select GENERIC_ISA_DMA_SUPPORT_BROKEN
+	select CPU_HAS_WB
+	help
+	 Lemote LynLoong 9003 based on the Chinese Loongson-2F CPU, this board use RTL8100SC_0, SM502,
+ 	 uPD720101GJ, VT6421A.
+
+endchoice
+
+config CS5536_RTC_BUG
+	bool
+
+config CS5536
+	bool
+	select CS5536_RTC_BUG
+
+config LEMOTE_NAS
+	bool "Lemote NAS machine"
+	depends on LEMOTE_FULONG2F
+	help 
+	  Lemote's Loongson-2F based network attached system
+

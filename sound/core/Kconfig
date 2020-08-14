@@ -174,3 +174,6 @@ config SND_PCM_XRUN_DEBUG
 
 config SND_VMASTER
 	bool
+
+config SND_DRIVER_OWN_BUF
+	bool

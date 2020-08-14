@@ -40,6 +40,12 @@ static inline int cpu_is_noncoherent_r10000(struct device *dev)
 	       current_cpu_type() == CPU_R12000);
 }
 
+static inline int cpu_is_noncoherent_loongson(struct device *dev)
+{
+	return !plat_device_is_coherent(dev) &&
+			(current_cpu_data.cputype == CPU_LOONGSON2);
+}
+
 static gfp_t massage_gfp_flags(const struct device *dev, gfp_t gfp)
 {
 	/* ignore region specifiers */
@@ -166,7 +172,7 @@ EXPORT_SYMBOL(dma_map_single);
 void dma_unmap_single(struct device *dev, dma_addr_t dma_addr, size_t size,
 	enum dma_data_direction direction)
 {
-	if (cpu_is_noncoherent_r10000(dev))
+	if (cpu_is_noncoherent_r10000(dev) || cpu_is_noncoherent_loongson(dev))
 		__dma_sync(dma_addr_to_virt(dma_addr), size,
 		           direction);
 
@@ -257,7 +263,7 @@ void dma_sync_single_for_cpu(struct device *dev, dma_addr_t dma_handle,
 {
 	BUG_ON(direction == DMA_NONE);
 
-	if (cpu_is_noncoherent_r10000(dev)) {
+	if (cpu_is_noncoherent_r10000(dev) || cpu_is_noncoherent_loongson(dev)) {
 		unsigned long addr;
 
 		addr = dma_addr_to_virt(dma_handle);

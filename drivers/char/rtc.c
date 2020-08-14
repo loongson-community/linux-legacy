@@ -258,6 +258,9 @@ static irqreturn_t rtc_interrupt(int irq, void *dev_id)
 		rtc_irq_data |= (CMOS_READ(RTC_INTR_FLAGS) & 0xF0);
 	}
 
+#ifdef CONFIG_CS5536_RTC_BUG
+	(void)CMOS_READ(RTC_VALID);
+#endif
 	if (rtc_status & RTC_TIMER_ON)
 		mod_timer(&rtc_irq_timer, jiffies + HZ/rtc_freq + 2*HZ/100);
 
@@ -1096,7 +1099,7 @@ no_irq:
 
 	if (!(ctrl & RTC_DM_BINARY) || RTC_ALWAYS_BCD)
 		BCD_TO_BIN(year);       /* This should never happen... */
-
+#if 0
 	if (year < 20) {
 		epoch = 2000;
 		guess = "SRM (post-2000)";
@@ -1116,6 +1119,9 @@ no_irq:
 		guess = "Standard PC (1900)";
 #endif
 	}
+#endif		
+	epoch = 1900;
+	guess = "Standard PC (1900)";
 	if (guess)
 		printk(KERN_INFO "rtc: %s epoch (%lu) detected\n",
 			guess, epoch);
@@ -1204,6 +1210,9 @@ static void rtc_dropped_irq(unsigned long data)
 
 	spin_unlock_irq(&rtc_lock);
 
+#ifdef  CONFIG_CS5536_RTC_BUG    
+    (void)CMOS_READ(RTC_CONTROL);
+#endif
 	if (printk_ratelimit()) {
 		printk(KERN_WARNING "rtc: lost some interrupts at %ldHz.\n",
 			freq);

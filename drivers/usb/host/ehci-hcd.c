@@ -643,7 +643,7 @@ static int ehci_run (struct usb_hcd *hcd)
 static irqreturn_t ehci_irq (struct usb_hcd *hcd)
 {
 	struct ehci_hcd		*ehci = hcd_to_ehci (hcd);
-	u32			status, pcd_status = 0, cmd;
+	u32			status, masked_status, pcd_status = 0, cmd;
 	int			bh;
 
 	spin_lock (&ehci->lock);
@@ -656,14 +656,14 @@ static irqreturn_t ehci_irq (struct usb_hcd *hcd)
 		goto dead;
 	}
 
-	status &= INTR_MASK;
-	if (!status) {			/* irq sharing? */
+	masked_status = status & INTR_MASK;
+	if (!masked_status) {		/* irq sharing? */
 		spin_unlock(&ehci->lock);
 		return IRQ_NONE;
 	}
 
 	/* clear (just) interrupts */
-	ehci_writel(ehci, status, &ehci->regs->status);
+	ehci_writel(ehci, masked_status, &ehci->regs->status);
 	cmd = ehci_readl(ehci, &ehci->regs->command);
 	bh = 0;
 
@@ -731,19 +731,18 @@ static irqreturn_t ehci_irq (struct usb_hcd *hcd)
 
 	/* PCI errors [4.15.2.4] */
 	if (unlikely ((status & STS_FATAL) != 0)) {
+		ehci_err(ehci, "fatal error\n");
 		dbg_cmd (ehci, "fatal", ehci_readl(ehci,
 						   &ehci->regs->command));
 		dbg_status (ehci, "fatal", status);
-		if (status & STS_HALT) {
-			ehci_err (ehci, "fatal error\n");
+		ehci_halt(ehci);
 dead:
-			ehci_reset (ehci);
-			ehci_writel(ehci, 0, &ehci->regs->configured_flag);
-			/* generic layer kills/unlinks all urbs, then
-			 * uses ehci_stop to clean up the rest
-			 */
-			bh = 1;
-		}
+		ehci_reset(ehci);
+		ehci_writel(ehci, 0, &ehci->regs->configured_flag);
+		/* generic layer kills/unlinks all urbs, then
+		 * uses ehci_stop to clean up the rest
+		 */
+		bh = 1;
 	}
 
 	if (bh)
@@ -1049,6 +1048,12 @@ static int __init ehci_hcd_init(void)
 {
 	int retval = 0;
 
+	set_bit(USB_EHCI_LOADED, &usb_hcds_loaded);
+	if (test_bit(USB_UHCI_LOADED, &usb_hcds_loaded) ||
+			test_bit(USB_OHCI_LOADED, &usb_hcds_loaded))
+		printk(KERN_WARNING "Warning! ehci_hcd should always be loaded"
+				" before uhci_hcd and ohci_hcd, not after\n");
+
 	pr_debug("%s: block sizes: qh %Zd qtd %Zd itd %Zd sitd %Zd\n",
 		 hcd_name,
 		 sizeof(struct ehci_qh), sizeof(struct ehci_qtd),
@@ -1056,8 +1061,10 @@ static int __init ehci_hcd_init(void)
 
 #ifdef DEBUG
 	ehci_debug_root = debugfs_create_dir("ehci", NULL);
-	if (!ehci_debug_root)
-		return -ENOENT;
+	if (!ehci_debug_root) {
+		retval = -ENOENT;
+		goto err_debug;
+	}
 #endif
 
 #ifdef PLATFORM_DRIVER
@@ -1104,7 +1111,9 @@ clean0:
 #ifdef DEBUG
 	debugfs_remove(ehci_debug_root);
 	ehci_debug_root = NULL;
+err_debug:
 #endif
+	clear_bit(USB_EHCI_LOADED, &usb_hcds_loaded);
 	return retval;
 }
 module_init(ehci_hcd_init);
@@ -1126,6 +1135,7 @@ static void __exit ehci_hcd_cleanup(void)
 #ifdef DEBUG
 	debugfs_remove(ehci_debug_root);
 #endif
+	clear_bit(USB_EHCI_LOADED, &usb_hcds_loaded);
 }
 module_exit(ehci_hcd_cleanup);
 

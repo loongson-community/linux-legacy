@@ -53,7 +53,7 @@ static struct irq_chip i8259A_chip = {
 /*
  * This contains the irq mask for both 8259A irq controllers,
  */
-static unsigned int cached_irq_mask = 0xffff;
+unsigned int cached_irq_mask = 0xffff;
 
 #define cached_master_mask	(cached_irq_mask)
 #define cached_slave_mask	(cached_irq_mask >> 8)
@@ -175,11 +175,15 @@ handle_real_irq:
 	if (irq & 8) {
 		inb(PIC_SLAVE_IMR);	/* DUMMY - (do we need this?) */
 		outb(cached_slave_mask, PIC_SLAVE_IMR);
+		inb(PIC_SLAVE_IMR);	
 		outb(0x60+(irq&7), PIC_SLAVE_CMD);/* 'Specific EOI' to slave */
+		inb(PIC_SLAVE_CMD);
 		outb(0x60+PIC_CASCADE_IR, PIC_MASTER_CMD); /* 'Specific EOI' to master-IRQ2 */
+		inb(PIC_MASTER_CMD);
 	} else {
 		inb(PIC_MASTER_IMR);	/* DUMMY - (do we need this?) */
 		outb(cached_master_mask, PIC_MASTER_IMR);
+		inb(PIC_MASTER_IMR);
 		outb(0x60+irq, PIC_MASTER_CMD);	/* 'Specific EOI to master */
 	}
 	smtc_im_ack_irq(irq);
@@ -203,8 +207,8 @@ spurious_8259A_irq:
 		 * At this point we can be sure the IRQ is spurious,
 		 * lets ACK and report it. [once per IRQ]
 		 */
-		if (!(spurious_irq_mask & irqmask)) {
-			printk(KERN_DEBUG "spurious 8259A interrupt: IRQ%d.\n", irq);
+		if (!(spurious_irq_mask & irqmask) || 1) {
+			printk("spurious 8259A interrupt: IRQ%d.\n", irq);
 			spurious_irq_mask |= irqmask;
 		}
 		atomic_inc(&irq_err_count);

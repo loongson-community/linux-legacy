@@ -154,6 +154,9 @@ void __init time_init(void)
 {
 	plat_time_init();
 
+#if defined(CONFIG_LS2F_CPU_FREQ) || defined(CONFIG_LEMOTE_FULONG2F)
+	return ;
+#endif
 	if (!mips_clockevent_init() || !cpu_has_mfc0_count_bug())
 		init_mips_clocksource();
 }

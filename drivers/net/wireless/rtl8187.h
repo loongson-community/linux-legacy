@@ -91,6 +91,8 @@ enum {
 struct rtl8187_priv {
 	/* common between rtl818x drivers */
 	struct rtl818x_csr *map;
+#define REG_BUF_SIZE 64
+	void *reg_buf;
 	const struct rtl818x_rf_ops *rf;
 	struct ieee80211_vif *vif;
 	int mode;
@@ -129,9 +131,10 @@ static inline u8 rtl818x_ioread8_idx(struct rtl8187_priv *priv,
 
 	usb_control_msg(priv->udev, usb_rcvctrlpipe(priv->udev, 0),
 			RTL8187_REQ_GET_REG, RTL8187_REQT_READ,
-			(unsigned long)addr, idx & 0x03, &val,
+			(__u16)addr, idx & 0x03, priv->reg_buf,
 			sizeof(val), HZ / 2);
 
+	val = *(u8*)priv->reg_buf;
 	return val;
 }
 
@@ -147,9 +150,10 @@ static inline u16 rtl818x_ioread16_idx(struct rtl8187_priv *priv,
 
 	usb_control_msg(priv->udev, usb_rcvctrlpipe(priv->udev, 0),
 			RTL8187_REQ_GET_REG, RTL8187_REQT_READ,
-			(unsigned long)addr, idx & 0x03, &val,
+			(unsigned long)addr, idx & 0x03, priv->reg_buf,
 			sizeof(val), HZ / 2);
 
+	val = *(u16*)priv->reg_buf;
 	return le16_to_cpu(val);
 }
 
@@ -165,9 +169,10 @@ static inline u32 rtl818x_ioread32_idx(struct rtl8187_priv *priv,
 
 	usb_control_msg(priv->udev, usb_rcvctrlpipe(priv->udev, 0),
 			RTL8187_REQ_GET_REG, RTL8187_REQT_READ,
-			(unsigned long)addr, idx & 0x03, &val,
+			(unsigned long)addr, idx & 0x03, priv->reg_buf,
 			sizeof(val), HZ / 2);
 
+	val = *(u32*)priv->reg_buf;
 	return le32_to_cpu(val);
 }
 
@@ -179,9 +184,10 @@ static inline u32 rtl818x_ioread32(struct rtl8187_priv *priv, __le32 *addr)
 static inline void rtl818x_iowrite8_idx(struct rtl8187_priv *priv,
 					u8 *addr, u8 val, u8 idx)
 {
+	*(u8*)priv->reg_buf = val;
 	usb_control_msg(priv->udev, usb_sndctrlpipe(priv->udev, 0),
 			RTL8187_REQ_SET_REG, RTL8187_REQT_WRITE,
-			(unsigned long)addr, idx & 0x03, &val,
+			(unsigned long)addr, idx & 0x03, priv->reg_buf,
 			sizeof(val), HZ / 2);
 }
 
@@ -193,11 +199,11 @@ static inline void rtl818x_iowrite8(struct rtl8187_priv *priv, u8 *addr, u8 val)
 static inline void rtl818x_iowrite16_idx(struct rtl8187_priv *priv,
 					 __le16 *addr, u16 val, u8 idx)
 {
-	__le16 buf = cpu_to_le16(val);
+	*(__le16 *)priv->reg_buf = cpu_to_le16(val);
 
 	usb_control_msg(priv->udev, usb_sndctrlpipe(priv->udev, 0),
 			RTL8187_REQ_SET_REG, RTL8187_REQT_WRITE,
-			(unsigned long)addr, idx & 0x03, &buf, sizeof(buf),
+			(unsigned long)addr, idx & 0x03, priv->reg_buf, sizeof(u16),
 			HZ / 2);
 }
 
@@ -210,11 +216,11 @@ static inline void rtl818x_iowrite16(struct rtl8187_priv *priv, __le16 *addr,
 static inline void rtl818x_iowrite32_idx(struct rtl8187_priv *priv,
 					 __le32 *addr, u32 val, u8 idx)
 {
-	__le32 buf = cpu_to_le32(val);
+	*(__le32 *)priv->reg_buf = cpu_to_le32(val);
 
 	usb_control_msg(priv->udev, usb_sndctrlpipe(priv->udev, 0),
 			RTL8187_REQ_SET_REG, RTL8187_REQT_WRITE,
-			(unsigned long)addr, idx & 0x03, &buf, sizeof(buf),
+			(unsigned long)addr, idx & 0x03, priv->reg_buf, sizeof(u32),
 			HZ / 2);
 }
 
