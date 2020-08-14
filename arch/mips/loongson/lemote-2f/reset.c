@@ -20,15 +20,14 @@
 #include <loongson.h>
 
 #include <cs5536/cs5536.h>
-#include "ec_kb3310b.h"
+#include <ec_kb3310b.h>
 
 static void reset_cpu(void)
 {
 	/*
-	 * reset cpu to full speed, this is needed when enabling cpu frequency
-	 * scalling
+	 * reset cpu to full speed
 	 */
-	LOONGSON_CHIPCFG0 |= 0x7;
+	LOONGSON_CHIPCFG0 |= 7;
 }
 
 /* reset support for fuloong2f */
@@ -81,7 +80,7 @@ void ml2f_reboot(void)
 	reset_cpu();
 
 	/* sending an reset signal to EC(embedded controller) */
-	ec_write(REG_RESET, BIT_RESET_ON);
+	ec_write(REG_RESET, ON);
 }
 
 #define yl2f89_reboot ml2f_reboot

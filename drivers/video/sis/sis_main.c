@@ -3526,6 +3526,11 @@ sisfb_pre_setmode(struct sis_video_info *ivideo)
 
 	SiS_SetReg(SISSR, 0x05, 0x86);
 
+   	SiS_SetReg(SISPART1,0x16,0xc7); /* fix 1360x768 for all in one*/
+	SiS_SetReg(SISPART1,0x1a,0x18);
+	SiS_SetReg(SISPART1,0x1b,0x25);
+	SiS_SetReg(SISPART1,0x1d,0x13);
+
 	cr31 = SiS_GetReg(SISCR, 0x31);
 	cr31 &= ~0x60;
 	cr31 |= 0x04;

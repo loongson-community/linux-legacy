@@ -58,7 +58,7 @@ struct sm501_gpio {
 struct sm501_gpio {
 	/* no gpio support, empty definition for sm501_devdata. */
 };
-#endif
+#endif	/* CONFIG_MFD_SM501_GPIO */
 
 struct sm501_devdata {
 	spinlock_t			 reg_lock;
@@ -1142,6 +1142,22 @@ static inline int sm501_gpio_isregistered(struct sm501_devdata *sm)
 {
 	return sm->gpio.registered;
 }
+
+void sm501_configure_gpio(struct device *dev, unsigned int gpio, unsigned
+		char mode)
+{
+	unsigned long set, reg, offset = gpio;
+
+	if (offset >= 32) {
+		reg = SM501_GPIO63_32_CONTROL;
+		offset = gpio - 32;
+	} else
+		reg = SM501_GPIO31_0_CONTROL;
+
+	set = mode ? 1 << offset : 0;
+
+	sm501_modify_reg(dev, reg, set, 0);
+}
 #else
 static inline int sm501_register_gpio(struct sm501_devdata *sm)
 {
@@ -1161,7 +1177,14 @@ static inline int sm501_gpio_isregistered(struct sm501_devdata *sm)
 {
 	return 0;
 }
-#endif
+
+int sm501_configure_gpio(struct device *dev, unsigned int gpio,
+			 unsigned char mode)
+{
+	return -1;
+}
+#endif	/* CONFIG_MFD_SM501_GPIO */
+EXPORT_SYMBOL_GPL(sm501_configure_gpio);
 
 static int sm501_register_gpio_i2c_instance(struct sm501_devdata *sm,
 					    struct sm501_platdata_gpio_i2c *iic)
@@ -1214,6 +1237,20 @@ static int sm501_register_gpio_i2c(struct sm501_devdata *sm,
 	}
 
 	return 0;
+}
+
+/* register sm501 PWM device */
+static int sm501_register_pwm(struct sm501_devdata *sm)
+{
+	struct platform_device *pdev;
+
+	pdev = sm501_create_subdev(sm, "sm501-pwm", 2, 0);
+	if (!pdev)
+		return -ENOMEM;
+	sm501_create_subio(sm, &pdev->resource[0], 0x10020, 0xC);
+	sm501_create_irq(sm, &pdev->resource[1]);
+
+	return sm501_register_device(sm, pdev);
 }
 
 /* sm501_dbg_regs
@@ -1374,6 +1411,8 @@ static int __devinit sm501_init_dev(struct sm501_devdata *sm)
 			sm501_register_uart(sm, idata->devices);
 		if (idata->devices & SM501_USE_GPIO)
 			sm501_register_gpio(sm);
+		if (idata->devices & SM501_USE_PWM)
+			sm501_register_pwm(sm);
 	}
 
 	if (pdata->gpio_i2c != NULL && pdata->gpio_i2c_nr > 0) {
@@ -1559,10 +1598,15 @@ static struct sm501_initdata sm501_pci_initdata = {
 	.devices	= SM501_USE_ALL,
 
 	/* Errata AB-3 says that 72MHz is the fastest available
-	 * for 33MHZ PCI with proper bus-mastering operation */
-
+	 * for 33MHZ PCI with proper bus-mastering operation
+	 * For gdium, it works under 84&112M clock freq.*/
+#ifdef CONFIG_DEXXON_GDIUM
+	.mclk		= 84 * MHZ,
+	.m1xclk		= 112 * MHZ,
+#else
 	.mclk		= 72 * MHZ,
 	.m1xclk		= 144 * MHZ,
+#endif
 };
 
 static struct sm501_platdata_fbsub sm501_pdata_fbsub = {

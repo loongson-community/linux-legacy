@@ -105,7 +105,7 @@ static __init int cpu_has_mfc0_count_bug(void)
 		 * The published errata for the R4400 upto 3.0 say the CPU
 		 * has the mfc0 from count bug.
 		 */
-		if ((current_cpu_data.processor_id & 0xff) <= 0x30)
+		if (cpu_prid_rev() <= 0x30)
 			return 1;
 
 		/*
@@ -119,6 +119,11 @@ static __init int cpu_has_mfc0_count_bug(void)
 
 void __init time_init(void)
 {
+#ifdef CONFIG_HR_SCHED_CLOCK
+	if (!mips_clockevent_init() || !cpu_has_mfc0_count_bug())
+		write_c0_count(0);
+#endif
+
 	plat_time_init();
 
 	if (!mips_clockevent_init() || !cpu_has_mfc0_count_bug())

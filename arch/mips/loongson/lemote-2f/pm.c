@@ -23,7 +23,7 @@
 #include <loongson.h>
 
 #include <cs5536/cs5536_mfgpt.h>
-#include "ec_kb3310b.h"
+#include <ec_kb3310b.h>
 
 #define I8042_KBD_IRQ		1
 #define I8042_CTR_KBDINT	0x01
@@ -88,7 +88,7 @@ EXPORT_SYMBOL(yeeloong_report_lid_status);
 static void yeeloong_lid_update_task(struct work_struct *work)
 {
 	if (yeeloong_report_lid_status)
-		yeeloong_report_lid_status(BIT_LID_DETECT_ON);
+		yeeloong_report_lid_status(ON);
 }
 
 int wakeup_loongson(void)
@@ -100,7 +100,7 @@ int wakeup_loongson(void)
 	if (irq < 0)
 		return 0;
 
-	printk(KERN_INFO "%s: irq = %d\n", __func__, irq);
+	pr_debug("%s: irq = %d\n", __func__, irq);
 
 	if (irq == I8042_KBD_IRQ)
 		return 1;
@@ -118,7 +118,7 @@ int wakeup_loongson(void)
 			/* check the LID status */
 			lid_status = ec_read(REG_LID_DETECT);
 			/* wakeup cpu when people open the LID */
-			if (lid_status == BIT_LID_DETECT_ON) {
+			if (lid_status == ON) {
 				/* If we call it directly here, the WARNING
 				 * will be sent out by getnstimeofday
 				 * via "WARN_ON(timekeeping_suspended);"
@@ -140,10 +140,10 @@ int wakeup_loongson(void)
 
 void __weak mach_suspend(void)
 {
-	disable_mfgpt0_counter();
+	disable_mfgpt_counter();
 }
 
 void __weak mach_resume(void)
 {
-	enable_mfgpt0_counter();
+	enable_mfgpt_counter();
 }
