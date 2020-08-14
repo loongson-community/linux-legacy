@@ -1,0 +1,93 @@
+bond_alb.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_ether.h
+	@touch bond_alb.h
+bonding.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bonding.h \
+   bond_3ad.h \
+   bond_alb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h)
+	@touch bonding.h
+bond_3ad.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h
+	@touch bond_3ad.h
+bond_3ad.o: bond_3ad.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_ether.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ethtool.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bonding.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pkt_sched.h \
+   bonding.h \
+   bond_3ad.h
+bond_alb.o: bond_alb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pkt_sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ipv6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_arp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_ether.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bonding.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_vlan.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/ipx.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/arp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   bonding.h \
+   bond_alb.h
+bond_main.o: bond_main.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fcntl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/in.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/socket.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/inet.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/inetdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/rtnetlink.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/seq_file.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_ether.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/arp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mii.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ethtool.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_vlan.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bonding.h \
+   bonding.h \
+   bond_3ad.h \
+   bond_alb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/net/fastroute.h)
+.PRECIOUS:	bond_alb.h \
+	bonding.h \
+	bond_3ad.h \
+

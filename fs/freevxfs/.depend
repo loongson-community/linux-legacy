@@ -1,0 +1,72 @@
+vxfs_immed.o: vxfs_immed.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   vxfs.h \
+   vxfs_inode.h
+vxfs_super.o: vxfs_super.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stat.h \
+   vxfs.h \
+   vxfs_extern.h \
+   vxfs_dir.h \
+   vxfs_inode.h
+vxfs_lookup.o: vxfs_lookup.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/highmem.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   vxfs.h \
+   vxfs_dir.h \
+   vxfs_inode.h \
+   vxfs_extern.h
+vxfs_fshead.o: vxfs_fshead.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   vxfs.h \
+   vxfs_inode.h \
+   vxfs_extern.h \
+   vxfs_fshead.h
+vxfs_olt.o: vxfs_olt.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   vxfs.h \
+   vxfs_olt.h
+vxfs_bmap.o: vxfs_bmap.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   vxfs.h \
+   vxfs_inode.h
+vxfs_subr.o: vxfs_subr.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   vxfs_kcompat.h \
+   vxfs_extern.h
+vxfs_inode.o: vxfs_inode.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   vxfs.h \
+   vxfs_inode.h \
+   vxfs_extern.h
+vxfs.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   vxfs_kcompat.h
+	@touch vxfs.h
+vxfs_kcompat.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h
+	@touch vxfs_kcompat.h
+.PRECIOUS:	vxfs.h \
+	vxfs_kcompat.h \
+

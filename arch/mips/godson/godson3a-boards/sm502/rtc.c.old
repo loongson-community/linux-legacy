@@ -1,0 +1,83 @@
+#include <i2c.h>
+void prom_printf(char *fmt, ...);
+unsigned char CMOS_READ_TO_RTC_READ(unsigned char addr)
+{
+    unsigned char val;
+	unsigned char value;
+	char i2caddr[]={(unsigned char)0x64};
+	if(addr >= 0x0a)
+		return 0;
+	switch(addr)
+	{
+		case 0:
+			break;
+		case 2:
+			addr = 1;
+			break;
+		case 4:
+			addr = 2;
+			break;
+		case 6:
+			addr = 3;
+			break;
+		case 7:
+			addr = 4;
+			break;
+		case 8:
+			addr = 5;
+			break;
+		case 9:
+			addr = 6;
+			break;
+		
+	}
+		
+	tgt_i2cread(I2C_SINGLE,i2caddr,1,0xe<<4,&value,1);
+	value = value|0x20;
+	tgt_i2cwrite(I2C_SINGLE,i2caddr,1,0xe<<4,&value,1);
+	tgt_i2cread(I2C_SINGLE,i2caddr,1,addr<<4,&val,1);
+
+
+        return val;
+}
+
+void CMOS_WRITE_TO_RTC_WRITE(unsigned char val, unsigned char addr)
+{
+
+	unsigned char value;
+	char i2caddr[]={(unsigned char)0x64};
+
+	if(addr >=0x0a)
+		return ;
+	switch(addr)
+	{
+		case 0:
+			break;
+		case 2:
+			addr = 1;
+			break;
+		case 4:
+			addr = 2;
+			break;
+		case 6:
+			addr = 3;
+			break;
+		case 7:
+			addr = 4;
+			break;
+		case 8:
+			addr = 5;
+			break;
+		case 9:
+			addr = 6;
+			break;
+		
+	}
+	
+	tgt_i2cread(I2C_SINGLE,i2caddr,1,0xe<<4,&value,1);
+	value = value|0x20;
+	tgt_i2cwrite(I2C_SINGLE,i2caddr,1,0xe<<4,&value,1);
+	tgt_i2cwrite(I2C_SINGLE,i2caddr,1,addr<<4,&val,1);
+
+}
+

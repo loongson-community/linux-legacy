@@ -1,0 +1,260 @@
+acpi_ksyms.o: acpi_ksyms.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/acpi.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/acpi/interpreter.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/acpi/bus.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/acpi/pci.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/acpi/ec.h)
+battery.o: battery.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/compatmac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h
+pci_irq.o: pci_irq.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/acpi.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/x86/io/apic.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/iosapic.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/x86.h)
+tables.o: tables.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/acpi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bootmem.h
+numa.o: numa.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/acpi.h
+processor.o: processor.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/compatmac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/smp.h)
+system.o: system.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysrq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/compatmac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/acpi/sleep.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mc146818rtc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hw_irq.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/x86.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/magic/sysrq.h)
+ac.o: ac.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/compatmac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h
+pci_link.o: pci_link.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h
+osl.o: osl.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nmi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/acpi/efi.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/efi.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/acpi/pci.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ia64.h)
+power.o: power.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/compatmac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h
+thermal.o: thermal.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/compatmac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h
+pci_root.o: pci_root.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/acpi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/x86.h)
+fan.o: fan.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/compatmac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h
+bus.o: bus.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/x86.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acinterp.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ldm.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/acpi/debug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/acpi/ec.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/acpi/pci.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h)
+ec.o: ec.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/compatmac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/actypes.h
+pci_bind.o: pci_bind.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/acpi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h
+blacklist.o: blacklist.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/acpi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h
+button.o: button.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/compatmac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h
+motherboard.o: motherboard.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h
+toshiba_acpi.o: toshiba_acpi.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h
+asus_acpi.o: asus_acpi.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h
+utils.o: utils.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_bus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi_drivers.h

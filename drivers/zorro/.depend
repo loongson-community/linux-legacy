@@ -1,0 +1,19 @@
+names.o: names.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zorro.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/zorro/names.h)
+zorro.o: zorro.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zorro.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bitops.h
+proc.o: proc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zorro.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h

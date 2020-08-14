@@ -1,0 +1,22 @@
+icside.o: icside.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/hdreg.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ide.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/blk/dev/idedma/ics.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/idedma/ics/auto.h)
+rapide.o: rapide.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ide.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h

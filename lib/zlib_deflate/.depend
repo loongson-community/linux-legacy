@@ -1,0 +1,11 @@
+deflate.o: deflate.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zutil.h \
+   defutil.h
+deflate_syms.o: deflate_syms.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zlib.h
+deftree.o: deftree.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zutil.h \
+   defutil.h

@@ -1,0 +1,88 @@
+wrapper.o: wrapper.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/unaligned.h \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+dir.o: dir.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/random.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+tables.o: tables.c \
+   hfsplus_fs.h
+extents.o: extents.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+brec.o: brec.c \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+bnode.o: bnode.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/swap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+super.o: super.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vfs.h \
+   hfsplus_fs.h
+hfsplus_fs.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   hfsplus_raw.h
+	@touch hfsplus_fs.h
+bfind.o: bfind.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   hfsplus_fs.h
+options.o: options.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   hfsplus_fs.h
+btree.o: btree.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/div64.h \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+hfsplus_raw.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h
+	@touch hfsplus_raw.h
+catalog.o: catalog.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+unicode.o: unicode.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nls.h \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+inode.o: inode.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+.PRECIOUS:	hfsplus_fs.h \
+	hfsplus_raw.h \
+

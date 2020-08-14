@@ -1,0 +1,64 @@
+netdev.o: netdev.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/socket.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wait.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/unaligned.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/bluetooth/bluetooth.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/bluetooth/hci_core.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/bluetooth/l2cap.h \
+   bnep.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bluez/bnep/debug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bluez/bnep/mc/filter.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bluez/bnep/proto/filter.h)
+core.o: core.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/signal.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wait.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/net.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/socket.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/file.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/unaligned.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/bluetooth/bluetooth.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/bluetooth/l2cap.h \
+   bnep.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bluez/bnep/debug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bluez/bnep/proto/filter.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bluez/bnep/mc/filter.h)
+sock.o: sock.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/major.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fcntl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/socket.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/file.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   bnep.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bluez/bnep/debug.h)
+bnep.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/bluetooth/bluetooth.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/crc32.h
+	@touch bnep.h
+.PRECIOUS:	bnep.h \
+

@@ -1,0 +1,40 @@
+riva_hw.o: riva_hw.c \
+   riva_hw.h \
+   riva_tbl.h
+rivafb.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb4.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   riva_hw.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtrr.h)
+	@touch rivafb.h
+accel.o: accel.c \
+   rivafb.h
+fbdev.o: fbdev.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtrr.h) \
+   rivafb.h \
+   nvreg.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/all/ppc.h)
+riva_hw.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h
+	@touch riva_hw.h
+.PRECIOUS:	rivafb.h \
+	riva_hw.h \
+

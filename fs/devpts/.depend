@@ -1,0 +1,29 @@
+inode.o: inode.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kdev_t.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/major.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stat.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   devpts_i.h
+devpts_i.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/devpts_fs.h
+	@touch devpts_i.h
+root.o: root.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stat.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/param.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   devpts_i.h
+.PRECIOUS:	devpts_i.h \
+

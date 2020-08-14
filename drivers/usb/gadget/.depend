@@ -1,0 +1,224 @@
+rndis.o: rndis.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/moduleparam.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   rndis.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/debug/files.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h
+file_storage.o: file_storage.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/compiler.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/completion.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/dcache.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fcntl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/file.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/limits.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/rwsem.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/signal.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/uts.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wait.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb_ch9.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb_gadget.h \
+   gadget_chips.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/file/storage/test.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/value.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/dualspeed.h)
+gadget_chips.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/net2280.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/dummy/hcd.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/pxa2xx.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/goku.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/superh.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/sa1100.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/lh7a40x.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/mq11xx.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/omap.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/n9604.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/pxa27x.h)
+	@touch gadget_chips.h
+config.o: config.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb_ch9.h
+ether.o: ether.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/uts.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/moduleparam.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/unaligned.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb_ch9.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb_gadget.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/random.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ethtool.h \
+   gadget_chips.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/eth/rndis.h) \
+   rndis.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tqueue.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/net2280.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/dummy/hcd.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/goku.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/lh7a40x.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/mq11xx.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/omap.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/n9604.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/pxa27x.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/pxa2xx.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/sh.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/sa1100.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/dualspeed.h)
+net2280.o: net2280.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb_ch9.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb_gadget.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/unaligned.h \
+   net2280.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/x86.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ppc.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/not/coherent/cache.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mips.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/noncoherent/io.h)
+zero.o: zero.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/uts.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/unaligned.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb_ch9.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb_gadget.h \
+   gadget_chips.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/zero/hnptest.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/source/sink.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/loopback.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/gadget/dualspeed.h)
+rndis.h: \
+   ndis.h
+	@touch rndis.h
+usbstring.o: usbstring.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb_ch9.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb_gadget.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/unaligned.h
+goku_udc.o: goku_udc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb_ch9.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb_gadget.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/unaligned.h \
+   goku_udc.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/x86.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mips.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/noncoherent/io.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ppc.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/not/coherent/cache.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/embedded.h)
+epautoconf.o: epautoconf.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb_ch9.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb_gadget.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   gadget_chips.h
+.PRECIOUS:	gadget_chips.h \
+	rndis.h \
+

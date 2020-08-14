@@ -1,0 +1,1 @@
+#undef  CONFIG_GODSON3A_BOARDS

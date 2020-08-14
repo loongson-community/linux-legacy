@@ -1,0 +1,87 @@
+hptraid.o: hptraid.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkpg.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/genhd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ide.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   ataraid.h \
+   hptraid.h
+silraid.o: silraid.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkpg.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/genhd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ide.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   ataraid.h \
+   silraid.h
+pdcraid.o: pdcraid.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkpg.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/genhd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ide.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   ataraid.h \
+   pdcraid.h
+ataraid.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/semaphore.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkpg.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/genhd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ide.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h
+	@touch ataraid.h
+medley.o: medley.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkpg.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/genhd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ide.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   ataraid.h
+ataraid.o: ataraid.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/semaphore.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkpg.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/genhd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kdev_t.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/swap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ide.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   ataraid.h
+.PRECIOUS:	ataraid.h \
+

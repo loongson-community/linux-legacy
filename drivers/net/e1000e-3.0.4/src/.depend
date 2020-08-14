@@ -1,0 +1,162 @@
+ich8lan.o: ich8lan.c \
+   e1000.h
+kcompat.o: kcompat.c \
+   e1000.h \
+   kcompat.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/div64.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/highmem.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sysfs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci/iov.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/netdevices/multiqueue.h)
+manage.o: manage.c \
+   e1000.h
+hw.h: \
+   regs.h \
+   defines.h \
+   mac.h \
+   phy.h \
+   nvm.h \
+   manage.h \
+   82571.h \
+   80003es2lan.h \
+   ich8lan.h
+	@touch hw.h
+netdev.o: netdev.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tcp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ipv6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/checksum.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ethtool.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_vlan.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/prefetch.h \
+   e1000.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/e1000e/napi.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pcieaspm.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm/runtime.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/net/poll/controller.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm/sleep.h)
+82571.o: 82571.c \
+   e1000.h
+nvm.o: nvm.c \
+   e1000.h
+ptp.o: ptp.c \
+   e1000.h
+e1000.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_vlan.h \
+   kcompat.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mii.h \
+   hw.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/e1000e/napi.h)
+	@touch e1000.h
+kcompat_ethtool.o: kcompat_ethtool.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mii.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ethtool.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   kcompat.h
+mac.o: mac.c \
+   e1000.h
+phy.o: phy.c \
+   e1000.h
+ethtool.o: ethtool.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ethtool.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   e1000.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_vlan.h \
+   kcompat_ethtool.c \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/e1000e/napi.h)
+kcompat.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/in.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/udp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mii.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ethtool.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_vlan.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/div64.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/e1000e/napi.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci/msi.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ia64.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/random.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/have/efficient/unaligned/access.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/suse/kernel.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/smp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/crc32.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/crc32.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/rtnetlink.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tqueue.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/e1000/disable/packet/split.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/igb/disable/packet/split.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/dsfield.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/reboot.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/x86/64.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm/sleep.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/netpoll.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/debug/fs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nr/cpus.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/dcb.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci/iov.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fcoe.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fcoe/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/x86/32.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/need/dma/map/state.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/dynamic/debug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/debug/lock/alloc.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/netdevices/multiqueue.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bql.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/highmem.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ptp/1588/clock.h)
+	@touch kcompat.h
+param.o: param.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   e1000.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci/msi.h)
+80003es2lan.o: 80003es2lan.c \
+   e1000.h
+.PRECIOUS:	hw.h \
+	e1000.h \
+	kcompat.h \
+

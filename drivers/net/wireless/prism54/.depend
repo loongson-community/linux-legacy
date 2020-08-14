@@ -1,0 +1,144 @@
+islpci_eth.o: islpci_eth.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_arp.h \
+   prismcompat.h \
+   isl_38xx.h \
+   islpci_eth.h \
+   islpci_mgt.h \
+   oid_mgt.h
+islpci_mgt.o: islpci_mgt.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_arp.h \
+   prismcompat.h \
+   isl_38xx.h \
+   islpci_mgt.h \
+   isl_oid.h \
+   isl_ioctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/iw_handler.h
+islpci_hotplug.o: islpci_hotplug.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   prismcompat.h \
+   islpci_dev.h \
+   islpci_mgt.h \
+   isl_oid.h
+oid_mgt.h: \
+   isl_oid.h \
+   islpci_dev.h
+	@touch oid_mgt.h
+isl_ioctl.h: \
+   islpci_mgt.h \
+   islpci_dev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/iw_handler.h
+	@touch isl_ioctl.h
+oid_mgt.o: oid_mgt.c \
+   prismcompat.h \
+   islpci_dev.h \
+   islpci_mgt.h \
+   isl_oid.h \
+   oid_mgt.h \
+   isl_ioctl.h
+islpci_dev.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wireless.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/iw_handler.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   isl_38xx.h \
+   isl_oid.h \
+   islpci_mgt.h
+	@touch islpci_dev.h
+isl_ioctl.o: isl_ioctl.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_arp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   prismcompat.h \
+   isl_ioctl.h \
+   islpci_mgt.h \
+   isl_oid.h \
+   oid_mgt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/iw_handler.h
+islpci_dev.o: islpci_dev.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_arp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   prismcompat.h \
+   isl_38xx.h \
+   isl_ioctl.h \
+   islpci_dev.h \
+   islpci_mgt.h \
+   islpci_eth.h \
+   oid_mgt.h
+prismcompat.h: \
+   prismcompat24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/firmware.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/moduleparam.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/compiler.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fw/loader.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fw/loader/module.h)
+	@touch prismcompat.h
+islpci_eth.h: \
+   isl_38xx.h \
+   islpci_dev.h
+	@touch islpci_eth.h
+isl_38xx.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h
+	@touch isl_38xx.h
+prismcompat24.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/firmware.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tqueue.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/compiler.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/moduleparam.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fw/loader.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fw/loader/module.h)
+	@touch prismcompat24.h
+isl_38xx.o: isl_38xx.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   prismcompat.h \
+   isl_38xx.h \
+   islpci_dev.h \
+   islpci_mgt.h
+islpci_mgt.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wireless.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h
+	@touch islpci_mgt.h
+.PRECIOUS:	oid_mgt.h \
+	isl_ioctl.h \
+	islpci_dev.h \
+	prismcompat.h \
+	islpci_eth.h \
+	isl_38xx.h \
+	prismcompat24.h \
+	islpci_mgt.h \
+

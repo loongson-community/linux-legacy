@@ -1,0 +1,178 @@
+procfs.o: procfs.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sysctl.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/parport/1284.h)
+parport_ip22.o: parport_ip22.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sgi/ioc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sgi/pi1.h
+parport_sunbpp.o: parport_sunbpp.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h
+parport_pc.o: parport_pc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport_pc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/parport.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/parport/pc/fifo.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/parport/pc/superio.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/parport/1284.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h)
+daisy.o: daisy.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h
+init.o: init.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/threads.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/parport/pc.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sysctl.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/parport/amiga.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/parport/mfc3.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/parport/atari.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/parport/arc.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/parport/sunbpp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/parport/1284.h)
+parport_arc.o: parport_arc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/threads.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h
+parport_gsc.o: parport_gsc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport.h
+ieee1284.o: ieee1284.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/threads.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/lp/console.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/parport/1284.h)
+parport_atari.o: parport_atari.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h
+ieee1284_ops.o: ieee1284_ops.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/lp/console.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/parport/1284.h)
+parport_cs.o: parport_cs.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport_pc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/cs_types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/cs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/cistpl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/ds.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/cisreg.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/ciscode.h
+parport_amiga.o: parport_amiga.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h
+probe.o: probe.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h
+parport_mfc3.o: parport_mfc3.c \
+   multiface.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mc6821.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zorro.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h
+share.o: share.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/threads.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/parport/1284.h)

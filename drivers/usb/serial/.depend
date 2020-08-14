@@ -1,0 +1,360 @@
+mct_u232.o: mct_u232.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   mct_u232.h
+keyspan_pda.o: keyspan_pda.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tqueue.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan/pda.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan/pda/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/xircom.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/xircom/module.h) \
+   keyspan_pda_fw.h \
+   xircom_pgs_fw.h \
+   usb-serial.h
+belkin_sa.o: belkin_sa.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   belkin_sa.h
+ftdi_sio.o: ftdi_sio.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/serial.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   ftdi_sio.h
+cyberjack.o: cyberjack.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   usb-serial.h
+keyspan.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan/usa28.h) \
+   keyspan_usa28_fw.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan/usa28x.h) \
+   keyspan_usa28x_fw.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan/usa28xa.h) \
+   keyspan_usa28xa_fw.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan/usa28xb.h) \
+   keyspan_usa28xb_fw.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan/usa19.h) \
+   keyspan_usa19_fw.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan/usa19qi.h) \
+   keyspan_usa19qi_fw.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan/mpr.h) \
+   keyspan_mpr_fw.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan/usa19qw.h) \
+   keyspan_usa19qw_fw.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan/usa18x.h) \
+   keyspan_usa18x_fw.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan/usa19w.h) \
+   keyspan_usa19w_fw.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan/usa49w.h) \
+   keyspan_usa49w_fw.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan/usa49wlc.h) \
+   keyspan_usa49wlc_fw.h
+	@touch keyspan.h
+ipaq.o: ipaq.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   ipaq.h
+visor.o: visor.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   visor.h
+digi_acceleport.o: digi_acceleport.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tqueue.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   usb-serial.h
+kobil_sct.o: kobil_sct.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioctl.h \
+   kobil_sct.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   usb-serial.h
+keyspan.o: keyspan.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   usb-serial.h \
+   keyspan.h \
+   keyspan_usa26msg.h \
+   keyspan_usa28msg.h \
+   keyspan_usa49msg.h \
+   keyspan_usa90msg.h
+pl2303.o: pl2303.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/serial.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   pl2303.h
+io_ti.o: io_ti.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/serial.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   io_16654.h \
+   io_usbvend.h \
+   io_ti.h \
+   io_fw_down3.h
+empeg.o: empeg.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   usb-serial.h
+io_edgeport.h: \
+   io_usbvend.h
+	@touch io_edgeport.h
+io_edgeport.o: io_edgeport.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/serial.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   io_edgeport.h \
+   io_ionsp.h \
+   io_16654.h \
+   io_fw_boot.h \
+   io_fw_boot2.h \
+   io_fw_down.h \
+   io_fw_down2.h \
+   io_tables.h
+usbserial.o: usbserial.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/signal.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fcntl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   pl2303.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/generic.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/pl2303.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/pl2303/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/devfs/fs.h)
+kl5kusb105.o: kl5kusb105.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   kl5kusb105.h
+whiteheat.o: whiteheat.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   whiteheat_fw.h \
+   whiteheat.h
+ir-usb.o: ir-usb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   usb-serial.h
+usb-serial.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan/pda.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan/pda/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/xircom.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/xircom/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/keyspan/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/whiteheat.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/whiteheat/module.h)
+	@touch usb-serial.h
+omninet.o: omninet.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_driver.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/serial/debug.h) \
+   usb-serial.h
+.PRECIOUS:	keyspan.h \
+	io_edgeport.h \
+	usb-serial.h \
+

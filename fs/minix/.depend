@@ -1,0 +1,38 @@
+dir.o: dir.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/minix_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h
+file.o: file.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/minix_fs.h
+namei.o: namei.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/minix_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h
+inode.o: inode.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/minix_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/highuid.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h
+itree_v1.o: itree_v1.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/minix_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   itree_common.c
+itree_v2.o: itree_v2.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/minix_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   itree_common.c
+bitmap.o: bitmap.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/minix_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bitops.h

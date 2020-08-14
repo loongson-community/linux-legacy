@@ -1,0 +1,249 @@
+ulpqueue.o: ulpqueue.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/structs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h
+protocol.o: protocol.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/inetdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/seq_file.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/protocol.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/ipv6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/addrconf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/inet_common.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/inet_ecn.h
+chunk.o: chunk.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/net.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/inet.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h
+hashdriver.o: hashdriver.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sla1.h
+sysctl.o: sysctl.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/structs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysctl.h
+sla1.o: sla1.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fcntl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/in.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sla1.h
+sm_sideeffect.o: sm_sideeffect.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/socket.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h
+outqueue.o: outqueue.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/socket.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h
+crc32c.o: crc32c.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h
+adler32.o: adler32.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h
+bind_addr.o: bind_addr.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/in.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/ipv6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/if_inet6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h
+endpointola.o: endpointola.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/in.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/random.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/crypto.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/ipv6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h
+ulpevent.o: ulpevent.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/structs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h
+ssnmap.o: ssnmap.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h
+output.o: output.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wait.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/time.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ipv6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/inet_ecn.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/icmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/tcp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/socket.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h
+transport.o: transport.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h
+associola.o: associola.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fcntl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/in.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/ipv6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h
+objcnt.o: objcnt.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h
+ipv6.o: ipv6.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/socket.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sockios.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/net.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/in.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/in6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ipsec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ipv6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/icmpv6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/random.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/seq_file.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/protocol.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/tcp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/ndisc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/ipv6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/transp_v6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/addrconf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/ip6_route.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/inet_common.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/inet_ecn.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h
+inqueue.o: inqueue.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h
+debug.o: debug.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h
+sm_statefuns.o: sm_statefuns.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ipv6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/net.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/inet.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/inet_ecn.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/structs.h
+primitive.o: primitive.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/socket.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/time.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h
+sm_statetable.o: sm_statetable.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h
+input.o: input.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/socket.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/time.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/icmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/snmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ipsec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h
+socket.o: socket.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wait.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/time.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fcntl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/crypto.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/icmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/route.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/ipv6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/inet_common.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/socket.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h
+command.o: command.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h
+tsnmap.o: tsnmap.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h
+proc.o: proc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/seq_file.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h
+sm_make_chunk.o: sm_make_chunk.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ipv6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/net.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/inet.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/scatterlist.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/crypto.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/random.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sctp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sctp/sm.h

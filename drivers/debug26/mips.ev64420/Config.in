@@ -1,0 +1,25 @@
+#
+# For a description of the syntax of this configuration file,
+# see scripts/kbuild/config-language.txt.
+#
+
+config DEBUG26_DUMPMV
+	bool "dump ev64420"
+	default n
+	help
+
+config DEBUG26_DUMP686B
+	bool "dump 686b"
+	default n
+	help
+
+config DEBUG26_TESTVGA
+	bool "test vga"
+	default n
+	help
+
+config DEBUG26_PNP_MV
+	bool "pnp"
+	default n
+	help
+

@@ -1,0 +1,60 @@
+/*
+ * Automatically generated header file: don't edit
+ */
+
+/* Version Number */
+#define BB_VER "2"
+#define BB_BT "(null)"
+
+#define DEBUG26_DEBUG26 1
+#undef DEBUG26_LINUX26
+#define DEBUG26_LINUX24 1
+#define KERNEL_PATH "/work/build/2.6.27/"
+#undef DEBUG26_MODULE_INSTALL
+#undef DEBUG26_FROM_SERIAL
+
+/*
+ * debug26 functions
+ */
+#define DEBUG26_RAMDISK 1
+#define DEBUG26_RAMDISK_MYUNZIP 1
+#define DEBUG26_RAMDISK_DIR "../../../ramdisk1"
+#define DEBUG26_RAMDISK_SIZE 40960
+#undef DEBUG26_LSMOUNT
+#undef DEBUG26_CHROOT
+#define DEBUG26_PCI 1
+#define DEBUG26_MEM 1
+#define DEBUG26_IO 1
+#undef DEBUG26_TEST
+#undef DEBUG26_PAGER
+#undef DEBUG26_PWD
+#define DEBUG26_CD 1
+#undef DEBUG26_IFCONFIG
+#define DEBUG26_EXEC 1
+#undef DEBUG26_WRITEFILE
+#define DEBUG26_LS 1
+#undef DEBUG26_DIFF
+#undef DEBUG26_PLX
+#undef DEBUG26_MYREQUEST_IRQ
+#undef DEBUG26_DM642
+#undef DEBUG26_ARCH_I386
+#define DEBUG26_ARCH_BONITO 1
+#undef DEBUG26_ARCH_EV64420
+#undef DEBUG26_ARCH_8172
+#undef DEBUG26_I386_TEST
+
+/*
+ * bonito
+ */
+#undef DEBUG26_PNP_BONITO_686B
+#undef DEBUG26_PNP_BONITO_82371
+#undef DEBUG26_TEST_BONITO
+#undef DEBUG26_TEST_PMON
+#undef DEBUG26_CS5536_I2C
+#undef DEBUG26_I2C_88E1111
+#undef DEBUG26_CS5536_GPIO
+#undef DEBUG26_DUMPMV
+#undef DEBUG26_DUMP686B
+#undef DEBUG26_TESTVGA
+#undef DEBUG26_PNP_MV
+#undef DEBUG26_8172_PNP

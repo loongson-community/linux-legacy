@@ -1,0 +1,1 @@
+#define CONFIG_PAGE_SIZE_16KB 1

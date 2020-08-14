@@ -1,0 +1,1 @@
+#undef  CONFIG_HAVE_NB_SERIAL

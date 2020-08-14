@@ -1,0 +1,1 @@
+#define CONFIG_PCI_NEW 1

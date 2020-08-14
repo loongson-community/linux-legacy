@@ -1,0 +1,70 @@
+ipmi_msghandler.o: ipmi_msghandler.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/rwsem.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ipmi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ipmi_smi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/notifier.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ipmi/panic/event.h)
+ipmi_watchdog.o: ipmi_watchdog.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ipmi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ipmi_smi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/watchdog.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/miscdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/rwsem.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/notifier.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nmi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/reboot.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wait.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/x86/local/apic.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/watchdog/nowayout.h)
+ipmi_devintf.o: ipmi_devintf.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/devfs_fs_kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ipmi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/semaphore.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h
+ipmi_kcs_sm.o: ipmi_kcs_sm.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/string.h \
+   ipmi_kcs_sm.h
+ipmi_kcs_intf.o: ipmi_kcs_intf.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/high/res/timers.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ipmi_smi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   ipmi_kcs_sm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ipmi/kcs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/acpi/interpreter.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/acpi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/acpi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/actypes.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/acpi/actbl.h

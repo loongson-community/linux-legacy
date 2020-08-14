@@ -1,0 +1,166 @@
+background.o: background.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/unistd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/completion.h \
+   nodelist.h
+super.o: super.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   nodelist.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/jffs2/fs/debug.h)
+comprtest.o: comprtest.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/types.h
+dir.o: dir.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/compatmac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2_fs_i.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2_fs_sb.h \
+   nodelist.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/crc32.h
+read.o: read.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   nodelist.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/crc32.h
+pushpull.o: pushpull.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   pushpull.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h
+malloc.o: malloc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2.h \
+   nodelist.h
+build.o: build.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   nodelist.h
+nodelist.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2_fs_sb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2_fs_i.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/jffs2/fs/debug.h)
+	@touch nodelist.h
+symlink.o: symlink.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2.h \
+   nodelist.h
+file.o: file.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/compatmac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2.h \
+   nodelist.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/crc32.h
+compr_rtime.o: compr_rtime.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h
+nodelist.o: nodelist.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   nodelist.h
+ioctl.o: ioctl.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h
+erase.o: erase.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   nodelist.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/crc32.h
+scan.o: scan.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   nodelist.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/crc32.h
+compr_rubin.h: \
+   pushpull.h
+	@touch compr_rubin.h
+compr_zlib.o: compr_zlib.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/compatmac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zlib.h \
+   nodelist.h
+write.o: write.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   nodelist.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/crc32.h
+nodemgmt.o: nodemgmt.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   nodelist.h
+compr_rubin.o: compr_rubin.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   compr_rubin.h \
+   histo_mips.h
+gc.o: gc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   nodelist.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/crc32.h
+readinode.o: readinode.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2.h \
+   nodelist.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/crc32.h
+compr.o: compr.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jffs2.h
+.PRECIOUS:	nodelist.h \
+	compr_rubin.h \
+

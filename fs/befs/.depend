@@ -1,0 +1,77 @@
+linuxvfs.o: linuxvfs.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stat.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nls.h \
+   befs.h \
+   btree.h \
+   inode.h \
+   datastream.h \
+   super.h \
+   io.h \
+   endian.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/befs/rw.h)
+io.o: io.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   befs.h \
+   io.h
+inode.o: inode.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   befs.h \
+   inode.h \
+   endian.h
+super.o: super.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   befs.h \
+   super.h \
+   endian.h
+attribute.o: attribute.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   befs.h \
+   endian.h
+datastream.o: datastream.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   befs.h \
+   datastream.h \
+   io.h \
+   endian.h
+btree.o: btree.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   befs.h \
+   btree.h \
+   datastream.h \
+   endian.h
+endian.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/byteorder/generic.h
+	@touch endian.h
+befs_fs_types.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h
+	@touch befs_fs_types.h
+befs.h: \
+   befs_fs_types.h
+	@touch befs.h
+debug.o: debug.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   befs.h \
+   endian.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/befs/debug.h)
+.PRECIOUS:	endian.h \
+	befs_fs_types.h \
+	befs.h \
+

@@ -1,0 +1,224 @@
+virtual_stub.o: virtual_stub.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/perfctr.h \
+   compat.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ptrace.h
+x86_64.o: x86_64.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/perfctr.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/fixmap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hw_irq.h \
+   compat.h \
+   x86_compat.h \
+   x86_tests.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/smp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/debug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/init/tests.h)
+x86_setup.o: x86_setup.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/processor.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/fixmap.h \
+   x86_compat.h \
+   compat.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/virtual.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h)
+global.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/global.h)
+	@touch global.h
+init.o: init.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/miscdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/perfctr.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   compat.h \
+   virtual.h \
+   global.h \
+   version.h \
+   marshal.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/debug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ia32/emulation.h)
+ppc_setup.o: ppc_setup.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/processor.h \
+   ppc_compat.h \
+   compat.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/module.h)
+mips_setup.o: mips_setup.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/processor.h \
+   ppc_compat.h \
+   compat.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/module.h)
+global.o: global.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/perfctr.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   compat.h \
+   global.h \
+   marshal.h
+compat.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   compat24.h \
+   cpumask.h
+	@touch compat.h
+ppc.o: ppc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/perfctr.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/seq_file.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/time.h \
+   compat.h \
+   ppc_compat.h \
+   ppc_tests.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/smp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/debug.h)
+ppc_tests.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/init/tests.h)
+	@touch ppc_tests.h
+x86_compat.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/preempt.h)
+	@touch x86_compat.h
+mips.o: mips.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/perfctr.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/seq_file.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/time.h \
+   compat.h \
+   mips_compat.h \
+   mips_tests.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/godson/simos.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/godson2b.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/rm7000.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/smp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/debug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/init/tests.h)
+x86_tests.o: x86_tests.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/perfctr.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/fixmap.h \
+   x86_compat.h \
+   x86_tests.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/x86/tsc.h)
+mips_tests.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/init/tests.h)
+	@touch mips_tests.h
+compat24.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   cpumask.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/smp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/preempt.h)
+	@touch compat24.h
+ppc_tests.o: ppc_tests.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/perfctr.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/processor.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/time.h \
+   ppc_compat.h \
+   ppc_tests.h
+mips_tests.o: mips_tests.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/perfctr.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/processor.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/time.h \
+   mips_compat.h \
+   mips_tests.h
+ppc_compat.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h
+	@touch ppc_compat.h
+x86.o: x86.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/perfctr.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/fixmap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hw_irq.h \
+   compat.h \
+   x86_compat.h \
+   x86_tests.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/smp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/x86/tsc.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/debug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/init/tests.h)
+virtual.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/virtual.h)
+	@touch virtual.h
+marshal.o: marshal.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/perfctr.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stddef.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/perfctr.h \
+   marshal.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/virtual.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/global.h)
+virtual.o: virtual.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/compiler.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/file.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/perfctr.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   compat.h \
+   virtual.h \
+   marshal.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/perfctr/debug.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mount.h
+.PRECIOUS:	global.h \
+	compat.h \
+	ppc_tests.h \
+	x86_compat.h \
+	mips_tests.h \
+	compat24.h \
+	ppc_compat.h \
+	virtual.h \
+

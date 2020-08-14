@@ -1,0 +1,153 @@
+#
+# For a description of the syntax of this configuration file,
+# see scripts/kbuild/config-language.txt.
+#
+config DEBUG26_DEBUG26
+    tristate "debug26"
+    default n
+    help
+      ramdisk support.
+	  NFS: setup boot params  nfsaddrs=10.0.0.12:10.0.0.3 nfsroot=10.0.0.3:/mnt/sdb2/debian
+config MODULE
+	tristate "MODULE"
+	default n
+
+menu "debug26 functions"
+	depends on DEBUG26_DEBUG26
+config DEBUG26_RAMDISK
+	bool "ramdisk"
+	default n
+	help
+	  ramdisk support.
+
+config DEBUG26_LSMOUNT
+	bool "lsmount"
+	default n
+	help
+	  mount
+
+config DEBUG26_CHROOT
+	bool "chroot"
+	default n
+	help
+	  mount
+
+config DEBUG26_PCI
+	bool "pci"
+	default n
+	help
+	  pci support.
+
+config DEBUG26_MEM
+	bool "mem"
+	default n
+	help
+	  pci support.
+
+config DEBUG26_IO
+	bool "io"
+	default n
+	help
+	  pci support.
+
+config DEBUG26_TEST
+    bool "test"
+    default n
+    help
+      mount
+
+config DEBUG26_PAGER
+    bool "pager"
+    default n
+    help
+      mount
+
+config DEBUG26_PWD
+    bool "pwd"
+    default n
+    help
+      mount
+
+config DEBUG26_CD
+    bool "cd"
+    default n
+    help
+      mount
+
+config DEBUG26_IFCONFIG
+    bool "ifconfig"
+    default n
+    help
+      mount
+
+config DEBUG26_EXEC
+    bool "exec"
+    default n
+    help
+      mount
+
+config DEBUG26_WRITEFILE
+    bool "writefile"
+    default n
+    help
+      mount
+
+
+config DEBUG26_LS
+	bool "ls"
+	default n
+	help
+	  ls support.
+
+
+endmenu
+
+
+choice
+    prompt "Subarchitecture Type"
+	depends on DEBUG26_DEBUG26
+    default DEBUG26_ARCH_I386
+
+config DEBUG26_ARCH_I386
+    bool "PC-compatible"
+    help
+      Choose this option if your computer is a standard PC or compatible.
+
+config DEBUG26_ARCH_BONITO
+    bool "ict nb2005(bonito)"
+    help
+      Choose this option if your board is nb2005 board
+
+config DEBUG26_ARCH_EV64420
+    bool "ict ev64420 board"
+    help
+      Choose this option if your board is nb2005 board
+
+config DEBUG26_ARCH_8172
+    bool "ict 8172 board"
+    help
+      Choose this option if your board is nb2005 board
+
+endchoice
+
+menu  "i386"
+   depends on DEBUG26_DEBUG26 && DEBUG26_ARCH_I386
+source i386/Config.in
+endmenu
+
+menu  "bonito"
+   depends on DEBUG26_DEBUG26 && DEBUG26_ARCH_BONITO
+source mips.bonito/Config.in
+endmenu
+
+menu  "ev64420"
+   depends on DEBUG26_DEBUG26 && DEBUG26_ARCH_EV64420
+source mips.ev64420/Config.in
+endmenu
+
+
+menu  "8172"
+   depends on DEBUG26_DEBUG26 && DEBUG26_ARCH_8172
+source mips.8172/Config.in
+endmenu
+

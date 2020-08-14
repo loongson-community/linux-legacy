@@ -1,0 +1,25 @@
+ktrace.o: ktrace.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs.h
+move.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/uio.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h
+	@touch move.h
+move.o: move.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs.h
+qsort.o: qsort.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h
+ktrace.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/linux-2.4/spin.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/xfs/trace.h)
+	@touch ktrace.h
+debug.o: debug.c \
+   debug.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/page.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h
+uuid.o: uuid.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs.h
+.PRECIOUS:	move.h \
+	ktrace.h \
+

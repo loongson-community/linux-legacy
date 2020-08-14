@@ -1,0 +1,1 @@
+#define CONFIG_GODSON2F_BOARDS 1

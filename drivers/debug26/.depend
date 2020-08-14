@@ -1,0 +1,41 @@
+usermmap.o: usermmap.c \
+   begin.c \
+   lib/cmdparser.c \
+   lib/env.c \
+   lib/mem.c \
+   end.c
+end.o: end.c \
+   lib/cmdparser.h
+debug.o: debug.c \
+   include/config.h \
+   lib/main.c \
+   lib/env.c \
+   lib/mem.c \
+   lib/ls.c \
+   lib/pwd.c \
+   lib/cd.c \
+   lib/mount.c \
+   lib/pci.c \
+   lib/exec.c \
+   lib/writefile.c \
+   lib/pcibus.c \
+   lib/pager.c \
+   lib/io.c \
+   lib/echo.c \
+   lib/loop.c \
+   lib/testvga.c \
+   lib/ifconfig.c \
+   lib/chroot.c \
+   lib/ramdisk.c \
+   lib/diff.c \
+   lib/dset.c \
+   lib/plx.c \
+   lib/regs.c \
+   lib/myrequest_irq.c \
+   lib/dm642.c \
+   mips.bonito/debug.c \
+   mips.ev64420/debug.c \
+   mips.8172/debug.c \
+   i386/debug.c
+begin.o: begin.c \
+   lib/cmdparser.h

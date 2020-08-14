@@ -1,0 +1,1 @@
+#undef  CONFIG_MIPS_TLB_FIX_TEMP

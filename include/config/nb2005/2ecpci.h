@@ -1,0 +1,1 @@
+#undef  CONFIG_NB2005_2ECPCI

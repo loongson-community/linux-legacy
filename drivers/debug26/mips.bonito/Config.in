@@ -1,0 +1,37 @@
+#
+# For a description of the syntax of this configuration file,
+# see scripts/kbuild/config-language.txt.
+#
+
+config DEBUG26_PNP_BONITO_686B
+	bool "686b pnp"
+	default n
+	help
+
+config DEBUG26_PNP_BONITO_82371
+	bool "82371 pnp"
+	default n
+	help
+
+config DEBUG26_TEST_BONITO
+	bool "test"
+	default n
+	help
+
+config DEBUG26_TEST_PMON
+	bool "goto pmon"
+	default n
+	help
+
+config DEBUG26_CS5536_I2C
+    bool "cs5536's i2c"
+	default n
+
+config DEBUG26_I2C_88E1111
+    bool "i2c rw 88e1111"
+	default n
+
+config DEBUG26_CS5536_GPIO
+    bool "cs5536's gpio"
+	default n
+

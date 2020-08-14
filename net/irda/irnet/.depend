@@ -1,0 +1,38 @@
+irnet_ppp.h: \
+   irnet.h
+	@touch irnet_ppp.h
+irnet_ppp.o: irnet_ppp.c \
+   irnet_ppp.h
+irnet_irda.h: \
+   irnet.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h)
+	@touch irnet_irda.h
+irnet.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/devfs_fs_kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/miscdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ppp_defs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_ppp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ppp_channel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/iriap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irias_object.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irttp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/discovery.h
+	@touch irnet.h
+irnet_irda.o: irnet_irda.c \
+   irnet_irda.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h)
+.PRECIOUS:	irnet_ppp.h \
+	irnet_irda.h \
+	irnet.h \
+

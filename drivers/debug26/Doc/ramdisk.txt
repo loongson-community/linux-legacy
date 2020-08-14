@@ -1,0 +1,6 @@
+产生ramdisk的连接文件有4种方法.
+1.最慢的不可行的,将ramdisk转换成c/汇编文件,然后编译成二进制文件.因为c文件很大,编译非常慢,不可行.
+2.objcopy --add-section
+3.objcopy -I binary -O mipself-little ...
+4.ld加ld.script如ramdisk目录中的用法.
+

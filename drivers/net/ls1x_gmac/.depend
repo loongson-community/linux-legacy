@@ -1,0 +1,93 @@
+synopGMAC_network_interface.o: synopGMAC_network_interface.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mii.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tcp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/udp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ethtool.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   synopGMAC_Host.h \
+   synopGMAC_plat.h \
+   synopGMAC_network_interface.h \
+   synopGMAC_Dev.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/gmac/napi.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fix/coherent/unaligned.h)
+synopGMAC_pci_bus_interface.o: synopGMAC_pci_bus_interface.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   synopGMAC_Host.h \
+   synopGMAC_plat.h \
+   synopGMAC_pci_bus_interface.h \
+   synopGMAC_network_interface.h
+synopGMAC_plat.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/gmac/coherent.h)
+	@touch synopGMAC_plat.h
+synopGMAC_plat.o: synopGMAC_plat.c \
+   synopGMAC_plat.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/gmac/coherent.h)
+synopGMAC_Dev.h: \
+   synopGMAC_plat.h
+	@touch synopGMAC_Dev.h
+synopGMAC_Debug.o: synopGMAC_Debug.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sockios.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h
+synopGMAC_Host.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mii.h \
+   synopGMAC_plat.h \
+   synopGMAC_pci_bus_interface.h \
+   synopGMAC_Dev.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/gmac/napi.h)
+	@touch synopGMAC_Host.h
+synopGMAC_Dev.o: synopGMAC_Dev.c \
+   synopGMAC_Dev.h \
+   synopGMAC_Host.h
+synopGMAC_platform_interface.o: synopGMAC_platform_interface.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   synopGMAC_Host.h \
+   synopGMAC_network_interface.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h)
+synopGMAC_banner.h: \
+   synopGMAC_plat.h
+	@touch synopGMAC_banner.h
+synopGMAC_Host.o: synopGMAC_Host.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   synopGMAC_Host.h \
+   synopGMAC_banner.h \
+   synopGMAC_plat.h \
+   synopGMAC_pci_bus_interface.h \
+   synopGMAC_network_interface.h \
+   synopGMAC_Dev.h
+.PRECIOUS:	synopGMAC_plat.h \
+	synopGMAC_Dev.h \
+	synopGMAC_Host.h \
+	synopGMAC_banner.h \
+

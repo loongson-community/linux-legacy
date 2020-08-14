@@ -1,0 +1,42 @@
+dir.o: dir.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysv_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h
+file.o: file.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysv_fs.h
+namei.o: namei.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysv_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h
+symlink.o: symlink.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h
+inode.o: inode.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysv_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/highuid.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h
+super.o: super.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysv_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h
+ialloc.o: ialloc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysv_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stddef.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stat.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h
+itree.o: itree.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysv_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h
+balloc.o: balloc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysv_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h

@@ -1,0 +1,36 @@
+af_econet.o: af_econet.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/socket.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sockios.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/in.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_ether.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/inetdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/route.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/inet.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_arp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wireless.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/inet_common.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stat.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_ec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/udp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bitops.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/econet/aunudp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/econet/native.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h

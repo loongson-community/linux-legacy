@@ -1,0 +1,100 @@
+br_stp.o: br_stp.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bridge.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   br_private.h \
+   br_private_stp.h
+br_forward.o: br_forward.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/inetdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bridge.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netfilter_bridge.h \
+   br_private.h
+br.o: br.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/miscdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bridge.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/brlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/rtnetlink.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   br_private.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/lane.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/lane/module.h) \
+   ../atm/lec.h
+br_stp_bpdu.o: br_stp_bpdu.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_ether.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bridge.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netfilter_bridge.h \
+   br_private.h \
+   br_private_stp.h
+br_private.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/miscdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bridge.h \
+   br_private_timer.h
+	@touch br_private.h
+br_notify.o: br_notify.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bridge.h \
+   br_private.h
+br_stp_timer.o: br_stp_timer.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bridge.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   br_private.h \
+   br_private_stp.h
+br_stp_if.o: br_stp_if.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bridge.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   br_private.h \
+   br_private_stp.h
+br_device.o: br_device.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bridge.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   br_private.h
+br_if.o: br_if.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_arp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bridge.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/inetdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/rtnetlink.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/brlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   br_private.h
+br_input.o: br_input.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bridge.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netfilter_bridge.h \
+   br_private.h
+br_fdb.o: br_fdb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bridge.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/atomic.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   br_private.h
+br_ioctl.o: br_ioctl.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bridge.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/inetdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/rtnetlink.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   br_private.h
+.PRECIOUS:	br_private.h \
+

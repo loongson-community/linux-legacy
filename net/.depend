@@ -1,0 +1,119 @@
+sysctl_net.o: sysctl_net.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysctl.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/inet.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/net.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ipv6.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/tr.h)
+netsyms.o: netsyms.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/net.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/in.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/inetdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fddidevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/trdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fcdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/neighbour.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/snmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/dst.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/checksum.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/route.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hippi.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/hippidevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/pkt_sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/scm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bridge.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_vlan.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/random.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/net/divert.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/divert.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/net.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/inet.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/protocol.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/arp.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/clip.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/clip/module.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/atmclip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/udp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/tcp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/icmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/inet_common.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/inet.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mroute.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/igmp.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ipv6.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ipv6/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/khttpd.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/khttpd/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ip/sctp/module.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/in6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/icmpv6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/ipv6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/ndisc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/transp_v6.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/addrconf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/rtnetlink.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ipx/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atalk/module.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sysctl.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/filter.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/arpd.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/vlan/8021q.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/vlan/8021q/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bridge.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bridge/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/dlci/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/netlink/dev.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/netlink/dev/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/tr.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fddi.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/kmod.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/net/hw/flowcontrol.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/net/fastroute.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/net/sched.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/net/estimator.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/net/cls/police.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/net/cls.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/netfilter.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netfilter.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netfilter_ipv4.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/net/radio.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/net/pcmcia/radio.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/iw_handler.h
+socket.o: socket.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/socket.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/file.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/net.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wanrouter.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netlink.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/rtnetlink.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/cache.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/highmem.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/kmod.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/net.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/scm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netfilter.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/smp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/wan/router.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bluez.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/netlink/dev.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/netfilter.h)

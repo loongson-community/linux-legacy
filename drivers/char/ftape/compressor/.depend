@@ -1,0 +1,30 @@
+lzrw3.o: lzrw3.c \
+   ../compressor/lzrw3.h
+zftape-compress.h: \
+   ../zftape/zftape-buffers.h \
+   ../zftape/zftape-vtbl.h \
+   ../compressor/lzrw3.h
+	@touch zftape-compress.h
+zftape-compress.o: zftape-compress.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zftape.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   ../zftape/zftape-init.h \
+   ../zftape/zftape-eof.h \
+   ../zftape/zftape-ctl.h \
+   ../zftape/zftape-write.h \
+   ../zftape/zftape-read.h \
+   ../zftape/zftape-rw.h \
+   ../compressor/zftape-compress.h \
+   ../zftape/zftape-vtbl.h \
+   ../compressor/lzrw3.h
+lzrw3.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h
+	@touch lzrw3.h
+.PRECIOUS:	zftape-compress.h \
+	lzrw3.h \
+

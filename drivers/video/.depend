@@ -1,0 +1,1961 @@
+sun3fb.o: sun3fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vt_kern.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sun3.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sun3x.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/sbusfb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/cgsix.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/bwtwo.h)
+ls2f1a-sfb.o: ls2f1a-sfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb4.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h
+sa1100fb.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/freq.h)
+	@touch sa1100fb.h
+epson1356fb.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtrr.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pb1000/crt.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pb1000/ntsc.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pb1000/tft.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pb1500/crt.h)
+	@touch epson1356fb.h
+fbcon-iplan2p2.o: fbcon-iplan2p2.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-iplan2p2.h
+tgafb.o: tgafb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   tgafb.h
+font_pearl_8x8.o: font_pearl_8x8.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/font.h
+radeonfb.o: radeonfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vt_kern.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/all/ppc.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/prom.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/macmodes.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nvram.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nvram.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pmac/backlight.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bootx/text.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/adb/pmu.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/adb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pmu.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtrr.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   radeon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/radeonfb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pmac/pbook.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/aper/0/base.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/aper/size.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/memsize.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/memsize/mask.h)
+newport_con.o: newport_con.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console_struct.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vt_kern.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/page.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/newport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/linux_logo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/font.h
+it8181fb.o: it8181fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb4.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   vga.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h)
+fbcon-cfb4.o: fbcon-cfb4.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb4.h
+font_sun12x22.o: font_sun12x22.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/font.h
+fbcon-iplan2p8.o: fbcon-iplan2p8.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-iplan2p8.h
+dnfb.o: dnfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   dn_accel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h
+pmagb-b-fb.o: pmagb-b-fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bootinfo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dec/machtype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dec/tc.h \
+   pmagb-b-fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb4.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h
+platinumfb.o: platinumfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nvram.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/compat/xpmac.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/prom.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/macmodes.h \
+   platinumfb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nvram.h)
+fbcon-vga.o: fbcon-vga.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-vga.h
+vesafb.o: vesafb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mac.h
+creatorfb.o: creatorfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/sbusfb.h
+fbgen.o: fbgen.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h
+fbcon-hga.o: fbcon-hga.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-hga.h
+bt431.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h
+	@touch bt431.h
+modedb.o: modedb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console_struct.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h
+maxinefb.o: maxinefb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bootinfo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/addrspace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb4.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h
+dn_cfb4.o: dn_cfb4.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   dn_accel.h
+fbmon.o: fbmon.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h
+cyber2000fb.o: cyber2000fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   cyber2000fb.h
+fbcon-cfb16.o: fbcon-cfb16.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h
+p9100fb.o: p9100fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/sbusfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   p9100.h
+tdfxfb.o: tdfxfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nvram.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vt_kern.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtrr.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h
+macmodes.o: macmodes.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/compat/xpmac.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/macmodes.h
+fbcon-mfb.o: fbcon-mfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h
+au1100fb.o: au1100fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   au1100fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb4.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mips/pb1100.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mips/db1100.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mips/hydrogen3.h)
+vga.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/amiga.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/vga.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h
+	@touch vga.h
+font_acorn_8x8.o: font_acorn_8x8.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/font.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/arch/acorn.h)
+sstfb.o: sstfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/ioctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   sstfb.h
+aty128fb.o: aty128fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ppc.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/prom.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/macmodes.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nvram.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nvram.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/adb/pmu.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/adb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pmu.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pmac/backlight.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/compat/xpmac.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bootx/text.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtrr.h) \
+   aty128.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pmac/pbook.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cntl.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/memsize.h)
+valkyriefb.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mac.h)
+	@touch valkyriefb.h
+virgefb.o: virgefb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zorro.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   virgefb.h
+sa1100fb.o: sa1100fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb4.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   sa1100fb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sa1100/assabet.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sa1100/h3600.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ipaq/h3100.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sa1100/brutus.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sa1100/cerf.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cerf/lcd/72/a.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cerf/lcd/57/a.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cerf/lcd/38/a.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cerf/lcd/38/b.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sa1100/freebird.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sa1100/graphicsclient.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sa1100/huw/webpanel.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sa1100/omnimeter.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sa1100/pangolin.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sa1100/stork.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sa1100/xp860.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sa1100/lart.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/freq.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h)
+fbcon-ilbm.o: fbcon-ilbm.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-ilbm.h
+cgthreefb.o: cgthreefb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/sbusfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h
+pm3fb.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/of.h)
+	@touch pm3fb.h
+imsttfb.o: imsttfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ppc.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nvram.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/prom.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/macmodes.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/compat/xpmac.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/all/ppc.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nvram.h)
+sgivwfb.o: sgivwfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   sgivwfb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtrr.h)
+cgsixfb.o: cgsixfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/sbusfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h
+pmag-aa-fb.o: pmag-aa-fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bootinfo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dec/machtype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dec/tc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   bt455.h \
+   bt431.h
+retz3fb.o: retz3fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zorro.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   retz3fb.h
+dummycon.o: dummycon.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kdev_t.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console_struct.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vt_kern.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h
+fbcon-mac.o: fbcon-mac.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mac.h
+fbcon-cfb32.o: fbcon-cfb32.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h
+chipsfb.o: chipsfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/compat/xpmac.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pmac/backlight.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pmac/pbook.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/adb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pmu.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/macmodes.h
+fbcon-sti.o: fbcon-sti.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   sti/sticore.h
+cyber2000fb.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/debug/ll.h)
+	@touch cyber2000fb.h
+macfb.o: macfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nubus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bootinfo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb4.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h
+fbmem.o: fbmem.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/major.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mman.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/kmod.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/devfs_fs_kernel.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/apus.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/page.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/sbus.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/retinaz3.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/amiga.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/cyber.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/cyber2000.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/pm2.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/pm3.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/clgen.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/aty.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/matrox.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/aty128.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/neomagic.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/virge.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/riva.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/radeon.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/intel.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/control.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/platinum.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/valkyrie.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/ct65550.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/imstt.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/s3trio.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/fm2.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/sis.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/trident.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/voodoo1.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/of.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/vesa.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/3dfx.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/sgivw.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/acorn.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/atari.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/mac.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/hga.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/iga.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/apollo.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/q40.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/tga.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/hp300.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/g364.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/sa1100.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/sun3.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/hit.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/tx3912.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/e1355.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/e1356.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/pvr2.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/pmag/aa.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/pmag/ba.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/pmagb/b.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/maxine.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/au1100.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/it8181.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/vga16.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/sti.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/gsp/resolver.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/virtual.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/ls2f1a.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/ls3a.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sun3.h)
+fbcon-cfb2.o: fbcon-cfb2.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb2.h
+cgfourteenfb.o: cgfourteenfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/sbusfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h
+hitfb.o: hitfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nubus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hd64461/iobase.h)
+tcxfb.o: tcxfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/sbusfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h
+igafb.o: igafb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nvram.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vt_kern.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   iga.h
+vga16fb.o: vga16fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-vga-planes.h \
+   vga.h
+epson1355fb.o: epson1355fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/superh.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/e1355/reg/base.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/e1355/fb/base.h)
+bt455.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h
+	@touch bt455.h
+neofb.o: neofb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtrr.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   neofb.h
+fbcon-iplan2p4.o: fbcon-iplan2p4.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-iplan2p4.h
+controlfb.o: controlfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nvram.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/compat/xpmac.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/adb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/cuda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/prom.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/macmodes.h \
+   controlfb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/adb/cuda.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nvram.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bootx/text.h)
+vgacon.o: vgacon.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console_struct.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vt_kern.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/dummy/console.h)
+font_8x16.o: font_8x16.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/font.h
+tx3912fb.o: tx3912fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb4.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bootinfo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   tx3912fb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/mfb.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/cfb2.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/cfb4.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/cfb8.h)
+valkyriefb.o: valkyriefb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nvram.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/compat/xpmac.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/adb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/cuda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mac.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bootinfo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/prom.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/macmodes.h \
+   valkyriefb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/adb/cuda.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nvram.h)
+sbusfb.o: sbusfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vt_kern.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/sbusfb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/creator.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/cgsix.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/cgthree.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/tcx.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/leo.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/bwtwo.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/cgfourteen.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/p9100.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sun4.h)
+acornfb.o: acornfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb4.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   acornfb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/arch/a5k.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/32.h)
+maxinefb.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/addrspace.h
+	@touch maxinefb.h
+fbcon-cfb8.o: fbcon-cfb8.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h
+offb.o: offb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/compat/xpmac.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/prom.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bootx/text.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/macmodes.h
+epson1356fb.o: epson1356fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nvram.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vt_kern.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/tlb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtrr.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/e1356fb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/soc/au1x00.h) \
+   epson1356fb.h
+hpfb.o: hpfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/dio.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb4.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h
+amifb.o: amifb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-afb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-ilbm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/amiga/ocs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/amiga/ecs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/amiga/aga.h)
+cvisionppc.h: \
+   pm2fb.h
+	@touch cvisionppc.h
+au1100fb.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mips/hyd1100.h)
+	@touch au1100fb.h
+clgenfb.o: clgenfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/zorro.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zorro.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/amiga.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/all/ppc.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/processor.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   clgenfb.h \
+   vga.h
+tridentfb.o: tridentfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   tridentfb.h
+atafb.o: atafb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-iplan2p2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-iplan2p4.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-iplan2p8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h
+font_6x11.o: font_6x11.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/font.h
+S3triofb.o: S3triofb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/compat/xpmac.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/s3blit.h
+vfb.o: vfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb4.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h
+pm2fb.o: pm2fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   pm2fb.h \
+   cvisionppc.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/pm2/pci.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/pm2/cvppc.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/pm2/fifo/disconnect.h)
+fbcmap.o: fbcmap.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h
+font_8x8.o: font_8x8.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/font.h
+q40fb.o: q40fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h
+fbcon-afb.o: fbcon-afb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-afb.h
+leofb.o: leofb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/sbusfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h
+fbcon-cfb24.o: fbcon-cfb24.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h
+dn_cfb8.o: dn_cfb8.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   dn_accel.h
+dn_accel.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h
+	@touch dn_accel.h
+cyberfb.o: cyberfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zorro.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   cyberfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h
+skeletonfb.o: skeletonfb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h
+fm2fb.o: fm2fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zorro.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h
+font_sun8x16.o: font_sun8x16.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/font.h
+bwtwofb.o: bwtwofb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/sbusfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sun4.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/sun3.h)
+simplefb.o: simplefb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb4.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h
+promcon.o: promcon.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console_struct.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vt_kern.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/dummy/console.h)
+pm3fb.o: pm3fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb4.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/of.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/prom.h \
+   pm3fb.h
+ls3afb.o: ls3afb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb4.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h
+g364fb.o: g364fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h
+pvr2fb.o: pvr2fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sh/dreamcast.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtrr.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb16.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb24.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb32.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/pvr2/debug.h)
+neofb.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtrr.h)
+	@touch neofb.h
+pmag-ba-fb.o: pmag-ba-fb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bootinfo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dec/machtype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dec/tc.h \
+   pmag-ba-fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mfb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb4.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-cfb8.h
+fbcon.o: fbcon.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vt_kern.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/amiga.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atari.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mac.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/apus.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/vga/planes.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/linux_logo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-mac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/font.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/mac.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/fontwidth8/only.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/cfb16.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/cfb24.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/cfb32.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/sbus.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/cfb4.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/cfb8.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/afb.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/ilbm.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/iplan2p2.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/iplan2p4.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/iplan2p8.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/mfb.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/hga.h)
+hgafb.o: hgafb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/vga.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-hga.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/linux_logo.h
+fbcon-vga-planes.o: fbcon-vga-planes.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vt_buffer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/fbcon-vga-planes.h
+tx3912fb.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nino/4mb.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nino/8mb.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/cfb4.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/cfb2.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nino/16mb.h)
+	@touch tx3912fb.h
+mdacon.o: mdacon.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console_struct.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vt_kern.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vt_buffer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/selection.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/vga.h
+fonts.o: fonts.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/apus.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/video/font.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/font/8x8.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/font/8x16.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/font/6x11.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/mac.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fb/sbus.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/font/sun8x16.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/font/sun12x22.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/cfb8.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/cfb16.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/cfb24.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fbcon/cfb32.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/font/acorn/8x8.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/font/pearl/8x8.h)
+.PRECIOUS:	sa1100fb.h \
+	epson1356fb.h \
+	bt431.h \
+	vga.h \
+	valkyriefb.h \
+	pm3fb.h \
+	cyber2000fb.h \
+	bt455.h \
+	maxinefb.h \
+	cvisionppc.h \
+	au1100fb.h \
+	dn_accel.h \
+	neofb.h \
+	tx3912fb.h \
+

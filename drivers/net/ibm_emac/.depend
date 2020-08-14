@@ -1,0 +1,81 @@
+ibm_ocp_enet.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mmu.h \
+   ibm_emac.h \
+   ibm_ocp_phy.h \
+   ibm_ocp_zmii.h \
+   ibm_ocp_mal.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ibm/ocp/enet/tx/buff.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ibm/ocp/enet/rx/buff.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ibm/ocp/enet/skb/res.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ibm/ocp/enet/error/msg.h)
+	@touch ibm_ocp_enet.h
+ibm_emac.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ibm/emac4.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/440gp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/440gx.h)
+	@touch ibm_emac.h
+ibm_ocp_enet.o: ibm_ocp_enet.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ethtool.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mii.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/processor.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/crc32.h \
+   ibm_ocp_enet.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ibm/ocp/enet/gap.h)
+ibm_ocp_mal.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h
+	@touch ibm_ocp_mal.h
+ibm_ocp_phy.o: ibm_ocp_phy.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mii.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ethtool.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   ibm_ocp_phy.h
+ibm_ocp_mal.o: ibm_ocp_mal.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   ibm_ocp_mal.h
+ibm_ocp_debug.o: ibm_ocp_debug.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   ibm_ocp_mal.h \
+   ibm_ocp_zmii.h \
+   ibm_ocp_enet.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/40x.h)
+.PRECIOUS:	ibm_ocp_enet.h \
+	ibm_emac.h \
+	ibm_ocp_mal.h \
+

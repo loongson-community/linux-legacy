@@ -1,0 +1,3 @@
+ioctl
+象pmon的expamles中一样的动态加载功能.
+

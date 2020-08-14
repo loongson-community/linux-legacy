@@ -1,0 +1,255 @@
+autcpu12.o: autcpu12.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h
+nandsim.o: nandsim.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/moduleparam.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ns/abs/pos.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nandsim/first/id/byte.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nandsim/second/id/byte.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nandsim/third/id/byte.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nandsim/fourth/id/byte.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nandsim/access/delay.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nandsim/programm/delay.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nandsim/erase/delay.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nandsim/output/cycle.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nandsim/input/cycle.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nandsim/bus/width.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nandsim/do/delays.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nandsim/log.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nandsim/dbg.h)
+ndfc.o: ndfc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand_ecc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/partitions.h)
+rtc_from4.o: rtc_from4.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/compatmac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h
+cs553x_nand.o: cs553x_nand.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand_ecc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h
+fcr-nand.o: fcr-nand.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h
+s3c2410.o: s3c2410.c \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/nand/s3c2410/debug.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand_ecc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/nand/s3c2410/hwecc.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/nand/s3c2410/clkstop.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/partitions.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h)
+h1910.o: h1910.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/partitions.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/cmdline/parts.h)
+ts7250.o: ts7250.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/partitions.h)
+toto.o: toto.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nand/workaround.h)
+nand_ids.o: nand_ids.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h
+diskonchip.o: diskonchip.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/moduleparam.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/doc2000.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/compatmac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/nand/diskonchip/probe/address.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/nand/diskonchip/probe/high.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/momenco/ocelot.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/momenco/ocelot/g.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/momenco/ocelot/c.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/partitions.h)
+nand_base.o: nand_base.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand_ecc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/compatmac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/compiler.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/partitions.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/nand/verify/write.h)
+ams-delta.o: ams-delta.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h
+au1550nd.o: au1550nd.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mips/pb1550.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mips/db1550.h)
+nand_ecc.o: nand_ecc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand_ecc.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nand/ecc/smc.h)
+nand_bbt.o: nand_bbt.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand_ecc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/compatmac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h
+ls1a_nand.o: ls1a_nand.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mach/ls1b.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mach/ls1a.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/partitions.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/cmdline/parts.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h)
+sharpsl.o: sharpsl.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/genhd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand_ecc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/partitions.h)
+spia.o: spia.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h
+edb7312.o: edb7312.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/partitions.h)
+ppchameleonevb.o: ppchameleonevb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/mtd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/nand.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtd/partitions.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mtd/partitions.h)

@@ -1,0 +1,385 @@
+lec.o: lec.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_ether.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/rtnetlink.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/arp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/dst.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/tr.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/trdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmlec.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bridge.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bridge/module.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bridge.h \
+   ../bridge/br_private.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   lec.h \
+   lec_arpc.h \
+   resources.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/param.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/atomic.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/inetdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/route.h
+common.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/net.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h
+	@touch common.h
+mpc.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmmpc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   mpoa_caches.h
+	@touch mpc.h
+common.o: common.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/net.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmclip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmarp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sonet.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/socket.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/capability.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/time.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/atomic.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/ioctls.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/lane.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/lane/module.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmlec.h \
+   lec.h \
+   lec_arpc.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/mpoa/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/mpoa.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmmpc.h \
+   mpc.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/tcp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/tcp/module.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atm_tcp.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/clip.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/clip/module.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/atmclip.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pppoatm.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pppoatm/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/br2684.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/br2684/module.h) \
+   resources.h \
+   common.h \
+   protocols.h \
+   addr.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/atmclip.h \
+   signaling.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bridge.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bridge/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h)
+ipcommon.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h
+	@touch ipcommon.h
+addr.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h
+	@touch addr.h
+svc.o: svc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/net.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wait.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fcntl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmsap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmsvc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   resources.h \
+   common.h \
+   signaling.h \
+   addr.h
+signaling.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmsvc.h
+	@touch signaling.h
+lec_arpc.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_ether.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmlec.h
+	@touch lec_arpc.h
+atm_misc.o: atm_misc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sonet.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/atomic.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/errno.h
+mpc.o: mpc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_ether.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/checksum.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/arp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/dst.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmlec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmmpc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   lec.h \
+   mpc.h \
+   resources.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h)
+clip.o: clip.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wait.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_arp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/notifier.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmclip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmarp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/in.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/inetdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/jhash.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/route.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/icmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/param.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/atomic.h \
+   common.h \
+   resources.h \
+   ipcommon.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/atmclip.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/clip/no/icmp.h)
+ipcommon.o: ipcommon.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/in.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmclip.h \
+   common.h \
+   ipcommon.h
+raw.o: raw.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   common.h \
+   protocols.h
+mpoa_proc.o: mpoa_proc.c \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/time.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmmpc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atm.h \
+   mpc.h \
+   mpoa_caches.h
+addr.o: addr.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   signaling.h \
+   addr.h
+signaling.o: signaling.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wait.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmsap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmsvc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   resources.h \
+   signaling.h
+br2684.o: br2684.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/rtnetlink.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/arp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmbr2684.h \
+   common.h \
+   ipcommon.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/br2684/ipfilter.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/br2684/fast/trans.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h)
+mpoa_caches.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmmpc.h
+	@touch mpoa_caches.h
+resources.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h
+	@touch resources.h
+lec.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmlec.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bridge.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bridge/module.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_bridge.h
+	@touch lec.h
+mpoa_caches.o: mpoa_caches.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmmpc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/time.h \
+   mpoa_caches.h \
+   mpc.h
+proc.o: proc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stat.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmclip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmarp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_arp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/atomic.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/param.h \
+   resources.h \
+   common.h \
+   signaling.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/clip.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/clip/module.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/atmclip.h \
+   ipcommon.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/lane.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/atm/lane/module.h) \
+   lec.h \
+   lec_arpc.h
+resources.o: resources.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sonet.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   common.h \
+   resources.h \
+   addr.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h)
+pvc.o: pvc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/net.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   resources.h \
+   common.h
+pppoatm.o: pppoatm.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ppp_defs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_ppp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ppp_channel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/atmppp.h \
+   common.h
+.PRECIOUS:	common.h \
+	mpc.h \
+	ipcommon.h \
+	addr.h \
+	signaling.h \
+	lec_arpc.h \
+	mpoa_caches.h \
+	resources.h \
+	lec.h \
+

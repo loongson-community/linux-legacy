@@ -1,0 +1,72 @@
+tp3780i.o: tp3780i.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   smapi.h \
+   mwavedd.h \
+   tp3780i.h \
+   3780i.h \
+   mwavepub.h
+mwavedd.h: \
+   3780i.h \
+   tp3780i.h \
+   mwavepub.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h
+	@touch mwavedd.h
+mwavedd.o: mwavedd.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/major.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/miscdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/serial.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   smapi.h \
+   mwavedd.h \
+   3780i.h \
+   tp3780i.h
+3780i.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h
+	@touch 3780i.h
+tp3780i.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   mwavepub.h
+	@touch tp3780i.h
+mwavepub.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/miscdevice.h
+	@touch mwavepub.h
+smapi.o: smapi.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mc146818rtc.h \
+   smapi.h \
+   mwavedd.h
+3780i.o: 3780i.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/unistd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bitops.h \
+   smapi.h \
+   mwavedd.h \
+   3780i.h
+.PRECIOUS:	mwavedd.h \
+	3780i.h \
+	tp3780i.h \
+	mwavepub.h \
+

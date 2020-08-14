@@ -1,0 +1,46 @@
+--------------------------------------
+Simulator architecture:
+______________________________________
+  Godson CPU,which is compatible with R4000PC.
+  Memory space, 0~0x7fffff is ram, 1fc00000~1fcfffff is flash, 1fd00000~1fdfffffis io.
+  Device, serial port using 8250, register ports 0x3f8~0x3ff, using external interrupts pin 1.
+  Using internal timer of CPU.
+
+------------------------------------
+Changlog:
+____________________________________
+ 1.Directory arch/mips/godson/sim, new, all files are borrowed from P6032 and modified according to simulator architecture;
+ 2.Directory arch/mips, change config.in and Makefile, adding new items about simulator;
+ 3.Directory arch/mips/kernel, change head.S and setup.c. In file head.S, disable bss data initialization becausing of its time-consuming. In file setup.c, add a call to godson_sim_setup() and modify ramdisk initialization;
+ 4.Directory include/asm-mips/godson, new, some header files specific for simulator.
+ 5.Directory include/asm-mips, change serial.h and bootinfo.h, adding new items for simulator.
+ 6.Directory init, change main.c, disable some initialization steps.
+ 7.Directory drivers/block, change rd.c, reduce ramdisk copy to save time.
+ 8.Directory drivers/char, change serial.c because of incomplete simulation for verilog serial device.
+
+--------------------------------------
+Modification of pmon
+______________________________________
+ Entry point address and parameters may change for different linux versions.
+
+ 
+Changelog.zfx: (port to 2.4.21 cvs )
+  copy arch/mips/godson
+  copy asm/include/godson
+  asm/include: 
+     bootinfo.h: add MACH_GROUP_GODSON and MACH_GODSON_*
+     cpu.h: add PRID_IMP_GODSON
+     serial.h: add godson serial port definitions
+  arch/mips/kernel:
+     setup.c: add godson_setup
+     cpu-probe.c: godson cpu setup
+  arch/mips:
+     Makefile: files/dirs for godson platforms
+     config-shared.in: configuration for godson platforms
+  arch/mips/godson/sim:
+     Makefile: delete .S rules,use stardard one
+     setup.c: include <linux/irq.h>;change assignment of mips_io_port_base 
+              to set_io_port_base;godson_sim_setup to godson_setup 
+     init.c: add get_system_type and machtype setting according to configs
+     *.c: read/write_32bit_cp0_register changed to read/write_c0_*
+  

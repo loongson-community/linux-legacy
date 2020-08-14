@@ -1,0 +1,1236 @@
+yss225.o: yss225.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h
+pas2_pcm.o: pas2_pcm.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   sound_config.h \
+   pas2.h
+ali5455.o: ali5455.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/ali5455/codecspdifout/pcmoutshare.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/ali5455/codecspdifout/codecindependentdma.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/ali5455/controllerspdifout/pcmoutshare.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/ali5455/controllerspdifout/controllerindependentdma.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h)
+sound_firmware.o: sound_firmware.c \
+   os.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/unistd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h
+ac97_codec.o: ac97_codec.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h
+ac97.o: ac97.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   ac97.h
+es1371.o: es1371.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/gameport.h
+hal2.o: hal2.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sgi/hpc3.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sgi/ip22.h \
+   hal2.h
+sonicvibes.o: sonicvibes.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/gameport.h \
+   dm.h
+wavfront.o: wavfront.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fcntl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   sound_config.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wavefront.h \
+   midi_synth.h \
+   os.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/unistd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   yss225.h
+btaudio.o: btaudio.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/signal.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kdev_t.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h
+au1550_psc.o: au1550_psc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mips/pb1550.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mips/db1550.h)
+cs4232.o: cs4232.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   sound_config.h \
+   cs4232.h \
+   ad1848.h \
+   mpu401.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/wavefront/module.h)
+audio.o: audio.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stddef.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kmod.h \
+   sound_config.h \
+   ulaw.h \
+   coproc.h
+pss.o: pss.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   sound_config.h \
+   sound_firmware.h \
+   ad1848.h \
+   mpu401.h \
+   coproc.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pss/mixer.h)
+sb_ess.o: sb_ess.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   sound_config.h \
+   sb_mixer.h \
+   sb.h \
+   sb_ess.h
+midi_synth.o: midi_synth.c \
+   sound_config.h \
+   midi_synth.h
+nm256_audio.o: nm256_audio.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   sound_config.h \
+   nm256.h \
+   nm256_coeff.h
+sb_mixer.o: sb_mixer.c \
+   sound_config.h \
+   sb.h \
+   sb_mixer.h \
+   sb_ess.h
+uart6850.o: uart6850.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   sound_config.h \
+   midi_synth.h
+sb_midi.o: sb_midi.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   sound_config.h \
+   sb.h \
+   midi_synth.h
+ad1848.o: ad1848.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stddef.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h \
+   sound_config.h \
+   ad1848.h \
+   ad1848_mixer.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isapnp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isapnp/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/smp.h)
+sscape.o: sscape.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   sound_config.h \
+   sound_firmware.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/signal.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fcntl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stddef.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wait.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   coproc.h \
+   ad1848.h \
+   mpu401.h
+cs46xx_wrapper-24.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h
+	@touch cs46xx_wrapper-24.h
+harmony.o: harmony.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgalloc.h \
+   sound_config.h
+uart401.o: uart401.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   sound_config.h \
+   mpu401.h \
+   midi_synth.h
+mpu401.o: mpu401.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   sound_config.h \
+   coproc.h \
+   mpu401.h \
+   midi_synth.h
+wf_midi.o: wf_midi.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   sound_config.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wavefront.h \
+   midi_synth.h
+sequencer.o: sequencer.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kmod.h \
+   sound_config.h \
+   midi_ctrl.h \
+   tuning.h
+es1370.o: es1370.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/gameport.h
+rme96xx.o: rme96xx.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   rme96xx.h
+soundcard.o: soundcard.c \
+   sound_config.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/signal.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fcntl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stddef.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wait.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/devfs_fs_kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/major.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/dmap.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/traceinit.h)
+cs46xx.o: cs46xx.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   cs46xxpm-24.h \
+   cs46xx_wrapper-24.h \
+   cs461x.h \
+   cs461x_image.h
+via82cxxx_audio.o: via82cxxx_audio.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/semaphore.h \
+   sound_config.h \
+   dev_table.h \
+   mpu401.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/midi/via82cxxx.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h)
+pas2_midi.o: pas2_midi.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   sound_config.h \
+   pas2.h \
+   midi_synth.h
+kahlua.o: kahlua.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/delay.h \
+   sound_config.h \
+   sb.h
+swarm_cs4297a.o: swarm_cs4297a.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/sb1250_regs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/sb1250_int.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/sb1250_dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/sb1250_scd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/sb1250_syncser.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/sb1250_mac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/sb1250.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/64bit.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sibyte/sb1250/duart.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/bcm/cs4297a/cswarm.h)
+cmpci.o: cmpci.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/gameport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   dm.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/cmpci/midi.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/cmpci.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/cmpci/fm.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/cmpci/mpuio.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/cmpci/fmio.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/cmpci/spdifinverse.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/cmpci/spdifloop.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/cmpci/speakers.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/cmpci/line/rear.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/cmpci/line/bass.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/cmpci/mic/bass.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/cmpci/joystick.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ia64.h)
+nec_vrc5477.o: nec_vrc5477.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h
+sequencer_syms.o: sequencer_syms.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   sound_config.h \
+   sound_calls.h \
+   tuning.h
+skeleton.o: skeleton.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   sound_config.h
+sb_card.o: sb_card.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mca.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h \
+   sound_config.h \
+   sb_mixer.h \
+   sb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isapnp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isapnp/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mca.h)
+cs46xxpm-24.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pm.h \
+   cs46xxpm.h
+	@touch cs46xxpm-24.h
+ls1x-ac97.o: ls1x-ac97.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/semaphore.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mach-ls2f1a/ls2f1a_int.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   ls1x-ac97.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/snd/sb2f/timer.h)
+sgalaxy.o: sgalaxy.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   sound_config.h \
+   ad1848.h
+msnd.o: msnd.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/major.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   sound_config.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   msnd.h
+maestro.o: maestro.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/reboot.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pm.h \
+   maestro.h
+ics2101.o: ics2101.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   sound_config.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ultrasound.h \
+   gus.h \
+   gus_hw.h
+sound_syms.o: sound_syms.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   sound_config.h \
+   sound_calls.h
+msnd_classic.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndclas/init/file.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndclas/perm/file.h)
+	@touch msnd_classic.h
+vidc_fill.o: vidc_fill.S \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/linkage.h
+gus_midi.o: gus_midi.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   sound_config.h \
+   gus.h \
+   gus_hw.h \
+   midi_synth.h
+adlib_card.o: adlib_card.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   sound_config.h \
+   opl3.h
+pas2_card.o: pas2_card.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   sound_config.h \
+   pas2.h \
+   sb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pas/joystick.h)
+hal2.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/addrspace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sgi/hpc3.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h
+	@touch hal2.h
+aedsp16.o: aedsp16.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   sound_config.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/aedsp16/sbpro.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/aedsp16/mss.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sc6600.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sc6600/joy.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sc6600/cdrom.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sc6600/cdrombase.h)
+os.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/utsname.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/param.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/page.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h
+	@touch os.h
+msnd_pinnacle.o: msnd_pinnacle.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   sound_config.h \
+   sound_firmware.h \
+   msnd.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndclas/have/boot.h) \
+   msnd_classic.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndpin/have/boot.h) \
+   msnd_pinnacle.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msnd/write/ndelay.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndclas/io.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndclas/irq.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndclas/mem.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndpin/io.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndpin/irq.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndpin/mem.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndpin/nonpnp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndpin/cfg.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndpin/mpu/io.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndpin/mpu/irq.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndpin/ide/io0.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndpin/ide/io1.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndpin/ide/irq.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndpin/joystick/io.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndpin/digital.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msnd/fifosize.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msnd/calsignal.h)
+aci.o: aci.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/semaphore.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   sound_config.h \
+   aci.h
+pas2_mixer.o: pas2_mixer.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   sound_config.h \
+   pas2.h
+sound_config.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   os.h \
+   soundvers.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pas/base.h) \
+   sound_calls.h \
+   dev_table.h
+	@touch sound_config.h
+msnd_classic.o: msnd_classic.c \
+   msnd_pinnacle.c
+ymfpci.o: ymfpci.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/ymfpci/legacy.h) \
+   sound_config.h \
+   mpu401.h \
+   ymfpci.h \
+   ymfpci_image.h
+gus.h: \
+   ad1848.h
+	@touch gus.h
+sb_audio.o: sb_audio.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   sound_config.h \
+   sb_mixer.h \
+   sb.h \
+   sb_ess.h
+gus_wave.o: gus_wave.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   sound_config.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ultrasound.h \
+   gus.h \
+   gus_hw.h \
+   iwmem.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/gusmax.h)
+mad16.o: mad16.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/gameport.h \
+   sound_config.h \
+   ad1848.h \
+   sb.h \
+   mpu401.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mad16/oldcard.h)
+maui.o: maui.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   sound_config.h \
+   sound_firmware.h \
+   mpu401.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/smp.h)
+midi_syms.o: midi_syms.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   sound_config.h \
+   midi_synth.h
+sys_timer.o: sys_timer.c \
+   sound_config.h
+gus_card.o: gus_card.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   sound_config.h \
+   gus.h \
+   gus_hw.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/gus16.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/gusmax.h)
+ac97_plugin_wm97xx.o: ac97_plugin_wm97xx.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/miscdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wm97xx.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h)
+sound_timer.o: sound_timer.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   sound_config.h
+i810_audio.o: i810_audio.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h)
+dmabuf.o: dmabuf.c \
+   sound_config.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h
+ite8172.o: ite8172.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h
+v_midi.o: v_midi.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   sound_config.h \
+   v_midi.h \
+   midi_synth.h
+ad1889.o: ad1889.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   ad1889.h
+sound_core.o: sound_core.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/major.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/devfs_fs_kernel.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/msndclas.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/msndpin.h)
+waveartist.o: waveartist.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   sound_config.h \
+   waveartist.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/arm.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/arch/netwinder.h)
+gus_vol.o: gus_vol.c \
+   sound_config.h \
+   gus.h \
+   gus_linearvol.h
+opl3sa2.o: opl3sa2.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   sound_config.h \
+   ad1848.h \
+   mpu401.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isapnp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isapnp/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h)
+audio_syms.o: audio_syms.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   sound_config.h \
+   sound_calls.h
+opl3.o: opl3.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   sound_config.h \
+   opl3.h \
+   opl3_hw.h
+awe_wave.o: awe_wave.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/awe_voice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isapnp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isapnp/module.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h \
+   sound_config.h \
+   awe_wave.h \
+   awe_hw.h \
+   tuning.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ultrasound.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/awe32/mixer.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/awe32/midiemu.h)
+forte.o: forte.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h
+nm256.h: \
+   ac97.h
+	@touch nm256.h
+sb_common.o: sb_common.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   sound_config.h \
+   sound_firmware.h \
+   mpu401.h \
+   sb_mixer.h \
+   sb.h \
+   sb_ess.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/mpu401.h)
+ac97.h: \
+   sound_config.h \
+   sound_calls.h
+	@touch ac97.h
+trix.o: trix.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   sound_config.h \
+   sb.h \
+   sound_firmware.h \
+   ad1848.h \
+   mpu401.h
+trident.o: trident.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/gameport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci_gameport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/alpha/nautilus.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/alpha/generic.h) \
+   trident.h
+ls1x-ac97.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/snd/sb2f/timer.h)
+	@touch ls1x-ac97.h
+au1550_i2s.o: au1550_i2s.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h
+ac97_plugin_ad1980.o: ac97_plugin_ad1980.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h
+midibuf.o: midibuf.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stddef.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kmod.h \
+   sound_config.h
+vidc.o: vidc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   sound_config.h \
+   vidc.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/softoss.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/softoss/module.h)
+opl3sa.o: opl3sa.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   sound_config.h \
+   ad1848.h \
+   mpu401.h \
+   sb.h
+esssolo1.o: esssolo1.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/gameport.h \
+   dm.h
+ad1816.o: ad1816.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stddef.h \
+   sound_config.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isapnp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isapnp/module.h)
+msnd_pinnacle.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndpin/init/file.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/msndpin/perm/file.h)
+	@touch msnd_pinnacle.h
+ymfpci.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sound/ymfpci/legacy.h)
+	@touch ymfpci.h
+dev_table.o: dev_table.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   sound_config.h
+au1000.o: au1000.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mips/xxs1500.h)
+maestro3.o: maestro3.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/reboot.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ac97_codec.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   maestro3.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h)
+vwsnd.o: vwsnd.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stddef.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/fixmap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/semaphore.h \
+   sound_config.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h
+.PRECIOUS:	cs46xx_wrapper-24.h \
+	cs46xxpm-24.h \
+	msnd_classic.h \
+	hal2.h \
+	os.h \
+	sound_config.h \
+	gus.h \
+	nm256.h \
+	ac97.h \
+	ls1x-ac97.h \
+	msnd_pinnacle.h \
+	ymfpci.h \
+

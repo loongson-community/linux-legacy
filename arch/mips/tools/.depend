@@ -1,0 +1,7 @@
+offset.o: offset.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/processor.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mips64.h)

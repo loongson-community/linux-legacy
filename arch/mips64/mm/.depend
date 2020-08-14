@@ -1,0 +1,283 @@
+fault.o: fault.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/signal.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mman.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/branch.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mmu_context.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/softirq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/ptrace.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/smp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/vt.h)
+tlb-sb1.o: tlb-sb1.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mmu_context.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bootinfo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/cpu.h
+tlb-glue-r4k.o: tlb-glue-r4k.S \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mipsregs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/regdef.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/stackframe.h
+tlb-andes.o: tlb-andes.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/page.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mmu_context.h
+init.o: init.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/signal.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mman.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bootmem.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/highmem.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/swap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/swapctl.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/blk/dev/initrd.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blk.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bootinfo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/cachectl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mmu_context.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/tlb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/cpu.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/discontigmem.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isa.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ls2f1a/swiotlb.h)
+loadmmu.o: loadmmu.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bootinfo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/cpu.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/page.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/noncoherent/io.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/r4x00.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/vr41xx.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/r4300.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/r5000.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/nevada.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/r5432.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/r5500.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/mips32.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/mips64.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/tx49xx.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/rm7000.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/rm9000.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/godson2.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/loongson3.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/r3000.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/tx39xx.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/r10000.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/sb1.h)
+sc-r5k.o: sc-r5k.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mipsregs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bcache.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/cacheops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/page.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mmu_context.h
+sc-ip22.o: sc-ip22.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bcache.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/page.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bootinfo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sgi/ip22.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sgi/mc.h
+tlb-r4k.o: tlb-r4k.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/cpu.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bootinfo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mmu_context.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/rthal.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/godson1.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/godson2.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/loongson3.h)
+sc-rm7k.o: sc-rm7k.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/addrspace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bcache.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/cacheops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mipsregs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/processor.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/r4kcache.h
+c-sb1.o: c-sb1.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mmu_context.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bootinfo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/cacheops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/cpu.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/smp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sibyte/dma/pageops.h)
+extable.o: extable.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/modules.h)
+tlb-dbg-r4k.o: tlb-dbg-r4k.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/linkage.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/page.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h
+pg-sb1.o: pg-sb1.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/sb1250.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/sb1250_regs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/sb1250_dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/64bit.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sb1/pass/1/workarounds.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sibyte/dma/pageops.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/has/prefetch.h)
+pg-r4k.o: pg-r4k.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/cacheops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/inst.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/page.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/prefetch.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bootinfo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mipsregs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mmu_context.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/cpu.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/war.h
+cache.o: cache.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/cacheflush.h
+cex-sb1.o: cex-sb1.S \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/asm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/regdef.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mipsregs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/stackframe.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/cacheops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/processor.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/board.h
+tlbex-r4k.o: tlbex-r4k.S \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/threads.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/asm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hazards.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/regdef.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mipsregs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/stackframe.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/war.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/smp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/page/size/128kb.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/page/size/256kb.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/page/size/4kb.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/page/size/16kb.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/page/size/32kb.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/page/size/64kb.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/godson1.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/godson2.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/loongson3.h)
+c-r4k.o: c-r4k.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bcache.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bootinfo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/cacheops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/cpu.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/page.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/r4kcache.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mmu_context.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/war.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/loongson3.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/loongson2h.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/onchip/l2/cache.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/noncoherent/io.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mips32.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mips64.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/smp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/cpu/godson2.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/external/cache.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/r5000/cpu/scache.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/rm7000/cpu/scache.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/alloc/color.h)
+tlb-glue-sb1.o: tlb-glue-sb1.S \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mipsregs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/page.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/regdef.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/stackframe.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/war.h
+cerr-sb1.o: cerr-sb1.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/mipsregs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/sb1250.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sibyte/bus/watcher.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/sb1250_regs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/sb1250_scd.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/64bit.h

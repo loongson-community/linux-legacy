@@ -1,0 +1,1 @@
+#undef  CONFIG_GODSON2F_DEV_VIA

@@ -1,0 +1,51 @@
+infutil.o: infutil.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zutil.h \
+   infblock.h \
+   inftrees.h \
+   infcodes.h \
+   infutil.h
+infblock.o: infblock.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zutil.h \
+   infblock.h \
+   inftrees.h \
+   infcodes.h \
+   infutil.h
+inffast.o: inffast.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zutil.h \
+   inftrees.h \
+   infblock.h \
+   infcodes.h \
+   infutil.h \
+   inffast.h
+inflate.o: inflate.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zutil.h \
+   infblock.h \
+   infutil.h
+infutil.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zconf.h \
+   inftrees.h \
+   infcodes.h
+	@touch infutil.h
+infcodes.h: \
+   infblock.h
+	@touch infcodes.h
+inflate_syms.o: inflate_syms.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zlib.h
+infcodes.o: infcodes.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zutil.h \
+   inftrees.h \
+   infblock.h \
+   infcodes.h \
+   infutil.h \
+   inffast.h
+inftrees.o: inftrees.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zutil.h \
+   inftrees.h \
+   infutil.h \
+   inffixed.h
+.PRECIOUS:	infutil.h \
+	infcodes.h \
+

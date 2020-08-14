@@ -1,0 +1,1 @@
+#define CONFIG_LS1X_GMAC 1

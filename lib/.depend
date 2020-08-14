@@ -1,0 +1,74 @@
+ctype.o: ctype.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h
+crc32.o: crc32.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/crc32.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/atomic.h \
+   crc32defs.h \
+   crc32table.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/crc32.h)
+rbtree.o: rbtree.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/rbtree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h
+cmdline.o: cmdline.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h
+dump_stack.o: dump_stack.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h
+brlock.o: brlock.c \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/smp.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/brlock.h
+rwsem-spinlock.o: rwsem-spinlock.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/rwsem.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h
+gen_crc32table.o: gen_crc32table.c \
+   crc32defs.h
+rwsem.o: rwsem.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/rwsem.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h
+bust_spinlocks.o: bust_spinlocks.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wait.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vt_kern.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/vt.h)
+firmware_class.o: firmware_class.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/hardirq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/firmware.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hotplug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/fw/loader.h)
+vsprintf.o: vsprintf.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/div64.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/page.h
+dec_and_lock.o: dec_and_lock.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/atomic.h
+string.o: string.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h

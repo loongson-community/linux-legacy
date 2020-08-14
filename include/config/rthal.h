@@ -1,0 +1,1 @@
+#define CONFIG_RTHAL 1

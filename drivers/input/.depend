@@ -1,0 +1,67 @@
+keybdev.o: keybdev.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kbd_ll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/input.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kbd_kern.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/x86.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ia64.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sparc64.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/superh.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ppc.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mac/emumousebtn.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mac/adbkeycodes.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/adb/keyboard.h)
+uinput.o: uinput.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/input.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/miscdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/uinput.h
+mousedev.o: mousedev.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/input.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/random.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/input/mousedev/screen/x.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/input/mousedev/screen/y.h)
+evdev.o: evdev.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/input.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h
+joydev.o: joydev.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/joystick.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/input.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/major.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/miscdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h
+input.o: input.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/input.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/random.h

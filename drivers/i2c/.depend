@@ -1,0 +1,210 @@
+scx200_acb.o: scx200_acb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/scx200.h
+i2c-algo-sibyte.o: i2c-algo-sibyte.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/64bit.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/sb1250_regs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/sb1250_smbus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c-algo-sibyte.h
+i2c-algo-ite.o: i2c-algo-ite.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c-algo-ite.h \
+   i2c-ite.h
+i2c-proc.o: i2c-proc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c-proc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h
+i2c-core.o: i2c-core.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/i2c/chardev.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/i2c/algobit.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/i2c/philipspar.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/i2c/elv.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/i2c/velleman.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/i2c/bitvia.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/i2c/algopcf.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/i2c/elektor.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/i2c/algo8xx.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/i2c/rpxlite.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/i2c/algo/sibyte.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/i2c/max1617.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/i2c/proc.h)
+i2c-velleman.o: i2c-velleman.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c-algo-bit.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/param.h
+i2c-keywest.o: i2c-keywest.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/completion.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/prom.h \
+   i2c-keywest.h
+i2c-algo-pcf.o: i2c-algo-pcf.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c-algo-pcf.h \
+   i2c-pcf8584.h
+i2c-algo-sgi.o: i2c-algo-sgi.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c-algo-sgi.h
+i2c-philips-par.o: i2c-philips-par.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stddef.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/parport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c-algo-bit.h
+i2c-adap-ite.o: i2c-adap-ite.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c-algo-ite.h \
+   i2c-ite.h
+i2c-elv.o: i2c-elv.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c-algo-bit.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h
+i2c-algo-bit.o: i2c-algo-bit.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c-algo-bit.h
+scx200_i2c.o: scx200_i2c.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c-algo-bit.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/scx200_gpio.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/scx200/i2c/scl.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/scx200/i2c/sda.h)
+i2c-sibyte.o: i2c-sibyte.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/sb1250_regs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/sibyte/sb1250_smbus.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c-algo-sibyte.h
+i2c-max1617.o: i2c-max1617.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c-algo-sibyte.h
+i2c-dev.o: i2c-dev.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/devfs/fs.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/devfs_fs_kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c-dev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h
+i2c-elektor.o: i2c-elektor.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c-algo-pcf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c-elektor.h \
+   i2c-pcf8584.h

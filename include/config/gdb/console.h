@@ -1,0 +1,1 @@
+#define CONFIG_GDB_CONSOLE 1

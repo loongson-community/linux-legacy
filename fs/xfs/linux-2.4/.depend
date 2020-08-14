@@ -1,0 +1,391 @@
+mrlock.o: mrlock.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/time.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/current.h \
+   mrlock.h
+xfs_buf.o: xfs_buf.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stddef.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   xfs_linux.h
+xfs_super.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/xfs/dmapi.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/xfs/quota.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/xfs/posix/acl.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/xfs/security.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/xfs/rt.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/xfs/trace.h)
+	@touch xfs_super.h
+xfs_vfs.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vfs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_fs.h
+	@touch xfs_vfs.h
+kmem.o: kmem.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/swap.h \
+   time.h \
+   kmem.h
+xfs_iops.o: xfs_iops.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_inum.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_log.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_trans.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_sb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_ag.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_alloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dmapi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_quota.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_mount.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_alloc_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_bmap_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_ialloc_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_ialloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_attr_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir2_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dinode.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_inode.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_bmap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_bit.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_rtalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_error.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_itable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_rw.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_acl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_cap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_mac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_attr.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_buf_item.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_utils.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/xattr.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/xfs/posix/acl.h)
+xfs_stats.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h)
+	@touch xfs_stats.h
+xfs_super.o: xfs_super.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_inum.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_log.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_clnt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_trans.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_sb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_alloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dmapi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_quota.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_mount.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_alloc_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_bmap_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_ialloc_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_ialloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_attr_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir2_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dinode.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_inode.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_bmap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_bit.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_rtalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_error.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_itable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_rw.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_acl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_cap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_mac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_attr.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_buf_item.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_utils.h \
+   xfs_version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h
+xfs_globals.o: xfs_globals.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs.h \
+   xfs_cred.h \
+   xfs_sysctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_refcache.h
+xfs_linux.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_arch.h \
+   kmem.h \
+   mrlock.h \
+   spin.h \
+   sv.h \
+   mutex.h \
+   sema.h \
+   time.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/support/qsort.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/support/ktrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/support/debug.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/support/move.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/support/uuid.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/file.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/swap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/major.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/seq_file.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/page.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/div64.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/param.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/unaligned.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_behavior.h \
+   xfs_vfs.h \
+   xfs_cred.h \
+   xfs_vnode.h \
+   xfs_stats.h \
+   xfs_sysctl.h \
+   xfs_iops.h \
+   xfs_super.h \
+   xfs_globals.h \
+   xfs_fs_subr.h \
+   xfs_lrw.h \
+   xfs_buf.h
+	@touch xfs_linux.h
+spin.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h
+	@touch spin.h
+mutex.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/semaphore.h
+	@touch mutex.h
+xfs_buf.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/uio.h
+	@touch xfs_buf.h
+xfs_stats.o: xfs_stats.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h
+xfs_file.o: xfs_file.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_inum.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_log.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_sb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_trans.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dmapi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_mount.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_bmap_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_alloc_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_ialloc_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_alloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_attr_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir2_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dinode.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_inode.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_error.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_rw.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/iobuf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/dcache.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mman.h
+xfs_lrw.o: xfs_lrw.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_inum.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_log.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_trans.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_sb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_ag.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_alloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dmapi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_quota.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_mount.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_alloc_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_bmap_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_ialloc_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_ialloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_attr_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir2_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dinode.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_inode.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_bmap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_bit.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_rtalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_error.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_itable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_rw.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_refcache.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_acl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_cap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_mac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_attr.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_inode_item.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_buf_item.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_utils.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_iomap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/capability.h
+xfs_aops.o: xfs_aops.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_inum.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_log.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_sb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_trans.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dmapi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_mount.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_bmap_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_alloc_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_ialloc_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_alloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_attr_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir2_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dinode.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_inode.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_error.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_rw.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_iomap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/iobuf.h
+xfs_ioctl.o: xfs_ioctl.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_inum.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_log.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_trans.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_sb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_alloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dmapi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_mount.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_alloc_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_bmap_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_ialloc_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_btree.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_ialloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_attr_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir2_sf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dinode.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_inode.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_bmap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_bit.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_rtalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_error.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_itable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_rw.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_acl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_cap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_mac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_attr.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_buf_item.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_utils.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dfrag.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_fsops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/dcache.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/iobuf.h
+sv.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wait.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h
+	@touch sv.h
+xfs_fs_subr.o: xfs_fs_subr.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs.h
+xfs_vfs.o: xfs_vfs.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_macros.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_inum.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_log.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_clnt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_trans.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_sb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_ag.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dir2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_imap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_alloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_dmapi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_mount.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_quota.h
+sema.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/time.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wait.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/atomic.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/semaphore.h
+	@touch sema.h
+xfs_sysctl.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysctl.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sysctl.h)
+	@touch xfs_sysctl.h
+xfs_vnode.o: xfs_vnode.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs.h
+mrlock.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/time.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wait.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/atomic.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/semaphore.h
+	@touch mrlock.h
+xfs_sysctl.o: xfs_sysctl.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/fs/xfs/xfs_refcache.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h)
+kmem.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h
+	@touch kmem.h
+time.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/time.h
+	@touch time.h
+.PRECIOUS:	xfs_super.h \
+	xfs_vfs.h \
+	xfs_stats.h \
+	xfs_linux.h \
+	spin.h \
+	mutex.h \
+	xfs_buf.h \
+	sv.h \
+	sema.h \
+	xfs_sysctl.h \
+	mrlock.h \
+	kmem.h \
+	time.h \
+

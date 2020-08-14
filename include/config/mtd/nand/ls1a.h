@@ -1,0 +1,1 @@
+#define CONFIG_MTD_NAND_LS1A 1

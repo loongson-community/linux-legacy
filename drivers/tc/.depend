@@ -1,0 +1,69 @@
+tc.o: tc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/addrspace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dec/machtype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dec/prom.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dec/tcinfo.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dec/tcmodule.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dec/interrupts.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/paccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/ptrace.h
+zs.o: zs.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/signal.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty_flip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/major.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fcntl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/serial/dec/console.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/console.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgtable.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bootinfo.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/decstation.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dec/interrupts.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dec/machtype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dec/tc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dec/ioasic_addrs.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/baget/mips.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/kgdb.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/magic/sysrq.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysrq.h \
+   zs.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/devfs/fs.h)
+lk201.o: lk201.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kbd_ll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kbd_kern.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vt_kern.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/keyboard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dec/tc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dec/machtype.h \
+   zs.h \
+   lk201.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/magic/sysrq.h)

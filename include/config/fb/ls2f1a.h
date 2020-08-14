@@ -1,0 +1,1 @@
+#define CONFIG_FB_LS2F1A 1

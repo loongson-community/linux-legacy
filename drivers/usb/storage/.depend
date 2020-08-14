@@ -1,0 +1,192 @@
+protocol.o: protocol.c \
+   protocol.h \
+   usb.h \
+   debug.h \
+   scsiglue.h \
+   transport.h
+unusual_devs.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/hp8200e.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/dpcm.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/sddr09.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/isd200.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/jumpshot.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/freecom.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/datafab.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/sddr55.h)
+	@touch unusual_devs.h
+freecom.o: freecom.c \
+   transport.h \
+   protocol.h \
+   usb.h \
+   debug.h \
+   freecom.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/hdreg.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/debug.h)
+jumpshot.o: jumpshot.c \
+   transport.h \
+   protocol.h \
+   usb.h \
+   debug.h \
+   jumpshot.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h
+usb.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blk.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/completion.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/atomic.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/drivers/scsi/scsi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/drivers/scsi/hosts.h
+	@touch usb.h
+scsiglue.o: scsiglue.c \
+   scsiglue.h \
+   usb.h \
+   debug.h \
+   transport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h
+initializers.h: \
+   usb.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/sddr09.h)
+	@touch initializers.h
+usb.o: usb.c \
+   usb.h \
+   scsiglue.h \
+   transport.h \
+   protocol.h \
+   debug.h \
+   initializers.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/hp8200e.h) \
+   shuttle_usbat.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/sddr09.h) \
+   sddr09.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/sddr55.h) \
+   sddr55.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/dpcm.h) \
+   dpcm.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/freecom.h) \
+   freecom.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/isd200.h) \
+   isd200.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/datafab.h) \
+   datafab.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/jumpshot.h) \
+   jumpshot.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   unusual_devs.h \
+   unusual_devs.h
+transport.o: transport.c \
+   transport.h \
+   protocol.h \
+   usb.h \
+   debug.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/debug.h)
+sddr09.o: sddr09.c \
+   transport.h \
+   protocol.h \
+   usb.h \
+   debug.h \
+   sddr09.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h
+isd200.o: isd200.c \
+   transport.h \
+   protocol.h \
+   usb.h \
+   debug.h \
+   scsiglue.h \
+   isd200.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/hdreg.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ide.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/debug.h)
+debug.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blk.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/cdrom.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/drivers/scsi/scsi.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/debug.h)
+	@touch debug.h
+dpcm.o: dpcm.c \
+   transport.h \
+   protocol.h \
+   usb.h \
+   debug.h \
+   dpcm.h \
+   sddr09.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/sddr09.h)
+scsiglue.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blk.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/drivers/scsi/scsi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/drivers/scsi/hosts.h
+	@touch scsiglue.h
+sddr55.o: sddr55.c \
+   transport.h \
+   protocol.h \
+   usb.h \
+   debug.h \
+   sddr55.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/debug.h)
+debug.o: debug.c \
+   debug.h
+transport.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blk.h \
+   usb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/drivers/scsi/scsi.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/hp8200e.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/sddr09.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/sddr55.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/freecom.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/datafab.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/usb/storage/jumpshot.h)
+	@touch transport.h
+datafab.o: datafab.c \
+   transport.h \
+   protocol.h \
+   usb.h \
+   debug.h \
+   datafab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h
+initializers.o: initializers.c \
+   initializers.h \
+   debug.h \
+   transport.h
+protocol.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blk.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/drivers/scsi/scsi.h \
+   usb.h
+	@touch protocol.h
+shuttle_usbat.o: shuttle_usbat.c \
+   transport.h \
+   protocol.h \
+   usb.h \
+   debug.h \
+   shuttle_usbat.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h
+.PRECIOUS:	unusual_devs.h \
+	usb.h \
+	initializers.h \
+	debug.h \
+	scsiglue.h \
+	transport.h \
+	protocol.h \
+

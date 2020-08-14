@@ -1,0 +1,23 @@
+dir.o: dir.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/efs_fs.h
+file.o: file.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/efs_fs.h
+namei.o: namei.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/efs_fs.h
+symlink.o: symlink.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/efs_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h
+inode.o: inode.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/efs_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/efs_fs_sb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h
+super.o: super.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/efs_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/efs_vh.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/efs_fs_sb.h

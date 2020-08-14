@@ -1,0 +1,54 @@
+#!/bin/sh
+if `uname -m|grep -q mips`;then
+export PATH=/opt/gcc-3.2.3/bin:$PATH
+make "$@"
+else
+export PATH=/mnt/opt/toolchain/bin/:$PATH
+export CROSS_COMPILE=mipsel-linux-
+fi
+export MAKEFLAGS='CC=mipsel-linux-gcc\ -g\ -gstabs -g'
+#export MAKEFLAGS='CC=mipsel-linux-gcc\ -g LD=mipsel-linux-ld\ -g'
+export ARCH=mips
+
+case "$1" in
+vmlinux)
+make ARCH=${ARCH} CROSS_COMPILE="${CROSS_COMPILE}"  "$@"
+;;
+qemu)
+shift
+NB_SERIAL=0x1ff003f8 /work/qemu/qemu/mips64el-softmmu/qemu-system-mips64el -M gs2f -name gs2f_sm502 -kernel vmlinux  -append 'root=/dev/ram1 rw kgdb  video=smtcfb:acc:0' -m 256 -serial stdio -serial tcp::9001,server,nowait  -usb -usbdevice keyboard -gdb tcp::50010 "$@" 
+#NB_SERIAL=0x1ff003f8 /work/qemu/qemu/mips64el-softmmu/qemu-system-mips64el -M gs2f -name gs2f_sm502 -kernel vmlinux  -append 'root=/dev/ram1 console=gdb rw kgdb video=smtcfb:acc:0' -m 256 -serial stdio -serial tcp::9001,server,nowait  -usb -usbdevice keyboard -gdb tcp::50010 "$@" 
+#/work/qemu/qemu/mips64el-softmmu/qemu-system-mips64el -M gs2f -name gs2f_sm502 -kernel vmlinux  -append 'root=/dev/ram1 console=tty rw' -m 256 -serial vc -serial stdio -s -usb -usbdevice keyboard -s "$@" |tee 1.txt
+;;
+qemu1)
+shift
+rm -f /tmp/vmlinux
+mipsel-linux-objcopy -S vmlinux /tmp/vmlinux
+INITRD_OFFSET=0x4000000 /work/qemu/qemu-new/mips64el-softmmu/qemu-system-mips64el  -M ls2f_ls1a -bios /work/sict/ls2f1a/pmon-2f1a/zloader.2f1a/gzrom.bin -m 256 -serial stdio -initrd /tmp/vmlinux -kernel /tmp/vmlinux   -usb -drive file=/tmp/disk,id=a,if=none -device usb-storage,bus=usb-bus.1,drive=a -gdb tcp::50010  "$@" #  -hda /tmp/disk  "$@"
+#INITRD_OFFSET=0x4000000 /work/qemu/qemu-new/mips64el-softmmu/qemu-system-mips64el  -M ls2f_ls1a -bios /work/sict/ls2f1a/pmon-2f1a/zloader.2f1a/gzrom.bin -m 256 -serial stdio -initrd /tmp/vmlinux -kernel /tmp/vmlinux -hda /tmp/disk  -s  "$@"
+;;
+qemu2)
+shift
+rm -f /tmp/vmlinux
+mipsel-linux-objcopy -S vmlinux /tmp/vmlinux
+INITRD_OFFSET=0x4000000 /work/qemu/qemu-2.0/mips64el-softmmu/qemu-system-mips64el  -M ls2f_ls1a -bios /work/sict/ls2f1a/pmon-2f1a/zloader.2f1a/gzrom.bin -m 256 -serial stdio -initrd /tmp/vmlinux -kernel /tmp/vmlinux -net nic -net user -usb -drive file=/tmp/disk,id=a,if=none -device usb-storage,bus=usb-bus.0,drive=a -gdb tcp::50010  "$@"
+#INITRD_OFFSET=0x4000000 /work/qemu/qemu-new/mips64el-softmmu/qemu-system-mips64el  -M ls2f_ls1a -bios /work/sict/ls2f1a/pmon-2f1a/zloader.2f1a/gzrom.bin -m 256 -serial stdio -initrd /tmp/vmlinux -kernel /tmp/vmlinux -hda /tmp/disk  -s  "$@"
+;;
+qemu3)
+shift
+sudo LOONGSONENV=1 /work/work/loongson/qemu/qemu-new/mips64el-softmmu/qemu-system-mips64el  -M ls3a  -kernel vmlinux  -m 256 -smp 1 -append 'root=/dev/hda1 console=ttyS0,115200 log_buf_len=4M loglevel=20 video=ls3afb:800x600-16'  -net nic -net tap  -gdb tcp::50010 -serial stdio  -hda ../cfcard -usbdevice mouse "$@"
+#sudo LOONGSONENV=1 /work/work/loongson/qemu/qemu-new/mips64el-softmmu/qemu-system-mips64el  -M ls3a  -kernel vmlinux  -m 256 -smp 1 -append 'root=/dev/ram1 console=ttyS0,115200 log_buf_len=4M loglevel=20 video=ls3afb:800x600-16'  -net nic -net tap  -gdb tcp::50010 -serial stdio  -usbdevice mouse "$@"
+;;
+qemu4)
+shift
+sudo LOONGSONENV=1 /work/work/loongson/qemu/qemu-new/mips64el-softmmu/qemu-system-mips64el  -M ls3a  -kernel vmlinux  -m 256 -smp 1 -append 'root=/dev/ram1 console=ttyS0,115200 log_buf_len=4M loglevel=20 nosmp stripe4=0 nomsi video=ls3afb:800x600-16'  -net nic -net tap  -gdb tcp::50010 -serial stdio -usbdevice mouse "$@"
+;;
+gdb)
+shift
+./rungdb 1.txt
+;;
+*)
+set -x
+make ARCH=${ARCH} CROSS_COMPILE=mipsel-linux- "$@"
+;;
+esac

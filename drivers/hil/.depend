@@ -1,0 +1,68 @@
+hilkbd.o: hilkbd.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci_ids.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/input.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/hil.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/parisc.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hp300.h)
+hp_sdc_mlc.o: hp_sdc_mlc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/hil_mlc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/hp_sdc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h
+hp_sdc_rtc.o: hp_sdc_rtc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/hp_sdc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/time.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/miscdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/rtc.h
+hil_mlc.o: hil_mlc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/hil_mlc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/list.h
+hil_kbd.o: hil_kbd.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/hil.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/input.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/serio.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h
+hp_sdc.o: hp_sdc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/hp_sdc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/time.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/hil.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h
+hil_ptr.o: hil_ptr.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/hil.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/input.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/serio.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h

@@ -1,0 +1,1 @@
+#undef  CONFIG_LS2F1A_SWIOTLB

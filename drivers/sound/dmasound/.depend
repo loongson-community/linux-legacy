@@ -1,0 +1,110 @@
+dmasound_q40.o: dmasound_q40.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   dmasound.h
+trans_16.o: trans_16.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   dmasound.h
+dmasound_core.o: dmasound_core.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sound.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   dmasound.h
+dac3550a.o: dac3550a.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   dmasound.h
+dmasound_awacs.o: dmasound_awacs.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/adb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nvram.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vt_kern.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/semaphore.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/adb/cuda.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/cuda.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/adb/pmu.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pmu.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c-dev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/prom.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   awacs_defs.h \
+   dmasound.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pmac/pbook.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/kmod.h)
+dmasound_atari.o: dmasound_atari.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/pgalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   dmasound.h
+dmasound_paula.o: dmasound_paula.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/soundcard.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   dmasound.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/heartbeat.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/apus.h)
+tas3001c.o: tas3001c.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/i2c.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/prom.h \
+   dmasound.h \
+   tas3001c.h
+dmasound.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/dmasound/atari.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/dmasound/atari/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/dmasound/paula.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/dmasound/paula/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/dmasound/q40.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/dmasound/q40/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/dmasound/pmac.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/dmasound/pmac/module.h)
+	@touch dmasound.h
+.PRECIOUS:	dmasound.h \
+

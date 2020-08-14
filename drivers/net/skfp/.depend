@@ -1,0 +1,118 @@
+drvfbi.o: drvfbi.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h \
+   h/supern_2.h \
+   h/skfbiinc.h
+queue.o: queue.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h
+smtparse.o: smtparse.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h \
+   h/smt_p.h \
+   h/smtstate.h
+ess.o: ess.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h \
+   h/smt_p.h
+lnkstat.o: lnkstat.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h \
+   h/lnkstat.h
+smtinit.o: smtinit.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h
+hwt.o: hwt.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h
+srf.o: srf.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h \
+   h/smt_p.h \
+   h/smtstate.h
+skfddi.o: skfddi.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fddidevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   h/types.h \
+   h/skfbi.h \
+   h/fddi.h \
+   h/smc.h \
+   h/smtstate.h
+smtdef.o: smtdef.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h
+smt.o: smt.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h \
+   h/smt_p.h \
+   h/smtstate.h
+pmf.o: pmf.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h \
+   h/smt_p.h \
+   h/smtstate.h
+hwmtm.o: hwmtm.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h \
+   h/supern_2.h \
+   h/skfbiinc.h
+pcmplc.o: pcmplc.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h \
+   h/supern_2.h \
+   h/smtstate.h
+smttimer.o: smttimer.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h
+ecm.o: ecm.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h \
+   h/smtstate.h
+cfm.o: cfm.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h \
+   h/smtstate.h
+fplustm.o: fplustm.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h \
+   h/supern_2.h \
+   can.c
+rmt.o: rmt.c \
+   h/types.h \
+   h/fddi.h \
+   h/smc.h \
+   h/smtstate.h

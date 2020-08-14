@@ -1,0 +1,2929 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACC_CAP	mips.bonito/cs5536.h	306;"	d
+ACC_CONFIG	mips.bonito/cs5536.h	307;"	d
+ACC_DIAG	mips.bonito/cs5536.h	311;"	d
+ACC_ERROR	mips.bonito/cs5536.h	309;"	d
+ACC_MSR_REG	mips.bonito/cs5536.h	44;"	d
+ACC_PM	mips.bonito/cs5536.h	310;"	d
+ACC_SMI	mips.bonito/cs5536.h	308;"	d
+ACS_DARROW	scripts/config/lxdialog/dialog.h	89;"	d
+ACS_HLINE	scripts/config/lxdialog/dialog.h	74;"	d
+ACS_LLCORNER	scripts/config/lxdialog/dialog.h	65;"	d
+ACS_LRCORNER	scripts/config/lxdialog/dialog.h	71;"	d
+ACS_LTEE	scripts/config/lxdialog/dialog.h	80;"	d
+ACS_RTEE	scripts/config/lxdialog/dialog.h	83;"	d
+ACS_UARROW	scripts/config/lxdialog/dialog.h	86;"	d
+ACS_ULCORNER	scripts/config/lxdialog/dialog.h	62;"	d
+ACS_URCORNER	scripts/config/lxdialog/dialog.h	68;"	d
+ACS_VLINE	scripts/config/lxdialog/dialog.h	77;"	d
+ALIGN	lib/malloc.c	/^typedef double  ALIGN;$/;"	t	file:
+ANY	scripts/bb_mkdep.c	172;"	d	file:
+APPCHAR	lib/mode_string.c	131;"	d	file:
+AR	scripts/config/Rules.mak	/^AR             = $(CROSS)ar$/;"	m
+ARFLAGS	scripts/config/Rules.mak	/^ARFLAGS=cru$/;"	m
+AS	scripts/config/Rules.mak	/^AS             = $(CROSS)as$/;"	m
+ASCII_FLAG	lib/inflate.c	1056;"	d	file:
+ASMDELAY	mips.8172/ev8172.h	424;"	d
+AS_RAMDISK_NOT_AS_INITRD	lib/initrd.c	9;"	d	file:
+ATTRIBUTE_COUNT	scripts/config/lxdialog/dialog.h	126;"	d
+Assert	lib/ramdisk.c	32;"	d	file:
+BB_BT	include/config.h	7;"	d
+BB_FEATURE_LS_TIMESTAMPS	lib/mode_string.c	35;"	d	file:
+BB_KEYS	scripts/bb_mkdep.c	/^typedef struct BB_KEYS {$/;"	s	file:
+BB_VER	include/config.h	6;"	d
+BEGIN	scripts/config/lex.zconf.c	115;"	d	file:
+BISON_ZCONF_TAB_H	scripts/config/zconf.tab.h	27;"	d
+BMAX	lib/inflate.c	267;"	d	file:
+BOOTPROM_BASE	mips.8172/ev8172.h	447;"	d
+BOOT_BASE	mips.8172/ev8172.h	450;"	d
+BOOT_SIZE	mips.8172/ev8172.h	451;"	d
+BORDER_BG	scripts/config/lxdialog/colors.h	46;"	d
+BORDER_FG	scripts/config/lxdialog/colors.h	45;"	d
+BORDER_HL	scripts/config/lxdialog/colors.h	47;"	d
+BS	scripts/bb_mkdep.c	166;"	d	file:
+BUFSIZ	lib/mode_string.c	140;"	d	file:
+BUF_SIZE	scripts/config/lxdialog/dialog.h	56;"	d
+BUILDTIME	scripts/config/Rules.mak	/^BUILDTIME := $(shell TZ=UTC date -u "+%Y.%m.%d-%H:%M%z")$/;"	m
+BUTTON_ACTIVE_BG	scripts/config/lxdialog/colors.h	50;"	d
+BUTTON_ACTIVE_FG	scripts/config/lxdialog/colors.h	49;"	d
+BUTTON_ACTIVE_HL	scripts/config/lxdialog/colors.h	51;"	d
+BUTTON_INACTIVE_BG	scripts/config/lxdialog/colors.h	54;"	d
+BUTTON_INACTIVE_FG	scripts/config/lxdialog/colors.h	53;"	d
+BUTTON_INACTIVE_HL	scripts/config/lxdialog/colors.h	55;"	d
+BUTTON_KEY_ACTIVE_BG	scripts/config/lxdialog/colors.h	58;"	d
+BUTTON_KEY_ACTIVE_FG	scripts/config/lxdialog/colors.h	57;"	d
+BUTTON_KEY_ACTIVE_HL	scripts/config/lxdialog/colors.h	59;"	d
+BUTTON_KEY_INACTIVE_BG	scripts/config/lxdialog/colors.h	62;"	d
+BUTTON_KEY_INACTIVE_FG	scripts/config/lxdialog/colors.h	61;"	d
+BUTTON_KEY_INACTIVE_HL	scripts/config/lxdialog/colors.h	63;"	d
+BUTTON_LABEL_ACTIVE_BG	scripts/config/lxdialog/colors.h	66;"	d
+BUTTON_LABEL_ACTIVE_FG	scripts/config/lxdialog/colors.h	65;"	d
+BUTTON_LABEL_ACTIVE_HL	scripts/config/lxdialog/colors.h	67;"	d
+BUTTON_LABEL_INACTIVE_BG	scripts/config/lxdialog/colors.h	70;"	d
+BUTTON_LABEL_INACTIVE_FG	scripts/config/lxdialog/colors.h	69;"	d
+BUTTON_LABEL_INACTIVE_HL	scripts/config/lxdialog/colors.h	71;"	d
+CACHECYCLE	mips.8172/ev8172.h	414;"	d
+CACHEMISS	mips.8172/ev8172.h	416;"	d
+CACHEMS	mips.8172/ev8172.h	433;"	d
+CACHENS	mips.8172/ev8172.h	427;"	d
+CACHEUS	mips.8172/ev8172.h	430;"	d
+CC	scripts/config/Rules.mak	/^CC             = $(CROSS)gcc$/;"	m
+CC_MAJOR	scripts/config/Rules.mak	/^CC_MAJOR:=$(shell printf "%02d" $(shell echo __GNUC__ | $(CC) -E -xc - | tail -n 1))$/;"	m
+CC_MINOR	scripts/config/Rules.mak	/^CC_MINOR:=$(shell printf "%02d" $(shell echo __GNUC_MINOR__ | $(CC) -E -xc - | tail -n 1))$/;"	m
+CFG	lib/ioctl.c	3;"	d	file:
+CFG	lib/timer.c	7;"	d	file:
+CFLAGS	scripts/config/Rules.mak	/^CFLAGS=-I$(top_builddir)\/include -I$(top_srcdir)\/include -I$(srcdir)$/;"	m
+CFLAGS_EXTRA	scripts/config/Rules.mak	/^CFLAGS_EXTRA=$(subst ",, $(strip $(EXTRA_CFLAGS_OPTIONS)))$/;"	m
+CHECK_BG	scripts/config/lxdialog/colors.h	130;"	d
+CHECK_FG	scripts/config/lxdialog/colors.h	129;"	d
+CHECK_HL	scripts/config/lxdialog/colors.h	131;"	d
+CHECK_SELECTED_BG	scripts/config/lxdialog/colors.h	134;"	d
+CHECK_SELECTED_FG	scripts/config/lxdialog/colors.h	133;"	d
+CHECK_SELECTED_HL	scripts/config/lxdialog/colors.h	135;"	d
+CHR	scripts/bb_mkdep.c	164;"	d	file:
+CKSEG0	mips.8172/addrspace.h	68;"	d
+CKSEG1	mips.8172/addrspace.h	69;"	d
+CKSEG3	mips.8172/addrspace.h	71;"	d
+CKSSEG	mips.8172/addrspace.h	70;"	d
+COLOR_COUNT	scripts/config/lxdialog/colors.h	149;"	d
+COLOR_NAME_LEN	scripts/config/lxdialog/colors.h	148;"	d
+COMMAND	scripts/config/lex.zconf.c	2064;"	d	file:
+COMMENT	lib/inflate.c	1060;"	d	file:
+CONFIG_MODE	scripts/bb_mkdep.c	155;"	d	file:
+CONF_OBJS	scripts/config/Makefile	/^CONF_OBJS    = $(patsubst %.c,%.o, $(CONF_SRC))$/;"	m
+CONF_SRC	scripts/config/Makefile	/^CONF_SRC     = conf.c$/;"	m
+CONTINUATION	lib/inflate.c	1057;"	d	file:
+CP	scripts/config/Rules.mak	/^CP             = cp$/;"	m
+CPMYDATA	lib/mem.c	229;"	d	file:
+CPP	scripts/config/Rules.mak	/^CPP            = $(CC) -E$/;"	m
+CRC_VALUE	lib/inflate.c	1012;"	d	file:
+CROSS	scripts/config/Rules.mak	/^CROSS           =$(subst ",, $(strip $(CROSS_COMPILER_PREFIX)))$/;"	m
+CS5536_ACC_LENGTH	mips.bonito/cs5536.h	359;"	d
+CS5536_ACC_MSR_BASE	mips.bonito/cs5536.h	34;"	d
+CS5536_ACC_RANGE	mips.bonito/cs5536.h	358;"	d
+CS5536_ACPI_LENGTH	mips.bonito/cs5536.h	420;"	d
+CS5536_ACPI_RANGE	mips.bonito/cs5536.h	419;"	d
+CS5536_DIVIL_MSR_BASE	mips.bonito/cs5536.h	33;"	d
+CS5536_EHCI_LENGTH	mips.bonito/cs5536.h	369;"	d
+CS5536_EHCI_RANGE	mips.bonito/cs5536.h	368;"	d
+CS5536_GLCP_MSR_BASE	mips.bonito/cs5536.h	36;"	d
+CS5536_GLIU_MSR_BASE	mips.bonito/cs5536.h	29;"	d
+CS5536_GPIO_LENGTH	mips.bonito/cs5536.h	414;"	d
+CS5536_GPIO_RANGE	mips.bonito/cs5536.h	413;"	d
+CS5536_IDE_LENGTH	mips.bonito/cs5536.h	344;"	d
+CS5536_IDE_MSR_BASE	mips.bonito/cs5536.h	32;"	d
+CS5536_IDE_RANGE	mips.bonito/cs5536.h	343;"	d
+CS5536_ILLEGAL_MSR_BASE	mips.bonito/cs5536.h	30;"	d
+CS5536_IRQ_LENGTH	mips.bonito/cs5536.h	408;"	d
+CS5536_IRQ_RANGE	mips.bonito/cs5536.h	407;"	d
+CS5536_LEGACY_BASE_ADDR	mips.bonito/cs5536.h	532;"	d
+CS5536_MFGPT_LENGTH	mips.bonito/cs5536.h	417;"	d
+CS5536_MFGPT_RANGE	mips.bonito/cs5536.h	416;"	d
+CS5536_OHCI_LENGTH	mips.bonito/cs5536.h	366;"	d
+CS5536_OHCI_RANGE	mips.bonito/cs5536.h	365;"	d
+CS5536_OTG_LENGTH	mips.bonito/cs5536.h	375;"	d
+CS5536_OTG_RANGE	mips.bonito/cs5536.h	374;"	d
+CS5536_PMS_LENGTH	mips.bonito/cs5536.h	423;"	d
+CS5536_PMS_RANGE	mips.bonito/cs5536.h	422;"	d
+CS5536_SB_MSR_BASE	mips.bonito/cs5536.h	28;"	d
+CS5536_SMB_LENGTH	mips.bonito/cs5536.h	411;"	d
+CS5536_SMB_RANGE	mips.bonito/cs5536.h	410;"	d
+CS5536_UDC_LENGTH	mips.bonito/cs5536.h	372;"	d
+CS5536_UDC_RANGE	mips.bonito/cs5536.h	371;"	d
+CS5536_UNUSED_MSR_BASE	mips.bonito/cs5536.h	35;"	d
+CS5536_USB_MSR_BASE	mips.bonito/cs5536.h	31;"	d
+CURS_MACROS	scripts/config/lxdialog/dialog.h	31;"	d
+CYCLETIME	mips.8172/ev8172.h	415;"	d
+C_ATTR	scripts/config/lxdialog/colors.h	147;"	d
+D	scripts/bb_mkdep.c	168;"	d	file:
+DARROW_BG	scripts/config/lxdialog/colors.h	142;"	d
+DARROW_FG	scripts/config/lxdialog/colors.h	141;"	d
+DARROW_HL	scripts/config/lxdialog/colors.h	143;"	d
+DEBG	lib/inflate.c	1;"	d	file:
+DEBG1	lib/inflate.c	2;"	d	file:
+DEBUG26_8172_PNP	include/config.h	60;"	d
+DEBUG26_ARCH_8172	include/config.h	43;"	d
+DEBUG26_ARCH_BONITO	include/config.h	41;"	d
+DEBUG26_ARCH_EV64420	include/config.h	42;"	d
+DEBUG26_ARCH_I386	include/config.h	40;"	d
+DEBUG26_CD	include/config.h	31;"	d
+DEBUG26_CHROOT	include/config.h	24;"	d
+DEBUG26_CS5536_GPIO	include/config.h	55;"	d
+DEBUG26_CS5536_I2C	include/config.h	53;"	d
+DEBUG26_DEBUG26	include/config.h	9;"	d
+DEBUG26_DIFF	include/config.h	36;"	d
+DEBUG26_DM642	include/config.h	39;"	d
+DEBUG26_DUMP686B	include/config.h	57;"	d
+DEBUG26_DUMPMV	include/config.h	56;"	d
+DEBUG26_EXEC	include/config.h	33;"	d
+DEBUG26_FROM_SERIAL	include/config.h	14;"	d
+DEBUG26_I2C_88E1111	include/config.h	54;"	d
+DEBUG26_I386_TEST	include/config.h	44;"	d
+DEBUG26_IFCONFIG	include/config.h	32;"	d
+DEBUG26_IO	include/config.h	27;"	d
+DEBUG26_LINUX24	include/config.h	11;"	d
+DEBUG26_LINUX26	include/config.h	10;"	d
+DEBUG26_LS	include/config.h	35;"	d
+DEBUG26_LSMOUNT	include/config.h	23;"	d
+DEBUG26_MEM	include/config.h	26;"	d
+DEBUG26_MODULE_INSTALL	include/config.h	13;"	d
+DEBUG26_MYREQUEST_IRQ	include/config.h	38;"	d
+DEBUG26_PAGER	include/config.h	29;"	d
+DEBUG26_PCI	include/config.h	25;"	d
+DEBUG26_PLX	include/config.h	37;"	d
+DEBUG26_PNP_BONITO_686B	include/config.h	49;"	d
+DEBUG26_PNP_BONITO_82371	include/config.h	50;"	d
+DEBUG26_PNP_MV	include/config.h	59;"	d
+DEBUG26_PWD	include/config.h	30;"	d
+DEBUG26_RAMDISK	include/config.h	19;"	d
+DEBUG26_RAMDISK_DIR	Makefile	/^DEBUG26_RAMDISK_DIR := $(shell echo $(DEBUG26_RAMDISK_DIR))$/;"	m
+DEBUG26_RAMDISK_DIR	include/config.h	21;"	d
+DEBUG26_RAMDISK_MYUNZIP	include/config.h	20;"	d
+DEBUG26_RAMDISK_SIZE	include/config.h	22;"	d
+DEBUG26_TEST	include/config.h	28;"	d
+DEBUG26_TESTVGA	include/config.h	58;"	d
+DEBUG26_TEST_BONITO	include/config.h	51;"	d
+DEBUG26_TEST_PMON	include/config.h	52;"	d
+DEBUG26_WRITEFILE	include/config.h	34;"	d
+DEBUG_EXPR	scripts/config/expr.c	13;"	d	file:
+DEBUG_MAJOR	lib/main.c	21;"	d	file:
+DEBUG_PARSE	scripts/config/zconf.tab.c	167;"	d	file:
+DIALOG_BG	scripts/config/lxdialog/colors.h	38;"	d
+DIALOG_FG	scripts/config/lxdialog/colors.h	37;"	d
+DIALOG_HL	scripts/config/lxdialog/colors.h	39;"	d
+DIVIL_AC_DMA	mips.bonito/cs5536.h	268;"	d
+DIVIL_BALL_OPTS	mips.bonito/cs5536.h	222;"	d
+DIVIL_CAP	mips.bonito/cs5536.h	200;"	d
+DIVIL_CONFIG	mips.bonito/cs5536.h	201;"	d
+DIVIL_DIAG	mips.bonito/cs5536.h	205;"	d
+DIVIL_ERROR	mips.bonito/cs5536.h	203;"	d
+DIVIL_LBAR_ACPI	mips.bonito/cs5536.h	215;"	d
+DIVIL_LBAR_FLSH0	mips.bonito/cs5536.h	217;"	d
+DIVIL_LBAR_FLSH1	mips.bonito/cs5536.h	218;"	d
+DIVIL_LBAR_FLSH2	mips.bonito/cs5536.h	219;"	d
+DIVIL_LBAR_FLSH3	mips.bonito/cs5536.h	220;"	d
+DIVIL_LBAR_GPIO	mips.bonito/cs5536.h	213;"	d
+DIVIL_LBAR_IRQ	mips.bonito/cs5536.h	210;"	d
+DIVIL_LBAR_KEL	mips.bonito/cs5536.h	211;"	d
+DIVIL_LBAR_MFGPT	mips.bonito/cs5536.h	214;"	d
+DIVIL_LBAR_PMS	mips.bonito/cs5536.h	216;"	d
+DIVIL_LBAR_SMB	mips.bonito/cs5536.h	212;"	d
+DIVIL_LEG_IO	mips.bonito/cs5536.h	221;"	d
+DIVIL_MSR_REG	mips.bonito/cs5536.h	43;"	d
+DIVIL_PM	mips.bonito/cs5536.h	204;"	d
+DIVIL_SMI	mips.bonito/cs5536.h	202;"	d
+DIVIL_SOFT_IRQ	mips.bonito/cs5536.h	223;"	d
+DIVIL_SOFT_RESET	mips.bonito/cs5536.h	224;"	d
+DK	scripts/bb_mkdep.c	171;"	d	file:
+DM642_DSPP	lib/dm642.c	12;"	d	file:
+DM642_DSPP_PAGE_SHIFT	lib/dm642.c	13;"	d	file:
+DMA_MAP	mips.bonito/cs5536.h	269;"	d
+DMA_MSK_SHDW	mips.bonito/cs5536.h	278;"	d
+DMA_SHDW_CH0	mips.bonito/cs5536.h	270;"	d
+DMA_SHDW_CH1	mips.bonito/cs5536.h	271;"	d
+DMA_SHDW_CH2	mips.bonito/cs5536.h	272;"	d
+DMA_SHDW_CH3	mips.bonito/cs5536.h	273;"	d
+DMA_SHDW_CH4	mips.bonito/cs5536.h	274;"	d
+DMA_SHDW_CH5	mips.bonito/cs5536.h	275;"	d
+DMA_SHDW_CH6	mips.bonito/cs5536.h	276;"	d
+DMA_SHDW_CH7	mips.bonito/cs5536.h	277;"	d
+DMFC0	lib/regs.c	7;"	d	file:
+DMTC0	lib/regs.c	6;"	d	file:
+DUMPBITS	lib/inflate.c	226;"	d	file:
+Dm642_Init	lib/dm642.c	/^myinit_begin(Dm642_Init);$/;"	v
+Dm642_Init	lib/dm642.c	/^static int Dm642_Init()$/;"	f	file:
+Downstream_Message_0	lib/plx.c	10;"	d	file:
+Downstream_Message_1	lib/plx.c	11;"	d	file:
+Downstream_Message_2	lib/plx.c	12;"	d	file:
+Downstream_Message_3	lib/plx.c	13;"	d	file:
+ECHO	scripts/config/lex.zconf.c	2121;"	d	file:
+EMIFA_Config	lib/dm642.c	/^} EMIFA_Config;$/;"	t	typeref:struct:__anon7	file:
+EMIFA_config	lib/dm642.c	/^static void EMIFA_config(EMIFA_Config *config) {$/;"	f	file:
+ENCRYPTED	lib/inflate.c	1061;"	d	file:
+EOB_ACT_CONTINUE_SCAN	scripts/config/lex.zconf.c	146;"	d	file:
+EOB_ACT_END_OF_FILE	scripts/config/lex.zconf.c	147;"	d	file:
+EOB_ACT_LAST_MATCH	scripts/config/lex.zconf.c	148;"	d	file:
+ESC	scripts/config/lxdialog/dialog.h	53;"	d
+EVMDM642_APLL_rset	lib/dm642.c	/^void EVMDM642_APLL_rset(Uint16 data)$/;"	f
+EVMDM642_GPIO_hGPIO	lib/dm642.c	/^static GPIO_Handle EVMDM642_GPIO_hGPIO;$/;"	v	file:
+EVMDM642_I2C_hI2C	lib/dm642.c	/^static I2C_Handle EVMDM642_I2C_hI2C;$/;"	v	file:
+EVMDM642_LED_init	lib/dm642.c	/^void EVMDM642_LED_init()$/;"	f
+EVMDM642_LED_off	lib/dm642.c	/^void EVMDM642_LED_off(Uint32 ledNum)$/;"	f
+EVMDM642_LED_on	lib/dm642.c	/^void EVMDM642_LED_on(Uint32 ledNum)$/;"	f
+EVMDM642_LED_toggle	lib/dm642.c	/^void EVMDM642_LED_toggle(Uint32 ledNum)$/;"	f
+EVMDM642_fpgaLoad	lib/dm642.c	/^static void EVMDM642_fpgaLoad(Uint32 fpgaaddr)$/;"	f	file:
+EVMDM642_init	lib/dm642.c	/^static void EVMDM642_init()$/;"	f	file:
+EVMDM642_rget	lib/dm642.c	/^static Uint8 EVMDM642_rget(Int16 regnum)$/;"	f	file:
+EVMDM642_rset	lib/dm642.c	/^static void EVMDM642_rset(Int16 regnum, Uint8 regval)$/;"	f	file:
+EVMDM642_wait	lib/dm642.c	/^static void EVMDM642_wait(Uint32 delay)$/;"	f	file:
+EVMDM642_waitusec	lib/dm642.c	/^static void EVMDM642_waitusec(Uint32 delay)$/;"	f	file:
+EXPR_H	scripts/config/expr.h	7;"	d
+EXTRAVERSION	scripts/config/Rules.mak	/^EXTRAVERSION    :=$/;"	m
+EXTRA_FIELD	lib/inflate.c	1058;"	d	file:
+E_AND	scripts/config/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_CHOICE, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_AND	scripts/config/expr.h	49;"	d
+E_CHOICE	scripts/config/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_CHOICE, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_EQUAL	scripts/config/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_CHOICE, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_NONE	scripts/config/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_CHOICE, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_NOT	scripts/config/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_CHOICE, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_NOT	scripts/config/expr.h	50;"	d
+E_OR	scripts/config/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_CHOICE, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_OR	scripts/config/expr.h	48;"	d
+E_RANGE	scripts/config/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_CHOICE, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_SYMBOL	scripts/config/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_CHOICE, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_UNEQUAL	scripts/config/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_CHOICE, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+EnterMBPnP	mips.bonito/pnp_686b.c	/^void EnterMBPnP(void)$/;"	f
+EnterMBPnP	mips.bonito/pnp_82371.c	/^static void EnterMBPnP(void)$/;"	f	file:
+EnterMBPnP	mips.ev64420/pnp.c	/^void EnterMBPnP(void)$/;"	f
+ExitMBPnP	mips.bonito/pnp_686b.c	/^void ExitMBPnP(void)$/;"	f
+ExitMBPnP	mips.bonito/pnp_82371.c	/^static void ExitMBPnP(void)$/;"	f	file:
+ExitMBPnP	mips.ev64420/pnp.c	/^void ExitMBPnP(void)$/;"	f
+FALSE	lib/plx.c	16;"	d	file:
+FALSE	mips.8172/lpc.c	28;"	d	file:
+FILE_BUSY	scripts/config/expr.h	26;"	d
+FILE_PRINTED	scripts/config/expr.h	28;"	d
+FILE_SCANNED	scripts/config/expr.h	27;"	d
+FLAG_CHECK	scripts/config/lxdialog/dialog.h	198;"	d
+FLAG_RADIO	scripts/config/lxdialog/dialog.h	199;"	d
+FLASH_BASE	mips.8172/ev8172.h	448;"	d
+FLASH_SIZE	mips.8172/ev8172.h	449;"	d
+FLEXINT_H	scripts/config/lex.zconf.c	29;"	d	file:
+FLEX_BETA	scripts/config/lex.zconf.c	13;"	d	file:
+FLEX_SCANNER	scripts/config/lex.zconf.c	8;"	d	file:
+FLPY_372_SHDW	mips.bonito/cs5536.h	253;"	d
+FLPY_377_SHDW	mips.bonito/cs5536.h	254;"	d
+FLPY_3F2_SHDW	mips.bonito/cs5536.h	251;"	d
+FLPY_3F7_SHDW	mips.bonito/cs5536.h	252;"	d
+GET_MSR_ADDR	mips.bonito/cs5536.h	27;"	d
+GLCP_CAP	mips.bonito/cs5536.h	155;"	d
+GLCP_CHIP_REV_ID	mips.bonito/cs5536.h	195;"	d
+GLCP_CLK4ACK	mips.bonito/cs5536.h	191;"	d
+GLCP_CLK_ACTIVE	mips.bonito/cs5536.h	189;"	d
+GLCP_CLK_DISABLE	mips.bonito/cs5536.h	190;"	d
+GLCP_CLK_DIS_DELAY	mips.bonito/cs5536.h	165;"	d
+GLCP_CLK_OFF	mips.bonito/cs5536.h	188;"	d
+GLCP_CONFIG	mips.bonito/cs5536.h	156;"	d
+GLCP_DBG_CLK_CTRL	mips.bonito/cs5536.h	194;"	d
+GLCP_DBG_OUT	mips.bonito/cs5536.h	168;"	d
+GLCP_DIAG	mips.bonito/cs5536.h	160;"	d
+GLCP_ERROR	mips.bonito/cs5536.h	158;"	d
+GLCP_GLB_PM	mips.bonito/cs5536.h	167;"	d
+GLCP_MSR_REG	mips.bonito/cs5536.h	46;"	d
+GLCP_PM	mips.bonito/cs5536.h	159;"	d
+GLCP_PM_CLK_DISABLE	mips.bonito/cs5536.h	166;"	d
+GLCP_RSVD1	mips.bonito/cs5536.h	169;"	d
+GLCP_RSVD2	mips.bonito/cs5536.h	187;"	d
+GLCP_RSVD3	mips.bonito/cs5536.h	193;"	d
+GLCP_SMI	mips.bonito/cs5536.h	157;"	d
+GLCP_SOFT_COM	mips.bonito/cs5536.h	170;"	d
+GLCP_SYS_RST	mips.bonito/cs5536.h	192;"	d
+GLIU_AERR	mips.bonito/cs5536.h	81;"	d
+GLIU_ARB	mips.bonito/cs5536.h	79;"	d
+GLIU_ASMI	mips.bonito/cs5536.h	80;"	d
+GLIU_CAP	mips.bonito/cs5536.h	60;"	d
+GLIU_COH	mips.bonito/cs5536.h	77;"	d
+GLIU_CONFIG	mips.bonito/cs5536.h	61;"	d
+GLIU_DEBUG	mips.bonito/cs5536.h	82;"	d
+GLIU_DIAG	mips.bonito/cs5536.h	65;"	d
+GLIU_ERROR	mips.bonito/cs5536.h	63;"	d
+GLIU_IOD_BM0	mips.bonito/cs5536.h	88;"	d
+GLIU_IOD_BM1	mips.bonito/cs5536.h	89;"	d
+GLIU_IOD_BM2	mips.bonito/cs5536.h	90;"	d
+GLIU_IOD_BM3	mips.bonito/cs5536.h	91;"	d
+GLIU_IOD_BM4	mips.bonito/cs5536.h	92;"	d
+GLIU_IOD_BM5	mips.bonito/cs5536.h	93;"	d
+GLIU_IOD_BM6	mips.bonito/cs5536.h	94;"	d
+GLIU_IOD_BM7	mips.bonito/cs5536.h	95;"	d
+GLIU_IOD_BM8	mips.bonito/cs5536.h	96;"	d
+GLIU_IOD_BM9	mips.bonito/cs5536.h	97;"	d
+GLIU_IOD_SC0	mips.bonito/cs5536.h	98;"	d
+GLIU_IOD_SC1	mips.bonito/cs5536.h	99;"	d
+GLIU_IOD_SC2	mips.bonito/cs5536.h	100;"	d
+GLIU_IOD_SC3	mips.bonito/cs5536.h	101;"	d
+GLIU_IOD_SC4	mips.bonito/cs5536.h	102;"	d
+GLIU_IOD_SC5	mips.bonito/cs5536.h	103;"	d
+GLIU_IOD_SC6	mips.bonito/cs5536.h	104;"	d
+GLIU_IOD_SC7	mips.bonito/cs5536.h	105;"	d
+GLIU_MSR_REG	mips.bonito/cs5536.h	39;"	d
+GLIU_NOUT_RESP	mips.bonito/cs5536.h	84;"	d
+GLIU_NOUT_WDATA	mips.bonito/cs5536.h	85;"	d
+GLIU_P2D_BM0	mips.bonito/cs5536.h	70;"	d
+GLIU_P2D_BM1	mips.bonito/cs5536.h	71;"	d
+GLIU_P2D_BM2	mips.bonito/cs5536.h	72;"	d
+GLIU_P2D_BM3	mips.bonito/cs5536.h	75;"	d
+GLIU_P2D_BM4	mips.bonito/cs5536.h	76;"	d
+GLIU_P2D_BMK0	mips.bonito/cs5536.h	73;"	d
+GLIU_P2D_BMK1	mips.bonito/cs5536.h	74;"	d
+GLIU_PAE	mips.bonito/cs5536.h	78;"	d
+GLIU_PHY_CAP	mips.bonito/cs5536.h	83;"	d
+GLIU_PM	mips.bonito/cs5536.h	64;"	d
+GLIU_SLV_DIS	mips.bonito/cs5536.h	87;"	d
+GLIU_SMI	mips.bonito/cs5536.h	62;"	d
+GLIU_WHOAMI	mips.bonito/cs5536.h	86;"	d
+GPIOH_EVNT_EN	mips.bonito/cs5536.h	488;"	d
+GPIOH_IN_AUX1_SEL	mips.bonito/cs5536.h	487;"	d
+GPIOH_IN_EN	mips.bonito/cs5536.h	482;"	d
+GPIOH_IN_EVNTCNT_EN	mips.bonito/cs5536.h	485;"	d
+GPIOH_IN_FLTR_EN	mips.bonito/cs5536.h	484;"	d
+GPIOH_IN_INVRT_EN	mips.bonito/cs5536.h	483;"	d
+GPIOH_IN_NEGEDGE_EN	mips.bonito/cs5536.h	491;"	d
+GPIOH_IN_NEGEDGE_STS	mips.bonito/cs5536.h	493;"	d
+GPIOH_IN_POSEDGE_EN	mips.bonito/cs5536.h	490;"	d
+GPIOH_IN_POSEDGE_STS	mips.bonito/cs5536.h	492;"	d
+GPIOH_IN_READBACK	mips.bonito/cs5536.h	486;"	d
+GPIOH_LOCK_EN	mips.bonito/cs5536.h	489;"	d
+GPIOH_OUT_AUX1_SEL	mips.bonito/cs5536.h	478;"	d
+GPIOH_OUT_AUX2_SEL	mips.bonito/cs5536.h	479;"	d
+GPIOH_OUT_EN	mips.bonito/cs5536.h	475;"	d
+GPIOH_OUT_INVRT_EN	mips.bonito/cs5536.h	477;"	d
+GPIOH_OUT_OD_EN	mips.bonito/cs5536.h	476;"	d
+GPIOH_OUT_VAL	mips.bonito/cs5536.h	474;"	d
+GPIOH_PD_EN	mips.bonito/cs5536.h	481;"	d
+GPIOH_PU_EN	mips.bonito/cs5536.h	480;"	d
+GPIOL_EVNT_EN	mips.bonito/cs5536.h	468;"	d
+GPIOL_IN_AUX1_SEL	mips.bonito/cs5536.h	467;"	d
+GPIOL_IN_EN	mips.bonito/cs5536.h	462;"	d
+GPIOL_IN_EVNTCNT_EN	mips.bonito/cs5536.h	465;"	d
+GPIOL_IN_FLTR_EN	mips.bonito/cs5536.h	464;"	d
+GPIOL_IN_INVRT_EN	mips.bonito/cs5536.h	463;"	d
+GPIOL_IN_NEGEDGE_EN	mips.bonito/cs5536.h	471;"	d
+GPIOL_IN_NEGEDGE_STS	mips.bonito/cs5536.h	473;"	d
+GPIOL_IN_POSEDGE_EN	mips.bonito/cs5536.h	470;"	d
+GPIOL_IN_POSEDGE_STS	mips.bonito/cs5536.h	472;"	d
+GPIOL_IN_READBACK	mips.bonito/cs5536.h	466;"	d
+GPIOL_LOCK_EN	mips.bonito/cs5536.h	469;"	d
+GPIOL_OUT_AUX1_SEL	mips.bonito/cs5536.h	458;"	d
+GPIOL_OUT_AUX2_SEL	mips.bonito/cs5536.h	459;"	d
+GPIOL_OUT_EN	mips.bonito/cs5536.h	455;"	d
+GPIOL_OUT_INVRT_EN	mips.bonito/cs5536.h	457;"	d
+GPIOL_OUT_OD_EN	mips.bonito/cs5536.h	456;"	d
+GPIOL_OUT_VAL	mips.bonito/cs5536.h	454;"	d
+GPIOL_PD_EN	mips.bonito/cs5536.h	461;"	d
+GPIOL_PU_EN	mips.bonito/cs5536.h	460;"	d
+GPIO_Config	lib/dm642.c	/^  } GPIO_Config;$/;"	t	typeref:struct:__anon3	file:
+GPIO_Handle	lib/dm642.c	/^} GPIO_Obj, *GPIO_Handle;$/;"	t	typeref:struct:__anon4	file:
+GPIO_Obj	lib/dm642.c	/^} GPIO_Obj, *GPIO_Handle;$/;"	t	typeref:struct:__anon4	file:
+GPIO_pinDirection	lib/dm642.c	/^static Uint32 GPIO_pinDirection(GPIO_Handle hGpio,Uint32 pinId, Uint32 direction) {$/;"	f	file:
+GPIO_pinEnable	lib/dm642.c	/^static void GPIO_pinEnable(GPIO_Handle hGpio,Uint32 pinId) {$/;"	f	file:
+GPIO_pinRead	lib/dm642.c	/^static Uint32 GPIO_pinRead(GPIO_Handle hGpio,Uint32 pinId) {$/;"	f	file:
+GPIO_pinWrite	lib/dm642.c	/^static void GPIO_pinWrite(GPIO_Handle hGpio,Uint32 pinId, Uint32 val) {$/;"	f	file:
+HEADER	lib/malloc.c	/^typedef union header HEADER;$/;"	t	typeref:union:header	file:
+HELP	scripts/config/lex.zconf.c	2065;"	d	file:
+HOSTCC	scripts/config/Rules.mak	/^HOSTCC    = gcc$/;"	m
+HOSTCFLAGS	scripts/config/Rules.mak	/^HOSTCFLAGS= -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer$/;"	m
+I	scripts/bb_mkdep.c	169;"	d	file:
+I2C_BLOCK	mips.bonito/cs5536_i2c.c	4;"	d	file:
+I2C_Config	lib/dm642.c	/^} I2C_Config;$/;"	t	typeref:struct:__anon6	file:
+I2C_Handle	lib/dm642.c	/^} I2C_Obj, *I2C_Handle;$/;"	t	typeref:struct:__anon5	file:
+I2C_Obj	lib/dm642.c	/^} I2C_Obj, *I2C_Handle;$/;"	t	typeref:struct:__anon5	file:
+I2C_SINGLE	mips.bonito/cs5536_i2c.c	3;"	d	file:
+I2C_SMB_BLOCK	mips.bonito/cs5536_i2c.c	5;"	d	file:
+I2C_config	lib/dm642.c	/^static void I2C_config(I2C_Handle hI2c, I2C_Config *config) {$/;"	f	file:
+I2C_outOfReset	lib/dm642.c	/^static void I2C_outOfReset(I2C_Handle hI2c){$/;"	f	file:
+ID	scripts/bb_mkdep.c	175;"	d	file:
+IDE_BM_CMD	mips.bonito/cs5536.h	351;"	d
+IDE_BM_PRD	mips.bonito/cs5536.h	353;"	d
+IDE_BM_STS	mips.bonito/cs5536.h	352;"	d
+IDE_CAP	mips.bonito/cs5536.h	296;"	d
+IDE_CAST	mips.bonito/cs5536.h	319;"	d
+IDE_CFG	mips.bonito/cs5536.h	317;"	d
+IDE_CONFIG	mips.bonito/cs5536.h	297;"	d
+IDE_DIAG	mips.bonito/cs5536.h	301;"	d
+IDE_DTC	mips.bonito/cs5536.h	318;"	d
+IDE_ERROR	mips.bonito/cs5536.h	299;"	d
+IDE_ETC	mips.bonito/cs5536.h	320;"	d
+IDE_INTERNAL_PM	mips.bonito/cs5536.h	321;"	d
+IDE_IO_BAR	mips.bonito/cs5536.h	316;"	d
+IDE_LEGACY_ASTATUS	mips.bonito/cs5536.h	563;"	d
+IDE_LEGACY_COMMAND	mips.bonito/cs5536.h	562;"	d
+IDE_LEGACY_CTRL	mips.bonito/cs5536.h	564;"	d
+IDE_LEGACY_CTRL_4BIT	mips.bonito/cs5536.h	567;"	d
+IDE_LEGACY_CTRL_IDS	mips.bonito/cs5536.h	565;"	d
+IDE_LEGACY_CTRL_RST	mips.bonito/cs5536.h	566;"	d
+IDE_LEGACY_CYL_HI	mips.bonito/cs5536.h	548;"	d
+IDE_LEGACY_CYL_LO	mips.bonito/cs5536.h	547;"	d
+IDE_LEGACY_DATA	mips.bonito/cs5536.h	542;"	d
+IDE_LEGACY_ERROR	mips.bonito/cs5536.h	543;"	d
+IDE_LEGACY_FEATURE	mips.bonito/cs5536.h	544;"	d
+IDE_LEGACY_HEAD	mips.bonito/cs5536.h	549;"	d
+IDE_LEGACY_HEAD_DRV	mips.bonito/cs5536.h	550;"	d
+IDE_LEGACY_HEAD_IBM	mips.bonito/cs5536.h	552;"	d
+IDE_LEGACY_HEAD_LBA	mips.bonito/cs5536.h	551;"	d
+IDE_LEGACY_SECTOR_COUNT	mips.bonito/cs5536.h	545;"	d
+IDE_LEGACY_SECTOR_NUM	mips.bonito/cs5536.h	546;"	d
+IDE_LEGACY_STATUS	mips.bonito/cs5536.h	553;"	d
+IDE_LEGACY_STATUS_BUSY	mips.bonito/cs5536.h	561;"	d
+IDE_LEGACY_STATUS_CORR	mips.bonito/cs5536.h	556;"	d
+IDE_LEGACY_STATUS_DRDY	mips.bonito/cs5536.h	560;"	d
+IDE_LEGACY_STATUS_DRQ	mips.bonito/cs5536.h	557;"	d
+IDE_LEGACY_STATUS_DSC	mips.bonito/cs5536.h	558;"	d
+IDE_LEGACY_STATUS_DWF	mips.bonito/cs5536.h	559;"	d
+IDE_LEGACY_STATUS_ERR	mips.bonito/cs5536.h	554;"	d
+IDE_LEGACY_STATUS_IDX	mips.bonito/cs5536.h	555;"	d
+IDE_MSR_REG	mips.bonito/cs5536.h	42;"	d
+IDE_PM	mips.bonito/cs5536.h	300;"	d
+IDE_SMI	mips.bonito/cs5536.h	298;"	d
+ILLEGAL_MSR_REG	mips.bonito/cs5536.h	40;"	d
+INBUFSIZ	lib/ramdisk.c	15;"	d	file:
+INCLUDE_CONFIG_KEYS_PATH	scripts/bb_mkdep.c	36;"	d	file:
+INCLUDE_CONFIG_PATH	scripts/bb_mkdep.c	35;"	d	file:
+INITIAL	scripts/config/lex.zconf.c	2063;"	d	file:
+INPUTBOX_BG	scripts/config/lxdialog/colors.h	74;"	d
+INPUTBOX_BORDER_BG	scripts/config/lxdialog/colors.h	78;"	d
+INPUTBOX_BORDER_FG	scripts/config/lxdialog/colors.h	77;"	d
+INPUTBOX_BORDER_HL	scripts/config/lxdialog/colors.h	79;"	d
+INPUTBOX_FG	scripts/config/lxdialog/colors.h	73;"	d
+INPUTBOX_HL	scripts/config/lxdialog/colors.h	75;"	d
+INSTALL_OPTS	scripts/config/Rules.mak	/^INSTALL_OPTS=$/;"	m
+INSTALL_OPTS	scripts/config/Rules.mak	/^INSTALL_OPTS=--hardlinks$/;"	m
+INSTALL_OPTS	scripts/config/Rules.mak	/^INSTALL_OPTS=--symlinks$/;"	m
+INT16_MAX	scripts/config/lex.zconf.c	64;"	d	file:
+INT16_MIN	scripts/config/lex.zconf.c	55;"	d	file:
+INT32_MAX	scripts/config/lex.zconf.c	67;"	d	file:
+INT32_MIN	scripts/config/lex.zconf.c	58;"	d	file:
+INT8_MAX	scripts/config/lex.zconf.c	61;"	d	file:
+INT8_MIN	scripts/config/lex.zconf.c	52;"	d	file:
+ISALNUM	scripts/bb_mkdep.c	177;"	d	file:
+IT8172_BASE	mips.8172/ev8172.h	10;"	d
+IT8172_PCI_IO_BASE	mips.8172/ev8172.h	11;"	d
+IT8172_PCI_MEM_BASE	mips.8172/ev8172.h	12;"	d
+IT8712_UART1_PORT	mips.8172/lpc.c	15;"	d	file:
+IT8712_UART2_PORT	mips.8172/lpc.c	16;"	d	file:
+ITEM_BG	scripts/config/lxdialog/colors.h	106;"	d
+ITEM_FG	scripts/config/lxdialog/colors.h	105;"	d
+ITEM_HL	scripts/config/lxdialog/colors.h	107;"	d
+ITEM_SELECTED_BG	scripts/config/lxdialog/colors.h	110;"	d
+ITEM_SELECTED_FG	scripts/config/lxdialog/colors.h	109;"	d
+ITEM_SELECTED_HL	scripts/config/lxdialog/colors.h	111;"	d
+IT_AC_BASE	mips.8172/ev8172.h	316;"	d
+IT_AC_BPDC	mips.8172/ev8172.h	344;"	d
+IT_AC_CAPB1STA	mips.8172/ev8172.h	327;"	d
+IT_AC_CAPB2STA	mips.8172/ev8172.h	328;"	d
+IT_AC_CAPCC	mips.8172/ev8172.h	325;"	d
+IT_AC_CAPCDL	mips.8172/ev8172.h	326;"	d
+IT_AC_CIRCP	mips.8172/ev8172.h	333;"	d
+IT_AC_CIRDP	mips.8172/ev8172.h	334;"	d
+IT_AC_CODECC	mips.8172/ev8172.h	329;"	d
+IT_AC_DRSS	mips.8172/ev8172.h	320;"	d
+IT_AC_FMOV	mips.8172/ev8172.h	318;"	d
+IT_AC_GC	mips.8172/ev8172.h	337;"	d
+IT_AC_I2SMC	mips.8172/ev8172.h	330;"	d
+IT_AC_I2SV	mips.8172/ev8172.h	319;"	d
+IT_AC_IMC	mips.8172/ev8172.h	338;"	d
+IT_AC_ISC	mips.8172/ev8172.h	339;"	d
+IT_AC_OPL3AB1W	mips.8172/ev8172.h	342;"	d
+IT_AC_OPL3DW	mips.8172/ev8172.h	343;"	d
+IT_AC_OPL3DWDR	mips.8172/ev8172.h	341;"	d
+IT_AC_OPL3SR	mips.8172/ev8172.h	340;"	d
+IT_AC_PCB1STA	mips.8172/ev8172.h	323;"	d
+IT_AC_PCB2STA	mips.8172/ev8172.h	324;"	d
+IT_AC_PCC	mips.8172/ev8172.h	321;"	d
+IT_AC_PCDL	mips.8172/ev8172.h	322;"	d
+IT_AC_PCMOV	mips.8172/ev8172.h	317;"	d
+IT_AC_PFDP	mips.8172/ev8172.h	336;"	d
+IT_AC_SRCS	mips.8172/ev8172.h	332;"	d
+IT_AC_TM	mips.8172/ev8172.h	335;"	d
+IT_AC_VS	mips.8172/ev8172.h	331;"	d
+IT_AUDIO_DEVICE	mips.8172/ev8172.h	159;"	d
+IT_AUDIO_FUNCTION	mips.8172/ev8172.h	171;"	d
+IT_BUSNUM_SHF	mips.8172/ev8172.h	65;"	d
+IT_C2P_DEVICE	mips.8172/ev8172.h	158;"	d
+IT_C2P_FUNCION	mips.8172/ev8172.h	170;"	d
+IT_CDMAC_DEVICE	mips.8172/ev8172.h	161;"	d
+IT_CDMAC_FUNCTION	mips.8172/ev8172.h	173;"	d
+IT_CIDR	mips.8172/ev8172.h	21;"	d
+IT_CIR0_BASE	mips.8172/ev8172.h	228;"	d
+IT_CIR1_BASE	mips.8172/ev8172.h	234;"	d
+IT_CLASSC	mips.8172/ev8172.h	80;"	d
+IT_CMFPCR	mips.8172/ev8172.h	17;"	d
+IT_CONFADDR	mips.8172/ev8172.h	64;"	d
+IT_CONFDATA	mips.8172/ev8172.h	70;"	d
+IT_CPUTR	mips.8172/ev8172.h	23;"	d
+IT_CRNR	mips.8172/ev8172.h	22;"	d
+IT_CTCR	mips.8172/ev8172.h	24;"	d
+IT_DEVNUM_SHF	mips.8172/ev8172.h	66;"	d
+IT_DID	mips.8172/ev8172.h	76;"	d
+IT_DMAC_BASE	mips.8172/ev8172.h	286;"	d
+IT_DMAC_BCAR0	mips.8172/ev8172.h	287;"	d
+IT_DMAC_BCAR1	mips.8172/ev8172.h	288;"	d
+IT_DMAC_BCAR2	mips.8172/ev8172.h	289;"	d
+IT_DMAC_BCAR3	mips.8172/ev8172.h	290;"	d
+IT_DMAC_BCCR0	mips.8172/ev8172.h	291;"	d
+IT_DMAC_BCCR1	mips.8172/ev8172.h	292;"	d
+IT_DMAC_BCCR2	mips.8172/ev8172.h	293;"	d
+IT_DMAC_BCCR3	mips.8172/ev8172.h	294;"	d
+IT_DMAC_CR	mips.8172/ev8172.h	295;"	d
+IT_DMAC_DEVICE	mips.8172/ev8172.h	160;"	d
+IT_DMAC_EMR	mips.8172/ev8172.h	300;"	d
+IT_DMAC_ESR	mips.8172/ev8172.h	297;"	d
+IT_DMAC_FUNCTION	mips.8172/ev8172.h	172;"	d
+IT_DMAC_MKR	mips.8172/ev8172.h	301;"	d
+IT_DMAC_MR	mips.8172/ev8172.h	299;"	d
+IT_DMAC_PAR0	mips.8172/ev8172.h	302;"	d
+IT_DMAC_PAR1	mips.8172/ev8172.h	303;"	d
+IT_DMAC_PAR2	mips.8172/ev8172.h	304;"	d
+IT_DMAC_PAR3	mips.8172/ev8172.h	305;"	d
+IT_DMAC_RQR	mips.8172/ev8172.h	298;"	d
+IT_DMAC_SR	mips.8172/ev8172.h	296;"	d
+IT_DSRR	mips.8172/ev8172.h	18;"	d
+IT_FC_BRCR	mips.8172/ev8172.h	116;"	d
+IT_FC_DCR	mips.8172/ev8172.h	118;"	d
+IT_FC_FCR	mips.8172/ev8172.h	117;"	d
+IT_FUNCNUM_SHF	mips.8172/ev8172.h	67;"	d
+IT_GCR	mips.8172/ev8172.h	194;"	d
+IT_GPACR	mips.8172/ev8172.h	185;"	d
+IT_GPADR	mips.8172/ev8172.h	182;"	d
+IT_GPAICR	mips.8172/ev8172.h	188;"	d
+IT_GPAISR	mips.8172/ev8172.h	191;"	d
+IT_GPBCR	mips.8172/ev8172.h	186;"	d
+IT_GPBDR	mips.8172/ev8172.h	183;"	d
+IT_GPBICR	mips.8172/ev8172.h	189;"	d
+IT_GPBISR	mips.8172/ev8172.h	192;"	d
+IT_GPCCR	mips.8172/ev8172.h	187;"	d
+IT_GPCDR	mips.8172/ev8172.h	184;"	d
+IT_GPCICR	mips.8172/ev8172.h	190;"	d
+IT_GPCISR	mips.8172/ev8172.h	193;"	d
+IT_HEADT	mips.8172/ev8172.h	81;"	d
+IT_I2C_BASE	mips.8172/ev8172.h	233;"	d
+IT_IDE_BASE	mips.8172/ev8172.h	310;"	d
+IT_IDE_DEVICE	mips.8172/ev8172.h	164;"	d
+IT_IDE_FUNCTION	mips.8172/ev8172.h	176;"	d
+IT_IDE_STATUS	mips.8172/ev8172.h	311;"	d
+IT_INTC_BASE	mips.8172/ev8172.h	137;"	d
+IT_INTC_LBDNIAR	mips.8172/ev8172.h	141;"	d
+IT_INTC_LBDNIMR	mips.8172/ev8172.h	139;"	d
+IT_INTC_LBDNIRR	mips.8172/ev8172.h	138;"	d
+IT_INTC_LBDNITR	mips.8172/ev8172.h	140;"	d
+IT_INTC_LPCNIAR	mips.8172/ev8172.h	145;"	d
+IT_INTC_LPCNIMR	mips.8172/ev8172.h	143;"	d
+IT_INTC_LPCNIRR	mips.8172/ev8172.h	142;"	d
+IT_INTC_LPCNITR	mips.8172/ev8172.h	144;"	d
+IT_INTC_PDNIAR	mips.8172/ev8172.h	149;"	d
+IT_INTC_PDNIMR	mips.8172/ev8172.h	147;"	d
+IT_INTC_PDNIRR	mips.8172/ev8172.h	146;"	d
+IT_INTC_PDNITR	mips.8172/ev8172.h	148;"	d
+IT_INTC_TYPER	mips.8172/ev8172.h	153;"	d
+IT_INTC_UMNIAR	mips.8172/ev8172.h	152;"	d
+IT_INTC_UMNIRR	mips.8172/ev8172.h	150;"	d
+IT_INTC_UMNITR	mips.8172/ev8172.h	151;"	d
+IT_IO_READ	mips.8172/ev8172.h	376;"	d
+IT_IO_READ16	mips.8172/ev8172.h	386;"	d
+IT_IO_WRITE	mips.8172/ev8172.h	371;"	d
+IT_IO_WRITE16	mips.8172/ev8172.h	381;"	d
+IT_M68K_BCR	mips.8172/ev8172.h	125;"	d
+IT_M68K_BSR	mips.8172/ev8172.h	126;"	d
+IT_M68K_DEVICE	mips.8172/ev8172.h	165;"	d
+IT_M68K_DTR	mips.8172/ev8172.h	127;"	d
+IT_M68K_FUNCTION	mips.8172/ev8172.h	177;"	d
+IT_M68K_MBCSR	mips.8172/ev8172.h	123;"	d
+IT_M68K_TMR	mips.8172/ev8172.h	124;"	d
+IT_MC_HATR	mips.8172/ev8172.h	110;"	d
+IT_MC_MCR	mips.8172/ev8172.h	106;"	d
+IT_MC_PCICR	mips.8172/ev8172.h	111;"	d
+IT_MC_SDRMR	mips.8172/ev8172.h	104;"	d
+IT_MC_SDRTR	mips.8172/ev8172.h	105;"	d
+IT_MC_SDTYPE	mips.8172/ev8172.h	107;"	d
+IT_MC_WPBA	mips.8172/ev8172.h	108;"	d
+IT_MC_WPTA	mips.8172/ev8172.h	109;"	d
+IT_P2I_BCR	mips.8172/ev8172.h	87;"	d
+IT_P2I_D0IOSC	mips.8172/ev8172.h	88;"	d
+IT_P2I_D10IOSC	mips.8172/ev8172.h	98;"	d
+IT_P2I_D11IOSC	mips.8172/ev8172.h	99;"	d
+IT_P2I_D1IOSC	mips.8172/ev8172.h	89;"	d
+IT_P2I_D2IOSC	mips.8172/ev8172.h	90;"	d
+IT_P2I_D3IOSC	mips.8172/ev8172.h	91;"	d
+IT_P2I_D4IOSC	mips.8172/ev8172.h	92;"	d
+IT_P2I_D5IOSC	mips.8172/ev8172.h	93;"	d
+IT_P2I_D6IOSC	mips.8172/ev8172.h	94;"	d
+IT_P2I_D7IOSC	mips.8172/ev8172.h	95;"	d
+IT_P2I_D8IOSC	mips.8172/ev8172.h	96;"	d
+IT_P2I_D9IOSC	mips.8172/ev8172.h	97;"	d
+IT_P2I_DEVICE	mips.8172/ev8172.h	163;"	d
+IT_P2I_FUNCTION	mips.8172/ev8172.h	175;"	d
+IT_PCDCR	mips.8172/ev8172.h	19;"	d
+IT_PCICMD	mips.8172/ev8172.h	77;"	d
+IT_PCISTS	mips.8172/ev8172.h	78;"	d
+IT_PM_DSR	mips.8172/ev8172.h	31;"	d
+IT_PM_DSR_ACSB	mips.8172/ev8172.h	43;"	d
+IT_PM_DSR_CIR0SB	mips.8172/ev8172.h	35;"	d
+IT_PM_DSR_CIR1SB	mips.8172/ev8172.h	36;"	d
+IT_PM_DSR_I2CSB	mips.8172/ev8172.h	40;"	d
+IT_PM_DSR_IDESB	mips.8172/ev8172.h	42;"	d
+IT_PM_DSR_M68KSB	mips.8172/ev8172.h	44;"	d
+IT_PM_DSR_PPSB	mips.8172/ev8172.h	39;"	d
+IT_PM_DSR_SCR0SB	mips.8172/ev8172.h	37;"	d
+IT_PM_DSR_SCR1SB	mips.8172/ev8172.h	38;"	d
+IT_PM_DSR_TMR0SB	mips.8172/ev8172.h	33;"	d
+IT_PM_DSR_TMR1SB	mips.8172/ev8172.h	34;"	d
+IT_PM_DSR_UARTSB	mips.8172/ev8172.h	41;"	d
+IT_PM_PCISR	mips.8172/ev8172.h	49;"	d
+IT_PM_PCISR_68KSR	mips.8172/ev8172.h	57;"	d
+IT_PM_PCISR_ACSR	mips.8172/ev8172.h	55;"	d
+IT_PM_PCISR_CDMASR	mips.8172/ev8172.h	52;"	d
+IT_PM_PCISR_DMASR	mips.8172/ev8172.h	54;"	d
+IT_PM_PCISR_IDESR	mips.8172/ev8172.h	51;"	d
+IT_PM_PCISR_MEMSR	mips.8172/ev8172.h	56;"	d
+IT_PM_PCISR_USBSR	mips.8172/ev8172.h	53;"	d
+IT_PP_BASE	mips.8172/ev8172.h	232;"	d
+IT_READ	mips.8172/ev8172.h	366;"	d
+IT_REGNUM_SHF	mips.8172/ev8172.h	68;"	d
+IT_RID	mips.8172/ev8172.h	79;"	d
+IT_RTC_BASE	mips.8172/ev8172.h	199;"	d
+IT_RTC_RA	mips.8172/ev8172.h	207;"	d
+IT_RTC_RB	mips.8172/ev8172.h	208;"	d
+IT_RTC_RC	mips.8172/ev8172.h	209;"	d
+IT_RTC_RCTR	mips.8172/ev8172.h	206;"	d
+IT_RTC_RD	mips.8172/ev8172.h	210;"	d
+IT_RTC_RIR0	mips.8172/ev8172.h	200;"	d
+IT_RTC_RIR1	mips.8172/ev8172.h	202;"	d
+IT_RTC_RIR2	mips.8172/ev8172.h	204;"	d
+IT_RTC_RTR0	mips.8172/ev8172.h	201;"	d
+IT_RTC_RTR1	mips.8172/ev8172.h	203;"	d
+IT_RTC_RTR2	mips.8172/ev8172.h	205;"	d
+IT_SCR0_BASE	mips.8172/ev8172.h	230;"	d
+IT_SCR1_BASE	mips.8172/ev8172.h	231;"	d
+IT_SCR_SCDR	mips.8172/ev8172.h	240;"	d
+IT_SCR_SCDR_DIVISOR	mips.8172/ev8172.h	277;"	d
+IT_SCR_SCDR_DIVISOR_BIT	mips.8172/ev8172.h	278;"	d
+IT_SCR_SCDR_DIVISOR_STOP_VAL_1	mips.8172/ev8172.h	279;"	d
+IT_SCR_SCDR_DIVISOR_STOP_VAL_2	mips.8172/ev8172.h	280;"	d
+IT_SCR_SCDR_DIVISOR_STOP_VAL_3	mips.8172/ev8172.h	281;"	d
+IT_SCR_SCDR_RESET_MODE	mips.8172/ev8172.h	273;"	d
+IT_SCR_SCDR_RESET_MODE_ASYNC	mips.8172/ev8172.h	275;"	d
+IT_SCR_SCDR_RESET_MODE_BIT	mips.8172/ev8172.h	274;"	d
+IT_SCR_SCDR_RESET_MODE_SYNC	mips.8172/ev8172.h	276;"	d
+IT_SCR_SFR	mips.8172/ev8172.h	239;"	d
+IT_SCR_SFR_CARD_FREQ	mips.8172/ev8172.h	255;"	d
+IT_SCR_SFR_CARD_FREQ_3_5_MHZ	mips.8172/ev8172.h	258;"	d
+IT_SCR_SFR_CARD_FREQ_7_1_MHZ	mips.8172/ev8172.h	259;"	d
+IT_SCR_SFR_CARD_FREQ_96_DIV_MHZ	mips.8172/ev8172.h	260;"	d
+IT_SCR_SFR_CARD_FREQ_BIT	mips.8172/ev8172.h	256;"	d
+IT_SCR_SFR_CARD_FREQ_STOP	mips.8172/ev8172.h	257;"	d
+IT_SCR_SFR_ENABLE	mips.8172/ev8172.h	265;"	d
+IT_SCR_SFR_ENABLE_BIT	mips.8172/ev8172.h	266;"	d
+IT_SCR_SFR_ENABLE_OFF	mips.8172/ev8172.h	267;"	d
+IT_SCR_SFR_ENABLE_ON	mips.8172/ev8172.h	268;"	d
+IT_SCR_SFR_FET_ACTIVE	mips.8172/ev8172.h	261;"	d
+IT_SCR_SFR_FET_ACTIVE_BIT	mips.8172/ev8172.h	262;"	d
+IT_SCR_SFR_FET_ACTIVE_INVERT	mips.8172/ev8172.h	263;"	d
+IT_SCR_SFR_FET_ACTIVE_NONINVERT	mips.8172/ev8172.h	264;"	d
+IT_SCR_SFR_FET_CHARGE	mips.8172/ev8172.h	249;"	d
+IT_SCR_SFR_FET_CHARGE_13_US	mips.8172/ev8172.h	252;"	d
+IT_SCR_SFR_FET_CHARGE_213_US	mips.8172/ev8172.h	254;"	d
+IT_SCR_SFR_FET_CHARGE_3_3_US	mips.8172/ev8172.h	251;"	d
+IT_SCR_SFR_FET_CHARGE_53_US	mips.8172/ev8172.h	253;"	d
+IT_SCR_SFR_FET_CHARGE_BIT	mips.8172/ev8172.h	250;"	d
+IT_SCR_SFR_GATE_UART	mips.8172/ev8172.h	245;"	d
+IT_SCR_SFR_GATE_UART_BIT	mips.8172/ev8172.h	246;"	d
+IT_SCR_SFR_GATE_UART_OFF	mips.8172/ev8172.h	247;"	d
+IT_SCR_SFR_GATE_UART_ON	mips.8172/ev8172.h	248;"	d
+IT_SDPR	mips.8172/ev8172.h	25;"	d
+IT_SERIRQC	mips.8172/ev8172.h	82;"	d
+IT_SPLLCR	mips.8172/ev8172.h	20;"	d
+IT_TIMER_BASE	mips.8172/ev8172.h	227;"	d
+IT_TIMER_BASE	mips.8172/ev8172.h	350;"	d
+IT_UART_BASE	mips.8172/ev8172.h	229;"	d
+IT_USB_DEVICE	mips.8172/ev8172.h	162;"	d
+IT_USB_FUNCTION	mips.8172/ev8172.h	174;"	d
+IT_VID	mips.8172/ev8172.h	75;"	d
+IT_WRITE	mips.8172/ev8172.h	361;"	d
+Ifound	scripts/bb_mkdep.c	/^static bb_key_t *Ifound;    \/* list of parsed includes *\/$/;"	v	file:
+Int16	lib/dm642.c	/^typedef short            Int16;$/;"	t	file:
+Int32	lib/dm642.c	/^typedef int              Int32;$/;"	t	file:
+Int40	lib/dm642.c	/^typedef long             Int40;$/;"	t	file:
+Int8	lib/dm642.c	/^typedef char             Int8;$/;"	t	file:
+IoS	lib/io.c	/^static int IoS(int argc,char **argv)$/;"	f	file:
+Iop	scripts/bb_mkdep.c	/^static llist_t *Iop;        \/* list of -I include usaged *\/$/;"	v	file:
+K0BASE	mips.8172/addrspace.h	49;"	d
+KEL_CTRL	mips.bonito/cs5536.h	234;"	d
+KEL_HCE_CTRL	mips.bonito/cs5536.h	427;"	d
+KEL_HCE_IN	mips.bonito/cs5536.h	428;"	d
+KEL_HCE_OUT	mips.bonito/cs5536.h	429;"	d
+KEL_HCE_STS	mips.bonito/cs5536.h	430;"	d
+KEL_PORTA	mips.bonito/cs5536.h	431;"	d
+KERNEL_PATH	Makefile	/^KERNEL_PATH?=\/usr\/src\/716\/linux-716$/;"	m
+KERNEL_PATH	Makefile	/^KERNEL_PATH?=\/usr\/src\/linux-2.6.12$/;"	m
+KERNEL_PATH	i386/Makefile	/^KERNEL_PATH?=\/usr\/src\/linux-2.4.32$/;"	m
+KERNEL_PATH	i386/Makefile	/^KERNEL_PATH?=\/usr\/src\/linux-2.6.15 $/;"	m
+KERNEL_PATH	include/config.h	12;"	d
+KERNEL_PATH	mips.bonito/Makefile	/^KERNEL_PATH?=\/usr\/src\/716\/linux-716$/;"	m
+KERNEL_PATH	mips.bonito/Makefile	/^KERNEL_PATH?=\/usr\/src\/linux-2.6.15 $/;"	m
+KERNEL_PATH	mips.ev64420/Makefile	/^KERNEL_PATH?=\/usr\/src\/716\/linux-716$/;"	m
+KERNEL_PATH	mips.ev64420/Makefile	/^KERNEL_PATH?=\/usr\/src\/linux-2.6.15 $/;"	m
+KERNEL_PATH	test/Makefile	/^KERNEL_PATH?=\/usr\/src\/716\/linux-716$/;"	m
+KERNEL_PATH	test/Makefile	/^KERNEL_PATH?=\/usr\/src\/linux-2.6.15 $/;"	m
+KSEG0	mips.8172/addrspace.h	44;"	d
+KSEG0ADDR	mips.8172/addrspace.h	56;"	d
+KSEG1	mips.8172/addrspace.h	45;"	d
+KSEG1ADDR	mips.8172/addrspace.h	57;"	d
+KSEG2	mips.8172/addrspace.h	46;"	d
+KSEG2ADDR	mips.8172/addrspace.h	58;"	d
+KSEG3	mips.8172/addrspace.h	47;"	d
+KSEG3ADDR	mips.8172/addrspace.h	59;"	d
+KSEGX	mips.8172/addrspace.h	54;"	d
+KUSEG	mips.8172/addrspace.h	43;"	d
+K_CALG_COH_EXCL	mips.8172/addrspace.h	80;"	d
+K_CALG_COH_EXCL1_NOL2	mips.8172/addrspace.h	76;"	d
+K_CALG_COH_SHAREABLE	mips.8172/addrspace.h	81;"	d
+K_CALG_COH_SHRL1_NOL2	mips.8172/addrspace.h	77;"	d
+K_CALG_NONCOHERENT	mips.8172/addrspace.h	79;"	d
+K_CALG_NOTUSED	mips.8172/addrspace.h	82;"	d
+K_CALG_UNCACHED	mips.8172/addrspace.h	78;"	d
+K_CALG_UNCACHED_ACCEL	mips.8172/addrspace.h	83;"	d
+LC_ALL	scripts/config/Rules.mak	/^LC_ALL:= C$/;"	m
+LD	scripts/config/Rules.mak	/^LD             = $(CROSS)ld$/;"	m
+LDN_KEYBOARD	mips.8172/lpc.c	12;"	d	file:
+LDN_KEYBOARD	mips.bonito/pnp_82371.c	10;"	d	file:
+LDN_MOUSE	mips.8172/lpc.c	13;"	d	file:
+LDN_MOUSE	mips.bonito/pnp_82371.c	11;"	d	file:
+LDN_PARALLEL	mips.8172/lpc.c	11;"	d	file:
+LDN_PARALLEL	mips.bonito/pnp_82371.c	9;"	d	file:
+LDN_SERIAL1	mips.8172/lpc.c	9;"	d	file:
+LDN_SERIAL1	mips.bonito/pnp_82371.c	7;"	d	file:
+LDN_SERIAL2	mips.8172/lpc.c	10;"	d	file:
+LDN_SERIAL2	mips.bonito/pnp_82371.c	8;"	d	file:
+LENGTH	lib/timer.c	6;"	d	file:
+LIBRARIES	scripts/config/Rules.mak	/^	LIBRARIES:=-lefence$/;"	m
+LIBRARIES	scripts/config/Rules.mak	/^    LIBRARIES:=-ldmalloc$/;"	m
+LIBS	scripts/config/Makefile	/^LIBS = -lcurses$/;"	m
+LIBS	scripts/config/Makefile	/^LIBS = -lncurses$/;"	m
+LINESZ	lib/cmdparser.c	2;"	d	file:
+LIST_BLOCKS	lib/mode_string.c	88;"	d	file:
+LIST_DATE_TIME	lib/mode_string.c	95;"	d	file:
+LIST_DEV	lib/mode_string.c	94;"	d	file:
+LIST_EXEC	lib/mode_string.c	100;"	d	file:
+LIST_FILENAME	lib/mode_string.c	97;"	d	file:
+LIST_FILETYPE	lib/mode_string.c	99;"	d	file:
+LIST_FULLTIME	lib/mode_string.c	96;"	d	file:
+LIST_ID_NAME	lib/mode_string.c	91;"	d	file:
+LIST_ID_NUMERIC	lib/mode_string.c	92;"	d	file:
+LIST_INO	lib/mode_string.c	87;"	d	file:
+LIST_MODEBITS	lib/mode_string.c	89;"	d	file:
+LIST_NLINKS	lib/mode_string.c	90;"	d	file:
+LIST_SIZE	lib/mode_string.c	93;"	d	file:
+LIST_SYMLINK	lib/mode_string.c	98;"	d	file:
+LKC_DIRECT_LINK	scripts/config/conf.c	13;"	d	file:
+LKC_DIRECT_LINK	scripts/config/confdata.c	13;"	d	file:
+LKC_DIRECT_LINK	scripts/config/expr.c	10;"	d	file:
+LKC_DIRECT_LINK	scripts/config/lex.zconf.c	2012;"	d	file:
+LKC_DIRECT_LINK	scripts/config/mconf.c	28;"	d	file:
+LKC_DIRECT_LINK	scripts/config/menu.c	9;"	d	file:
+LKC_DIRECT_LINK	scripts/config/symbol.c	12;"	d	file:
+LKC_DIRECT_LINK	scripts/config/zconf.tab.c	217;"	d	file:
+LKC_H	scripts/config/lkc.h	7;"	d
+LN	scripts/config/Rules.mak	/^LN             = ln$/;"	m
+LN_S	scripts/config/Rules.mak	/^LN_S           = $(LN) -s$/;"	m
+LOCAL_INCLUDE_PATH	scripts/bb_mkdep.c	34;"	d	file:
+LPCEnterMBPnP	mips.8172/lpc.c	/^void LPCEnterMBPnP(void)$/;"	f
+LPCExitMBPnP	mips.8172/lpc.c	/^void LPCExitMBPnP(void)$/;"	f
+LPCGetConfig	mips.8172/lpc.c	/^char LPCGetConfig(char LdnNumber, char Index)$/;"	f
+LPCSetConfig	mips.8172/lpc.c	/^void LPCSetConfig(char LdnNumber, char Index, char data)$/;"	f
+LPC_BASE_ADDR	mips.8172/lpc.c	2;"	d	file:
+LPC_DATA_ADDR	mips.8172/lpc.c	6;"	d	file:
+LPC_EADDR	mips.bonito/cs5536.h	280;"	d
+LPC_ESTAT	mips.bonito/cs5536.h	281;"	d
+LPC_KEY_ADDR	mips.8172/lpc.c	5;"	d	file:
+LPC_RSVD	mips.bonito/cs5536.h	283;"	d
+LPC_SIRQ	mips.bonito/cs5536.h	282;"	d
+LXD_SRC	scripts/config/Makefile	/^LXD_SRC      = lxdialog\/checklist.c lxdialog\/menubox.c lxdialog\/textbox.c \\$/;"	m
+L_EOF	scripts/bb_mkdep.c	179;"	d	file:
+LpcRead	mips.8172/arch.c	/^static int LpcRead(int argc,char **argv)$/;"	f	file:
+LpcWrite	mips.8172/arch.c	/^static int LpcWrite(int argc,char **argv)$/;"	f	file:
+MAJOR	lib/mode_string.c	37;"	d	file:
+MAJOR_NR	lib/initrd.c	2;"	d	file:
+MAJOR_NR	lib/ramdisk.c	102;"	d	file:
+MAJOR_VERSION	scripts/config/Rules.mak	/^MAJOR_VERSION   :=1$/;"	m
+MAKE_IS_SILENT	scripts/config/Rules.mak	/^export MAKE_IS_SILENT=n$/;"	m
+MAKE_IS_SILENT	scripts/config/Rules.mak	/^export MAKE_IS_SILENT=y$/;"	m
+MAX	scripts/config/lxdialog/dialog.h	58;"	d
+MAX_AC	lib/argvize.c	35;"	d	file:
+MAX_INIT_ARGS	lib/exec.c	2;"	d	file:
+MAX_INIT_ENVS	lib/exec.c	3;"	d	file:
+MAX_LEN	scripts/config/lxdialog/dialog.h	55;"	d
+MBIT	lib/mode_string.c	/^static const mode_t MBIT[] = {$/;"	v	file:
+MCONF_OBJS	scripts/config/Makefile	/^MCONF_OBJS   = $(patsubst %.c,%.o, $(MCONF_SRC) $(LXD_SRC))$/;"	m
+MCONF_SRC	scripts/config/Makefile	/^MCONF_SRC    = mconf.c$/;"	m
+MENUBOX_BG	scripts/config/lxdialog/colors.h	98;"	d
+MENUBOX_BORDER_BG	scripts/config/lxdialog/colors.h	102;"	d
+MENUBOX_BORDER_FG	scripts/config/lxdialog/colors.h	101;"	d
+MENUBOX_BORDER_HL	scripts/config/lxdialog/colors.h	103;"	d
+MENUBOX_FG	scripts/config/lxdialog/colors.h	97;"	d
+MENUBOX_HL	scripts/config/lxdialog/colors.h	99;"	d
+MENU_CHANGED	scripts/config/expr.h	142;"	d
+MENU_ROOT	scripts/config/expr.h	143;"	d
+MFC0	lib/regs.c	5;"	d	file:
+MFGPT_IRQ	mips.bonito/cs5536.h	246;"	d
+MFGPT_NR	mips.bonito/cs5536.h	247;"	d
+MFGPT_RSVD	mips.bonito/cs5536.h	248;"	d
+MFGPT_SETUP	mips.bonito/cs5536.h	249;"	d
+MHZ	mips.8172/ev8172.h	405;"	d
+MIN	scripts/config/lxdialog/dialog.h	57;"	d
+MINOR	lib/mode_string.c	38;"	d	file:
+MINOR_VERSION	scripts/config/Rules.mak	/^MINOR_VERSION   :=1$/;"	m
+MKDIR	scripts/config/Rules.mak	/^MKDIR          = mkdir$/;"	m
+MKDIR_P	scripts/config/Rules.mak	/^MKDIR_P        = $(MKDIR) -p$/;"	m
+MODE0	lib/mode_string.c	/^static const char MODE0[]  = "---------";$/;"	v	file:
+MODE1	lib/mode_string.c	/^static const char MODE1[]  = "rwxrwxrwx";$/;"	v	file:
+MTC0	lib/regs.c	4;"	d	file:
+MV	scripts/config/Rules.mak	/^MV             = mv$/;"	m
+MYC	lib/mem.c	65;"	d	file:
+MYMIPSASM	lib/mem.c	64;"	d	file:
+M_EVENT	scripts/config/lxdialog/dialog.h	190;"	d
+Malloc_MemBot	lib/malloc.c	/^static char *Malloc_MemBot=Malloc_Memory;$/;"	v	file:
+Malloc_MemTop	lib/malloc.c	/^static char *Malloc_MemTop=Malloc_Memory;$/;"	v	file:
+Malloc_Memory	lib/malloc.c	/^static char Malloc_Memory[0x1000];$/;"	v	file:
+NALLOC	lib/malloc.c	74;"	d	file:
+NANDF_CTRL	mips.bonito/cs5536.h	231;"	d
+NANDF_DATA	mips.bonito/cs5536.h	230;"	d
+NANDF_RSVD	mips.bonito/cs5536.h	232;"	d
+NEEDBITS	lib/inflate.c	225;"	d	file:
+NENVS	lib/env.c	1;"	d	file:
+NEXTBYTE	lib/inflate.c	224;"	d	file:
+NFSDBG_FACILITY	lib/nfsroot.c	90;"	d	file:
+NFSROOT_DEBUG	lib/nfsroot.c	89;"	d	file:
+NFS_ROOT	lib/nfsroot.c	93;"	d	file:
+NM	scripts/config/Rules.mak	/^NM             = $(CROSS)nm$/;"	m
+NORF_CTRL	mips.bonito/cs5536.h	226;"	d
+NORF_T01	mips.bonito/cs5536.h	227;"	d
+NORF_T23	mips.bonito/cs5536.h	228;"	d
+NR_PORTS	mips.ev64420/serial_ev64420.c	76;"	d	file:
+NULL	lib/malloc.c	72;"	d	file:
+N_MAX	lib/inflate.c	268;"	d	file:
+OBJECTS	scripts/config/Rules.mak	/^OBJECTS:=$(APPLET_SOURCES:.c=.o) busybox.o usage.o applets.o$/;"	m
+OF	lib/ramdisk.c	5;"	d	file:
+OHCI_BULK_CUR_ED	mips.bonito/cs5536.h	389;"	d
+OHCI_BULK_HEAD_ED	mips.bonito/cs5536.h	388;"	d
+OHCI_COMMAND_STATUS	mips.bonito/cs5536.h	380;"	d
+OHCI_CONTROL	mips.bonito/cs5536.h	379;"	d
+OHCI_CTRL_CUR_ED	mips.bonito/cs5536.h	387;"	d
+OHCI_CTRL_HEAD_ED	mips.bonito/cs5536.h	386;"	d
+OHCI_DONE_HEAD	mips.bonito/cs5536.h	390;"	d
+OHCI_FM_INTERVAL	mips.bonito/cs5536.h	391;"	d
+OHCI_FM_NUMBER	mips.bonito/cs5536.h	393;"	d
+OHCI_FM_REMAINING	mips.bonito/cs5536.h	392;"	d
+OHCI_HCCA	mips.bonito/cs5536.h	384;"	d
+OHCI_INT_DISABLE	mips.bonito/cs5536.h	383;"	d
+OHCI_INT_ENABLE	mips.bonito/cs5536.h	382;"	d
+OHCI_INT_STATUS	mips.bonito/cs5536.h	381;"	d
+OHCI_LS_THRESHOLD	mips.bonito/cs5536.h	395;"	d
+OHCI_PERI_CUR_ED	mips.bonito/cs5536.h	385;"	d
+OHCI_PERI_START	mips.bonito/cs5536.h	394;"	d
+OHCI_REVISION	mips.bonito/cs5536.h	378;"	d
+OHCI_RH_DESCRIPTORA	mips.bonito/cs5536.h	396;"	d
+OHCI_RH_DESCRIPTORB	mips.bonito/cs5536.h	397;"	d
+OHCI_RH_PORT_STATUS1	mips.bonito/cs5536.h	399;"	d
+OHCI_RH_PORT_STATUS2	mips.bonito/cs5536.h	400;"	d
+OHCI_RH_PORT_STATUS3	mips.bonito/cs5536.h	401;"	d
+OHCI_RH_PORT_STATUS4	mips.bonito/cs5536.h	402;"	d
+OHCI_RH_STATUS	mips.bonito/cs5536.h	398;"	d
+OLD_NCURSES	scripts/config/lxdialog/dialog.h	44;"	d
+OLD_NCURSES	scripts/config/lxdialog/dialog.h	48;"	d
+OPTIMIZATION	scripts/config/Rules.mak	/^OPTIMIZATION:=$(call check_gcc,-Os,-O2)$/;"	m
+OPTIMIZATIONS	scripts/config/Rules.mak	/^OPTIMIZATIONS:=$(OPTIMIZATION) -fomit-frame-pointer$/;"	m
+ORIG_NAME	lib/inflate.c	1059;"	d	file:
+O_FORMAT	Doc/ramdisk/Makefile	/^O_FORMAT = $(shell $(OBJDUMP) -i | head -2 | grep elf32)$/;"	m
+O_TARGET	Makefile	/^O_TARGET    := mydebug.o$/;"	m
+O_TARGET	mips.ev64420/Makefile	/^O_TARGET    := mydebug.o$/;"	m
+O_TARGET	test/Makefile	/^O_TARGET    := mydebug.o$/;"	m
+OnInterrupt	lib/plx.c	/^OnInterrupt($/;"	f
+P	scripts/config/lkc.h	16;"	d
+P	scripts/config/lkc.h	19;"	d
+P	scripts/config/lkc.h	22;"	d
+PAGE_MASK	usermmap.c	14;"	d	file:
+PAGE_SIZE	usermmap.c	13;"	d	file:
+PARAM	scripts/config/lex.zconf.c	2067;"	d	file:
+PCHAR	lib/kbhit.c	44;"	d	file:
+PCI_BYTE	mips.8172/pci.c	6;"	d	file:
+PCI_DWORD	mips.8172/pci.c	14;"	d	file:
+PCI_IO_BASE	mips.bonito/cs5536.h	19;"	d
+PCI_IO_BASE_VA	mips.bonito/cs5536.h	20;"	d
+PCI_IO_SPACE	mips.8172/ev8172.h	444;"	d
+PCI_IO_SPACE_SIZE	mips.8172/ev8172.h	445;"	d
+PCI_MEM_BASE	mips.bonito/cs5536.h	21;"	d
+PCI_MEM_BASE_VA	mips.bonito/cs5536.h	22;"	d
+PCI_MEM_SPACE	mips.8172/ev8172.h	442;"	d
+PCI_MEM_SPACE_SIZE	mips.8172/ev8172.h	443;"	d
+PCI_MSR_ADDR	mips.bonito/cs5536.h	51;"	d
+PCI_MSR_CTRL	mips.bonito/cs5536.h	50;"	d
+PCI_MSR_DATA_HI	mips.bonito/cs5536.h	53;"	d
+PCI_MSR_DATA_LO	mips.bonito/cs5536.h	52;"	d
+PCI_SHDW	mips.bonito/cs5536.h	244;"	d
+PCI_WORD	mips.8172/pci.c	10;"	d	file:
+PHYSADDR	mips.8172/addrspace.h	55;"	d
+PHYS_TO_XKPHYS	mips.8172/addrspace.h	92;"	d
+PHYS_TO_XKSEG_CACHED	mips.8172/addrspace.h	90;"	d
+PHYS_TO_XKSEG_UNCACHED	mips.8172/addrspace.h	89;"	d
+PIC_ICW1_MASTER	mips.bonito/cs5536.h	433;"	d
+PIC_ICW1_SLAVE	mips.bonito/cs5536.h	434;"	d
+PIC_ICW2_MASTER	mips.bonito/cs5536.h	435;"	d
+PIC_ICW2_SLAVE	mips.bonito/cs5536.h	436;"	d
+PIC_ICW3_MASTER	mips.bonito/cs5536.h	437;"	d
+PIC_ICW3_SLAVE	mips.bonito/cs5536.h	438;"	d
+PIC_ICW4_MASTER	mips.bonito/cs5536.h	439;"	d
+PIC_ICW4_SLAVE	mips.bonito/cs5536.h	440;"	d
+PIC_INT_SEL1	mips.bonito/cs5536.h	451;"	d
+PIC_INT_SEL2	mips.bonito/cs5536.h	452;"	d
+PIC_IRQM_LPC	mips.bonito/cs5536.h	241;"	d
+PIC_IRQM_PRIM	mips.bonito/cs5536.h	240;"	d
+PIC_IRR_MASTER	mips.bonito/cs5536.h	447;"	d
+PIC_IRR_SLAVE	mips.bonito/cs5536.h	448;"	d
+PIC_ISR_MASTER	mips.bonito/cs5536.h	449;"	d
+PIC_ISR_SLAVE	mips.bonito/cs5536.h	450;"	d
+PIC_OCW1_MASTER	mips.bonito/cs5536.h	441;"	d
+PIC_OCW1_SLAVE	mips.bonito/cs5536.h	442;"	d
+PIC_OCW2_MASTER	mips.bonito/cs5536.h	443;"	d
+PIC_OCW2_SLAVE	mips.bonito/cs5536.h	444;"	d
+PIC_OCW3_MASTER	mips.bonito/cs5536.h	445;"	d
+PIC_OCW3_SLAVE	mips.bonito/cs5536.h	446;"	d
+PIC_XIRR_STS_HIGH	mips.bonito/cs5536.h	243;"	d
+PIC_XIRR_STS_LOW	mips.bonito/cs5536.h	242;"	d
+PIC_YSEL_HIGH	mips.bonito/cs5536.h	237;"	d
+PIC_YZSEL_LOW	mips.bonito/cs5536.h	236;"	d
+PIC_ZSEL_HIGH	mips.bonito/cs5536.h	239;"	d
+PIC_ZSEL_LOW	mips.bonito/cs5536.h	238;"	d
+PIT_CNTRL	mips.bonito/cs5536.h	257;"	d
+PIT_SHDW	mips.bonito/cs5536.h	256;"	d
+PLONG	lib/kbhit.c	46;"	d	file:
+PMC_LTMR	mips.bonito/cs5536.h	285;"	d
+PMC_RSVD	mips.bonito/cs5536.h	286;"	d
+PNPGetConfig	mips.bonito/pnp_686b.c	/^char PNPGetConfig(char Index)$/;"	f
+PNPGetConfig	mips.bonito/pnp_82371.c	/^static char PNPGetConfig(char LdnNumber, char Index)$/;"	f	file:
+PNPGetConfig	mips.ev64420/pnp.c	/^char PNPGetConfig(char Index)$/;"	f
+PNPSetConfig	mips.bonito/pnp_686b.c	/^void PNPSetConfig(char Index, char data)$/;"	f
+PNPSetConfig	mips.bonito/pnp_82371.c	/^static void PNPSetConfig(char LdnNumber, char Index, char data)$/;"	f	file:
+PNPSetConfig	mips.ev64420/pnp.c	/^void PNPSetConfig(char Index, char data)$/;"	f
+PNP_DATA_ADDR	mips.bonito/pnp_686b.c	6;"	d	file:
+PNP_DATA_ADDR	mips.bonito/pnp_82371.c	4;"	d	file:
+PNP_DATA_ADDR	mips.ev64420/pnp.c	6;"	d	file:
+PNP_KEY_ADDR	mips.bonito/pnp_686b.c	5;"	d	file:
+PNP_KEY_ADDR	mips.bonito/pnp_82371.c	3;"	d	file:
+PNP_KEY_ADDR	mips.ev64420/pnp.c	5;"	d	file:
+POSITION_INDICATOR_BG	scripts/config/lxdialog/colors.h	94;"	d
+POSITION_INDICATOR_FG	scripts/config/lxdialog/colors.h	93;"	d
+POSITION_INDICATOR_HL	scripts/config/lxdialog/colors.h	95;"	d
+POUND	scripts/bb_mkdep.c	167;"	d	file:
+PREFIX	scripts/config/Rules.mak	/^    PREFIX:=`pwd`\/_install$/;"	m
+PRINTD	scripts/config/zconf.tab.c	166;"	d	file:
+PRI_IDE_LEGACY_REG	mips.bonito/cs5536.h	539;"	d
+PROG	scripts/config/Rules.mak	/^PROG      := busybox$/;"	m
+PSHORT	lib/kbhit.c	45;"	d	file:
+PTR_PAD	lib/mem.c	15;"	d	file:
+PTR_PAD	lib/mem.c	17;"	d	file:
+P_CHOICE	scripts/config/expr.h	/^	P_UNKNOWN, P_PROMPT, P_COMMENT, P_MENU, P_DEFAULT, P_CHOICE, P_SELECT, P_RANGE$/;"	e	enum:prop_type
+P_COMMENT	scripts/config/expr.h	/^	P_UNKNOWN, P_PROMPT, P_COMMENT, P_MENU, P_DEFAULT, P_CHOICE, P_SELECT, P_RANGE$/;"	e	enum:prop_type
+P_DEFAULT	scripts/config/expr.h	/^	P_UNKNOWN, P_PROMPT, P_COMMENT, P_MENU, P_DEFAULT, P_CHOICE, P_SELECT, P_RANGE$/;"	e	enum:prop_type
+P_MENU	scripts/config/expr.h	/^	P_UNKNOWN, P_PROMPT, P_COMMENT, P_MENU, P_DEFAULT, P_CHOICE, P_SELECT, P_RANGE$/;"	e	enum:prop_type
+P_PROMPT	scripts/config/expr.h	/^	P_UNKNOWN, P_PROMPT, P_COMMENT, P_MENU, P_DEFAULT, P_CHOICE, P_SELECT, P_RANGE$/;"	e	enum:prop_type
+P_RANGE	scripts/config/expr.h	/^	P_UNKNOWN, P_PROMPT, P_COMMENT, P_MENU, P_DEFAULT, P_CHOICE, P_SELECT, P_RANGE$/;"	e	enum:prop_type
+P_SELECT	scripts/config/expr.h	/^	P_UNKNOWN, P_PROMPT, P_COMMENT, P_MENU, P_DEFAULT, P_CHOICE, P_SELECT, P_RANGE$/;"	e	enum:prop_type
+P_UNKNOWN	scripts/config/expr.h	/^	P_UNKNOWN, P_PROMPT, P_COMMENT, P_MENU, P_DEFAULT, P_CHOICE, P_SELECT, P_RANGE$/;"	e	enum:prop_type
+PciConfSel	lib/pci.c	/^static int PciConfSel(int argc,char **argv)$/;"	f	file:
+PciConfSel	mips.8172/arch.c	/^static int PciConfSel(int argc,char **argv)$/;"	f	file:
+PlxChipPciInterruptDisable	lib/plx.c	/^PlxChipPciInterruptDisable($/;"	f
+PlxChipPciInterruptEnable	lib/plx.c	/^PlxChipPciInterruptEnable($/;"	f
+PnpInit	mips.bonito/pnp_686b.c	/^myinit_begin(PnpInit);$/;"	v
+PnpInit	mips.bonito/pnp_686b.c	/^static int PnpInit(void)$/;"	f	file:
+PnpRead	mips.bonito/pnp_686b.c	/^static int PnpRead(int argc,char **argv)$/;"	f	file:
+PnpRead	mips.bonito/pnp_82371.c	/^static int PnpRead(int argc,char **argv)$/;"	f	file:
+PnpRead	mips.ev64420/pnp.c	/^static int PnpRead(int argc,char **argv)$/;"	f	file:
+PnpWrite	mips.bonito/pnp_686b.c	/^static int PnpWrite(int argc,char **argv)$/;"	f	file:
+PnpWrite	mips.bonito/pnp_82371.c	/^static int PnpWrite(int argc,char **argv)$/;"	f	file:
+PnpWrite	mips.ev64420/pnp.c	/^static int PnpWrite(int argc,char **argv)$/;"	f	file:
+RAMCYCLE	mips.8172/ev8172.h	412;"	d
+RAMMS	mips.8172/ev8172.h	434;"	d
+RAMNS	mips.8172/ev8172.h	428;"	d
+RAMUS	mips.8172/ev8172.h	431;"	d
+REJECT	scripts/config/lex.zconf.c	1995;"	d	file:
+REM	scripts/bb_mkdep.c	165;"	d	file:
+RESERVED	lib/inflate.c	1062;"	d	file:
+RM	scripts/config/Rules.mak	/^RM             = rm$/;"	m
+RM_F	scripts/config/Rules.mak	/^RM_F           = $(RM) -f$/;"	m
+ROMCYCLE	mips.8172/ev8172.h	413;"	d
+ROMMS	mips.8172/ev8172.h	435;"	d
+ROMNS	mips.8172/ev8172.h	429;"	d
+ROMUS	mips.8172/ev8172.h	432;"	d
+RTC_ADDR_PORT	mips.8172/ev8172.h	454;"	d
+RTC_BASE	mips.8172/ev8172.h	453;"	d
+RTC_CEN_OFFSET	mips.bonito/cs5536.h	291;"	d
+RTC_DATA_PORT	mips.8172/ev8172.h	455;"	d
+RTC_DATE_INDEX	mips.8172/ev8172.h	216;"	d
+RTC_DAY_INDEX	mips.8172/ev8172.h	215;"	d
+RTC_DOMA_OFFSET	mips.bonito/cs5536.h	289;"	d
+RTC_HOUR_INDEX	mips.8172/ev8172.h	214;"	d
+RTC_HZ	mips.8172/ev8172.h	418;"	d
+RTC_MIN_INDEX	mips.8172/ev8172.h	213;"	d
+RTC_MONA_OFFSET	mips.bonito/cs5536.h	290;"	d
+RTC_MONTH_INDEX	mips.8172/ev8172.h	217;"	d
+RTC_RAM_LOCK	mips.bonito/cs5536.h	288;"	d
+RTC_RATE	mips.8172/ev8172.h	419;"	d
+RTC_REGA_INDEX	mips.8172/ev8172.h	219;"	d
+RTC_REGB_INDEX	mips.8172/ev8172.h	220;"	d
+RTC_REGC_INDEX	mips.8172/ev8172.h	221;"	d
+RTC_REGD_INDEX	mips.8172/ev8172.h	222;"	d
+RTC_SEC_INDEX	mips.8172/ev8172.h	212;"	d
+RTC_YEAR_INDEX	mips.8172/ev8172.h	218;"	d
+S	scripts/bb_mkdep.c	162;"	d	file:
+SBIT	lib/mode_string.c	/^static const mode_t SBIT[] = {$/;"	v	file:
+SB_CAP	mips.bonito/cs5536.h	110;"	d
+SB_CONFIG	mips.bonito/cs5536.h	111;"	d
+SB_CTRL	mips.bonito/cs5536.h	134;"	d
+SB_DIAG	mips.bonito/cs5536.h	129;"	d
+SB_ERROR	mips.bonito/cs5536.h	113;"	d
+SB_EXCEP_ERR_EN	mips.bonito/cs5536.h	117;"	d
+SB_EXCEP_ERR_FLAG	mips.bonito/cs5536.h	124;"	d
+SB_MAR_ERR_EN	mips.bonito/cs5536.h	114;"	d
+SB_MAR_ERR_FLAG	mips.bonito/cs5536.h	121;"	d
+SB_MSR_REG	mips.bonito/cs5536.h	38;"	d
+SB_PARE_ERR_EN	mips.bonito/cs5536.h	119;"	d
+SB_PARE_ERR_FLAG	mips.bonito/cs5536.h	126;"	d
+SB_PM	mips.bonito/cs5536.h	128;"	d
+SB_R0	mips.bonito/cs5536.h	135;"	d
+SB_R1	mips.bonito/cs5536.h	136;"	d
+SB_R10	mips.bonito/cs5536.h	145;"	d
+SB_R11	mips.bonito/cs5536.h	146;"	d
+SB_R12	mips.bonito/cs5536.h	147;"	d
+SB_R13	mips.bonito/cs5536.h	148;"	d
+SB_R14	mips.bonito/cs5536.h	149;"	d
+SB_R15	mips.bonito/cs5536.h	150;"	d
+SB_R2	mips.bonito/cs5536.h	137;"	d
+SB_R3	mips.bonito/cs5536.h	138;"	d
+SB_R4	mips.bonito/cs5536.h	139;"	d
+SB_R5	mips.bonito/cs5536.h	140;"	d
+SB_R6	mips.bonito/cs5536.h	141;"	d
+SB_R7	mips.bonito/cs5536.h	142;"	d
+SB_R8	mips.bonito/cs5536.h	143;"	d
+SB_R9	mips.bonito/cs5536.h	144;"	d
+SB_RSVD_BIT1	mips.bonito/cs5536.h	116;"	d
+SB_RSVD_BIT2	mips.bonito/cs5536.h	123;"	d
+SB_SMI	mips.bonito/cs5536.h	112;"	d
+SB_SYSE_ERR_EN	mips.bonito/cs5536.h	118;"	d
+SB_SYSE_ERR_FLAG	mips.bonito/cs5536.h	125;"	d
+SB_TAR_ERR_EN	mips.bonito/cs5536.h	115;"	d
+SB_TAR_ERR_FLAG	mips.bonito/cs5536.h	122;"	d
+SB_TAS_ERR_EN	mips.bonito/cs5536.h	120;"	d
+SB_TAS_ERR_FLAG	mips.bonito/cs5536.h	127;"	d
+SCREEN_BG	scripts/config/lxdialog/colors.h	30;"	d
+SCREEN_FG	scripts/config/lxdialog/colors.h	29;"	d
+SCREEN_HL	scripts/config/lxdialog/colors.h	31;"	d
+SEARCHBOX_BG	scripts/config/lxdialog/colors.h	82;"	d
+SEARCHBOX_BORDER_BG	scripts/config/lxdialog/colors.h	90;"	d
+SEARCHBOX_BORDER_FG	scripts/config/lxdialog/colors.h	89;"	d
+SEARCHBOX_BORDER_HL	scripts/config/lxdialog/colors.h	91;"	d
+SEARCHBOX_FG	scripts/config/lxdialog/colors.h	81;"	d
+SEARCHBOX_HL	scripts/config/lxdialog/colors.h	83;"	d
+SEARCHBOX_TITLE_BG	scripts/config/lxdialog/colors.h	86;"	d
+SEARCHBOX_TITLE_FG	scripts/config/lxdialog/colors.h	85;"	d
+SEARCHBOX_TITLE_HL	scripts/config/lxdialog/colors.h	87;"	d
+SECHO	scripts/config/Rules.mak	/^SECHO=-@false$/;"	m
+SECHO	scripts/config/Rules.mak	/^SECHO=@echo$/;"	m
+SEC_IDE_LEGACY_REG	mips.bonito/cs5536.h	540;"	d
+SEG0_BEGIN	lib/mem.c	20;"	d	file:
+SEG1_END	lib/mem.c	21;"	d	file:
+SHADOW_BG	scripts/config/lxdialog/colors.h	34;"	d
+SHADOW_FG	scripts/config/lxdialog/colors.h	33;"	d
+SHADOW_HL	scripts/config/lxdialog/colors.h	35;"	d
+SHARED_DEPS	scripts/config/Makefile	/^SHARED_DEPS := $(srcdir)\/lkc.h $(srcdir)\/lkc_proto.h \\$/;"	m
+SHARED_OBJS	scripts/config/Makefile	/^SHARED_OBJS  = $(patsubst %.c,%.o, $(SHARED_SRC))$/;"	m
+SHARED_SRC	scripts/config/Makefile	/^SHARED_SRC   = zconf.tab.c$/;"	m
+SMB_ADDR	mips.bonito/cs5536.h	521;"	d
+SMB_ADDR	mips.bonito/cs5536_i2c.c	34;"	d	file:
+SMB_ADDR_SAEN	mips.bonito/cs5536.h	522;"	d
+SMB_ADDR_SAEN	mips.bonito/cs5536_i2c.c	35;"	d	file:
+SMB_BASE_ADDR	mips.bonito/cs5536_i2c.c	/^static int	SMB_BASE_ADDR=0;$/;"	v	file:
+SMB_CSTS_BB	mips.bonito/cs5536.h	510;"	d
+SMB_CSTS_BB	mips.bonito/cs5536_i2c.c	23;"	d	file:
+SMB_CSTS_BUSY	mips.bonito/cs5536.h	511;"	d
+SMB_CSTS_BUSY	mips.bonito/cs5536_i2c.c	24;"	d	file:
+SMB_CSTS_GCMTCH	mips.bonito/cs5536.h	508;"	d
+SMB_CSTS_GCMTCH	mips.bonito/cs5536_i2c.c	21;"	d	file:
+SMB_CSTS_MATCH	mips.bonito/cs5536.h	509;"	d
+SMB_CSTS_MATCH	mips.bonito/cs5536_i2c.c	22;"	d	file:
+SMB_CSTS_TGSTL	mips.bonito/cs5536.h	506;"	d
+SMB_CSTS_TGSTL	mips.bonito/cs5536_i2c.c	19;"	d	file:
+SMB_CSTS_TSDA	mips.bonito/cs5536.h	507;"	d
+SMB_CSTS_TSDA	mips.bonito/cs5536_i2c.c	20;"	d	file:
+SMB_CTRL1	mips.bonito/cs5536.h	512;"	d
+SMB_CTRL1	mips.bonito/cs5536_i2c.c	25;"	d	file:
+SMB_CTRL1_ACK	mips.bonito/cs5536.h	516;"	d
+SMB_CTRL1_ACK	mips.bonito/cs5536_i2c.c	29;"	d	file:
+SMB_CTRL1_GCMEN	mips.bonito/cs5536.h	515;"	d
+SMB_CTRL1_GCMEN	mips.bonito/cs5536_i2c.c	28;"	d	file:
+SMB_CTRL1_INTEN	mips.bonito/cs5536.h	518;"	d
+SMB_CTRL1_INTEN	mips.bonito/cs5536_i2c.c	31;"	d	file:
+SMB_CTRL1_NMINTE	mips.bonito/cs5536.h	514;"	d
+SMB_CTRL1_NMINTE	mips.bonito/cs5536_i2c.c	27;"	d	file:
+SMB_CTRL1_RSVD	mips.bonito/cs5536.h	517;"	d
+SMB_CTRL1_RSVD	mips.bonito/cs5536_i2c.c	30;"	d	file:
+SMB_CTRL1_START	mips.bonito/cs5536.h	520;"	d
+SMB_CTRL1_START	mips.bonito/cs5536_i2c.c	33;"	d	file:
+SMB_CTRL1_STASTRE	mips.bonito/cs5536.h	513;"	d
+SMB_CTRL1_STASTRE	mips.bonito/cs5536_i2c.c	26;"	d	file:
+SMB_CTRL1_STOP	mips.bonito/cs5536.h	519;"	d
+SMB_CTRL1_STOP	mips.bonito/cs5536_i2c.c	32;"	d	file:
+SMB_CTRL2	mips.bonito/cs5536.h	523;"	d
+SMB_CTRL2	mips.bonito/cs5536_i2c.c	36;"	d	file:
+SMB_CTRL3	mips.bonito/cs5536.h	525;"	d
+SMB_CTRL3	mips.bonito/cs5536_i2c.c	38;"	d	file:
+SMB_CTRL_STS	mips.bonito/cs5536.h	505;"	d
+SMB_CTRL_STS	mips.bonito/cs5536_i2c.c	18;"	d	file:
+SMB_ENABLE	mips.bonito/cs5536.h	524;"	d
+SMB_ENABLE	mips.bonito/cs5536_i2c.c	37;"	d	file:
+SMB_SDA	mips.bonito/cs5536.h	495;"	d
+SMB_SDA	mips.bonito/cs5536_i2c.c	8;"	d	file:
+SMB_STS	mips.bonito/cs5536.h	496;"	d
+SMB_STS	mips.bonito/cs5536_i2c.c	9;"	d	file:
+SMB_STS_BER	mips.bonito/cs5536.h	499;"	d
+SMB_STS_BER	mips.bonito/cs5536_i2c.c	12;"	d	file:
+SMB_STS_MASTER	mips.bonito/cs5536.h	503;"	d
+SMB_STS_MASTER	mips.bonito/cs5536_i2c.c	16;"	d	file:
+SMB_STS_NEGACK	mips.bonito/cs5536.h	500;"	d
+SMB_STS_NEGACK	mips.bonito/cs5536_i2c.c	13;"	d	file:
+SMB_STS_NMATCH	mips.bonito/cs5536.h	502;"	d
+SMB_STS_NMATCH	mips.bonito/cs5536_i2c.c	15;"	d	file:
+SMB_STS_SDAST	mips.bonito/cs5536.h	498;"	d
+SMB_STS_SDAST	mips.bonito/cs5536_i2c.c	11;"	d	file:
+SMB_STS_SLVSTP	mips.bonito/cs5536.h	497;"	d
+SMB_STS_SLVSTP	mips.bonito/cs5536_i2c.c	10;"	d	file:
+SMB_STS_STASTR	mips.bonito/cs5536.h	501;"	d
+SMB_STS_STASTR	mips.bonito/cs5536_i2c.c	14;"	d	file:
+SMB_STS_XMIT	mips.bonito/cs5536.h	504;"	d
+SMB_STS_XMIT	mips.bonito/cs5536_i2c.c	17;"	d	file:
+SMODE0	lib/mode_string.c	/^static const char SMODE0[] = "..S..S..T";$/;"	v	file:
+SMODE1	lib/mode_string.c	/^static const char SMODE1[] = "..s..s..t";$/;"	v	file:
+SOFT_BAR_ACC_FLAG	mips.bonito/cs5536.h	182;"	d
+SOFT_BAR_ACPI_FLAG	mips.bonito/cs5536.h	176;"	d
+SOFT_BAR_EHCI_FLAG	mips.bonito/cs5536.h	184;"	d
+SOFT_BAR_FLSH0_FLAG	mips.bonito/cs5536.h	177;"	d
+SOFT_BAR_FLSH1_FLAG	mips.bonito/cs5536.h	178;"	d
+SOFT_BAR_FLSH2_FLAG	mips.bonito/cs5536.h	179;"	d
+SOFT_BAR_FLSH3_FLAG	mips.bonito/cs5536.h	180;"	d
+SOFT_BAR_GPIO_FLAG	mips.bonito/cs5536.h	172;"	d
+SOFT_BAR_IDE_FLAG	mips.bonito/cs5536.h	181;"	d
+SOFT_BAR_IRQ_FLAG	mips.bonito/cs5536.h	174;"	d
+SOFT_BAR_MFGPT_FLAG	mips.bonito/cs5536.h	173;"	d
+SOFT_BAR_OHCI_FLAG	mips.bonito/cs5536.h	183;"	d
+SOFT_BAR_OTG_FLAG	mips.bonito/cs5536.h	186;"	d
+SOFT_BAR_PMS_FLAG	mips.bonito/cs5536.h	175;"	d
+SOFT_BAR_SMB_FLAG	mips.bonito/cs5536.h	171;"	d
+SOFT_BAR_UDC_FLAG	mips.bonito/cs5536.h	185;"	d
+SOURCES_MODE	scripts/bb_mkdep.c	156;"	d	file:
+SRCTREE	scripts/config/lkc.h	24;"	d
+START_STRSIZE	scripts/config/lex.zconf.c	2015;"	d	file:
+STATIC	lib/inflate.c	118;"	d	file:
+STATIC	lib/ramdisk.c	39;"	d	file:
+STR	scripts/bb_mkdep.c	163;"	d	file:
+STRING	scripts/config/lex.zconf.c	2066;"	d	file:
+STRIP	scripts/config/Rules.mak	/^STRIP          = $(CROSS)strip$/;"	m
+STRIPCMD	scripts/config/Rules.mak	/^    STRIPCMD:=$(STRIP) -s --remove-section=.note --remove-section=.comment$/;"	m
+STRIPCMD	scripts/config/Rules.mak	/^    STRIPCMD:=\/bin\/true -Not_stripping_since_we_are_debugging$/;"	m
+SUBLEVEL_VERSION	scripts/config/Rules.mak	/^SUBLEVEL_VERSION:=0$/;"	m
+SUPERIO_CFG_REG	mips.bonito/pnp_686b.c	13;"	d	file:
+SUPERIO_CFG_REG	mips.ev64420/pnp.c	12;"	d	file:
+SYMBOL_AUTO	scripts/config/expr.h	94;"	d
+SYMBOL_CHANGED	scripts/config/expr.h	92;"	d
+SYMBOL_CHECK	scripts/config/expr.h	85;"	d
+SYMBOL_CHECKED	scripts/config/expr.h	95;"	d
+SYMBOL_CHECK_DONE	scripts/config/expr.h	96;"	d
+SYMBOL_CHOICE	scripts/config/expr.h	86;"	d
+SYMBOL_CHOICEVAL	scripts/config/expr.h	87;"	d
+SYMBOL_CONST	scripts/config/expr.h	84;"	d
+SYMBOL_FORCEWRITE	scripts/config/confdata.c	271;"	d	file:
+SYMBOL_HASHMASK	scripts/config/expr.h	101;"	d
+SYMBOL_HASHSIZE	scripts/config/expr.h	100;"	d
+SYMBOL_MAXLENGTH	scripts/config/expr.h	99;"	d
+SYMBOL_MOD	scripts/config/expr.h	82;"	d
+SYMBOL_NEW	scripts/config/expr.h	93;"	d
+SYMBOL_NO	scripts/config/expr.h	83;"	d
+SYMBOL_OPTIONAL	scripts/config/expr.h	90;"	d
+SYMBOL_PRINTED	scripts/config/expr.h	88;"	d
+SYMBOL_VALID	scripts/config/expr.h	89;"	d
+SYMBOL_WARNED	scripts/config/expr.h	97;"	d
+SYMBOL_WRITE	scripts/config/expr.h	91;"	d
+SYMBOL_YES	scripts/config/expr.h	81;"	d
+SYSCLK_MHZ	mips.8172/ev8172.h	409;"	d
+S_BOOLEAN	scripts/config/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING, S_OTHER$/;"	e	enum:symbol_type
+S_HEX	scripts/config/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING, S_OTHER$/;"	e	enum:symbol_type
+S_IFBLK	lib/ls.c	12;"	d	file:
+S_IFCHR	lib/ls.c	14;"	d	file:
+S_IFDIR	lib/ls.c	13;"	d	file:
+S_IFIFO	lib/ls.c	15;"	d	file:
+S_IFLNK	lib/ls.c	10;"	d	file:
+S_IFMT	lib/ls.c	8;"	d	file:
+S_IFREG	lib/ls.c	11;"	d	file:
+S_IFSOCK	lib/ls.c	9;"	d	file:
+S_INT	scripts/config/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING, S_OTHER$/;"	e	enum:symbol_type
+S_ISBLK	lib/ls.c	24;"	d	file:
+S_ISCHR	lib/ls.c	23;"	d	file:
+S_ISDIR	lib/ls.c	22;"	d	file:
+S_ISFIFO	lib/ls.c	25;"	d	file:
+S_ISGID	lib/ls.c	17;"	d	file:
+S_ISLNK	lib/ls.c	20;"	d	file:
+S_ISREG	lib/ls.c	21;"	d	file:
+S_ISSOCK	lib/ls.c	26;"	d	file:
+S_ISUID	lib/ls.c	16;"	d	file:
+S_ISVTX	lib/ls.c	18;"	d	file:
+S_OTHER	scripts/config/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING, S_OTHER$/;"	e	enum:symbol_type
+S_STRING	scripts/config/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING, S_OTHER$/;"	e	enum:symbol_type
+S_TRISTATE	scripts/config/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING, S_OTHER$/;"	e	enum:symbol_type
+S_UNKNOWN	scripts/config/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING, S_OTHER$/;"	e	enum:symbol_type
+TAB	scripts/config/lxdialog/dialog.h	54;"	d
+TAG_BG	scripts/config/lxdialog/colors.h	114;"	d
+TAG_FG	scripts/config/lxdialog/colors.h	113;"	d
+TAG_HL	scripts/config/lxdialog/colors.h	115;"	d
+TAG_KEY_BG	scripts/config/lxdialog/colors.h	122;"	d
+TAG_KEY_FG	scripts/config/lxdialog/colors.h	121;"	d
+TAG_KEY_HL	scripts/config/lxdialog/colors.h	123;"	d
+TAG_KEY_SELECTED_BG	scripts/config/lxdialog/colors.h	126;"	d
+TAG_KEY_SELECTED_FG	scripts/config/lxdialog/colors.h	125;"	d
+TAG_KEY_SELECTED_HL	scripts/config/lxdialog/colors.h	127;"	d
+TAG_SELECTED_BG	scripts/config/lxdialog/colors.h	118;"	d
+TAG_SELECTED_FG	scripts/config/lxdialog/colors.h	117;"	d
+TAG_SELECTED_HL	scripts/config/lxdialog/colors.h	119;"	d
+TARGET_ARCH	scripts/config/Rules.mak	/^TARGET_ARCH:=$(shell $(CC) -dumpmachine | sed -e s'\/-.*\/\/' \\$/;"	m
+TARGET_OS	scripts/config/Rules.mak	/^TARGET_OS=linux$/;"	m
+TIMER_TCR0	mips.8172/ev8172.h	353;"	d
+TIMER_TCR1	mips.8172/ev8172.h	357;"	d
+TIMER_TCVR0	mips.8172/ev8172.h	351;"	d
+TIMER_TCVR1	mips.8172/ev8172.h	355;"	d
+TIMER_TIDR	mips.8172/ev8172.h	358;"	d
+TIMER_TIRR	mips.8172/ev8172.h	354;"	d
+TIMER_TRVR0	mips.8172/ev8172.h	352;"	d
+TIMER_TRVR1	mips.8172/ev8172.h	356;"	d
+TIME_ACCESS	lib/mode_string.c	/^static const int TIME_ACCESS = 2;$/;"	v	file:
+TIME_CHANGE	lib/mode_string.c	/^static const int TIME_CHANGE = 1;$/;"	v	file:
+TIME_MOD	lib/mode_string.c	/^static const int TIME_MOD = 0;$/;"	v	file:
+TITLE_BG	scripts/config/lxdialog/colors.h	42;"	d
+TITLE_FG	scripts/config/lxdialog/colors.h	41;"	d
+TITLE_HL	scripts/config/lxdialog/colors.h	43;"	d
+TOPDIR	Makefile	/^TOPDIR=$(KERNEL_PATH)$/;"	m
+TOPDIR	i386/Makefile	/^TOPDIR=$(KERNEL_PATH)$/;"	m
+TOPDIR	mips.bonito/Makefile	/^TOPDIR=$(KERNEL_PATH)$/;"	m
+TOPDIR	mips.ev64420/Makefile	/^TOPDIR=$(KERNEL_PATH)$/;"	m
+TOPDIR	test/Makefile	/^TOPDIR=$(KERNEL_PATH)$/;"	m
+TR	scripts/config/lxdialog/dialog.h	51;"	d
+TRUE	lib/plx.c	15;"	d	file:
+TRUE	mips.8172/lpc.c	24;"	d	file:
+TYPECHAR	lib/mode_string.c	46;"	d	file:
+TYPEINDEX	lib/mode_string.c	130;"	d	file:
+TYPEINDEX	lib/mode_string.c	45;"	d	file:
+T_AND	scripts/config/zconf.tab.c	/^     T_AND = 294,$/;"	e	enum:yytokentype	file:
+T_AND	scripts/config/zconf.tab.c	142;"	d	file:
+T_AND	scripts/config/zconf.tab.h	/^     T_AND = 288,$/;"	e	enum:yytokentype
+T_AND	scripts/config/zconf.tab.h	100;"	d
+T_BOOLEAN	scripts/config/zconf.tab.c	/^     T_BOOLEAN = 278,$/;"	e	enum:yytokentype	file:
+T_BOOLEAN	scripts/config/zconf.tab.c	126;"	d	file:
+T_BOOLEAN	scripts/config/zconf.tab.h	/^     T_BOOLEAN = 276,$/;"	e	enum:yytokentype
+T_BOOLEAN	scripts/config/zconf.tab.h	88;"	d
+T_CHOICE	scripts/config/zconf.tab.c	/^     T_CHOICE = 262,$/;"	e	enum:yytokentype	file:
+T_CHOICE	scripts/config/zconf.tab.c	110;"	d	file:
+T_CHOICE	scripts/config/zconf.tab.h	/^     T_CHOICE = 262,$/;"	e	enum:yytokentype
+T_CHOICE	scripts/config/zconf.tab.h	74;"	d
+T_CLOSE_PAREN	scripts/config/zconf.tab.c	/^     T_CLOSE_PAREN = 288,$/;"	e	enum:yytokentype	file:
+T_CLOSE_PAREN	scripts/config/zconf.tab.c	136;"	d	file:
+T_CLOSE_PAREN	scripts/config/zconf.tab.h	/^     T_CLOSE_PAREN = 284,$/;"	e	enum:yytokentype
+T_CLOSE_PAREN	scripts/config/zconf.tab.h	96;"	d
+T_COMMENT	scripts/config/zconf.tab.c	/^     T_COMMENT = 264,$/;"	e	enum:yytokentype	file:
+T_COMMENT	scripts/config/zconf.tab.c	112;"	d	file:
+T_COMMENT	scripts/config/zconf.tab.h	/^     T_COMMENT = 264,$/;"	e	enum:yytokentype
+T_COMMENT	scripts/config/zconf.tab.h	76;"	d
+T_CONFIG	scripts/config/zconf.tab.c	/^     T_CONFIG = 265,$/;"	e	enum:yytokentype	file:
+T_CONFIG	scripts/config/zconf.tab.c	113;"	d	file:
+T_CONFIG	scripts/config/zconf.tab.h	/^     T_CONFIG = 265,$/;"	e	enum:yytokentype
+T_CONFIG	scripts/config/zconf.tab.h	77;"	d
+T_DEFAULT	scripts/config/zconf.tab.c	/^     T_DEFAULT = 275,$/;"	e	enum:yytokentype	file:
+T_DEFAULT	scripts/config/zconf.tab.c	123;"	d	file:
+T_DEFAULT	scripts/config/zconf.tab.h	/^     T_DEFAULT = 274,$/;"	e	enum:yytokentype
+T_DEFAULT	scripts/config/zconf.tab.h	86;"	d
+T_DEF_BOOLEAN	scripts/config/zconf.tab.c	/^     T_DEF_BOOLEAN = 279,$/;"	e	enum:yytokentype	file:
+T_DEF_BOOLEAN	scripts/config/zconf.tab.c	127;"	d	file:
+T_DEF_TRISTATE	scripts/config/zconf.tab.c	/^     T_DEF_TRISTATE = 277,$/;"	e	enum:yytokentype	file:
+T_DEF_TRISTATE	scripts/config/zconf.tab.c	125;"	d	file:
+T_DEPENDS	scripts/config/zconf.tab.c	/^     T_DEPENDS = 271,$/;"	e	enum:yytokentype	file:
+T_DEPENDS	scripts/config/zconf.tab.c	119;"	d	file:
+T_DEPENDS	scripts/config/zconf.tab.h	/^     T_DEPENDS = 270,$/;"	e	enum:yytokentype
+T_DEPENDS	scripts/config/zconf.tab.h	82;"	d
+T_ENDCHOICE	scripts/config/zconf.tab.c	/^     T_ENDCHOICE = 263,$/;"	e	enum:yytokentype	file:
+T_ENDCHOICE	scripts/config/zconf.tab.c	111;"	d	file:
+T_ENDCHOICE	scripts/config/zconf.tab.h	/^     T_ENDCHOICE = 263,$/;"	e	enum:yytokentype
+T_ENDCHOICE	scripts/config/zconf.tab.h	75;"	d
+T_ENDIF	scripts/config/zconf.tab.c	/^     T_ENDIF = 270,$/;"	e	enum:yytokentype	file:
+T_ENDIF	scripts/config/zconf.tab.c	118;"	d	file:
+T_ENDIF	scripts/config/zconf.tab.h	/^     T_ENDIF = 269,$/;"	e	enum:yytokentype
+T_ENDIF	scripts/config/zconf.tab.h	81;"	d
+T_ENDMENU	scripts/config/zconf.tab.c	/^     T_ENDMENU = 260,$/;"	e	enum:yytokentype	file:
+T_ENDMENU	scripts/config/zconf.tab.c	108;"	d	file:
+T_ENDMENU	scripts/config/zconf.tab.h	/^     T_ENDMENU = 260,$/;"	e	enum:yytokentype
+T_ENDMENU	scripts/config/zconf.tab.h	72;"	d
+T_EOF	scripts/config/zconf.tab.c	/^     T_EOF = 286,$/;"	e	enum:yytokentype	file:
+T_EOF	scripts/config/zconf.tab.c	134;"	d	file:
+T_EOF	scripts/config/zconf.tab.h	/^     T_EOF = 282,$/;"	e	enum:yytokentype
+T_EOF	scripts/config/zconf.tab.h	94;"	d
+T_EOL	scripts/config/zconf.tab.c	/^     T_EOL = 287,$/;"	e	enum:yytokentype	file:
+T_EOL	scripts/config/zconf.tab.c	135;"	d	file:
+T_EOL	scripts/config/zconf.tab.h	/^     T_EOL = 283,$/;"	e	enum:yytokentype
+T_EOL	scripts/config/zconf.tab.h	95;"	d
+T_EQUAL	scripts/config/zconf.tab.c	/^     T_EQUAL = 295,$/;"	e	enum:yytokentype	file:
+T_EQUAL	scripts/config/zconf.tab.c	143;"	d	file:
+T_EQUAL	scripts/config/zconf.tab.h	/^     T_EQUAL = 289,$/;"	e	enum:yytokentype
+T_EQUAL	scripts/config/zconf.tab.h	101;"	d
+T_HELP	scripts/config/zconf.tab.c	/^     T_HELP = 267,$/;"	e	enum:yytokentype	file:
+T_HELP	scripts/config/zconf.tab.c	115;"	d	file:
+T_HELP	scripts/config/zconf.tab.h	/^     T_HELP = 266,$/;"	e	enum:yytokentype
+T_HELP	scripts/config/zconf.tab.h	78;"	d
+T_HELPTEXT	scripts/config/zconf.tab.c	/^     T_HELPTEXT = 268,$/;"	e	enum:yytokentype	file:
+T_HELPTEXT	scripts/config/zconf.tab.c	116;"	d	file:
+T_HELPTEXT	scripts/config/zconf.tab.h	/^     T_HELPTEXT = 267,$/;"	e	enum:yytokentype
+T_HELPTEXT	scripts/config/zconf.tab.h	79;"	d
+T_HEX	scripts/config/zconf.tab.c	/^     T_HEX = 282,$/;"	e	enum:yytokentype	file:
+T_HEX	scripts/config/zconf.tab.c	130;"	d	file:
+T_HEX	scripts/config/zconf.tab.h	/^     T_HEX = 278,$/;"	e	enum:yytokentype
+T_HEX	scripts/config/zconf.tab.h	90;"	d
+T_IF	scripts/config/zconf.tab.c	/^     T_IF = 269,$/;"	e	enum:yytokentype	file:
+T_IF	scripts/config/zconf.tab.c	117;"	d	file:
+T_IF	scripts/config/zconf.tab.h	/^     T_IF = 268,$/;"	e	enum:yytokentype
+T_IF	scripts/config/zconf.tab.h	80;"	d
+T_INT	scripts/config/zconf.tab.c	/^     T_INT = 281,$/;"	e	enum:yytokentype	file:
+T_INT	scripts/config/zconf.tab.c	129;"	d	file:
+T_INT	scripts/config/zconf.tab.h	/^     T_INT = 277,$/;"	e	enum:yytokentype
+T_INT	scripts/config/zconf.tab.h	89;"	d
+T_MAINMENU	scripts/config/zconf.tab.c	/^     T_MAINMENU = 258,$/;"	e	enum:yytokentype	file:
+T_MAINMENU	scripts/config/zconf.tab.c	106;"	d	file:
+T_MAINMENU	scripts/config/zconf.tab.h	/^     T_MAINMENU = 258,$/;"	e	enum:yytokentype
+T_MAINMENU	scripts/config/zconf.tab.h	70;"	d
+T_MENU	scripts/config/zconf.tab.c	/^     T_MENU = 259,$/;"	e	enum:yytokentype	file:
+T_MENU	scripts/config/zconf.tab.c	107;"	d	file:
+T_MENU	scripts/config/zconf.tab.h	/^     T_MENU = 259,$/;"	e	enum:yytokentype
+T_MENU	scripts/config/zconf.tab.h	71;"	d
+T_MENUCONFIG	scripts/config/zconf.tab.c	/^     T_MENUCONFIG = 266,$/;"	e	enum:yytokentype	file:
+T_MENUCONFIG	scripts/config/zconf.tab.c	114;"	d	file:
+T_NOT	scripts/config/zconf.tab.c	/^     T_NOT = 296$/;"	e	enum:yytokentype	file:
+T_NOT	scripts/config/zconf.tab.c	144;"	d	file:
+T_NOT	scripts/config/zconf.tab.h	/^     T_NOT = 290$/;"	e	enum:yytokentype
+T_NOT	scripts/config/zconf.tab.h	102;"	d
+T_ON	scripts/config/zconf.tab.c	/^     T_ON = 290,$/;"	e	enum:yytokentype	file:
+T_ON	scripts/config/zconf.tab.c	138;"	d	file:
+T_ON	scripts/config/zconf.tab.h	/^     T_ON = 286,$/;"	e	enum:yytokentype
+T_ON	scripts/config/zconf.tab.h	98;"	d
+T_OPEN_PAREN	scripts/config/zconf.tab.c	/^     T_OPEN_PAREN = 289,$/;"	e	enum:yytokentype	file:
+T_OPEN_PAREN	scripts/config/zconf.tab.c	137;"	d	file:
+T_OPEN_PAREN	scripts/config/zconf.tab.h	/^     T_OPEN_PAREN = 285,$/;"	e	enum:yytokentype
+T_OPEN_PAREN	scripts/config/zconf.tab.h	97;"	d
+T_OPTIONAL	scripts/config/zconf.tab.c	/^     T_OPTIONAL = 273,$/;"	e	enum:yytokentype	file:
+T_OPTIONAL	scripts/config/zconf.tab.c	121;"	d	file:
+T_OPTIONAL	scripts/config/zconf.tab.h	/^     T_OPTIONAL = 272,$/;"	e	enum:yytokentype
+T_OPTIONAL	scripts/config/zconf.tab.h	84;"	d
+T_OR	scripts/config/zconf.tab.c	/^     T_OR = 293,$/;"	e	enum:yytokentype	file:
+T_OR	scripts/config/zconf.tab.c	141;"	d	file:
+T_OR	scripts/config/zconf.tab.h	/^     T_OR = 287,$/;"	e	enum:yytokentype
+T_OR	scripts/config/zconf.tab.h	99;"	d
+T_PROMPT	scripts/config/zconf.tab.c	/^     T_PROMPT = 274,$/;"	e	enum:yytokentype	file:
+T_PROMPT	scripts/config/zconf.tab.c	122;"	d	file:
+T_PROMPT	scripts/config/zconf.tab.h	/^     T_PROMPT = 273,$/;"	e	enum:yytokentype
+T_PROMPT	scripts/config/zconf.tab.h	85;"	d
+T_RANGE	scripts/config/zconf.tab.c	/^     T_RANGE = 292,$/;"	e	enum:yytokentype	file:
+T_RANGE	scripts/config/zconf.tab.c	140;"	d	file:
+T_REQUIRES	scripts/config/zconf.tab.c	/^     T_REQUIRES = 272,$/;"	e	enum:yytokentype	file:
+T_REQUIRES	scripts/config/zconf.tab.c	120;"	d	file:
+T_REQUIRES	scripts/config/zconf.tab.h	/^     T_REQUIRES = 271,$/;"	e	enum:yytokentype
+T_REQUIRES	scripts/config/zconf.tab.h	83;"	d
+T_SELECT	scripts/config/zconf.tab.c	/^     T_SELECT = 291,$/;"	e	enum:yytokentype	file:
+T_SELECT	scripts/config/zconf.tab.c	139;"	d	file:
+T_SOURCE	scripts/config/zconf.tab.c	/^     T_SOURCE = 261,$/;"	e	enum:yytokentype	file:
+T_SOURCE	scripts/config/zconf.tab.c	109;"	d	file:
+T_SOURCE	scripts/config/zconf.tab.h	/^     T_SOURCE = 261,$/;"	e	enum:yytokentype
+T_SOURCE	scripts/config/zconf.tab.h	73;"	d
+T_STRING	scripts/config/zconf.tab.c	/^     T_STRING = 280,$/;"	e	enum:yytokentype	file:
+T_STRING	scripts/config/zconf.tab.c	128;"	d	file:
+T_STRING	scripts/config/zconf.tab.h	/^     T_STRING = 280,$/;"	e	enum:yytokentype
+T_STRING	scripts/config/zconf.tab.h	92;"	d
+T_TRISTATE	scripts/config/zconf.tab.c	/^     T_TRISTATE = 276,$/;"	e	enum:yytokentype	file:
+T_TRISTATE	scripts/config/zconf.tab.c	124;"	d	file:
+T_TRISTATE	scripts/config/zconf.tab.h	/^     T_TRISTATE = 275,$/;"	e	enum:yytokentype
+T_TRISTATE	scripts/config/zconf.tab.h	87;"	d
+T_UNEQUAL	scripts/config/zconf.tab.c	/^     T_UNEQUAL = 285,$/;"	e	enum:yytokentype	file:
+T_UNEQUAL	scripts/config/zconf.tab.c	133;"	d	file:
+T_UNEQUAL	scripts/config/zconf.tab.h	/^     T_UNEQUAL = 281,$/;"	e	enum:yytokentype
+T_UNEQUAL	scripts/config/zconf.tab.h	93;"	d
+T_WORD	scripts/config/zconf.tab.c	/^     T_WORD = 283,$/;"	e	enum:yytokentype	file:
+T_WORD	scripts/config/zconf.tab.c	131;"	d	file:
+T_WORD	scripts/config/zconf.tab.h	/^     T_WORD = 279,$/;"	e	enum:yytokentype
+T_WORD	scripts/config/zconf.tab.h	91;"	d
+T_WORD_QUOTE	scripts/config/zconf.tab.c	/^     T_WORD_QUOTE = 284,$/;"	e	enum:yytokentype	file:
+T_WORD_QUOTE	scripts/config/zconf.tab.c	132;"	d	file:
+Trace	lib/ramdisk.c	33;"	d	file:
+Tracec	lib/ramdisk.c	36;"	d	file:
+Tracecv	lib/ramdisk.c	37;"	d	file:
+Tracev	lib/ramdisk.c	34;"	d	file:
+Tracevv	lib/ramdisk.c	35;"	d	file:
+U	scripts/bb_mkdep.c	170;"	d	file:
+UARROW_BG	scripts/config/lxdialog/colors.h	138;"	d
+UARROW_FG	scripts/config/lxdialog/colors.h	137;"	d
+UARROW_HL	scripts/config/lxdialog/colors.h	139;"	d
+UART0_PORT	mips.8172/ev8172.h	457;"	d
+UART0_STATPORT	mips.8172/ev8172.h	458;"	d
+UART1_CONF	mips.bonito/cs5536.h	261;"	d
+UART1_DONG	mips.bonito/cs5536.h	260;"	d
+UART1_MOD	mips.bonito/cs5536.h	259;"	d
+UART1_PORT	mips.8172/ev8172.h	459;"	d
+UART1_RSVD	mips.bonito/cs5536.h	262;"	d
+UART1_STATPORT	mips.8172/ev8172.h	460;"	d
+UART2_CONF	mips.bonito/cs5536.h	265;"	d
+UART2_DONG	mips.bonito/cs5536.h	264;"	d
+UART2_MOD	mips.bonito/cs5536.h	263;"	d
+UART2_RSVD	mips.bonito/cs5536.h	266;"	d
+UINT16_MAX	scripts/config/lex.zconf.c	73;"	d	file:
+UINT32_MAX	scripts/config/lex.zconf.c	76;"	d	file:
+UINT8_MAX	scripts/config/lex.zconf.c	70;"	d	file:
+UNUSED_MSR_REG	mips.bonito/cs5536.h	45;"	d
+USB_CAP	mips.bonito/cs5536.h	326;"	d
+USB_CONFIG	mips.bonito/cs5536.h	327;"	d
+USB_DIAG	mips.bonito/cs5536.h	331;"	d
+USB_EHCI	mips.bonito/cs5536.h	337;"	d
+USB_ERROR	mips.bonito/cs5536.h	329;"	d
+USB_MSR_REG	mips.bonito/cs5536.h	41;"	d
+USB_OHCI	mips.bonito/cs5536.h	336;"	d
+USB_OTG	mips.bonito/cs5536.h	339;"	d
+USB_PM	mips.bonito/cs5536.h	330;"	d
+USB_SMI	mips.bonito/cs5536.h	328;"	d
+USB_UDC	mips.bonito/cs5536.h	338;"	d
+USERCMDS	mips.8172/arch.c	93;"	d	file:
+Uint16	lib/dm642.c	/^typedef unsigned short   Uint16;$/;"	t	file:
+Uint32	lib/dm642.c	/^typedef unsigned int     Uint32;$/;"	t	file:
+Uint40	lib/dm642.c	/^typedef unsigned long    Uint40;$/;"	t	file:
+Uint8	lib/dm642.c	/^typedef unsigned char    Uint8;$/;"	t	file:
+Upstream_Message_0	lib/plx.c	5;"	d	file:
+Upstream_Message_1	lib/plx.c	6;"	d	file:
+Upstream_Message_2	lib/plx.c	7;"	d	file:
+Upstream_Message_3	lib/plx.c	8;"	d	file:
+VERSION	scripts/config/Rules.mak	/^VERSION   :=$(MAJOR_VERSION).$(MINOR_VERSION).$(SUBLEVEL_VERSION)$(EXTRAVERSION)$/;"	m
+VGA_BASE	lib/testvga.c	3;"	d	file:
+VMA_OFFSET	lib/mmap.c	46;"	d	file:
+WARNINGS	scripts/config/Rules.mak	/^WARNINGS=-Wall -Wstrict-prototypes -Wshadow$/;"	m
+WRITEOP	lib/ioctl.c	4;"	d	file:
+WSIZE	lib/ramdisk.c	16;"	d	file:
+XB_Down_Sem	lib/plx.c	3;"	d	file:
+XB_Down_Sem	lib/plx.c	4;"	d	file:
+XKPHYS	mips.8172/addrspace.h	66;"	d
+XKPHYS_TO_PHYS	mips.8172/addrspace.h	91;"	d
+XKSEG	mips.8172/addrspace.h	67;"	d
+XKSSEG	mips.8172/addrspace.h	65;"	d
+XKUSEG	mips.8172/addrspace.h	64;"	d
+YYABORT	scripts/config/zconf.tab.c	689;"	d	file:
+YYACCEPT	scripts/config/zconf.tab.c	688;"	d	file:
+YYBACKUP	scripts/config/zconf.tab.c	701;"	d	file:
+YYBISON	scripts/config/zconf.tab.c	37;"	d	file:
+YYCOPY	scripts/config/zconf.tab.c	280;"	d	file:
+YYCOPY	scripts/config/zconf.tab.c	283;"	d	file:
+YYDEBUG	scripts/config/zconf.tab.c	185;"	d	file:
+YYDPRINTF	scripts/config/zconf.tab.c	748;"	d	file:
+YYDPRINTF	scripts/config/zconf.tab.c	832;"	d	file:
+YYDSYMPRINT	scripts/config/zconf.tab.c	754;"	d	file:
+YYDSYMPRINT	scripts/config/zconf.tab.c	833;"	d	file:
+YYDSYMPRINTF	scripts/config/zconf.tab.c	760;"	d	file:
+YYDSYMPRINTF	scripts/config/zconf.tab.c	834;"	d	file:
+YYEMPTY	scripts/config/zconf.tab.c	685;"	d	file:
+YYEOF	scripts/config/zconf.tab.c	686;"	d	file:
+YYERRCODE	scripts/config/zconf.tab.c	719;"	d	file:
+YYERROR	scripts/config/zconf.tab.c	690;"	d	file:
+YYERROR_VERBOSE	scripts/config/zconf.tab.c	180;"	d	file:
+YYERROR_VERBOSE	scripts/config/zconf.tab.c	190;"	d	file:
+YYERROR_VERBOSE	scripts/config/zconf.tab.c	191;"	d	file:
+YYERROR_VERBOSE	scripts/config/zconf.tab.c	193;"	d	file:
+YYFAIL	scripts/config/zconf.tab.c	697;"	d	file:
+YYFINAL	scripts/config/zconf.tab.c	319;"	d	file:
+YYFPRINTF	scripts/config/zconf.tab.c	745;"	d	file:
+YYINITDEPTH	scripts/config/zconf.tab.c	842;"	d	file:
+YYLAST	scripts/config/zconf.tab.c	321;"	d	file:
+YYLEX	scripts/config/zconf.tab.c	735;"	d	file:
+YYLEX	scripts/config/zconf.tab.c	737;"	d	file:
+YYLLOC_DEFAULT	scripts/config/zconf.tab.c	725;"	d	file:
+YYLSP_NEEDED	scripts/config/zconf.tab.c	46;"	d	file:
+YYMAXDEPTH	scripts/config/zconf.tab.c	853;"	d	file:
+YYMAXDEPTH	scripts/config/zconf.tab.c	857;"	d	file:
+YYMAXUTOK	scripts/config/zconf.tab.c	334;"	d	file:
+YYNNTS	scripts/config/zconf.tab.c	326;"	d	file:
+YYNRULES	scripts/config/zconf.tab.c	328;"	d	file:
+YYNSTATES	scripts/config/zconf.tab.c	330;"	d	file:
+YYNTOKENS	scripts/config/zconf.tab.c	324;"	d	file:
+YYPACT_NINF	scripts/config/zconf.tab.c	553;"	d	file:
+YYPOPSTACK	scripts/config/zconf.tab.c	1061;"	d	file:
+YYPURE	scripts/config/zconf.tab.c	43;"	d	file:
+YYRECOVERING	scripts/config/zconf.tab.c	699;"	d	file:
+YYSIZE_T	scripts/config/zconf.tab.c	248;"	d	file:
+YYSIZE_T	scripts/config/zconf.tab.c	668;"	d	file:
+YYSIZE_T	scripts/config/zconf.tab.c	671;"	d	file:
+YYSIZE_T	scripts/config/zconf.tab.c	676;"	d	file:
+YYSIZE_T	scripts/config/zconf.tab.c	680;"	d	file:
+YYSKELETON_NAME	scripts/config/zconf.tab.c	40;"	d	file:
+YYSTACK_ALLOC	scripts/config/zconf.tab.c	229;"	d	file:
+YYSTACK_ALLOC	scripts/config/zconf.tab.c	233;"	d	file:
+YYSTACK_ALLOC	scripts/config/zconf.tab.c	236;"	d	file:
+YYSTACK_ALLOC	scripts/config/zconf.tab.c	250;"	d	file:
+YYSTACK_BYTES	scripts/config/zconf.tab.c	272;"	d	file:
+YYSTACK_FREE	scripts/config/zconf.tab.c	244;"	d	file:
+YYSTACK_FREE	scripts/config/zconf.tab.c	251;"	d	file:
+YYSTACK_GAP_MAXIMUM	scripts/config/zconf.tab.c	268;"	d	file:
+YYSTACK_RELOCATE	scripts/config/zconf.tab.c	299;"	d	file:
+YYSTATE	scripts/config/lex.zconf.c	122;"	d	file:
+YYSTYPE	scripts/config/zconf.tab.c	/^typedef union YYSTYPE {$/;"	u	file:
+YYSTYPE	scripts/config/zconf.tab.c	/^} YYSTYPE;$/;"	t	typeref:union:YYSTYPE	file:
+YYSTYPE	scripts/config/zconf.tab.h	118;"	d
+YYSTYPE_IS_DECLARED	scripts/config/zconf.tab.c	208;"	d	file:
+YYSTYPE_IS_TRIVIAL	scripts/config/zconf.tab.c	209;"	d	file:
+YYTABLES_NAME	scripts/config/lex.zconf.c	3555;"	d	file:
+YYTABLE_NINF	scripts/config/zconf.tab.c	591;"	d	file:
+YYTERROR	scripts/config/zconf.tab.c	718;"	d	file:
+YYTOKENTYPE	scripts/config/zconf.tab.c	61;"	d	file:
+YYTOKENTYPE	scripts/config/zconf.tab.h	31;"	d
+YYTRANSLATE	scripts/config/zconf.tab.c	336;"	d	file:
+YYUNDEFTOK	scripts/config/zconf.tab.c	333;"	d	file:
+YY_AT_BOL	scripts/config/lex.zconf.c	322;"	d	file:
+YY_BREAK	scripts/config/lex.zconf.c	2184;"	d	file:
+YY_BUFFER_EOF_PENDING	scripts/config/lex.zconf.c	238;"	d	file:
+YY_BUFFER_NEW	scripts/config/lex.zconf.c	226;"	d	file:
+YY_BUFFER_NORMAL	scripts/config/lex.zconf.c	227;"	d	file:
+YY_BUFFER_STATE	scripts/config/lex.zconf.c	/^typedef struct yy_buffer_state *YY_BUFFER_STATE;$/;"	t	typeref:struct:yy_buffer_state	file:
+YY_BUF_SIZE	scripts/config/lex.zconf.c	134;"	d	file:
+YY_CHAR	scripts/config/lex.zconf.c	/^typedef unsigned char YY_CHAR;$/;"	t	file:
+YY_CURRENT_BUFFER	scripts/config/lex.zconf.c	254;"	d	file:
+YY_CURRENT_BUFFER_LVALUE	scripts/config/lex.zconf.c	261;"	d	file:
+YY_DECL	scripts/config/lex.zconf.c	2172;"	d	file:
+YY_DECL	scripts/config/lex.zconf.c	3567;"	d	file:
+YY_DECL_IS_OURS	scripts/config/lex.zconf.c	2168;"	d	file:
+YY_DECL_IS_OURS	scripts/config/lex.zconf.c	3566;"	d	file:
+YY_DO_BEFORE_ACTION	scripts/config/lex.zconf.c	1914;"	d	file:
+YY_DO_BEFORE_ACTION	scripts/config/lex.zconf.c	3563;"	d	file:
+YY_END_OF_BUFFER	scripts/config/lex.zconf.c	1922;"	d	file:
+YY_END_OF_BUFFER_CHAR	scripts/config/lex.zconf.c	130;"	d	file:
+YY_EXIT_FAILURE	scripts/config/lex.zconf.c	3385;"	d	file:
+YY_EXTRA_TYPE	scripts/config/lex.zconf.c	2076;"	d	file:
+YY_FATAL_ERROR	scripts/config/lex.zconf.c	2159;"	d	file:
+YY_FLEX_MAJOR_VERSION	scripts/config/lex.zconf.c	9;"	d	file:
+YY_FLEX_MINOR_VERSION	scripts/config/lex.zconf.c	10;"	d	file:
+YY_FLEX_SUBMINOR_VERSION	scripts/config/lex.zconf.c	11;"	d	file:
+YY_FLUSH_BUFFER	scripts/config/lex.zconf.c	290;"	d	file:
+YY_FLUSH_BUFFER	scripts/config/lex.zconf.c	3558;"	d	file:
+YY_INPUT	scripts/config/lex.zconf.c	2128;"	d	file:
+YY_INT_ALIGNED	scripts/config/lex.zconf.c	4;"	d	file:
+YY_LESS_LINENO	scripts/config/lex.zconf.c	150;"	d	file:
+YY_MORE_ADJ	scripts/config/lex.zconf.c	1997;"	d	file:
+YY_NEW_FILE	scripts/config/lex.zconf.c	128;"	d	file:
+YY_NEW_FILE	scripts/config/lex.zconf.c	3557;"	d	file:
+YY_NULL	scripts/config/lex.zconf.c	102;"	d	file:
+YY_NUM_RULES	scripts/config/lex.zconf.c	1921;"	d	file:
+YY_READ_BUF_SIZE	scripts/config/lex.zconf.c	2113;"	d	file:
+YY_REDUCE_PRINT	scripts/config/zconf.tab.c	822;"	d	file:
+YY_REDUCE_PRINT	scripts/config/zconf.tab.c	836;"	d	file:
+YY_RESTORE_YY_MORE_OFFSET	scripts/config/lex.zconf.c	1998;"	d	file:
+YY_RULE_SETUP	scripts/config/lex.zconf.c	2187;"	d	file:
+YY_SC_TO_UI	scripts/config/lex.zconf.c	109;"	d	file:
+YY_SKIP_YYWRAP	scripts/config/lex.zconf.c	327;"	d	file:
+YY_STACK_PRINT	scripts/config/zconf.tab.c	792;"	d	file:
+YY_STACK_PRINT	scripts/config/zconf.tab.c	835;"	d	file:
+YY_START	scripts/config/lex.zconf.c	121;"	d	file:
+YY_START_STACK_INCR	scripts/config/lex.zconf.c	2154;"	d	file:
+YY_STATE_EOF	scripts/config/lex.zconf.c	125;"	d	file:
+YY_STRUCT_YY_BUFFER_STATE	scripts/config/lex.zconf.c	179;"	d	file:
+YY_TYPEDEF_YY_BUFFER_STATE	scripts/config/lex.zconf.c	138;"	d	file:
+YY_TYPEDEF_YY_SIZE_T	scripts/config/lex.zconf.c	174;"	d	file:
+YY_USER_ACTION	scripts/config/lex.zconf.c	2179;"	d	file:
+YY_USE_CONST	scripts/config/lex.zconf.c	84;"	d	file:
+YY_USE_CONST	scripts/config/lex.zconf.c	90;"	d	file:
+_ACAST32_	mips.8172/addrspace.h	33;"	d
+_ACAST32_	mips.8172/addrspace.h	36;"	d
+_ACAST64_	mips.8172/addrspace.h	34;"	d
+_ACAST64_	mips.8172/addrspace.h	37;"	d
+_ATYPE32_	mips.8172/addrspace.h	20;"	d
+_ATYPE32_	mips.8172/addrspace.h	24;"	d
+_ATYPE64_	mips.8172/addrspace.h	21;"	d
+_ATYPE64_	mips.8172/addrspace.h	25;"	d
+_ATYPE_	mips.8172/addrspace.h	19;"	d
+_ATYPE_	mips.8172/addrspace.h	23;"	d
+_C	lib/ctype.h	12;"	d
+_CS5536_H	mips.bonito/cs5536.h	12;"	d
+_D	lib/ctype.h	11;"	d
+_GNU_SOURCE	scripts/bb_mkdep.c	51;"	d	file:
+_L	lib/ctype.h	10;"	d
+_LINUX_CTYPE_H	lib/ctype.h	2;"	d
+_P	lib/ctype.h	13;"	d
+_S	lib/ctype.h	14;"	d
+_SP	lib/ctype.h	16;"	d
+_U	lib/ctype.h	9;"	d
+_X	lib/ctype.h	15;"	d
+__ASM_ADDRSPACE_H	mips.8172/addrspace.h	12;"	d
+__BLX_EV8172_H__	mips.8172/ev8172.h	6;"	d
+__CMDPARSER_H	lib/cmdparser.h	2;"	d
+__DEBUG_LEVEL0__	mips.8172/ev8172.h	392;"	d
+__DEBUG_LEVEL1__	mips.8172/ev8172.h	395;"	d
+__DEBUG_LEVEL2__	mips.8172/ev8172.h	398;"	d
+__KERNEL_SYSCALLS__	lib/kbhit.c	41;"	d	file:
+__NR_newlstat	lib/ls.c	4;"	d	file:
+__NR_signal	lib/main.c	23;"	d	file:
+__NR_time	lib/main.c	25;"	d	file:
+__NR_waitpid	lib/main.c	24;"	d	file:
+__cp0syscall1	lib/regs.c	/^static int __cp0syscall1(int type,unsigned long long addr,union commondata *mydata)$/;"	f	file:
+__cp0syscall2	lib/regs.c	/^static int __cp0syscall2(int type,unsigned long long addr,union commondata *mydata)$/;"	f	file:
+__expr_eliminate_eq	scripts/config/expr.c	/^static void __expr_eliminate_eq(enum expr_type type, struct expr **ep1, struct expr **ep2)$/;"	f	file:
+__iosyscall1	lib/io.c	/^static int __iosyscall1(int type,unsigned long long addr,union commondata *mydata)$/;"	f	file:
+__iosyscall2	lib/io.c	/^static int __iosyscall2(int type,unsigned long long addr,union commondata *mydata)$/;"	f	file:
+__ismask	lib/ctype.h	20;"	d
+__myenv_items	lib/env.c	/^static struct __myenv_s  __myenv_items[NENVS];$/;"	v	typeref:struct:__myenv_s	file:
+__myenv_s	lib/env.c	/^struct __myenv_s{$/;"	s	file:
+__pcisyscall1	lib/pci.c	/^static int __pcisyscall1(int type,unsigned long long addr,union commondata *mydata)$/;"	f	file:
+__pcisyscall1	mips.8172/arch.c	/^static int __pcisyscall1(int type,unsigned addr,union commondata *mydata)$/;"	f	file:
+__pcisyscall2	lib/pci.c	/^static int __pcisyscall2(int type,unsigned long long addr,union commondata *mydata)$/;"	f	file:
+__pcisyscall2	mips.8172/arch.c	/^static int __pcisyscall2(int type,unsigned addr,union commondata *mydata)$/;"	f	file:
+__syscall1	lib/mem.c	/^static int __syscall1(int type,unsigned long long addr,union commondata *mydata)$/;"	f	file:
+__syscall2	lib/mem.c	/^static int __syscall2(int type,unsigned long long addr,union commondata *mydata)$/;"	f	file:
+__tolower	lib/ctype.h	/^static inline unsigned char __tolower(unsigned char c)$/;"	f
+__toupper	lib/ctype.h	/^static inline unsigned char __toupper(unsigned char c)$/;"	f
+_ctype	lib/ctype.c	/^static unsigned char _ctype[] = {$/;"	v	file:
+_ctype	lib/ctype.h	/^static unsigned char _ctype[];$/;"	v
+_do_cmd	lib/cmdparser.c	/^char *_do_cmd(char *p_in,int need_end)$/;"	f
+_mypciinfo	lib/pci.c	/^static struct _mypciinfo{$/;"	s	file:
+_mypciinfo	mips.8172/arch.c	/^static struct _mypciinfo{$/;"	s	file:
+_syscall0	lib/main.c	28;"	d	file:
+_syscall1	lib/main.c	55;"	d	file:
+_syscall2	lib/main.c	79;"	d	file:
+_syscall3	lib/main.c	104;"	d	file:
+_syscall4	lib/main.c	130;"	d	file:
+_syscall5	lib/main.c	162;"	d	file:
+_syscall5	lib/main.c	230;"	d	file:
+_syscall6	lib/main.c	193;"	d	file:
+_syscall6	lib/main.c	257;"	d	file:
+accessmem	lib/ioctl.c	/^int accessmem(struct addrstruc addrs *addrs,char *page)$/;"	f
+add	lib/timer.c	/^static int add(int argc,char **argv)$/;"	f	file:
+addaddrs	lib/timer.c	/^int addaddrs(int i,int bus,int dev,int func,int addr,int type)$/;"	f
+addr	lib/ioctl.c	/^unsigned int addr;$/;"	m	struct:addrstruc	file:
+addr	lib/timer.c	/^unsigned int addr;$/;"	m	struct:addrstruc	file:
+addrs	lib/timer.c	/^static struct addrstruc addrs[LENGTH];$/;"	v	typeref:struct:addrstruc	file:
+addrstruc	lib/ioctl.c	/^static struct addrstruc{$/;"	s	file:
+addrstruc	lib/timer.c	/^static struct addrstruc{$/;"	s	file:
+alloc_string	scripts/config/lex.zconf.c	/^void alloc_string(const char *str, int size)$/;"	f
+allocated	lib/dm642.c	/^  Uint32 allocated;$/;"	m	struct:__anon4	file:
+allocated	lib/dm642.c	/^  Uint32 allocated;$/;"	m	struct:__anon5	file:
+allocp	lib/malloc.c	/^static HEADER  *allocp;		\/* K&R called allocp, freep *\/$/;"	v	file:
+and_mask	lib/nfsroot.c	/^	int  and_mask;$/;"	m	struct:nfs_bool_opts	file:
+append_char	lib/mode_string.c	/^static char append_char(mode_t mode)$/;"	f	file:
+append_string	scripts/config/lex.zconf.c	/^void append_string(const char *str, int size)$/;"	f
+argvize	lib/argvize.c	/^argvize(char *av[], char *s)$/;"	f
+ask_all	scripts/config/conf.c	/^	ask_all,$/;"	e	enum:__anon8	file:
+ask_new	scripts/config/conf.c	/^	ask_new,$/;"	e	enum:__anon8	file:
+ask_silent	scripts/config/conf.c	/^	ask_silent,$/;"	e	enum:__anon8	file:
+attr_clear	scripts/config/lxdialog/util.c	/^attr_clear (WINDOW * win, int height, int width, chtype attr)$/;"	f
+attributes	scripts/config/lxdialog/util.c	/^chtype attributes[] =$/;"	v
+b	lib/inflate.c	/^  uch b;                \/* number of bits in this code or subcode *\/$/;"	m	struct:huft	file:
+back_lines	scripts/config/lxdialog/textbox.c	/^back_lines (int n)$/;"	f	file:
+backtitle	scripts/config/lxdialog/util.c	/^const char *backtitle = NULL;$/;"	v
+base	lib/malloc.c	/^static HEADER   base;$/;"	v	file:
+base0	lib/dm642.c	/^unsigned int base0;$/;"	m	struct:dm642_struc	file:
+base1	lib/dm642.c	/^unsigned int base1;$/;"	m	struct:dm642_struc	file:
+base2	lib/dm642.c	/^unsigned int base2;$/;"	m	struct:dm642_struc	file:
+baseAddr	lib/dm642.c	/^  volatile Uint32 *baseAddr;$/;"	m	struct:__anon4	file:
+baseAddr	lib/dm642.c	/^  volatile Uint32 *baseAddr;$/;"	m	struct:__anon5	file:
+bb	lib/inflate.c	/^STATIC ulg bb;                         \/* bit buffer *\/$/;"	v
+bb_asprint	scripts/bb_mkdep.c	/^static char *bb_asprint(const char *format, ...)$/;"	f	file:
+bb_error_d	scripts/bb_mkdep.c	/^static void bb_error_d(const char *s, ...)$/;"	f	file:
+bb_key_t	scripts/bb_mkdep.c	/^} bb_key_t;$/;"	t	typeref:struct:BB_KEYS	file:
+bb_mkdep_full_options	scripts/bb_mkdep.c	38;"	d	file:
+bb_mkdep_terse_options	scripts/bb_mkdep.c	47;"	d	file:
+bb_qa_simplify_path	scripts/bb_mkdep.c	/^static size_t bb_qa_simplify_path(char *path)$/;"	f	file:
+bb_simplify_path	scripts/bb_mkdep.c	/^static char *bb_simplify_path(const char *path)$/;"	f	file:
+bb_xstrdup	scripts/bb_mkdep.c	/^static inline char *bb_xstrdup(const char *s)$/;"	f	file:
+begin	begin.c	/^myinit_begin(begin);$/;"	v
+begin	begin.c	/^myinit_end(begin);$/;"	v
+begin	begin.c	/^static int begin(int argc,char **argv)$/;"	f	file:
+begin_reached	scripts/config/lxdialog/textbox.c	/^static int begin_reached = 1, end_reached, page_length;$/;"	v	file:
+bj	test/Makefile	/^	make -C \/usr\/src\/716\/linux26-716 -f scripts\/Makefile.build obj=`pwd`$/;"	m
+bk	lib/inflate.c	/^STATIC unsigned bk;                    \/* bits in bit buffer *\/$/;"	v
+block	scripts/config/zconf.y	/^block:	  common_block$/;"	l
+border	lib/inflate.c	/^static const unsigned border[] = {    \/* Order of the bit length code lengths *\/$/;"	v	file:
+border_attr	scripts/config/lxdialog/dialog.h	99;"	d
+buf	lib/console.c	/^char buf[1024];$/;"	v
+buf	lib/ioctl.c	/^void *buf;$/;"	m	struct:addrstruc	file:
+buf	scripts/config/lxdialog/textbox.c	/^static char *buf, *page;$/;"	v	file:
+bufeat	lib/console.c	/^inline void bufeat(int count)$/;"	f
+bufempty	lib/console.c	/^inline int bufempty()$/;"	f
+buffer	scripts/config/lex.zconf.c	/^struct buffer {$/;"	s	file:
+buffull	lib/console.c	/^inline int buffull()$/;"	f
+buflen	lib/console.c	/^inline int buflen()$/;"	f
+buflen1	lib/console.c	/^inline int buflen1()$/;"	f
+build_conf	scripts/config/mconf.c	/^static void build_conf(struct menu *menu)$/;"	f	file:
+bus	lib/pci.c	/^	int bus;$/;"	m	struct:_mypciinfo	file:
+bus	mips.8172/arch.c	/^	int bus;$/;"	m	struct:_mypciinfo	file:
+button_active_attr	scripts/config/lxdialog/dialog.h	100;"	d
+button_inactive_attr	scripts/config/lxdialog/dialog.h	101;"	d
+button_key_active_attr	scripts/config/lxdialog/dialog.h	102;"	d
+button_key_inactive_attr	scripts/config/lxdialog/dialog.h	103;"	d
+button_label_active_attr	scripts/config/lxdialog/dialog.h	104;"	d
+button_label_inactive_attr	scripts/config/lxdialog/dialog.h	105;"	d
+bytes_out	lib/ramdisk.c	/^static long bytes_out;$/;"	v	file:
+bytes_read	scripts/config/lxdialog/textbox.c	/^static int hscroll, fd, file_size, bytes_read;$/;"	v	file:
+c	lib/mem.c	/^		unsigned char c[8];$/;"	m	union:commondata	file:
+c_lex	scripts/bb_mkdep.c	/^static void c_lex(const char *fname, long fsize)$/;"	f	file:
+cdebug	scripts/config/zconf.tab.c	/^int cdebug = PRINTD;$/;"	v
+cdone	scripts/config/mconf.c	/^static void cdone(void)$/;"	f	file:
+cectl0	lib/dm642.c	/^  Uint32 cectl0;$/;"	m	struct:__anon7	file:
+cectl1	lib/dm642.c	/^  Uint32 cectl1;$/;"	m	struct:__anon7	file:
+cectl2	lib/dm642.c	/^  Uint32 cectl2;$/;"	m	struct:__anon7	file:
+cectl3	lib/dm642.c	/^  Uint32 cectl3;$/;"	m	struct:__anon7	file:
+cesec0	lib/dm642.c	/^  Uint32 cesec0;$/;"	m	struct:__anon7	file:
+cesec1	lib/dm642.c	/^  Uint32 cesec1;$/;"	m	struct:__anon7	file:
+cesec2	lib/dm642.c	/^  Uint32 cesec2;$/;"	m	struct:__anon7	file:
+cesec3	lib/dm642.c	/^  Uint32 cesec3;$/;"	m	struct:__anon7	file:
+check_attr	scripts/config/lxdialog/dialog.h	120;"	d
+check_conf	scripts/config/conf.c	/^static void check_conf(struct menu *menu)$/;"	f	file:
+check_gcc	scripts/config/Rules.mak	/^check_gcc=$(shell \\$/;"	m
+check_key	scripts/bb_mkdep.c	/^static inline bb_key_t *check_key(bb_key_t *k, const char *nk, size_t key_sz)$/;"	f	file:
+check_selected_attr	scripts/config/lxdialog/dialog.h	121;"	d
+check_stdin	scripts/config/conf.c	/^static void check_stdin(void)$/;"	f	file:
+check_x	scripts/config/lxdialog/checklist.c	/^static int list_width, check_x, item_x, checkflag;$/;"	v	file:
+checked	scripts/bb_mkdep.c	/^	const char *checked;$/;"	m	struct:BB_KEYS	file:
+checkflag	scripts/config/lxdialog/checklist.c	/^static int list_width, check_x, item_x, checkflag;$/;"	v	file:
+chfs	lib/main.c	/^static void chfs(int save)$/;"	f	file:
+chfs	lib/mode_string.c	36;"	d	file:
+child_count	scripts/config/mconf.c	/^static int child_count;$/;"	v	file:
+choice	scripts/config/zconf.y	/^choice: T_CHOICE T_EOL$/;"	l
+choice_block	scripts/config/zconf.y	/^choice_block:$/;"	l
+choice_end	scripts/config/zconf.y	/^choice_end: end$/;"	l
+choice_entry	scripts/config/zconf.y	/^choice_entry: choice choice_option_list$/;"	l
+choice_option	scripts/config/zconf.y	/^choice_option: T_BOOLEAN prompt_stmt_opt T_EOL$/;"	l
+choice_option	scripts/config/zconf.y	/^choice_option: T_DEFAULT T_WORD if_expr T_EOL$/;"	l
+choice_option	scripts/config/zconf.y	/^choice_option: T_OPTIONAL T_EOL$/;"	l
+choice_option	scripts/config/zconf.y	/^choice_option: T_PROMPT prompt if_expr T_EOL$/;"	l
+choice_option	scripts/config/zconf.y	/^choice_option: T_TRISTATE prompt_stmt_opt T_EOL$/;"	l
+choice_option_list	scripts/config/zconf.y	/^choice_option_list:$/;"	l
+choice_stmt	scripts/config/zconf.y	/^choice_stmt:$/;"	l
+cinit	scripts/config/mconf.c	/^static void cinit(void)$/;"	f	file:
+cmake	scripts/config/mconf.c	/^static void cmake(void)$/;"	f	file:
+cmd_expr	lib/cmdparser.c	/^int cmd_expr(int argc,char **argv)$/;"	f
+color_names_st	scripts/config/lxdialog/colors.h	/^} color_names_st;$/;"	t	typeref:struct:__anon10
+color_setup	scripts/config/lxdialog/util.c	/^color_setup (void)$/;"	f
+color_table	scripts/config/lxdialog/util.c	/^int color_table[][3] =$/;"	v
+cols	scripts/config/mconf.c	/^static int rows = 0, cols = 0;$/;"	v	file:
+column	lib/mode_string.c	/^static unsigned short column = 0;$/;"	v	file:
+comment	scripts/config/zconf.y	/^comment: T_COMMENT prompt T_EOL$/;"	l
+comment_stmt	scripts/config/zconf.y	/^comment_stmt: comment depends_list$/;"	l
+common_block	scripts/config/zconf.y	/^common_block:$/;"	l
+commondata	lib/mem.c	/^static union commondata{$/;"	u	file:
+conf	scripts/config/conf.c	/^static void conf(struct menu *menu)$/;"	f	file:
+conf	scripts/config/mconf.c	/^static void conf(struct menu *menu)$/;"	f	file:
+conf_askvalue	scripts/config/conf.c	/^static void conf_askvalue(struct symbol *sym, const char *def)$/;"	f	file:
+conf_choice	scripts/config/conf.c	/^static int conf_choice(struct menu *menu)$/;"	f	file:
+conf_choice	scripts/config/mconf.c	/^static void conf_choice(struct menu *menu)$/;"	f	file:
+conf_cleanup	scripts/config/mconf.c	/^static void conf_cleanup(void)$/;"	f	file:
+conf_cnt	scripts/config/conf.c	/^static int conf_cnt;$/;"	v	file:
+conf_confnames	scripts/config/confdata.c	/^const char *conf_confnames[] = {$/;"	v
+conf_def_filename	scripts/config/confdata.c	/^const char conf_def_filename[] = ".config";$/;"	v
+conf_defname	scripts/config/confdata.c	/^const char conf_defname[] = "sysdeps\/linux\/defconfig";$/;"	v
+conf_expand_value	scripts/config/confdata.c	/^static char *conf_expand_value(const char *in)$/;"	f	file:
+conf_get_default_confname	scripts/config/confdata.c	/^char *conf_get_default_confname(void)$/;"	f
+conf_load	scripts/config/mconf.c	/^static void conf_load(void)$/;"	f	file:
+conf_parse	scripts/config/lkc_defs.h	3;"	d
+conf_parse	scripts/config/zconf.tab.c	/^void conf_parse(const char *name)$/;"	f
+conf_read	scripts/config/confdata.c	/^int conf_read(const char *name)$/;"	f
+conf_read	scripts/config/lkc_defs.h	4;"	d
+conf_save	scripts/config/mconf.c	/^static void conf_save(void)$/;"	f	file:
+conf_string	scripts/config/conf.c	/^int conf_string(struct menu *menu)$/;"	f
+conf_string	scripts/config/mconf.c	/^static void conf_string(struct menu *menu)$/;"	f	file:
+conf_sym	scripts/config/conf.c	/^static int conf_sym(struct menu *menu)$/;"	f	file:
+conf_write	scripts/config/confdata.c	/^int conf_write(const char *name)$/;"	f
+conf_write	scripts/config/lkc_defs.h	5;"	d
+config_entry_start	scripts/config/zconf.y	/^config_entry_start: T_CONFIG T_WORD T_EOL$/;"	l
+config_option	scripts/config/zconf.y	/^config_option: T_BOOLEAN prompt_stmt_opt T_EOL$/;"	l
+config_option	scripts/config/zconf.y	/^config_option: T_DEFAULT expr if_expr T_EOL$/;"	l
+config_option	scripts/config/zconf.y	/^config_option: T_DEF_BOOLEAN expr if_expr T_EOL$/;"	l
+config_option	scripts/config/zconf.y	/^config_option: T_DEF_TRISTATE expr if_expr T_EOL$/;"	l
+config_option	scripts/config/zconf.y	/^config_option: T_HEX prompt_stmt_opt T_EOL$/;"	l
+config_option	scripts/config/zconf.y	/^config_option: T_INT prompt_stmt_opt T_EOL$/;"	l
+config_option	scripts/config/zconf.y	/^config_option: T_PROMPT prompt if_expr T_EOL$/;"	l
+config_option	scripts/config/zconf.y	/^config_option: T_RANGE symbol symbol if_expr T_EOL$/;"	l
+config_option	scripts/config/zconf.y	/^config_option: T_SELECT T_WORD if_expr T_EOL$/;"	l
+config_option	scripts/config/zconf.y	/^config_option: T_STRING prompt_stmt_opt T_EOL$/;"	l
+config_option	scripts/config/zconf.y	/^config_option: T_TRISTATE prompt_stmt_opt T_EOL$/;"	l
+config_option_list	scripts/config/zconf.y	/^config_option_list:$/;"	l
+config_stmt	scripts/config/zconf.y	/^config_stmt: config_entry_start config_option_list$/;"	l
+configs	scripts/bb_mkdep.c	/^static llist_t *configs;    \/* list of -c usaged and them stat() after parsed *\/$/;"	v	file:
+console_close	lib/console.c	/^static int console_close(struct inode * inode, struct file * file)$/;"	f	file:
+console_exit	lib/console.c	/^static void console_exit()$/;"	f	file:
+console_fops	lib/console.c	/^struct file_operations console_fops =$/;"	v	typeref:struct:file_operations
+console_init	lib/console.c	/^static void console_init()$/;"	f	file:
+console_open	lib/console.c	/^static int console_open(struct inode *inode, struct file *filp)$/;"	f	file:
+console_read	lib/console.c	/^ssize_t console_read (struct file *filp, char *buf,$/;"	f
+console_write	lib/console.c	/^ssize_t console_write (struct file *filp, const char *buf,$/;"	f
+consoledev	lib/console.c	/^static int consoledev=0;$/;"	v	file:
+count	lib/ioctl.c	/^int count;$/;"	m	struct:addrstruc	file:
+count	lib/ls.c	/^    int count;$/;"	m	struct:readdir_callback	file:
+count	mips.ev64420/serial_ev64420.c	/^	int			count;$/;"	m	struct:ev64420_serial	file:
+cp0s_sel	lib/regs.c	/^static int cp0s_sel=0;$/;"	v	file:
+cpdext	lib/inflate.c	/^static const ush cpdext[] = {         \/* Extra bits for distance codes *\/$/;"	v	file:
+cpdist	lib/inflate.c	/^static const ush cpdist[] = {         \/* Copy offsets for distance codes 0..29 *\/$/;"	v	file:
+cplens	lib/inflate.c	/^static const ush cplens[] = {         \/* Copy lengths for literal codes 257..285 *\/$/;"	v	file:
+cplext	lib/inflate.c	/^static const ush cplext[] = {         \/* Extra bits for literal codes 257..285 *\/$/;"	v	file:
+cprint_name	scripts/config/mconf.c	/^static int cprint_name(const char *fmt, ...)$/;"	f	file:
+cprint_tag	scripts/config/mconf.c	/^static int cprint_tag(const char *fmt, ...)$/;"	f	file:
+crc	lib/inflate.c	/^static ulg crc;		\/* initialized in makecrc() so it'll reside in bss *\/$/;"	v	file:
+crc_32_tab	lib/inflate.c	/^static ulg crc_32_tab[256];$/;"	v	file:
+crd_outfd	lib/ramdisk.c	/^static int crd_outfd;$/;"	v	file:
+cs5536_gpio	mips.bonito/cs5536_gpio.c	/^static int cs5536_gpio(int argc,char **argv)$/;"	f	file:
+curr	scripts/config/expr.h	/^	struct symbol_value curr, user;$/;"	m	struct:symbol	typeref:struct:symbol::symbol_value
+current_buf	scripts/config/lex.zconf.c	/^struct buffer *current_buf;$/;"	v	typeref:struct:buffer
+current_entry	scripts/config/zconf.tab.c	/^static struct menu *current_menu, *current_entry;$/;"	v	typeref:struct:	file:
+current_file	scripts/config/menu.c	/^struct file *current_file;$/;"	v	typeref:struct:file
+current_menu	scripts/config/mconf.c	/^static struct menu *current_menu;$/;"	v	typeref:struct:menu	file:
+current_menu	scripts/config/zconf.tab.c	/^static struct menu *current_menu, *current_entry;$/;"	v	typeref:struct:menu	file:
+d_ino	lib/ls.c	/^    unsigned long   d_ino;$/;"	m	struct:old_linux_dirent	file:
+d_name	lib/ls.c	/^    char        d_name[100];$/;"	m	struct:old_linux_dirent	file:
+d_namlen	lib/ls.c	/^    unsigned short  d_namlen;$/;"	m	struct:old_linux_dirent	file:
+d_offset	lib/ls.c	/^    unsigned long   d_offset;$/;"	m	struct:old_linux_dirent	file:
+darrow_attr	scripts/config/lxdialog/dialog.h	123;"	d
+data	scripts/bb_mkdep.c	/^	char *data;$/;"	m	struct:llist_s	file:
+data	scripts/config/expr.h	/^	void *data;$/;"	m	struct:menu
+data1	lib/mem.c	/^		unsigned char data1;$/;"	m	union:commondata	file:
+data2	lib/mem.c	/^		unsigned short data2;$/;"	m	union:commondata	file:
+data4	lib/mem.c	/^		unsigned int data4;$/;"	m	union:commondata	file:
+data8	lib/mem.c	/^		unsigned int data8[2];$/;"	m	union:commondata	file:
+dbits	lib/inflate.c	/^STATIC const int dbits = 6;          \/* bits in base distance lookup table *\/$/;"	v
+debug	lib/main.c	/^static void debug(void)$/;"	f	file:
+debug	usermmap.c	/^static void debug(void)$/;"	f	file:
+debug26_array	lib/dset.c	/^char debug26_array[0x100];$/;"	v
+debug26_getenv	lib/env.c	/^char  *debug26_getenv(char *name)$/;"	f
+debug26_runmydebug	lib/main.c	/^int debug26_runmydebug()$/;"	f
+debug26_setenv	lib/env.c	/^int debug26_setenv(char *name,char *value,char *msg)$/;"	f
+debug_fops	lib/main.c	/^struct file_operations debug_fops = {$/;"	v	typeref:struct:file_operations
+debug_mmap	lib/mmap.c	/^int debug_mmap(struct file *file, struct vm_area_struct *vma)$/;"	f
+debug_open	lib/main.c	/^static int debug_open(struct inode *inode, struct file *filp)$/;"	f	file:
+debug_proc_entry	lib/main.c	/^static struct proc_dir_entry *debug_proc_entry=0;$/;"	v	typeref:struct:proc_dir_entry	file:
+debug_release	lib/main.c	/^int debug_release (struct inode *inode, struct file *filp)$/;"	f
+debug_vm_ops	lib/mmap.c	/^struct vm_operations_struct debug_vm_ops = {$/;"	v	typeref:struct:vm_operations_struct
+debug_vma_close	lib/mmap.c	/^void debug_vma_close(struct vm_area_struct *vma)$/;"	f
+debug_vma_nopage	lib/mmap.c	/^struct page *debug_vma_nopage(struct vm_area_struct *vma,$/;"	f
+debug_vma_open	lib/mmap.c	/^void debug_vma_open(struct vm_area_struct *vma)$/;"	f
+defconfig_file	scripts/config/conf.c	/^char *defconfig_file;$/;"	v
+del	lib/timer.c	/^static int del(int argc,char **argv)$/;"	f	file:
+dentry_path	lib/mount.c	/^char * dentry_path(struct dentry *dentry,struct vfsmount *vfsmnt,$/;"	f
+dep	scripts/config/expr.h	/^	struct expr *dep, *dep2;$/;"	m	struct:symbol	typeref:struct:symbol::expr
+dep	scripts/config/expr.h	/^	struct expr *dep;$/;"	m	struct:menu	typeref:struct:menu::expr
+dep2	scripts/config/expr.h	/^	struct expr *dep, *dep2;$/;"	m	struct:symbol	typeref:struct:symbol::
+depends	scripts/config/zconf.y	/^depends: T_DEPENDS T_ON expr T_EOL$/;"	l
+depends_list	scripts/config/zconf.y	/^depends_list:	  \/* empty *\/$/;"	l
+dev_id	lib/myrequest_irq.c	/^		void *dev_id;$/;"	m	struct:myirqlist	file:
+dev_id	lib/myrequest_irq.c	/^		void *dev_id;$/;"	m	struct:mytimerlist	file:
+dev_id	lib/myrequest_irq1.c	/^		void *dev_id;$/;"	m	struct:myirqlist	file:
+dev_id	lib/myrequest_irq1.c	/^		void *dev_id;$/;"	m	struct:mytimerlist	file:
+dev_sem	lib/mmap.c	/^static struct semaphore dev_sem;$/;"	v	typeref:struct:semaphore	file:
+dev_vmas	lib/mmap.c	/^static int dev_vmas;$/;"	v	file:
+device	lib/pci.c	/^	int device;$/;"	m	struct:_mypciinfo	file:
+device	mips.8172/arch.c	/^	int device;$/;"	m	struct:_mypciinfo	file:
+dialog_attr	scripts/config/lxdialog/dialog.h	97;"	d
+dialog_checklist	scripts/config/lxdialog/checklist.c	/^dialog_checklist (const char *title, const char *prompt, int height, int width,$/;"	f
+dialog_clear	scripts/config/lxdialog/util.c	/^void dialog_clear (void)$/;"	f
+dialog_input_result	scripts/config/lxdialog/inputbox.c	/^unsigned char dialog_input_result[MAX_LEN + 1];$/;"	v
+dialog_inputbox	scripts/config/lxdialog/inputbox.c	/^dialog_inputbox (const char *title, const char *prompt, int height, int width,$/;"	f
+dialog_list_item	scripts/config/lxdialog/dialog.h	/^struct dialog_list_item {$/;"	s
+dialog_menu	scripts/config/lxdialog/menubox.c	/^dialog_menu (const char *title, const char *prompt, int height, int width,$/;"	f
+dialog_msgbox	scripts/config/lxdialog/msgbox.c	/^dialog_msgbox (const char *title, const char *prompt, int height, int width,$/;"	f
+dialog_result	scripts/config/lxdialog/util.c	/^const char *dialog_result;$/;"	v
+dialog_textbox	scripts/config/lxdialog/textbox.c	/^dialog_textbox (const char *title, const char *file, int height, int width)$/;"	f
+dialog_yesno	scripts/config/lxdialog/yesno.c	/^dialog_yesno (const char *title, const char *prompt, int height, int width)$/;"	f
+difffile	lib/diff.c	/^static int difffile(int argc,char **argv)$/;"	f	file:
+dirent	lib/ls.c	/^    struct old_linux_dirent * dirent;$/;"	m	struct:readdir_callback	typeref:struct:readdir_callback::old_linux_dirent	file:
+dm642	lib/dm642.c	/^} dm642;$/;"	v	typeref:struct:dm642_struc	file:
+dm642_read	lib/dm642.c	/^static int dm642_read(int type,unsigned long long addr,union commondata *mydata)$/;"	f	file:
+dm642_struc	lib/dm642.c	/^static struct dm642_struc$/;"	s	file:
+dm642_write	lib/dm642.c	/^static int dm642_write(int type,unsigned long long addr,union commondata *mydata)$/;"	f	file:
+dm642init	lib/dm642.c	/^EXPORT_SYMBOL(dm642init);$/;"	v
+dm642init	lib/dm642.c	/^int dm642init()$/;"	f
+dm642led	lib/dm642.c	/^int dm642led(int argc,char **argv)$/;"	f
+dm642s	lib/dm642.c	/^static int dm642s(int argc,char **argv)$/;"	f	file:
+dnode	lib/mode_string.c	/^struct dnode {				\/* the basic node *\/$/;"	s	file:
+do_cmd	lib/cmdparser.c	/^void do_cmd(char *p)$/;"	f
+do_initbegin_calls	lib/cmdparser.c	/^static void do_initbegin_calls(void)$/;"	f	file:
+do_initend_calls	lib/cmdparser.c	/^static void do_initend_calls(void)$/;"	f	file:
+dontgenerate_dep	scripts/bb_mkdep.c	/^static int dontgenerate_dep;    \/* flag -d usaged *\/$/;"	v	file:
+draw_box	scripts/config/lxdialog/util.c	/^draw_box (WINDOW * win, int y, int x, int height, int width,$/;"	f
+draw_shadow	scripts/config/lxdialog/util.c	/^draw_shadow (WINDOW * win, int y, int x, int height, int width)$/;"	f
+dset	lib/dset.c	/^static int dset(int argc,char **argv)$/;"	f	file:
+dspaddr	lib/dm642.c	/^static unsigned long dspaddr(unsigned int addr)$/;"	f	file:
+dstat	lib/mode_string.c	/^    struct stat dstat;		\/* the file stat info *\/$/;"	m	struct:dnode	typeref:struct:dnode::stat	file:
+dummy_cleanup_module	lib/main.c	/^module_exit(dummy_cleanup_module);$/;"	v
+dummy_cleanup_module	lib/main.c	/^static void dummy_cleanup_module(void)$/;"	f	file:
+dummy_init_module	lib/main.c	/^module_init(dummy_init_module);$/;"	v
+dummy_init_module	lib/main.c	/^static int dummy_init_module(void)$/;"	f	file:
+dump	lib/mem.c	/^static int dump(int argc,char **argv)$/;"	f	file:
+dump686b	mips.ev64420/dump686b.c	/^int dump686b(int argc,char **argv)$/;"	f
+dumpmv	mips.ev64420/dump64420.c	/^int dumpmv(int argc,char **argv)$/;"	f
+e	lib/inflate.c	/^  uch e;                \/* number of extra bits or operation *\/$/;"	m	struct:huft	file:
+e1	scripts/config/expr.c	132;"	d	file:
+e1	scripts/config/expr.c	190;"	d	file:
+e1	scripts/config/expr.c	510;"	d	file:
+e1	scripts/config/expr.c	556;"	d	file:
+e1	scripts/config/expr.c	562;"	d	file:
+e1	scripts/config/expr.c	612;"	d	file:
+e1	scripts/config/expr.c	854;"	d	file:
+e1	scripts/config/expr.c	877;"	d	file:
+e2	scripts/config/expr.c	133;"	d	file:
+e2	scripts/config/expr.c	191;"	d	file:
+e2	scripts/config/expr.c	511;"	d	file:
+e2	scripts/config/expr.c	557;"	d	file:
+e2	scripts/config/expr.c	563;"	d	file:
+e2	scripts/config/expr.c	613;"	d	file:
+e2	scripts/config/expr.c	855;"	d	file:
+e2	scripts/config/expr.c	878;"	d	file:
+echo	lib/echo.c	/^static int echo(int argc,char **argv)$/;"	f	file:
+end	end.c	/^myinit_begin(end);$/;"	v
+end	end.c	/^myinit_end(end);$/;"	v
+end	end.c	/^static int end(int argc,char **argv)$/;"	f	file:
+end	scripts/config/zconf.y	/^end:	  T_ENDMENU nl_or_eof	{ $$ = T_ENDMENU; }$/;"	l
+end_dialog	scripts/config/lxdialog/util.c	/^end_dialog (void)$/;"	f
+end_reached	scripts/config/lxdialog/textbox.c	/^static int begin_reached = 1, end_reached, page_length;$/;"	v	file:
+env_buf	lib/env.c	/^static char env_buf[0x100];$/;"	v	file:
+env_head	lib/env.c	/^static char *env_head=env_buf;$/;"	v	file:
+envinit	lib/env.c	/^myinit_begin(envinit);$/;"	v
+envinit	lib/env.c	/^static int envinit(void)$/;"	f	file:
+envp_init	lib/exec.c	/^static char * envp_init[MAX_INIT_ENVS+2] = { "HOME=\/", "TERM=linux", NULL, };$/;"	v	file:
+errno	lib/kbhit.c	/^int errno=0;$/;"	v
+errno	lib/main.c	/^static int errno=0;$/;"	v	file:
+error	lib/ramdisk.c	/^static void __init error(char *x)$/;"	f	file:
+ev64420_close	mips.ev64420/serial_ev64420.c	/^static void ev64420_close(struct tty_struct *tty, struct file * filp)$/;"	f	file:
+ev64420_console	mips.ev64420/serial_ev64420.c	/^struct console ev64420_console = {$/;"	v	typeref:struct:console
+ev64420_console_cbaud	mips.ev64420/serial_ev64420.c	/^int ev64420_console_cbaud = 9600;$/;"	v
+ev64420_console_device	mips.ev64420/serial_ev64420.c	/^static struct tty_driver *ev64420_console_device(struct console *c, int *index)$/;"	f	file:
+ev64420_console_init	mips.ev64420/serial_ev64420.c	/^console_initcall(ev64420_console_init);$/;"	v
+ev64420_console_init	mips.ev64420/serial_ev64420.c	/^static int __init ev64420_console_init(void)$/;"	f	file:
+ev64420_console_inited	mips.ev64420/serial_ev64420.c	/^int ev64420_console_inited = 0;$/;"	v
+ev64420_console_port	mips.ev64420/serial_ev64420.c	/^int ev64420_console_port = -1;$/;"	v
+ev64420_console_setup	mips.ev64420/serial_ev64420.c	/^int ev64420_console_setup(struct console *cp, char *arg)$/;"	f
+ev64420_console_write	mips.ev64420/serial_ev64420.c	/^void ev64420_console_write(struct console *cp, const char *p, unsigned len)$/;"	f
+ev64420_drivername	mips.ev64420/serial_ev64420.c	/^char *ev64420_drivername = "ColdFire internal UART serial driver version 1.00\\n";$/;"	v
+ev64420_init	mips.ev64420/serial_ev64420.c	/^ev64420_init(void)$/;"	f	file:
+ev64420_init	mips.ev64420/serial_ev64420.c	/^module_init(ev64420_init);$/;"	v
+ev64420_init_console	mips.ev64420/serial_ev64420.c	/^void ev64420_init_console(void)$/;"	f
+ev64420_interrupt	mips.ev64420/serial_ev64420.c	/^irqreturn_t ev64420_interrupt(int irq, void *dev_id, struct pt_regs *regs)$/;"	f
+ev64420_irqinit	mips.ev64420/serial_ev64420.c	/^static void ev64420_irqinit(struct ev64420_serial *info)$/;"	f	file:
+ev64420_open	mips.ev64420/serial_ev64420.c	/^int ev64420_open(struct tty_struct *tty, struct file * filp)$/;"	f
+ev64420_ops	mips.ev64420/serial_ev64420.c	/^static struct tty_operations ev64420_ops = {$/;"	v	typeref:struct:tty_operations	file:
+ev64420_serial	mips.ev64420/serial_ev64420.c	/^struct ev64420_serial {$/;"	s	file:
+ev64420_serial_driver	mips.ev64420/serial_ev64420.c	/^static struct tty_driver *ev64420_serial_driver;$/;"	v	typeref:struct:tty_driver	file:
+ev64420_table	mips.ev64420/serial_ev64420.c	/^static struct ev64420_serial ev64420_table = {$/;"	v	typeref:struct:ev64420_serial	file:
+ev64420_timer_struct	mips.ev64420/serial_ev64420.c	/^struct timer_list ev64420_timer_struct;$/;"	v	typeref:struct:timer_list
+ev64420_write	mips.ev64420/serial_ev64420.c	/^static int ev64420_write(struct tty_struct * tty,$/;"	f	file:
+ev64420_write_room	mips.ev64420/serial_ev64420.c	/^static int ev64420_write_room(struct tty_struct *tty)$/;"	f	file:
+eventId	lib/dm642.c	/^  Uint32 eventId;$/;"	m	struct:__anon5	file:
+exec	lib/exec.c	/^static int exec(int argc,char **argv)$/;"	f	file:
+execcmd	lib/exec.c	/^static void execcmd(char **argv)$/;"	f	file:
+exit_code	lib/ramdisk.c	/^static int exit_code;$/;"	v	file:
+expand	lib/cmdparser.c	/^expand(cmdline)$/;"	f	file:
+expand1	lib/cmdparser.c	/^static char *expand1(char *cmdline)$/;"	f	file:
+expr	lib/cmdparser.c	/^static char *expr(char *cmd)$/;"	f	file:
+expr	scripts/config/expr.h	/^	struct expr *expr;$/;"	m	struct:expr_value	typeref:struct:expr_value::expr
+expr	scripts/config/expr.h	/^	struct expr *expr;$/;"	m	struct:property	typeref:struct:property::expr
+expr	scripts/config/expr.h	/^	struct expr *expr;$/;"	m	union:expr_data	typeref:struct:expr_data::expr
+expr	scripts/config/expr.h	/^struct expr {$/;"	s
+expr	scripts/config/zconf.tab.c	/^	struct expr *expr;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::expr	file:
+expr	scripts/config/zconf.tab.h	/^	struct expr *expr;$/;"	m	union:__anon9	typeref:struct:__anon9::expr
+expr	scripts/config/zconf.y	/^expr:	  symbol				{ $$ = expr_alloc_symbol($1); }$/;"	l
+expr_alloc_and	scripts/config/expr.c	/^struct expr *expr_alloc_and(struct expr *e1, struct expr *e2)$/;"	f
+expr_alloc_comp	scripts/config/expr.c	/^struct expr *expr_alloc_comp(enum expr_type type, struct symbol *s1, struct symbol *s2)$/;"	f
+expr_alloc_one	scripts/config/expr.c	/^struct expr *expr_alloc_one(enum expr_type type, struct expr *ce)$/;"	f
+expr_alloc_or	scripts/config/expr.c	/^struct expr *expr_alloc_or(struct expr *e1, struct expr *e2)$/;"	f
+expr_alloc_symbol	scripts/config/expr.c	/^struct expr *expr_alloc_symbol(struct symbol *sym)$/;"	f
+expr_alloc_two	scripts/config/expr.c	/^struct expr *expr_alloc_two(enum expr_type type, struct expr *e1, struct expr *e2)$/;"	f
+expr_calc_value	scripts/config/expr.c	/^tristate expr_calc_value(struct expr *e)$/;"	f
+expr_compare_type	scripts/config/expr.c	/^int expr_compare_type(enum expr_type t1, enum expr_type t2)$/;"	f
+expr_compare_type	scripts/config/lkc_defs.h	39;"	d
+expr_contains_symbol	scripts/config/expr.c	/^int expr_contains_symbol(struct expr *dep, struct symbol *sym)$/;"	f
+expr_copy	scripts/config/expr.c	/^struct expr *expr_copy(struct expr *org)$/;"	f
+expr_data	scripts/config/expr.h	/^union expr_data {$/;"	u
+expr_depends_symbol	scripts/config/expr.c	/^bool expr_depends_symbol(struct expr *dep, struct symbol *sym)$/;"	f
+expr_eliminate_dups	scripts/config/expr.c	/^struct expr *expr_eliminate_dups(struct expr *e)$/;"	f
+expr_eliminate_dups1	scripts/config/expr.c	/^static void expr_eliminate_dups1(enum expr_type type, struct expr **ep1, struct expr **ep2)$/;"	f	file:
+expr_eliminate_dups2	scripts/config/expr.c	/^static void expr_eliminate_dups2(enum expr_type type, struct expr **ep1, struct expr **ep2)$/;"	f	file:
+expr_eliminate_eq	scripts/config/expr.c	/^void expr_eliminate_eq(struct expr **ep1, struct expr **ep2)$/;"	f
+expr_eliminate_yn	scripts/config/expr.c	/^struct expr *expr_eliminate_yn(struct expr *e)$/;"	f
+expr_eq	scripts/config/expr.c	/^int expr_eq(struct expr *e1, struct expr *e2)$/;"	f
+expr_extract_eq	scripts/config/expr.c	/^void expr_extract_eq(enum expr_type type, struct expr **ep, struct expr **ep1, struct expr **ep2)$/;"	f
+expr_extract_eq_and	scripts/config/expr.c	/^struct expr *expr_extract_eq_and(struct expr **ep1, struct expr **ep2)$/;"	f
+expr_extract_eq_or	scripts/config/expr.c	/^struct expr *expr_extract_eq_or(struct expr **ep1, struct expr **ep2)$/;"	f
+expr_fprint	scripts/config/expr.c	/^void expr_fprint(struct expr *e, FILE *out)$/;"	f
+expr_free	scripts/config/expr.c	/^void expr_free(struct expr *e)$/;"	f
+expr_gstr_print	scripts/config/expr.c	/^void expr_gstr_print(struct expr *e, struct gstr *gs)$/;"	f
+expr_is_no	scripts/config/expr.h	/^static inline int expr_is_no(struct expr *e)$/;"	f
+expr_is_yes	scripts/config/expr.h	/^static inline int expr_is_yes(struct expr *e)$/;"	f
+expr_join_and	scripts/config/expr.c	/^struct expr *expr_join_and(struct expr *e1, struct expr *e2)$/;"	f
+expr_join_or	scripts/config/expr.c	/^struct expr *expr_join_or(struct expr *e1, struct expr *e2)$/;"	f
+expr_print	scripts/config/expr.c	/^void expr_print(struct expr *e, void (*fn)(void *, const char *), void *data, int prevtoken)$/;"	f
+expr_print	scripts/config/lkc_defs.h	40;"	d
+expr_print_file_helper	scripts/config/expr.c	/^static void expr_print_file_helper(void *data, const char *str)$/;"	f	file:
+expr_print_gstr_helper	scripts/config/expr.c	/^static void expr_print_gstr_helper(void *data, const char *str)$/;"	f	file:
+expr_trans_bool	scripts/config/expr.c	/^struct expr *expr_trans_bool(struct expr *e)$/;"	f
+expr_trans_compare	scripts/config/expr.c	/^struct expr *expr_trans_compare(struct expr *e, enum expr_type type, struct symbol *sym)$/;"	f
+expr_transform	scripts/config/expr.c	/^struct expr *expr_transform(struct expr *e)$/;"	f
+expr_type	scripts/config/expr.h	/^enum expr_type {$/;"	g
+expr_value	scripts/config/expr.h	/^struct expr_value {$/;"	s
+f	Makefile	/^	dd if=\/dev\/zero of=disk bs=1K count=$(DEBUG26_RAMDISK_SIZE)$/;"	m
+fd	scripts/config/lxdialog/textbox.c	/^static int hscroll, fd, file_size, bytes_read;$/;"	v	file:
+fdbuf	lib/testfd.c	/^static char fdbuf[512];$/;"	v	file:
+file	scripts/config/expr.h	/^	struct file *file;$/;"	m	struct:menu	typeref:struct:menu::file
+file	scripts/config/expr.h	/^	struct file *file;$/;"	m	struct:property	typeref:struct:property::file
+file	scripts/config/expr.h	/^struct file {$/;"	s
+file_list	scripts/config/menu.c	/^struct file *file_list;$/;"	v	typeref:struct:file
+file_lookup	scripts/config/util.c	/^struct file *file_lookup(const char *name)$/;"	f
+file_size	scripts/config/lxdialog/textbox.c	/^static int hscroll, fd, file_size, bytes_read;$/;"	v	file:
+file_write_dep	scripts/config/util.c	/^int file_write_dep(const char *name)$/;"	f
+filename	scripts/config/mconf.c	/^static char filename[PATH_MAX+1] = ".config";$/;"	v	file:
+fillonedir	lib/ls.c	/^static int fillonedir(void * __buf, const char * name, int namlen, loff_t offset,$/;"	f	file:
+first_alpha	scripts/config/lxdialog/util.c	/^first_alpha(const char *string, const char *exempt)$/;"	f
+first_chars	scripts/bb_mkdep.c	/^static char first_chars[1+UCHAR_MAX];               \/* + L_EOF *\/$/;"	v	file:
+first_chars_diu	scripts/bb_mkdep.c	/^static const char first_chars_diu[UCHAR_MAX] = {$/;"	v	file:
+first_sel_item	scripts/config/lxdialog/util.c	/^first_sel_item(int item_no, struct dialog_list_item ** items)$/;"	f
+first_ts	scripts/config/lex.zconf.c	/^static int last_ts, first_ts;$/;"	v	file:
+flags	mips.ev64420/serial_ev64420.c	/^	int			flags; 		\/* defined in tty.h *\/$/;"	m	struct:ev64420_serial	file:
+flags	scripts/config/expr.h	/^	int flags;$/;"	m	struct:file
+flags	scripts/config/expr.h	/^	int flags;$/;"	m	struct:symbol
+flags	scripts/config/expr.h	/^	unsigned int flags;$/;"	m	struct:menu
+flex_int16_t	scripts/config/lex.zconf.c	/^typedef int16_t flex_int16_t;$/;"	t	file:
+flex_int16_t	scripts/config/lex.zconf.c	/^typedef short int flex_int16_t;$/;"	t	file:
+flex_int32_t	scripts/config/lex.zconf.c	/^typedef int flex_int32_t;$/;"	t	file:
+flex_int32_t	scripts/config/lex.zconf.c	/^typedef int32_t flex_int32_t;$/;"	t	file:
+flex_int8_t	scripts/config/lex.zconf.c	/^typedef int8_t flex_int8_t;$/;"	t	file:
+flex_int8_t	scripts/config/lex.zconf.c	/^typedef signed char flex_int8_t;$/;"	t	file:
+flex_uint16_t	scripts/config/lex.zconf.c	/^typedef uint16_t flex_uint16_t;$/;"	t	file:
+flex_uint16_t	scripts/config/lex.zconf.c	/^typedef unsigned short int flex_uint16_t;$/;"	t	file:
+flex_uint32_t	scripts/config/lex.zconf.c	/^typedef uint32_t flex_uint32_t;$/;"	t	file:
+flex_uint32_t	scripts/config/lex.zconf.c	/^typedef unsigned int flex_uint32_t;$/;"	t	file:
+flex_uint8_t	scripts/config/lex.zconf.c	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
+flex_uint8_t	scripts/config/lex.zconf.c	/^typedef unsigned char flex_uint8_t;$/;"	t	file:
+flush_output	lib/inflate.c	162;"	d	file:
+flush_window	lib/ramdisk.c	/^static void __init flush_window(void)$/;"	f	file:
+for_all_choices	scripts/config/expr.h	123;"	d
+for_all_defaults	scripts/config/expr.h	122;"	d
+for_all_prompts	scripts/config/expr.h	124;"	d
+for_all_properties	scripts/config/expr.h	119;"	d
+for_all_symbols	scripts/config/expr.h	79;"	d
+fpgawrite	lib/dm642.c	/^static void fpgawrite(GPIO_Handle hGPIO, Uint16 data)$/;"	f	file:
+free	lib/ramdisk.c	/^static void __init free(void *where)$/;"	f	file:
+fullname	lib/mode_string.c	/^    char *fullname;			\/* the dir entry name *\/$/;"	m	struct:dnode	file:
+func	lib/cmdparser.h	/^int (*func)(int argc,char **argv);$/;"	m	struct:mycmd
+func	lib/cmdparser.h	/^int (*func)(void);$/;"	m	struct:myinit
+function	lib/pci.c	/^	int function;$/;"	m	struct:_mypciinfo	file:
+function	mips.8172/arch.c	/^	int function;$/;"	m	struct:_mypciinfo	file:
+gblctl	lib/dm642.c	/^  Uint32 gblctl;$/;"	m	struct:__anon7	file:
+get_byte	lib/ramdisk.c	29;"	d	file:
+get_line	scripts/config/lxdialog/textbox.c	/^get_line (void)$/;"	f	file:
+get_prompt_str	scripts/config/mconf.c	/^static void get_prompt_str(struct gstr *r, struct property *prop)$/;"	f	file:
+get_relations_str	scripts/config/mconf.c	/^static struct gstr get_relations_str(struct symbol **sym_arr)$/;"	f	file:
+get_symbol_str	scripts/config/mconf.c	/^static void get_symbol_str(struct gstr *r, struct symbol *sym)$/;"	f	file:
+getc0	scripts/bb_mkdep.c	181;"	d	file:
+getc1	scripts/bb_mkdep.c	183;"	d	file:
+getdata	lib/mem.c	/^static int getdata(char *str)$/;"	f	file:
+getenv	lib/env.c	/^static char  *getenv(char *name)$/;"	f	file:
+getenvp	lib/env.c	/^static struct __myenv_s *getenvp(char *name,int create)$/;"	f	file:
+gpdir	lib/dm642.c	/^   Uint32 gpdir;$/;"	m	struct:__anon3	file:
+gpen	lib/dm642.c	/^   Uint32 gpen;$/;"	m	struct:__anon3	file:
+gpgc	lib/dm642.c	/^   Uint32 gpgc;$/;"	m	struct:__anon3	file:
+gphm	lib/dm642.c	/^   Uint32 gphm;$/;"	m	struct:__anon3	file:
+gpio0	lib/dm642.c	/^static GPIO_Obj gpio0;$/;"	v	file:
+gplm	lib/dm642.c	/^   Uint32 gplm;   $/;"	m	struct:__anon3	file:
+gppol	lib/dm642.c	/^   Uint32 gppol;$/;"	m	struct:__anon3	file:
+gpval	lib/dm642.c	/^   Uint32 gpval;$/;"	m	struct:__anon3	file:
+gstr	scripts/config/lkc.h	/^struct gstr {$/;"	s
+gunzip	lib/inflate.c	/^static int gunzip(void)$/;"	f	file:
+gzip_mark	lib/ramdisk.c	/^static void __init gzip_mark(void **ptr)$/;"	f	file:
+gzip_release	lib/ramdisk.c	/^static void __init gzip_release(void **ptr)$/;"	f	file:
+handler	lib/myrequest_irq.c	/^		void (*handler)(int, void *, struct pt_regs *);$/;"	m	struct:myirqlist	file:
+handler	lib/myrequest_irq.c	/^		void (*handler)(int, void *, struct pt_regs *);$/;"	m	struct:mytimerlist	file:
+handler	lib/myrequest_irq1.c	/^		void (*handler)(int, void *, struct pt_regs *);$/;"	m	struct:myirqlist	file:
+handler	lib/myrequest_irq1.c	/^		void (*handler)(int, void *, struct pt_regs *);$/;"	m	struct:mytimerlist	file:
+harshel	lib/timer.c	86;"	d	file:
+head	lib/console.c	/^char *head;$/;"	v
+head	lib/myrequest_irq.c	/^} *head=0;$/;"	v	typeref:struct:myirqlist
+head	lib/myrequest_irq1.c	/^} *head=0;$/;"	v	typeref:struct:myirqlist
+header	lib/malloc.c	/^union header {$/;"	u	file:
+help	lib/cmdparser.c	/^static int help(int argc,char **argv)$/;"	f	file:
+help	scripts/config/expr.h	/^	char *help;$/;"	m	struct:symbol
+help	scripts/config/zconf.y	/^help: help_start T_HELPTEXT$/;"	l
+help_start	scripts/config/zconf.y	/^help_start: T_HELP T_EOL$/;"	l
+hscroll	scripts/config/lxdialog/textbox.c	/^static int hscroll, fd, file_size, bytes_read;$/;"	v	file:
+huft	lib/inflate.c	/^struct huft {$/;"	s	file:
+huft_build	lib/inflate.c	/^STATIC int huft_build(b, n, s, d, e, t, m)$/;"	f
+huft_free	lib/inflate.c	/^STATIC int huft_free(t)$/;"	f
+hufts	lib/inflate.c	/^STATIC unsigned hufts;         \/* track memory usage *\/$/;"	v
+i2c0	lib/dm642.c	/^static I2C_Obj i2c0;$/;"	v	file:
+i2c_88e1111_reg_read	mips.bonito/cs5536_i2c.c	/^static int i2c_88e1111_reg_read(int type,long long addr,union commondata *mydata)$/;"	f	file:
+i2c_88e1111_reg_write	mips.bonito/cs5536_i2c.c	/^static int i2c_88e1111_reg_write(int type,long long addr,union commondata *mydata)$/;"	f	file:
+i2c_read_single	mips.bonito/cs5536_i2c.c	/^static int i2c_read_single(int addr, int regNo,char *value)$/;"	f	file:
+i2c_read_smbblock	mips.bonito/cs5536_i2c.c	/^static int i2c_read_smbblock(int addr,int regNo,unsigned char *buf,char len) {$/;"	f	file:
+i2c_read_syscall	mips.bonito/cs5536_i2c.c	/^static int i2c_read_syscall(int type,long long addr,union commondata *mydata)$/;"	f	file:
+i2c_wait	mips.bonito/cs5536_i2c.c	/^static int i2c_wait()$/;"	f	file:
+i2c_write_single	mips.bonito/cs5536_i2c.c	/^static int i2c_write_single(int addr, int regNo,char *value)$/;"	f	file:
+i2c_write_smbblock	mips.bonito/cs5536_i2c.c	/^static int i2c_write_smbblock(int addr,int regNo, char *buf,int len) {$/;"	f	file:
+i2c_write_syscall	mips.bonito/cs5536_i2c.c	/^static int i2c_write_syscall(int type,long long addr,union commondata *mydata)$/;"	f	file:
+i2cclkh	lib/dm642.c	/^	Uint32 i2cclkh;$/;"	m	struct:__anon6	file:
+i2cclkl	lib/dm642.c	/^	Uint32 i2cclkl;$/;"	m	struct:__anon6	file:
+i2ccnt	lib/dm642.c	/^	Uint32 i2ccnt;$/;"	m	struct:__anon6	file:
+i2cdrrAddr	lib/dm642.c	/^  Uint32 i2cdrrAddr;$/;"	m	struct:__anon5	file:
+i2cdxrAddr	lib/dm642.c	/^  Uint32 i2cdxrAddr;$/;"	m	struct:__anon5	file:
+i2cimr	lib/dm642.c	/^	Uint32 i2cimr;$/;"	m	struct:__anon6	file:
+i2cmdr	lib/dm642.c	/^	Uint32 i2cmdr;$/;"	m	struct:__anon6	file:
+i2coar	lib/dm642.c	/^	Uint32 i2coar;$/;"	m	struct:__anon6	file:
+i2cpsc	lib/dm642.c	/^	Uint32 i2cpsc;$/;"	m	struct:__anon6	file:
+i2cs	mips.bonito/cs5536_i2c.c	/^static int i2cs(int argc,char **argv)$/;"	f	file:
+i2cs_88e1111	mips.bonito/cs5536_i2c.c	/^static int i2cs_88e1111(int argc,char **argv)$/;"	f	file:
+i2csar	lib/dm642.c	/^	Uint32 i2csar;$/;"	m	struct:__anon6	file:
+id_s	scripts/bb_mkdep.c	/^static char id_s[4096];$/;"	v	file:
+if	scripts/config/zconf.y	/^if: T_IF expr T_EOL$/;"	l
+if_block	scripts/config/zconf.y	/^if_block:$/;"	l
+if_end	scripts/config/zconf.y	/^if_end: end$/;"	l
+if_expr	scripts/config/zconf.y	/^if_expr:  \/* empty *\/			{ $$ = NULL; }$/;"	l
+if_stmt	scripts/config/zconf.y	/^if_stmt:$/;"	l
+ifconfig	lib/ifconfig.c	/^static int ifconfig(int argc,char **argv)$/;"	f	file:
+img	Doc/ramdisk/Makefile	/^img = $(CONFIG_EMBEDDED_RAMDISK_IMAGE)$/;"	m
+inb	mips.8172/lpc.c	32;"	d	file:
+inbuf	lib/ramdisk.c	/^static uch *inbuf;$/;"	v	file:
+indent	scripts/config/conf.c	/^static int indent = 1;$/;"	v	file:
+indent	scripts/config/mconf.c	/^static int indent;$/;"	v	file:
+inflate	lib/inflate.c	/^STATIC int inflate()$/;"	f
+inflate_block	lib/inflate.c	/^STATIC int inflate_block(e)$/;"	f
+inflate_codes	lib/inflate.c	/^STATIC int inflate_codes(tl, td, bl, bd)$/;"	f
+inflate_dynamic	lib/inflate.c	/^STATIC int inflate_dynamic()$/;"	f
+inflate_fixed	lib/inflate.c	/^STATIC int inflate_fixed()$/;"	f
+inflate_stored	lib/inflate.c	/^STATIC int inflate_stored()$/;"	f
+init_dialog	scripts/config/lxdialog/util.c	/^init_dialog (void)$/;"	f
+init_int_timer	lib/timer.c	/^static void init_int_timer(int time)$/;"	f	file:
+init_int_timer	mips.ev64420/serial_ev64420.c	/^static void init_int_timer(int irq)$/;"	f	file:
+init_wsize	scripts/config/mconf.c	/^static void init_wsize(void)$/;"	f	file:
+inptr	lib/ramdisk.c	/^static unsigned inptr;   \/* index of next byte to be processed in inbuf *\/$/;"	v	file:
+input	scripts/config/zconf.y	/^input:	  \/* empty *\/$/;"	l
+input_mode	scripts/config/conf.c	/^} input_mode = ask_all;$/;"	v	typeref:enum:__anon8
+inputbox_attr	scripts/config/lxdialog/dialog.h	106;"	d
+inputbox_border_attr	scripts/config/lxdialog/dialog.h	107;"	d
+inputbox_instructions_hex	scripts/config/mconf.c	/^inputbox_instructions_hex[] =$/;"	v	file:
+inputbox_instructions_int	scripts/config/mconf.c	/^inputbox_instructions_int[] =$/;"	v	file:
+inputbox_instructions_string	scripts/config/mconf.c	/^inputbox_instructions_string[] =$/;"	v	file:
+insize	lib/ramdisk.c	/^static unsigned insize;  \/* valid bytes in inbuf *\/$/;"	v	file:
+int_timer	lib/timer.c	/^static struct timer_list int_timer;$/;"	v	typeref:struct:timer_list	file:
+int_timer	mips.ev64420/serial_ev64420.c	/^static struct timer_list int_timer;$/;"	v	typeref:struct:timer_list	file:
+int_timer_do	lib/timer.c	/^static void int_timer_do (unsigned long time)$/;"	f	file:
+int_timer_do	mips.ev64420/serial_ev64420.c	/^static void int_timer_do (unsigned long irq)$/;"	f	file:
+ios_org	scripts/config/mconf.c	/^static struct termios ios_org;$/;"	v	typeref:struct:termios	file:
+irq	lib/myrequest_irq.c	/^		int irq;$/;"	m	struct:myirqlist	file:
+irq	lib/myrequest_irq.c	/^		int irq;$/;"	m	struct:mytimerlist	file:
+irq	lib/myrequest_irq1.c	/^		int irq;$/;"	m	struct:myirqlist	file:
+irq	lib/myrequest_irq1.c	/^		int irq;$/;"	m	struct:mytimerlist	file:
+irq	mips.ev64420/serial_ev64420.c	/^	int			irq;$/;"	m	struct:ev64420_serial	file:
+isalnum	lib/ctype.h	22;"	d
+isalnums	scripts/bb_mkdep.c	/^static char isalnums[1+UCHAR_MAX];                  \/* + L_EOF *\/$/;"	v	file:
+isalpha	lib/ctype.h	23;"	d
+isascii	lib/ctype.h	34;"	d
+iscntrl	lib/ctype.h	24;"	d
+isdigit	lib/ctype.h	25;"	d
+isgraph	lib/ctype.h	26;"	d
+islower	lib/ctype.h	27;"	d
+isprint	lib/ctype.h	28;"	d
+ispunct	lib/ctype.h	29;"	d
+isspace	lib/ctype.h	30;"	d
+isupper	lib/ctype.h	31;"	d
+isxdigit	lib/ctype.h	32;"	d
+item_attr	scripts/config/lxdialog/dialog.h	114;"	d
+item_no	scripts/config/mconf.c	/^static int item_no;$/;"	v	file:
+item_selected_attr	scripts/config/lxdialog/dialog.h	115;"	d
+item_x	scripts/config/lxdialog/checklist.c	/^static int list_width, check_x, item_x, checkflag;$/;"	v	file:
+item_x	scripts/config/lxdialog/menubox.c	/^static int menu_width, item_x;$/;"	v	file:
+items	scripts/config/mconf.c	/^static struct dialog_list_item *items[16384]; \/* FIXME: This ought to be dynamic. *\/$/;"	v	typeref:struct:dialog_list_item	file:
+kbhit	lib/kbhit.c	/^static int kbhit(void)$/;"	f	file:
+keeprun	lib/myrequest_irq1.c	/^static int keeprun=0;$/;"	v	file:
+key_sz	scripts/bb_mkdep.c	/^	size_t key_sz;$/;"	m	struct:BB_KEYS	file:
+key_top	scripts/bb_mkdep.c	/^static bb_key_t *key_top;   \/* list of found KEYs *\/$/;"	v	file:
+keyname	scripts/bb_mkdep.c	/^	char *keyname;$/;"	m	struct:BB_KEYS	file:
+kp	scripts/bb_mkdep.c	/^static const char *kp;      \/* KEY path, argument of -k usaged *\/$/;"	v	file:
+kp_len	scripts/bb_mkdep.c	/^static size_t kp_len;$/;"	v	file:
+last_entry_ptr	scripts/config/menu.c	/^static struct menu **last_entry_ptr;$/;"	v	typeref:struct:menu	file:
+last_ts	scripts/config/lex.zconf.c	/^static int last_ts, first_ts;$/;"	v	file:
+lastaddr	lib/mem.c	/^static unsigned long lastaddr=0;$/;"	v	file:
+lbits	lib/inflate.c	/^STATIC const int lbits = 9;          \/* bits in base literal\/length lookup table *\/$/;"	v
+ledstate	lib/dm642.c	/^static Int16 ledstate;$/;"	v	file:
+left	scripts/config/expr.h	/^	union expr_data left, right;$/;"	m	struct:expr	typeref:union:expr::expr_data
+len	scripts/config/lkc.h	/^	size_t len;$/;"	m	struct:gstr
+line	mips.ev64420/serial_ev64420.c	/^	int			line;$/;"	m	struct:ev64420_serial	file:
+line	scripts/config/conf.c	/^static char line[128];$/;"	v	file:
+lineno	scripts/config/expr.h	/^	int lineno;$/;"	m	struct:file
+lineno	scripts/config/expr.h	/^	int lineno;$/;"	m	struct:menu
+lineno	scripts/config/expr.h	/^	int lineno;$/;"	m	struct:property
+link	scripts/bb_mkdep.c	/^	struct llist_s *link;$/;"	m	struct:llist_s	typeref:struct:llist_s::llist_s	file:
+list	scripts/config/expr.h	/^	struct menu *list;$/;"	m	struct:menu	typeref:struct:menu::menu
+list_fmt	lib/mode_string.c	/^static unsigned int list_fmt=LIST_MODEBITS|LIST_NLINKS|LIST_ID_NUMERIC|LIST_SIZE|LIST_DATE_TIME|LIST_FILENAME|LIST_SYMLINK|LIST_FILETYPE;$/;"	v	file:
+list_single	lib/mode_string.c	/^static int list_single(struct dnode *dn)$/;"	f	file:
+list_width	scripts/config/lxdialog/checklist.c	/^static int list_width, check_x, item_x, checkflag;$/;"	v	file:
+listaddrs	lib/timer.c	/^static int listaddrs(int argc,char **argv)$/;"	f	file:
+llist_add_to	scripts/bb_mkdep.c	/^static inline llist_t *llist_add_to(llist_t *old_head, char *new_item)$/;"	f	file:
+llist_s	scripts/bb_mkdep.c	/^typedef struct llist_s {$/;"	s	file:
+llist_t	scripts/bb_mkdep.c	/^} llist_t;$/;"	t	typeref:struct:llist_s	file:
+load_config_help	scripts/config/mconf.c	/^load_config_help[] =$/;"	v	file:
+load_config_text	scripts/config/mconf.c	/^load_config_text[] =$/;"	v	file:
+loop	lib/loop.c	/^static int loop(int argc,char **argv)$/;"	f	file:
+ls	lib/ls.c	/^static int ls(int argc,char **argv)$/;"	f	file:
+lsmount	lib/mount.c	/^static int lsmount(int argc,char **argv)$/;"	f	file:
+magic	mips.ev64420/serial_ev64420.c	/^	int			magic;$/;"	m	struct:ev64420_serial	file:
+main	scripts/bb_mkdep.c	/^int main(int argc, char **argv)$/;"	f
+main	scripts/config/conf.c	/^int main(int ac, char **av)$/;"	f
+main	scripts/config/mconf.c	/^int main(int ac, char **av)$/;"	f
+main	usermmap.c	/^int main(int argc,char **argv)$/;"	f
+makecrc	lib/inflate.c	/^makecrc(void)$/;"	f	file:
+malloc	lib/ramdisk.c	/^static void __init *malloc(int size)$/;"	f	file:
+mask_bits	lib/inflate.c	/^STATIC const ush mask_bits[] = {$/;"	v
+match	lib/timer.c	/^static int match(int i,int bus,int dev,int func,int addr,char type)$/;"	f	file:
+max_rec_sz	scripts/bb_mkdep.c	/^static size_t max_rec_sz;$/;"	v	file:
+mconf_readme	scripts/config/mconf.c	/^static const char mconf_readme[] =$/;"	v	file:
+mem_fd	usermmap.c	/^int mem_fd;$/;"	v
+memzero	lib/ramdisk.c	8;"	d	file:
+menu	scripts/config/expr.h	/^	struct menu *menu;$/;"	m	struct:property	typeref:struct:property::menu
+menu	scripts/config/expr.h	/^struct menu {$/;"	s
+menu	scripts/config/zconf.tab.c	/^	struct menu *menu;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::menu	file:
+menu	scripts/config/zconf.tab.h	/^	struct menu *menu;$/;"	m	union:__anon9	typeref:struct:__anon9::menu
+menu	scripts/config/zconf.y	/^menu: T_MENU prompt T_EOL$/;"	l
+menu_add_dep	scripts/config/menu.c	/^void menu_add_dep(struct expr *dep)$/;"	f
+menu_add_entry	scripts/config/menu.c	/^void menu_add_entry(struct symbol *sym)$/;"	f
+menu_add_expr	scripts/config/menu.c	/^void menu_add_expr(enum prop_type type, struct expr *expr, struct expr *dep)$/;"	f
+menu_add_menu	scripts/config/menu.c	/^void menu_add_menu(void)$/;"	f
+menu_add_prompt	scripts/config/menu.c	/^void menu_add_prompt(enum prop_type type, char *prompt, struct expr *dep)$/;"	f
+menu_add_prop	scripts/config/menu.c	/^struct property *menu_add_prop(enum prop_type type, char *prompt, struct expr *expr, struct expr *dep)$/;"	f
+menu_add_symbol	scripts/config/menu.c	/^void menu_add_symbol(enum prop_type type, struct symbol *sym, struct expr *dep)$/;"	f
+menu_backtitle	scripts/config/mconf.c	/^static char menu_backtitle[128];$/;"	v	file:
+menu_block	scripts/config/zconf.y	/^menu_block:$/;"	l
+menu_check_dep	scripts/config/menu.c	/^struct expr *menu_check_dep(struct expr *e)$/;"	f
+menu_end	scripts/config/zconf.y	/^menu_end: end$/;"	l
+menu_end_entry	scripts/config/menu.c	/^void menu_end_entry(void)$/;"	f
+menu_end_menu	scripts/config/menu.c	/^void menu_end_menu(void)$/;"	f
+menu_entry	scripts/config/zconf.y	/^menu_entry: menu depends_list$/;"	l
+menu_finalize	scripts/config/menu.c	/^void menu_finalize(struct menu *parent)$/;"	f
+menu_get_parent_menu	scripts/config/lkc_defs.h	13;"	d
+menu_get_parent_menu	scripts/config/menu.c	/^struct menu *menu_get_parent_menu(struct menu *menu)$/;"	f
+menu_get_prompt	scripts/config/lkc_defs.h	11;"	d
+menu_get_prompt	scripts/config/menu.c	/^const char *menu_get_prompt(struct menu *menu)$/;"	f
+menu_get_root_menu	scripts/config/lkc_defs.h	12;"	d
+menu_get_root_menu	scripts/config/menu.c	/^struct menu *menu_get_root_menu(struct menu *menu)$/;"	f
+menu_init	scripts/config/menu.c	/^void menu_init(void)$/;"	f
+menu_instructions	scripts/config/mconf.c	/^menu_instructions[] =$/;"	v	file:
+menu_is_visible	scripts/config/lkc_defs.h	10;"	d
+menu_is_visible	scripts/config/menu.c	/^bool menu_is_visible(struct menu *menu)$/;"	f
+menu_set_type	scripts/config/menu.c	/^void menu_set_type(int type)$/;"	f
+menu_stmt	scripts/config/zconf.y	/^menu_stmt:$/;"	l
+menu_warn	scripts/config/menu.c	/^static void menu_warn(struct menu *menu, const char *fmt, ...)$/;"	f	file:
+menu_width	scripts/config/lxdialog/menubox.c	/^static int menu_width, item_x;$/;"	v	file:
+menubox_attr	scripts/config/lxdialog/dialog.h	112;"	d
+menubox_border_attr	scripts/config/lxdialog/dialog.h	113;"	d
+menuconfig_entry_start	scripts/config/zconf.y	/^menuconfig_entry_start: T_MENUCONFIG T_WORD T_EOL$/;"	l
+menuconfig_stmt	scripts/config/zconf.y	/^menuconfig_stmt: menuconfig_entry_start config_option_list$/;"	l
+mmap_init	lib/mmap.c	/^static void mmap_init(void)$/;"	f	file:
+mod	scripts/config/expr.h	/^	no, mod, yes$/;"	e	enum:tristate
+mode	scripts/bb_mkdep.c	/^static int mode;$/;"	v	file:
+mode_string	lib/mode_string.c	/^const char *mode_string(int mode)$/;"	f
+modify	lib/mem.c	/^static int modify(int argc,char **argv)$/;"	f	file:
+modules_sym	scripts/config/symbol.c	/^struct symbol *modules_sym;$/;"	v	typeref:struct:symbol
+modules_val	scripts/config/symbol.c	/^tristate modules_val;$/;"	v
+morecore	lib/malloc.c	/^morecore(unsigned nu)$/;"	f	file:
+mount_port	lib/nfsroot.c	/^static int mount_port  = 0;		\/* Mount daemon port number *\/$/;"	v	file:
+mpi	lib/pci.c	/^} mpi;$/;"	v	typeref:struct:_mypciinfo	file:
+mpi	mips.8172/arch.c	/^} mpi;$/;"	v	typeref:struct:_mypciinfo	file:
+msg	lib/env.c	/^char *msg;$/;"	m	struct:__myenv_s	file:
+msg_enomem	scripts/bb_mkdep.c	/^static const char msg_enomem[] = "memory exhausted";$/;"	v	file:
+mychdir	lib/cd.c	/^static int mychdir(int argc,char **argv)$/;"	f	file:
+mychroot	lib/chroot.c	/^static int mychroot(int argc,char **argv)$/;"	f	file:
+mycmd	lib/cmdparser.h	/^struct mycmd{$/;"	s
+mycmd_init	lib/cmdparser.h	13;"	d
+mycp0s	lib/regs.c	/^static int mycp0s(int argc,char **argv)$/;"	f	file:
+mydata	lib/mem.c	/^}mydata,*pmydata;$/;"	v	typeref:union:commondata	file:
+mydumpaddr	lib/writefile.c	/^static int mydumpaddr(int argc,char **argv)$/;"	f	file:
+myfree_irq	lib/myrequest_irq.c	/^void myfree_irq(unsigned int irq, void *dev_id)$/;"	f
+myfree_irq	lib/myrequest_irq1.c	/^void myfree_irq(unsigned int irq, void *dev_id)$/;"	f
+myfree_irq1	lib/myrequest_irq.c	/^void myfree_irq1(unsigned int irq, void *dev_id)$/;"	f
+myfree_irq1	lib/myrequest_irq1.c	/^void myfree_irq1(unsigned int irq, void *dev_id)$/;"	f
+myinit	lib/cmdparser.h	/^struct myinit{$/;"	s
+myinit	lib/dm642.c	/^static void myinit()$/;"	f	file:
+myinit_begin	lib/cmdparser.h	16;"	d
+myinit_end	lib/cmdparser.h	19;"	d
+myioremap	lib/mem.c	/^static long myioremap(long long addr,int size)$/;"	f	file:
+myirqlist	lib/myrequest_irq.c	/^struct myirqlist{$/;"	s	file:
+myirqlist	lib/myrequest_irq1.c	/^struct myirqlist{$/;"	s	file:
+mymunmap	lib/mem.c	/^static void mymunmap(long vaddr,int size)$/;"	f	file:
+myqueue	lib/console.c	/^DECLARE_WAIT_QUEUE_HEAD(myqueue);$/;"	v
+myrequest_irq	lib/myrequest_irq.c	/^int myrequest_irq(unsigned int irq,$/;"	f
+myrequest_irq	lib/myrequest_irq1.c	/^int myrequest_irq(unsigned int irq,$/;"	f
+myrequest_irq1	lib/myrequest_irq.c	/^int myrequest_irq1(unsigned int irq,$/;"	f
+myrequest_irq1	lib/myrequest_irq1.c	/^int myrequest_irq1(unsigned int irq,$/;"	f
+mythread	lib/myrequest_irq.c	/^static int mythread(void *unused)$/;"	f	file:
+mythread	lib/myrequest_irq1.c	/^static int mythread(void *unused)$/;"	f	file:
+mytimer_init	lib/timer.c	/^myinit_begin(mytimer_init);$/;"	v
+mytimer_init	lib/timer.c	/^static int mytimer_init()$/;"	f	file:
+mytimerlist	lib/myrequest_irq.c	/^static struct mytimerlist{$/;"	s	file:
+mytimerlist	lib/myrequest_irq1.c	/^static struct mytimerlist{$/;"	s	file:
+myuninit	lib/dm642.c	/^static void myuninit()$/;"	f	file:
+n	lib/inflate.c	/^    ush n;              \/* literal, length base, or distance base *\/$/;"	m	union:huft::__anon1	file:
+name	Makefile	/^name=mydebug$/;"	m
+name	i386/Makefile	/^name=mydebug$/;"	m
+name	lib/cmdparser.h	/^char *name;$/;"	m	struct:mycmd
+name	lib/env.c	/^char *name;$/;"	m	struct:__myenv_s	file:
+name	lib/mode_string.c	/^    char *name;				\/* the dir entry name *\/$/;"	m	struct:dnode	file:
+name	lib/nfsroot.c	/^	char *name;$/;"	m	struct:nfs_bool_opts	file:
+name	lib/nfsroot.c	/^	char *name;$/;"	m	struct:nfs_int_opts	file:
+name	mips.bonito/Makefile	/^name=mydebug$/;"	m
+name	mips.ev64420/Makefile	/^name=mydebug$/;"	m
+name	scripts/config/expr.h	/^	char *name;$/;"	m	struct:file
+name	scripts/config/expr.h	/^	char *name;$/;"	m	struct:symbol
+name	scripts/config/lxdialog/colors.h	/^    char name[COLOR_NAME_LEN];$/;"	m	struct:__anon10
+name	scripts/config/lxdialog/dialog.h	/^	char *name;$/;"	m	struct:dialog_list_item
+name	test/Makefile	/^name=mydebug$/;"	m
+namelen	scripts/config/lxdialog/dialog.h	/^	int namelen;$/;"	m	struct:dialog_list_item
+netdev_timer	lib/myrequest_irq.c	/^static void netdev_timer(unsigned long data)$/;"	f	file:
+netdev_timer	lib/myrequest_irq1.c	/^static void netdev_timer(unsigned long data)$/;"	f	file:
+new_string	scripts/config/lex.zconf.c	/^void new_string(void)$/;"	f
+next	lib/mode_string.c	/^    struct dnode *next;		\/* point at the next node *\/$/;"	m	struct:dnode	typeref:struct:dnode::dnode	file:
+next	lib/myrequest_irq.c	/^		struct myirqlist *next;$/;"	m	struct:myirqlist	typeref:struct:myirqlist::myirqlist	file:
+next	lib/myrequest_irq.c	/^		struct mytimerlist *next;$/;"	m	struct:mytimerlist	typeref:struct:mytimerlist::mytimerlist	file:
+next	lib/myrequest_irq1.c	/^		struct myirqlist *next;$/;"	m	struct:myirqlist	typeref:struct:myirqlist::myirqlist	file:
+next	lib/myrequest_irq1.c	/^		struct mytimerlist *next;$/;"	m	struct:mytimerlist	typeref:struct:mytimerlist::mytimerlist	file:
+next	scripts/bb_mkdep.c	/^	struct BB_KEYS *next;$/;"	m	struct:BB_KEYS	typeref:struct:BB_KEYS::BB_KEYS	file:
+next	scripts/config/expr.h	/^	struct file *next;$/;"	m	struct:file	typeref:struct:file::file
+next	scripts/config/expr.h	/^	struct menu *next;$/;"	m	struct:menu	typeref:struct:menu::menu
+next	scripts/config/expr.h	/^	struct property *next;$/;"	m	struct:property	typeref:struct:property::property
+next	scripts/config/expr.h	/^	struct symbol *next;$/;"	m	struct:symbol	typeref:struct:symbol::symbol
+next_menu	scripts/config/confdata.c	/^struct menu *next_menu(struct menu *menu)$/;"	f
+nfs_bool_opts	lib/nfsroot.c	/^static struct nfs_bool_opts {$/;"	s	file:
+nfs_data	lib/nfsroot.c	/^static struct nfs_mount_data nfs_data  = { 0, };\/* NFS mount info *\/$/;"	v	typeref:struct:nfs_mount_data	file:
+nfs_int_opts	lib/nfsroot.c	/^static struct nfs_int_opts {$/;"	s	file:
+nfs_path	lib/nfsroot.c	/^static char nfs_path[NFS_MAXPATHLEN]  = { 0, };$/;"	v	file:
+nfs_port	lib/nfsroot.c	/^static int nfs_port  = 0;		\/* Port to connect to for NFS *\/$/;"	v	file:
+nfs_root_data	lib/nfsroot.c	/^static void *  nfs_root_data(void)$/;"	f	file:
+nfs_root_name	lib/nfsroot.c	/^static char nfs_root_name[256]  = "";$/;"	v	file:
+nfs_root_setup	lib/nfsroot.c	/^static int  nfs_root_setup(char *line)$/;"	f	file:
+nl_or_eof	scripts/config/zconf.y	/^nl_or_eof:$/;"	l
+no	scripts/config/expr.h	/^	no, mod, yes$/;"	e	enum:tristate
+nohelp_text	scripts/config/conf.c	/^static char nohelp_text[] = "Sorry, no help available for this option yet.\\n";$/;"	v	file:
+nohelp_text	scripts/config/mconf.c	/^nohelp_text[] =$/;"	v	file:
+noiwarning	scripts/bb_mkdep.c	/^static int noiwarning;          \/* flag -w usaged *\/$/;"	v	file:
+note	lib/cmdparser.h	/^char *note;$/;"	m	struct:mycmd
+nr_fprintf	lib/main.c	/^static int nr_fprintf(int fd,char *fmt,...)$/;"	f	file:
+nr_free	lib/malloc.c	/^nr_free(void *ap)$/;"	f
+nr_free	usermmap.c	11;"	d	file:
+nr_gets	lib/main.c	/^static int nr_gets(char *s,int size)$/;"	f	file:
+nr_gets	lib/main.c	337;"	d	file:
+nr_gets	usermmap.c	6;"	d	file:
+nr_ioremap	lib/mem.c	/^int nr_ioremap(unsigned long long phyaddr,unsigned int size,unsigned long long *vaddr)$/;"	f
+nr_iounremap	lib/mem.c	/^int nr_iounremap(unsigned long long vaddr,unsigned int size)$/;"	f
+nr_malloc	lib/malloc.c	/^nr_malloc(size_t nbytes)$/;"	f	file:
+nr_malloc	usermmap.c	10;"	d	file:
+nr_mmap	lib/mem.c	35;"	d	file:
+nr_mmap	usermmap.c	15;"	d	file:
+nr_mountnfs	lib/nfsroot.c	/^static int nr_mountnfs(int argc,char **argv)$/;"	f	file:
+nr_munmap	lib/mem.c	36;"	d	file:
+nr_munmap	usermmap.c	16;"	d	file:
+nr_printf	lib/main.c	/^static int nr_printf(char *fmt,...)$/;"	f	file:
+nr_printf	lib/main.c	336;"	d	file:
+nr_printf	usermmap.c	7;"	d	file:
+nr_set_fs_pwd	lib/mount.c	/^static void nr_set_fs_pwd(struct fs_struct *fs, struct vfsmount *mnt,$/;"	f	file:
+nr_set_fs_root	lib/mount.c	/^static void nr_set_fs_root(struct fs_struct *fs, struct vfsmount *mnt,$/;"	f	file:
+nr_stdout	lib/main.c	/^static int nr_stdout=2; \/\/must be 2,for write$/;"	v	file:
+nr_strsep	lib/main.c	17;"	d	file:
+nr_strsep	usermmap.c	8;"	d	file:
+nr_strtol	i386/arch.h	1;"	d
+nr_strtol	lib/main.c	16;"	d	file:
+nr_strtol	mips.8172/arch.h	1;"	d
+nr_strtol	mips.bonito/arch.h	1;"	d
+nr_strtol	mips.ev64420/arch.h	1;"	d
+nr_strtol	usermmap.c	9;"	d	file:
+obj-m	Makefile	/^obj-m := $/;"	m
+obj-m	Makefile	/^obj-m :=$/;"	m
+obj-m	i386/Makefile	/^obj-m:= $(name).o$/;"	m
+obj-m	mips.bonito/Makefile	/^obj-m:= $(name).o$/;"	m
+obj-m	test/Makefile	/^obj-m :=$/;"	m
+obj-m	test/Makefile	/^obj-m:= $(name).o$/;"	m
+obj-y	Makefile	/^obj-y := $/;"	m
+obj-y	Makefile	/^obj-y :=$/;"	m
+obj-y	mips.bonito/Makefile	/^obj-y:= $(name).o$/;"	m
+obj-y	mips.ev64420/Makefile	/^obj-y :=$/;"	m
+obj-y	test/Makefile	/^obj-y := $/;"	m
+obj-y	test/Makefile	/^obj-y :=$/;"	m
+old_linux_dirent	lib/ls.c	/^struct old_linux_dirent {$/;"	s	file:
+or_mask	lib/nfsroot.c	/^	int  or_mask;$/;"	m	struct:nfs_bool_opts	file:
+outb	mips.8172/lpc.c	31;"	d	file:
+outcnt	lib/ramdisk.c	/^static unsigned outcnt;  \/* bytes in output buffer *\/$/;"	v	file:
+page	scripts/config/lxdialog/textbox.c	/^static char *buf, *page;$/;"	v	file:
+page_length	scripts/config/lxdialog/textbox.c	/^static int begin_reached = 1, end_reached, page_length;$/;"	v	file:
+pager	lib/pager.c	/^int pager(int argc,char **argv)$/;"	f
+pagesizem1	scripts/bb_mkdep.c	/^static int pagesizem1;      \/* padding mask = getpagesize() - 1 *\/$/;"	v	file:
+parent	scripts/config/expr.h	/^	struct file *parent;$/;"	m	struct:file	typeref:struct:file::file
+parent	scripts/config/expr.h	/^	struct menu *parent;$/;"	m	struct:menu	typeref:struct:menu::menu
+parent	scripts/config/lex.zconf.c	/^        struct buffer *parent;$/;"	m	struct:buffer	typeref:struct:buffer::buffer	file:
+parse_chd	scripts/bb_mkdep.c	/^parse_chd(const char *fe, const char *p, size_t dirlen)$/;"	f	file:
+parse_conf_opt	scripts/bb_mkdep.c	/^static void parse_conf_opt(const char *opt, const char *val, size_t key_sz)$/;"	f	file:
+parse_inc	scripts/bb_mkdep.c	/^static void parse_inc(const char *include, const char *fname)$/;"	f	file:
+pbase0	lib/dm642.c	/^unsigned long pbase0;$/;"	m	struct:dm642_struc	file:
+pbase1	lib/dm642.c	/^unsigned long pbase1;$/;"	m	struct:dm642_struc	file:
+pci_for_each_dev	lib/pcibus.c	3;"	d	file:
+pcibus	lib/pcibus.c	/^int pcibus(int argc,char **argv)$/;"	f
+pcidev	lib/pci.c	/^static struct pci_dev *pcidev;$/;"	v	typeref:struct:pci_dev	file:
+pcidev	lib/timer.c	/^struct pci_dev *pcidev;$/;"	m	struct:addrstruc	typeref:struct:addrstruc::pci_dev	file:
+pcisave	lib/pcibus.c	/^static int pcisave(int argc,char **argv)$/;"	f	file:
+pg_con	lib/pager.c	/^static long pg_con[2]={0,0};$/;"	v	file:
+pg_fd	lib/pager.c	/^static long pg_fd[2]={0,0};$/;"	v	file:
+pinAllocMask	lib/dm642.c	/^  Uint32 pinAllocMask;$/;"	m	struct:__anon4	file:
+plx_irqenable	lib/plx.c	/^static int plx_irqenable(int argc,char **argv)$/;"	f	file:
+pmon	mips.bonito/pmon.c	/^static int pmon(int argc,char **argv)$/;"	f	file:
+pmon1	mips.bonito/pmon.c	/^static int pmon1(int argc,char **argv)$/;"	f	file:
+pmydata	lib/mem.c	/^}mydata,*pmydata;$/;"	v	typeref:union:commondata	file:
+pnext	lib/console.c	/^inline char *pnext(char *ptr)$/;"	f
+position_indicator_attr	scripts/config/lxdialog/dialog.h	111;"	d
+print_arrows	scripts/config/lxdialog/checklist.c	/^print_arrows (WINDOW * win, int choice, int item_no, int scroll,$/;"	f	file:
+print_arrows	scripts/config/lxdialog/menubox.c	/^print_arrows (WINDOW * win, int item_no, int scroll,$/;"	f	file:
+print_autowrap	scripts/config/lxdialog/util.c	/^print_autowrap (WINDOW * win, const char *prompt, int width, int y, int x)$/;"	f
+print_button	scripts/config/lxdialog/util.c	/^print_button (WINDOW * win, const char *label, int y, int x, int selected)$/;"	f
+print_buttons	scripts/config/lxdialog/checklist.c	/^print_buttons( WINDOW *dialog, int height, int width, int selected)$/;"	f	file:
+print_buttons	scripts/config/lxdialog/inputbox.c	/^print_buttons(WINDOW *dialog, int height, int width, int selected)$/;"	f	file:
+print_buttons	scripts/config/lxdialog/menubox.c	/^print_buttons (WINDOW *win, int height, int width, int selected)$/;"	f	file:
+print_buttons	scripts/config/lxdialog/yesno.c	/^print_buttons(WINDOW *dialog, int height, int width, int selected)$/;"	f	file:
+print_item	scripts/config/lxdialog/checklist.c	/^print_item (WINDOW * win, const char *item, int status,$/;"	f	file:
+print_item	scripts/config/lxdialog/menubox.c	/^print_item (WINDOW * win, const char *item, int choice, int selected, int hotkey)$/;"	f	file:
+print_line	scripts/config/lxdialog/textbox.c	/^print_line (WINDOW * win, int row, int width)$/;"	f	file:
+print_page	scripts/config/lxdialog/textbox.c	/^print_page (WINDOW * win, int height, int width)$/;"	f	file:
+print_position	scripts/config/lxdialog/textbox.c	/^print_position (WINDOW * win, int height, int width)$/;"	f	file:
+print_quoted_string	scripts/config/zconf.tab.c	/^void print_quoted_string(FILE *out, const char *str)$/;"	f
+print_symbol	scripts/config/zconf.tab.c	/^void print_symbol(FILE *out, struct menu *menu)$/;"	f
+printaddrs	lib/timer.c	/^void printaddrs()$/;"	f
+printd	scripts/config/zconf.tab.c	164;"	d	file:
+printf	lib/mode_string.c	33;"	d	file:
+printthread	lib/pager.c	/^int printthread(void *unused)$/;"	f
+proc_read_debug	lib/main.c	/^static int proc_read_debug(char *page, char **start,$/;"	f	file:
+proc_write_debug	lib/main.c	/^static int proc_write_debug(struct file *file,$/;"	f	file:
+prom_gets	lib/main.c	/^static int prom_gets(char *s,int size)$/;"	f	file:
+prompt	scripts/config/expr.h	/^	struct property *prompt;$/;"	m	struct:menu	typeref:struct:menu::property
+prompt	scripts/config/zconf.y	/^prompt:	  T_WORD$/;"	l
+prompt_stmt_opt	scripts/config/zconf.y	/^prompt_stmt_opt:$/;"	l
+prop	scripts/config/expr.h	/^	struct property *prop;$/;"	m	struct:symbol	typeref:struct:symbol::property
+prop_alloc	scripts/config/symbol.c	/^struct property *prop_alloc(enum prop_type type, struct symbol *sym)$/;"	f
+prop_get_symbol	scripts/config/symbol.c	/^struct symbol *prop_get_symbol(struct property *prop)$/;"	f
+prop_get_type_name	scripts/config/lkc_defs.h	36;"	d
+prop_get_type_name	scripts/config/symbol.c	/^const char *prop_get_type_name(enum prop_type type)$/;"	f
+prop_type	scripts/config/expr.h	/^enum prop_type {$/;"	g
+prop_warn	scripts/config/menu.c	/^static void prop_warn(struct property *prop, const char *fmt, ...)$/;"	f	file:
+property	scripts/config/expr.h	/^struct property {$/;"	s
+ptr	lib/malloc.c	/^	union header   *ptr;$/;"	m	struct:header::__anon2	typeref:union:header::__anon2::header	file:
+put_id	scripts/bb_mkdep.c	189;"	d	file:
+pwd	lib/pwd.c	/^static int pwd(int argc,char **argv)$/;"	f	file:
+pwd	scripts/bb_mkdep.c	/^static char *pwd;           \/* current work directory *\/$/;"	v	file:
+qch_init_int_timer	lib/console.c	/^static void qch_init_int_timer()$/;"	f	file:
+qch_int_timer	lib/console.c	/^static struct timer_list qch_int_timer;$/;"	v	typeref:struct:timer_list	file:
+qch_int_timer_do	lib/console.c	/^static void qch_int_timer_do (unsigned long ptr)$/;"	f	file:
+quit	lib/cmdparser.c	/^static int quit(int argc,char **argv)$/;"	f	file:
+quitnow	lib/cmdparser.c	/^static int quitnow=0;$/;"	v	file:
+quitnow	usermmap.c	/^static int quitnow;$/;"	v	file:
+radiolist_instructions	scripts/config/mconf.c	/^radiolist_instructions[] =$/;"	v	file:
+rcdevrv	lib/main.c	/^static int rcdevrv=0;$/;"	v	file:
+rcsid	lib/inflate.c	/^static char rcsid[] = "#Id: inflate.c,v 0.14 1993\/06\/10 13:27:04 jloup Exp #";$/;"	v	file:
+readdir_callback	lib/ls.c	/^struct readdir_callback {$/;"	s	file:
+readfd	lib/testfd.c	/^static int readfd(char *argc,char **argv)$/;"	f	file:
+receive_chars	mips.ev64420/serial_ev64420.c	/^static inline void receive_chars(struct ev64420_serial *info)$/;"	f	file:
+replace	scripts/bb_mkdep.c	/^static size_t replace;      \/* replace current work derectory to build dir *\/$/;"	v	file:
+rev_dep	scripts/config/expr.h	/^	struct expr_value rev_dep;$/;"	m	struct:symbol	typeref:struct:symbol::expr_value
+right	scripts/config/expr.h	/^	union expr_data left, right;$/;"	m	struct:expr	typeref:union:expr::
+rootEntry	scripts/config/conf.c	/^static struct menu *rootEntry;$/;"	v	typeref:struct:menu	file:
+root_bool_opts	lib/nfsroot.c	/^} root_bool_opts[]  = {$/;"	v	typeref:struct:nfs_bool_opts	file:
+root_int_opts	lib/nfsroot.c	/^} root_int_opts[]  = {$/;"	v	typeref:struct:nfs_int_opts	file:
+root_nfs_addr	lib/nfsroot.c	/^static int  root_nfs_addr(void)$/;"	f	file:
+root_nfs_get_handle	lib/nfsroot.c	/^static int  root_nfs_get_handle(void)$/;"	f	file:
+root_nfs_getport	lib/nfsroot.c	/^static int  root_nfs_getport(int program, int version, int proto)$/;"	f	file:
+root_nfs_init	lib/nfsroot.c	/^static int  root_nfs_init(void)$/;"	f	file:
+root_nfs_name	lib/nfsroot.c	/^static int  root_nfs_name(char *name)$/;"	f	file:
+root_nfs_parse	lib/nfsroot.c	/^static void  root_nfs_parse(char *name, char *buf)$/;"	f	file:
+root_nfs_parse_addr	lib/nfsroot.c	/^static u32  root_nfs_parse_addr(char *name)$/;"	f	file:
+root_nfs_ports	lib/nfsroot.c	/^static int  root_nfs_ports(void)$/;"	f	file:
+root_nfs_print	lib/nfsroot.c	/^static void  root_nfs_print(void)$/;"	f	file:
+rootmenu	scripts/config/lkc_defs.h	8;"	d
+rootmenu	scripts/config/menu.c	/^struct menu rootmenu;$/;"	v	typeref:struct:menu
+rows	scripts/config/mconf.c	/^static int rows = 0, cols = 0;$/;"	v	file:
+run	lib/myrequest_irq.c	/^static int run=0;$/;"	v	file:
+run	lib/myrequest_irq1.c	/^static int run=0;$/;"	v	file:
+running	lib/timer.c	/^static int running=0;$/;"	v	file:
+s	lib/malloc.c	/^    } s;$/;"	m	union:header	typeref:struct:header::__anon2	file:
+s	scripts/config/lkc.h	/^	char  *s;$/;"	m	struct:gstr
+save_config_help	scripts/config/mconf.c	/^save_config_help[] =$/;"	v	file:
+save_config_text	scripts/config/mconf.c	/^save_config_text[] =$/;"	v	file:
+sbrk	lib/malloc.c	/^static char  *sbrk(int size)$/;"	f	file:
+scan_dir_find_ch_files	scripts/bb_mkdep.c	/^static void scan_dir_find_ch_files(const char *p)$/;"	f	file:
+schroot	lib/mount.c	/^static int schroot(int argc,char **argv)$/;"	f	file:
+screen_attr	scripts/config/lxdialog/dialog.h	95;"	d
+sdctl	lib/dm642.c	/^  Uint32 sdctl;$/;"	m	struct:__anon7	file:
+sdext	lib/dm642.c	/^  Uint32 sdext;$/;"	m	struct:__anon7	file:
+sdtim	lib/dm642.c	/^  Uint32 sdtim;$/;"	m	struct:__anon7	file:
+search_conf	scripts/config/mconf.c	/^static void search_conf(void)$/;"	f	file:
+search_help	scripts/config/mconf.c	/^search_help[] =$/;"	v	file:
+searchbox_attr	scripts/config/lxdialog/dialog.h	108;"	d
+searchbox_border_attr	scripts/config/lxdialog/dialog.h	110;"	d
+searchbox_title_attr	scripts/config/lxdialog/dialog.h	109;"	d
+selected	scripts/config/lxdialog/dialog.h	/^	int selected; \/* Set to 1 by dialog_*() function. *\/$/;"	m	struct:dialog_list_item
+servaddr	lib/nfsroot.c	/^static __u32 servaddr  = 0;$/;"	v	file:
+set	lib/env.c	/^static int set(int argc,char **argv)$/;"	f	file:
+set_default	scripts/config/conf.c	/^	set_default,$/;"	e	enum:__anon8	file:
+set_mod	scripts/config/conf.c	/^	set_mod,$/;"	e	enum:__anon8	file:
+set_no	scripts/config/conf.c	/^	set_no,$/;"	e	enum:__anon8	file:
+set_random	scripts/config/conf.c	/^	set_random$/;"	e	enum:__anon8	file:
+set_sockaddr	lib/nfsroot.c	/^set_sockaddr(struct sockaddr_in *sin, __u32 addr, __u16 port)$/;"	f	file:
+set_yes	scripts/config/conf.c	/^	set_yes,$/;"	e	enum:__anon8	file:
+setenv	lib/env.c	/^static int setenv(char *name,char *value,char *msg)$/;"	f	file:
+setmod_text	scripts/config/mconf.c	/^setmod_text[] =$/;"	v	file:
+setup_fdvar	lib/testfd.c	/^myinit_begin(setup_fdvar);$/;"	v
+setup_fdvar	lib/testfd.c	/^void setup_fdvar()$/;"	f
+setup_plx	lib/plx.c	/^myinit_begin(setup_plx);$/;"	v
+setup_plx	lib/plx.c	/^static int setup_plx()$/;"	f	file:
+setup_ramdisk	lib/initrd.c	/^static int __init setup_ramdisk()$/;"	f	file:
+setup_ramdisk	lib/ramdisk.c	/^myinit_begin(setup_ramdisk);$/;"	v
+setup_ramdisk	lib/ramdisk.c	/^static int __init setup_ramdisk()$/;"	f	file:
+sh	lib/exec.c	/^static int sh(int argc,char **argv)$/;"	f	file:
+shadow_attr	scripts/config/lxdialog/dialog.h	96;"	d
+show_dep	scripts/bb_mkdep.c	/^static int show_dep(int first, bb_key_t *k, const char *name, const char *f)$/;"	f	file:
+show_file	scripts/config/mconf.c	/^static void show_file(const char *filename, const char *title, int r, int c)$/;"	f	file:
+show_help	scripts/config/mconf.c	/^static void show_help(struct menu *menu)$/;"	f	file:
+show_helptext	scripts/config/mconf.c	/^static void show_helptext(const char *title, const char *text)$/;"	f	file:
+show_serial_version	mips.ev64420/serial_ev64420.c	/^static void show_serial_version(void)$/;"	f	file:
+show_textbox	scripts/config/mconf.c	/^static void show_textbox(const char *title, const char *text, int r, int c)$/;"	f	file:
+show_usage	scripts/bb_mkdep.c	/^static void show_usage(void)$/;"	f	file:
+showcmd	lib/cmdparser.c	/^static int showcmd=0;$/;"	v	file:
+single_menu_mode	scripts/config/mconf.c	/^static int single_menu_mode;$/;"	v	file:
+size	lib/malloc.c	/^	unsigned        size;$/;"	m	struct:header::__anon2	file:
+sleep	lib/main.c	/^static void sleep(unsigned howlong)$/;"	f	file:
+sleepcmd	lib/main.c	/^static int sleepcmd(int argc,char **argv)$/;"	f	file:
+slide	lib/inflate.c	121;"	d	file:
+slot	lib/dm642.c	/^int slot;$/;"	m	struct:dm642_struc	file:
+source	scripts/config/zconf.y	/^source: T_SOURCE prompt T_EOL$/;"	l
+source_stmt	scripts/config/zconf.y	/^source_stmt: source$/;"	l
+sp	mips.bonito/pmon.c	/^static char *sp;$/;"	v	file:
+src_have_this_key	scripts/bb_mkdep.c	/^	const char *src_have_this_key;$/;"	m	struct:BB_KEYS	file:
+srcdir	scripts/config/Makefile	/^srcdir=$(top_srcdir)\/scripts\/config$/;"	m
+st_kp	scripts/bb_mkdep.c	/^static struct stat st_kp;   \/* stat(kp) *\/$/;"	v	typeref:struct:stat	file:
+state	scripts/config/lex.zconf.c	/^        YY_BUFFER_STATE state;$/;"	m	struct:buffer	file:
+status	mips.bonito/pmon.c	/^static unsigned int status;$/;"	v	file:
+stop	lib/myrequest_irq.c	/^static int stop=0;$/;"	v	file:
+stop	lib/myrequest_irq1.c	/^static int stop=0;$/;"	v	file:
+stop	lib/timer.c	/^static int stop=0;$/;"	v	file:
+store_keys	scripts/bb_mkdep.c	/^static void store_keys(void)$/;"	f	file:
+stored_path	scripts/bb_mkdep.c	/^	char *stored_path;$/;"	m	struct:BB_KEYS	file:
+str2addmsg	lib/pci.c	/^static char *str2addmsg[]={"64 bit cpu address","iomap address","64 bit cached phyiscal address","64 bit uncached phyiscal address"};$/;"	v	file:
+str_append	scripts/config/util.c	/^void str_append(struct gstr *gs, const char *s)$/;"	f
+str_assign	scripts/config/util.c	/^struct gstr str_assign(const char *s)$/;"	f
+str_free	scripts/config/util.c	/^void str_free(struct gstr *gs)$/;"	f
+str_get	scripts/config/util.c	/^const char *str_get(struct gstr *gs)$/;"	f
+str_new	scripts/config/util.c	/^struct gstr str_new(void)$/;"	f
+str_printf	scripts/config/util.c	/^void str_printf(struct gstr *gs, const char *fmt, ...)$/;"	f
+string	scripts/config/zconf.tab.c	/^	char *string;$/;"	m	union:YYSTYPE	file:
+string	scripts/config/zconf.tab.h	/^	char *string;$/;"	m	union:__anon9
+strip	scripts/config/conf.c	/^static void strip(char *str)$/;"	f	file:
+sym	scripts/config/expr.h	/^	struct symbol *sym;$/;"	m	struct:menu	typeref:struct:menu::symbol
+sym	scripts/config/expr.h	/^	struct symbol *sym;$/;"	m	struct:property	typeref:struct:property::symbol
+sym	scripts/config/expr.h	/^	struct symbol *sym;$/;"	m	union:expr_data	typeref:struct:expr_data::symbol
+sym_add_default	scripts/config/symbol.c	/^void sym_add_default(struct symbol *sym, const char *def)$/;"	f
+sym_calc_choice	scripts/config/symbol.c	/^static struct symbol *sym_calc_choice(struct symbol *sym)$/;"	f	file:
+sym_calc_value	scripts/config/lkc_defs.h	23;"	d
+sym_calc_value	scripts/config/symbol.c	/^void sym_calc_value(struct symbol *sym)$/;"	f
+sym_calc_visibility	scripts/config/symbol.c	/^static void sym_calc_visibility(struct symbol *sym)$/;"	f	file:
+sym_change_count	scripts/config/lkc_defs.h	17;"	d
+sym_change_count	scripts/config/symbol.c	/^int sym_change_count;$/;"	v
+sym_check_deps	scripts/config/symbol.c	/^struct symbol *sym_check_deps(struct symbol *sym)$/;"	f
+sym_check_expr_deps	scripts/config/symbol.c	/^static struct symbol *sym_check_expr_deps(struct expr *e)$/;"	f	file:
+sym_check_prop	scripts/config/menu.c	/^void sym_check_prop(struct symbol *sym)$/;"	f
+sym_clear_all_valid	scripts/config/symbol.c	/^void sym_clear_all_valid(void)$/;"	f
+sym_find	scripts/config/lkc_defs.h	20;"	d
+sym_find	scripts/config/symbol.c	/^struct symbol *sym_find(const char *name)$/;"	f
+sym_get_choice_prop	scripts/config/lkc_defs.h	32;"	d
+sym_get_choice_prop	scripts/config/symbol.c	/^struct property *sym_get_choice_prop(struct symbol *sym)$/;"	f
+sym_get_choice_value	scripts/config/lkc.h	/^static inline struct symbol *sym_get_choice_value(struct symbol *sym)$/;"	f
+sym_get_default_prop	scripts/config/lkc_defs.h	33;"	d
+sym_get_default_prop	scripts/config/symbol.c	/^struct property *sym_get_default_prop(struct symbol *sym)$/;"	f
+sym_get_range_prop	scripts/config/symbol.c	/^struct property *sym_get_range_prop(struct symbol *sym)$/;"	f
+sym_get_string_value	scripts/config/lkc_defs.h	34;"	d
+sym_get_string_value	scripts/config/symbol.c	/^const char *sym_get_string_value(struct symbol *sym)$/;"	f
+sym_get_tristate_value	scripts/config/lkc.h	/^static inline tristate sym_get_tristate_value(struct symbol *sym)$/;"	f
+sym_get_type	scripts/config/lkc_defs.h	24;"	d
+sym_get_type	scripts/config/symbol.c	/^enum symbol_type sym_get_type(struct symbol *sym)$/;"	f
+sym_has_value	scripts/config/lkc.h	/^static inline bool sym_has_value(struct symbol *sym)$/;"	f
+sym_init	scripts/config/symbol.c	/^void sym_init(void)$/;"	f
+sym_is_changable	scripts/config/lkc_defs.h	31;"	d
+sym_is_changable	scripts/config/symbol.c	/^bool sym_is_changable(struct symbol *sym)$/;"	f
+sym_is_choice	scripts/config/lkc.h	/^static inline bool sym_is_choice(struct symbol *sym)$/;"	f
+sym_is_choice_value	scripts/config/lkc.h	/^static inline bool sym_is_choice_value(struct symbol *sym)$/;"	f
+sym_is_optional	scripts/config/lkc.h	/^static inline bool sym_is_optional(struct symbol *sym)$/;"	f
+sym_lookup	scripts/config/lkc_defs.h	19;"	d
+sym_lookup	scripts/config/symbol.c	/^struct symbol *sym_lookup(const char *name, int isconst)$/;"	f
+sym_re_search	scripts/config/lkc_defs.h	21;"	d
+sym_re_search	scripts/config/symbol.c	/^struct symbol **sym_re_search(const char *pattern)$/;"	f
+sym_set_all_changed	scripts/config/symbol.c	/^void sym_set_all_changed(void)$/;"	f
+sym_set_changed	scripts/config/symbol.c	/^void sym_set_changed(struct symbol *sym)$/;"	f
+sym_set_choice_value	scripts/config/lkc.h	/^static inline bool sym_set_choice_value(struct symbol *ch, struct symbol *chval)$/;"	f
+sym_set_string_value	scripts/config/lkc_defs.h	30;"	d
+sym_set_string_value	scripts/config/symbol.c	/^bool sym_set_string_value(struct symbol *sym, const char *newval)$/;"	f
+sym_set_tristate_value	scripts/config/lkc_defs.h	26;"	d
+sym_set_tristate_value	scripts/config/symbol.c	/^bool sym_set_tristate_value(struct symbol *sym, tristate val)$/;"	f
+sym_string_valid	scripts/config/lkc_defs.h	28;"	d
+sym_string_valid	scripts/config/symbol.c	/^bool sym_string_valid(struct symbol *sym, const char *str)$/;"	f
+sym_string_within_range	scripts/config/lkc_defs.h	29;"	d
+sym_string_within_range	scripts/config/symbol.c	/^bool sym_string_within_range(struct symbol *sym, const char *str)$/;"	f
+sym_toggle_tristate_value	scripts/config/lkc_defs.h	27;"	d
+sym_toggle_tristate_value	scripts/config/symbol.c	/^tristate sym_toggle_tristate_value(struct symbol *sym)$/;"	f
+sym_tristate_within_range	scripts/config/lkc_defs.h	25;"	d
+sym_tristate_within_range	scripts/config/symbol.c	/^bool sym_tristate_within_range(struct symbol *sym, tristate val)$/;"	f
+sym_type_name	scripts/config/lkc_defs.h	22;"	d
+sym_type_name	scripts/config/symbol.c	/^const char *sym_type_name(enum symbol_type type)$/;"	f
+symbol	scripts/config/expr.h	/^struct symbol {$/;"	s
+symbol	scripts/config/zconf.tab.c	/^	struct symbol *symbol;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::symbol	file:
+symbol	scripts/config/zconf.tab.h	/^	struct symbol *symbol;$/;"	m	union:__anon9	typeref:struct:__anon9::symbol
+symbol	scripts/config/zconf.y	/^symbol:	  T_WORD	{ $$ = sym_lookup($1, 0); free($1); }$/;"	l
+symbol_empty	scripts/config/symbol.c	/^}, symbol_empty = {$/;"	v	typeref:struct:
+symbol_hash	scripts/config/lkc_defs.h	16;"	d
+symbol_hash	scripts/config/zconf.tab.c	/^struct symbol *symbol_hash[257];$/;"	v	typeref:struct:symbol
+symbol_mod	scripts/config/symbol.c	/^}, symbol_mod = {$/;"	v	typeref:struct:
+symbol_no	scripts/config/symbol.c	/^}, symbol_no = {$/;"	v	typeref:struct:
+symbol_type	scripts/config/expr.h	/^enum symbol_type {$/;"	g
+symbol_value	scripts/config/expr.h	/^struct symbol_value {$/;"	s
+symbol_yes	scripts/config/symbol.c	/^struct symbol symbol_yes = {$/;"	v	typeref:struct:symbol
+sysPciCfgRead	mips.8172/pci.c	/^sysPciCfgRead ($/;"	f
+sysPciCfgWrite	mips.8172/pci.c	/^sysPciCfgWrite ($/;"	f
+syscall1	lib/mem.c	/^static int (*syscall1)(int type,unsigned long long addr,union commondata *mydata);$/;"	v	file:
+syscall1	lib/mem.c	/^static int (*syscall1)(int type,unsigned long long addr,union commondata *mydata)=&__syscall1;$/;"	v	file:
+syscall2	lib/mem.c	/^static int (*syscall2)(int type,unsigned long long addr,union commondata *mydata);$/;"	v	file:
+syscall2	lib/mem.c	/^static int (*syscall2)(int type,unsigned long long addr,union commondata *mydata)=&__syscall2;$/;"	v	file:
+syscall_addrtype	lib/main.c	/^static int syscall_addrtype=0;$/;"	v	file:
+syscall_addrwidth	lib/mem.c	41;"	d	file:
+syscall_i2c_addr	mips.bonito/cs5536_i2c.c	/^static unsigned char syscall_i2c_addr[2];$/;"	v	file:
+syscall_i2c_addrlen	mips.bonito/cs5536_i2c.c	/^static int syscall_i2c_type,syscall_i2c_addrlen;$/;"	v	file:
+syscall_i2c_type	mips.bonito/cs5536_i2c.c	/^static int syscall_i2c_type,syscall_i2c_addrlen;$/;"	v	file:
+t	lib/inflate.c	/^    struct huft *t;     \/* pointer to next level of table *\/$/;"	m	union:huft::__anon1	typeref:struct:huft::__anon1::huft	file:
+tag	scripts/config/lxdialog/dialog.h	/^	char *tag;$/;"	m	struct:dialog_list_item
+tag_attr	scripts/config/lxdialog/dialog.h	116;"	d
+tag_key_attr	scripts/config/lxdialog/dialog.h	118;"	d
+tag_key_selected_attr	scripts/config/lxdialog/dialog.h	119;"	d
+tag_selected_attr	scripts/config/lxdialog/dialog.h	117;"	d
+tail	lib/console.c	/^char *tail;$/;"	v
+test	i386/test.c	/^static int test(int argc,char **argv)$/;"	f	file:
+test	mips.bonito/test.c	/^static int test(int argc,char **argv)$/;"	f	file:
+test	mips.ev64420/test.c	/^static int test(int argc,char **argv)$/;"	f	file:
+testvga	lib/testvga.c	/^int testvga(int argc,char **argv)$/;"	f
+text	scripts/config/expr.h	/^	const char *text;$/;"	m	struct:property
+text	scripts/config/lex.zconf.c	/^char *text;$/;"	v
+text_asize	scripts/config/lex.zconf.c	/^static int text_size, text_asize;$/;"	v	file:
+text_ptr	scripts/config/lex.zconf.c	/^static char *text_ptr;$/;"	v	file:
+text_size	scripts/config/lex.zconf.c	/^static int text_size, text_asize;$/;"	v	file:
+tgt_i2cread	mips.bonito/cs5536_i2c.c	/^int tgt_i2cread(int type,unsigned char *addr,int addrlen,unsigned char reg,unsigned char *buf,int count)$/;"	f
+tgt_i2cwrite	mips.bonito/cs5536_i2c.c	/^int tgt_i2cwrite(int type,unsigned char *addr,int addrlen,unsigned char reg,unsigned char *buf,int count)$/;"	f
+thread_cmd	lib/myrequest_irq.c	/^int thread_cmd(int argc,char **argv)$/;"	f
+thread_cmd	lib/myrequest_irq1.c	/^int thread_cmd(int argc,char **argv)$/;"	f
+time_fmt	lib/mode_string.c	/^static unsigned int time_fmt=-1;$/;"	v	file:
+timer	lib/myrequest_irq.c	/^		struct timer_list timer;		\/* Media monitoring timer. *\/$/;"	m	struct:mytimerlist	typeref:struct:mytimerlist::timer_list	file:
+timer	lib/myrequest_irq1.c	/^		struct timer_list timer;		\/* Media monitoring timer. *\/$/;"	m	struct:mytimerlist	typeref:struct:mytimerlist::timer_list	file:
+timerhead	lib/myrequest_irq.c	/^}*timerhead=0;$/;"	v	typeref:struct:mytimerlist	file:
+timerhead	lib/myrequest_irq1.c	/^}*timerhead=0;$/;"	v	typeref:struct:mytimerlist	file:
+title_attr	scripts/config/lxdialog/dialog.h	98;"	d
+toascii	lib/ctype.h	35;"	d
+token	scripts/config/zconf.tab.c	/^	int token;$/;"	m	union:YYSTYPE	file:
+token	scripts/config/zconf.tab.h	/^	int token;$/;"	m	union:__anon9
+tolower	lib/ctype.h	51;"	d
+top_builddir	scripts/config/Makefile	/^top_builddir=..\/..$/;"	m
+top_srcdir	scripts/config/Makefile	/^top_srcdir=..\/..$/;"	m
+toupper	lib/ctype.h	52;"	d
+trans_count	scripts/config/expr.c	/^static int trans_count;$/;"	v	file:
+tri	scripts/config/expr.h	/^	tristate tri;$/;"	m	struct:expr_value
+tri	scripts/config/expr.h	/^	tristate tri;$/;"	m	struct:symbol_value
+tristate	scripts/config/expr.h	/^typedef enum tristate {$/;"	g
+tristate	scripts/config/expr.h	/^} tristate;$/;"	t	typeref:enum:tristate
+trun	lib/timer.c	/^static int trun(int argc,char **argv)$/;"	f	file:
+tty	mips.ev64420/serial_ev64420.c	/^	struct tty_struct 	*tty;$/;"	m	struct:ev64420_serial	typeref:struct:ev64420_serial::tty_struct	file:
+type	lib/ioctl.c	/^char type;$/;"	m	struct:addrstruc	file:
+type	lib/timer.c	/^char type;$/;"	m	struct:addrstruc	file:
+type	scripts/config/expr.h	/^	enum expr_type type;$/;"	m	struct:expr	typeref:enum:expr::expr_type
+type	scripts/config/expr.h	/^	enum prop_type type;$/;"	m	struct:property	typeref:enum:property::prop_type
+type	scripts/config/expr.h	/^	enum symbol_type type;$/;"	m	struct:symbol	typeref:enum:symbol::symbol_type
+uarrow_attr	scripts/config/lxdialog/dialog.h	122;"	d
+uch	lib/ramdisk.c	/^typedef unsigned char  uch;$/;"	t	file:
+ulg	lib/ramdisk.c	/^typedef unsigned long  ulg;$/;"	t	file:
+unput	scripts/config/lex.zconf.c	166;"	d	file:
+unset	lib/env.c	/^static int unset(int argc,char **argv)$/;"	f	file:
+usage	lib/cmdparser.h	/^char *usage;$/;"	m	struct:mycmd
+use_colors	scripts/config/lxdialog/util.c	/^bool use_colors = 1;$/;"	v
+use_env	lib/env.c	/^char *use_env(char *name)$/;"	f
+user	scripts/config/expr.h	/^	struct symbol_value curr, user;$/;"	m	struct:symbol	typeref:struct:symbol::
+ush	lib/ramdisk.c	/^typedef unsigned short ush;$/;"	t	file:
+v	lib/inflate.c	/^  } v;$/;"	m	struct:huft	typeref:union:huft::__anon1	file:
+val	lib/nfsroot.c	/^	int  *val;$/;"	m	struct:nfs_int_opts	file:
+val	scripts/config/expr.h	/^	void *val;$/;"	m	struct:symbol_value
+valid_stdin	scripts/config/conf.c	/^static int valid_stdin = 1;$/;"	v	file:
+value	lib/env.c	/^char *value;$/;"	m	struct:__myenv_s	file:
+value	scripts/bb_mkdep.c	/^	const char *value;$/;"	m	struct:BB_KEYS	file:
+value	scripts/config/lxdialog/colors.h	/^    int value;$/;"	m	struct:__anon10
+visible	scripts/config/expr.h	/^	struct expr_value visible;$/;"	m	struct:property	typeref:struct:property::expr_value
+visible	scripts/config/expr.h	/^	tristate visible;$/;"	m	struct:symbol
+vtsb_dev	mips.bonito/pnp_686b.c	/^int vtsb_dev;$/;"	v
+wait	lib/exec.c	/^static inline pid_t wait(int * wait_stat)$/;"	f	file:
+wbkgdset	scripts/config/lxdialog/dialog.h	45;"	d
+wbkgdset	scripts/config/lxdialog/dialog.h	46;"	d
+winch_handler	scripts/config/mconf.c	/^static void winch_handler(int sig)$/;"	f	file:
+window	lib/ramdisk.c	/^static uch *window;$/;"	v	file:
+wp	lib/inflate.c	161;"	d	file:
+writefd	lib/testfd.c	/^static int writefd(char *argc,char **argv)$/;"	f	file:
+writefile	lib/writefile.c	/^static int writefile(int argc,char **argv)$/;"	f	file:
+x	lib/malloc.c	/^    ALIGN           x;$/;"	m	union:header	file:
+x	mips.bonito/test.c	/^static float x=1.12;$/;"	v	file:
+xmalloc	scripts/bb_mkdep.c	/^static inline void *xmalloc(size_t size)$/;"	f	file:
+xreadlink	lib/mode_string.c	/^extern char *xreadlink(const char *path)$/;"	f
+y	mips.bonito/test.c	/^static float y=1.34;$/;"	v	file:
+yes	scripts/config/expr.h	/^	no, mod, yes$/;"	e	enum:tristate
+yy_accept	scripts/config/lex.zconf.c	/^static yyconst flex_int16_t yy_accept[211] =$/;"	v	file:
+yy_at_bol	scripts/config/lex.zconf.c	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
+yy_bs_column	scripts/config/lex.zconf.c	/^    int yy_bs_column; \/**< The column count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_bs_lineno	scripts/config/lex.zconf.c	/^    int yy_bs_lineno; \/**< The line count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_pos	scripts/config/lex.zconf.c	/^	char *yy_buf_pos;		\/* current position in input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_size	scripts/config/lex.zconf.c	/^	yy_size_t yy_buf_size;$/;"	m	struct:yy_buffer_state	file:
+yy_buffer_stack	scripts/config/lex.zconf.c	/^static YY_BUFFER_STATE * yy_buffer_stack = 0; \/**< Stack as an array. *\/$/;"	v	file:
+yy_buffer_stack_max	scripts/config/lex.zconf.c	/^static size_t yy_buffer_stack_max = 0; \/**< capacity of stack. *\/$/;"	v	file:
+yy_buffer_stack_top	scripts/config/lex.zconf.c	/^static size_t yy_buffer_stack_top = 0; \/**< index of top of stack. *\/$/;"	v	file:
+yy_buffer_state	scripts/config/lex.zconf.c	/^struct yy_buffer_state$/;"	s	file:
+yy_buffer_status	scripts/config/lex.zconf.c	/^	int yy_buffer_status;$/;"	m	struct:yy_buffer_state	file:
+yy_c_buf_p	scripts/config/lex.zconf.c	/^static char *yy_c_buf_p = (char *) 0;$/;"	v	file:
+yy_ch_buf	scripts/config/lex.zconf.c	/^	char *yy_ch_buf;		\/* input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_did_buffer_switch_on_eof	scripts/config/lex.zconf.c	/^static int yy_did_buffer_switch_on_eof;$/;"	v	file:
+yy_ec	scripts/config/lex.zconf.c	/^static yyconst flex_int32_t yy_ec[256] =$/;"	v	file:
+yy_error_d	scripts/bb_mkdep.c	159;"	d	file:
+yy_fatal_error	scripts/config/lex.zconf.c	/^static void yy_fatal_error (yyconst char* msg )$/;"	f	file:
+yy_fill_buffer	scripts/config/lex.zconf.c	/^	int yy_fill_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_flex_strlen	scripts/config/lex.zconf.c	/^static int yy_flex_strlen (yyconst char * s )$/;"	f	file:
+yy_flex_strncpy	scripts/config/lex.zconf.c	/^static void yy_flex_strncpy (char* s1, yyconst char * s2, int n )$/;"	f	file:
+yy_get_next_buffer	scripts/config/lex.zconf.c	/^static int yy_get_next_buffer (void)$/;"	f	file:
+yy_get_previous_state	scripts/config/lex.zconf.c	/^    static yy_state_type yy_get_previous_state (void)$/;"	f	file:
+yy_hold_char	scripts/config/lex.zconf.c	/^static char yy_hold_char;$/;"	v	file:
+yy_init	scripts/config/lex.zconf.c	/^static int yy_init = 1;		\/* whether we need to initialize *\/$/;"	v	file:
+yy_input_file	scripts/config/lex.zconf.c	/^	FILE *yy_input_file;$/;"	m	struct:yy_buffer_state	file:
+yy_is_interactive	scripts/config/lex.zconf.c	/^	int yy_is_interactive;$/;"	m	struct:yy_buffer_state	file:
+yy_is_our_buffer	scripts/config/lex.zconf.c	/^	int yy_is_our_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_n_chars	scripts/config/lex.zconf.c	/^	int yy_n_chars;$/;"	m	struct:yy_buffer_state	file:
+yy_n_chars	scripts/config/lex.zconf.c	/^static int yy_n_chars;		\/* number of characters read into yy_ch_buf *\/$/;"	v	file:
+yy_new_buffer	scripts/config/lex.zconf.c	300;"	d	file:
+yy_new_buffer	scripts/config/lex.zconf.c	3560;"	d	file:
+yy_nxt	scripts/config/lex.zconf.c	/^	flex_int32_t yy_nxt;$/;"	m	struct:yy_trans_info	file:
+yy_nxt	scripts/config/lex.zconf.c	/^static yyconst flex_int16_t yy_nxt[][38] =$/;"	v	file:
+yy_reduce_print	scripts/config/zconf.tab.c	/^yy_reduce_print (int yyrule)$/;"	f	file:
+yy_set_bol	scripts/config/lex.zconf.c	312;"	d	file:
+yy_set_bol	scripts/config/lex.zconf.c	3559;"	d	file:
+yy_set_interactive	scripts/config/lex.zconf.c	302;"	d	file:
+yy_set_interactive	scripts/config/lex.zconf.c	3561;"	d	file:
+yy_size_t	scripts/config/lex.zconf.c	/^typedef unsigned int yy_size_t;$/;"	t	file:
+yy_stack_print	scripts/config/zconf.tab.c	/^yy_stack_print (short *bottom, short *top)$/;"	f	file:
+yy_start	scripts/config/lex.zconf.c	/^static int yy_start = 0;	\/* start state number *\/$/;"	v	file:
+yy_state_type	scripts/config/lex.zconf.c	/^typedef int yy_state_type;$/;"	t	file:
+yy_trans_info	scripts/config/lex.zconf.c	/^struct yy_trans_info$/;"	s	file:
+yy_try_NUL_trans	scripts/config/lex.zconf.c	/^    static yy_state_type yy_try_NUL_trans  (yy_state_type yy_current_state )$/;"	f	file:
+yy_verify	scripts/config/lex.zconf.c	/^	flex_int32_t yy_verify;$/;"	m	struct:yy_trans_info	file:
+yyalloc	scripts/config/zconf.tab.c	/^union yyalloc$/;"	u	file:
+yychar	scripts/config/zconf.tab.c	/^int yychar;$/;"	v
+yychar	scripts/config/zconf.tab.c	54;"	d	file:
+yycheck	scripts/config/zconf.tab.c	/^static const unsigned char yycheck[] =$/;"	v	file:
+yyclearin	scripts/config/zconf.tab.c	684;"	d	file:
+yyconst	scripts/config/lex.zconf.c	96;"	d	file:
+yyconst	scripts/config/lex.zconf.c	98;"	d	file:
+yydebug	scripts/config/zconf.tab.c	/^int yydebug;$/;"	v
+yydebug	scripts/config/zconf.tab.c	55;"	d	file:
+yydefact	scripts/config/zconf.tab.c	/^static const unsigned char yydefact[] =$/;"	v	file:
+yydefgoto	scripts/config/zconf.tab.c	/^static const short yydefgoto[] =$/;"	v	file:
+yydestruct	scripts/config/zconf.tab.c	/^yydestruct (int yytype, YYSTYPE *yyvaluep)$/;"	f	file:
+yyerrok	scripts/config/zconf.tab.c	683;"	d	file:
+yyerror	scripts/config/zconf.tab.c	52;"	d	file:
+yyinput	scripts/config/lex.zconf.c	/^    static int yyinput (void)$/;"	f	file:
+yyless	scripts/config/lex.zconf.c	153;"	d	file:
+yyless	scripts/config/lex.zconf.c	3396;"	d	file:
+yyless	scripts/config/lex.zconf.c	3397;"	d	file:
+yylex	scripts/config/zconf.tab.c	51;"	d	file:
+yylval	scripts/config/zconf.tab.c	/^YYSTYPE yylval;$/;"	v
+yylval	scripts/config/zconf.tab.c	53;"	d	file:
+yymore	scripts/config/lex.zconf.c	1996;"	d	file:
+yynerrs	scripts/config/zconf.tab.c	/^int yynerrs;$/;"	v
+yynerrs	scripts/config/zconf.tab.c	56;"	d	file:
+yypact	scripts/config/zconf.tab.c	/^static const short yypact[] =$/;"	v	file:
+yyparse	scripts/config/zconf.tab.c	/^int yyparse (void *YYPARSE_PARAM)$/;"	f
+yyparse	scripts/config/zconf.tab.c	50;"	d	file:
+yypgoto	scripts/config/zconf.tab.c	/^static const short yypgoto[] =$/;"	v	file:
+yyprhs	scripts/config/zconf.tab.c	/^static const unsigned short yyprhs[] =$/;"	v	file:
+yyr1	scripts/config/zconf.tab.c	/^static const unsigned char yyr1[] =$/;"	v	file:
+yyr2	scripts/config/zconf.tab.c	/^static const unsigned char yyr2[] =$/;"	v	file:
+yyrhs	scripts/config/zconf.tab.c	/^static const yysigned_char yyrhs[] =$/;"	v	file:
+yyrline	scripts/config/zconf.tab.c	/^static const unsigned short yyrline[] =$/;"	v	file:
+yysigned_char	scripts/config/zconf.tab.c	/^   typedef short yysigned_char;$/;"	t	file:
+yysigned_char	scripts/config/zconf.tab.c	/^   typedef signed char yysigned_char;$/;"	t	file:
+yyss	scripts/config/zconf.tab.c	/^  short yyss;$/;"	m	union:yyalloc	file:
+yystos	scripts/config/zconf.tab.c	/^static const unsigned char yystos[] =$/;"	v	file:
+yystpcpy	scripts/config/zconf.tab.c	/^yystpcpy (char *yydest, const char *yysrc)$/;"	f	file:
+yystpcpy	scripts/config/zconf.tab.c	889;"	d	file:
+yystrlen	scripts/config/zconf.tab.c	/^yystrlen (const char *yystr)$/;"	f	file:
+yystrlen	scripts/config/zconf.tab.c	866;"	d	file:
+yystype	scripts/config/zconf.tab.c	207;"	d	file:
+yystype	scripts/config/zconf.tab.h	/^} yystype;$/;"	t	typeref:union:__anon9
+yysymprint	scripts/config/zconf.tab.c	/^yysymprint (FILE *yyoutput, int yytype, YYSTYPE *yyvaluep)$/;"	f	file:
+yytable	scripts/config/zconf.tab.c	/^static const short yytable[] =$/;"	v	file:
+yyterminate	scripts/config/lex.zconf.c	2149;"	d	file:
+yytext_ptr	scripts/config/lex.zconf.c	340;"	d	file:
+yytext_ptr	scripts/config/lex.zconf.c	3562;"	d	file:
+yytname	scripts/config/zconf.tab.c	/^static const char *const yytname[] =$/;"	v	file:
+yytokentype	scripts/config/zconf.tab.c	/^   enum yytokentype {$/;"	g	file:
+yytokentype	scripts/config/zconf.tab.h	/^   enum yytokentype {$/;"	g
+yytoknum	scripts/config/zconf.tab.c	/^static const unsigned short yytoknum[] =$/;"	v	file:
+yytranslate	scripts/config/zconf.tab.c	/^static const unsigned char yytranslate[] =$/;"	v	file:
+yyunput	scripts/config/lex.zconf.c	/^    static void yyunput (int c, register char * yy_bp )$/;"	f	file:
+yyvs	scripts/config/zconf.tab.c	/^  YYSTYPE yyvs;$/;"	m	union:yyalloc	file:
+z	mips.bonito/test.c	/^static float z;$/;"	v	file:
+zconf_create_buffer	scripts/config/lex.zconf.c	/^    YY_BUFFER_STATE zconf_create_buffer  (FILE * file, int  size )$/;"	f
+zconf_curname	scripts/config/lex.zconf.c	/^char *zconf_curname(void)$/;"	f
+zconf_delete_buffer	scripts/config/lex.zconf.c	/^    void zconf_delete_buffer (YY_BUFFER_STATE  b )$/;"	f
+zconf_endfile	scripts/config/lex.zconf.c	/^static struct buffer *zconf_endfile(void)$/;"	f	file:
+zconf_endhelp	scripts/config/lex.zconf.c	/^static void zconf_endhelp(void)$/;"	f	file:
+zconf_endtoken	scripts/config/zconf.tab.c	/^static bool zconf_endtoken(int token, int starttoken, int endtoken)$/;"	f	file:
+zconf_flex_debug	scripts/config/lex.zconf.c	/^int zconf_flex_debug = 0;$/;"	v
+zconf_flush_buffer	scripts/config/lex.zconf.c	/^    void zconf_flush_buffer (YY_BUFFER_STATE  b )$/;"	f
+zconf_fopen	scripts/config/lex.zconf.c	/^FILE *zconf_fopen(const char *name)$/;"	f
+zconf_init_buffer	scripts/config/lex.zconf.c	/^    static void zconf_init_buffer  (YY_BUFFER_STATE  b, FILE * file )$/;"	f	file:
+zconf_initscan	scripts/config/lex.zconf.c	/^void zconf_initscan(const char *name)$/;"	f
+zconf_lineno	scripts/config/lex.zconf.c	/^int zconf_lineno(void)$/;"	f
+zconf_load_buffer_state	scripts/config/lex.zconf.c	/^static void zconf_load_buffer_state  (void)$/;"	f	file:
+zconf_nextfile	scripts/config/lex.zconf.c	/^void zconf_nextfile(const char *name)$/;"	f
+zconf_scan_buffer	scripts/config/lex.zconf.c	/^YY_BUFFER_STATE zconf_scan_buffer  (char * base, yy_size_t  size )$/;"	f
+zconf_scan_bytes	scripts/config/lex.zconf.c	/^YY_BUFFER_STATE zconf_scan_bytes  (yyconst char * bytes, int  len )$/;"	f
+zconf_scan_string	scripts/config/lex.zconf.c	/^YY_BUFFER_STATE zconf_scan_string (yyconst char * str )$/;"	f
+zconf_starthelp	scripts/config/lex.zconf.c	/^void zconf_starthelp(void)$/;"	f
+zconf_switch_to_buffer	scripts/config/lex.zconf.c	/^    void zconf_switch_to_buffer  (YY_BUFFER_STATE  new_buffer )$/;"	f
+zconf_tokenname	scripts/config/zconf.tab.c	/^const char *zconf_tokenname(int token)$/;"	f
+zconfalloc	scripts/config/lex.zconf.c	/^void *zconfalloc (yy_size_t  size )$/;"	f
+zconfdump	scripts/config/zconf.tab.c	/^void zconfdump(FILE *out)$/;"	f
+zconfensure_buffer_stack	scripts/config/lex.zconf.c	/^static void zconfensure_buffer_stack (void)$/;"	f	file:
+zconferror	scripts/config/zconf.tab.c	/^static void zconferror(const char *err)$/;"	f	file:
+zconffree	scripts/config/lex.zconf.c	/^void zconffree (void * ptr )$/;"	f
+zconfget_debug	scripts/config/lex.zconf.c	/^int zconfget_debug  (void)$/;"	f
+zconfget_in	scripts/config/lex.zconf.c	/^FILE *zconfget_in  (void)$/;"	f
+zconfget_leng	scripts/config/lex.zconf.c	/^int zconfget_leng  (void)$/;"	f
+zconfget_lineno	scripts/config/lex.zconf.c	/^int zconfget_lineno  (void)$/;"	f
+zconfget_out	scripts/config/lex.zconf.c	/^FILE *zconfget_out  (void)$/;"	f
+zconfget_text	scripts/config/lex.zconf.c	/^char *zconfget_text  (void)$/;"	f
+zconfin	scripts/config/lex.zconf.c	/^FILE *zconfin = (FILE *) 0, *zconfout = (FILE *) 0;$/;"	v
+zconfleng	scripts/config/lex.zconf.c	/^int zconfleng;$/;"	v
+zconflex_destroy	scripts/config/lex.zconf.c	/^int zconflex_destroy  (void)$/;"	f
+zconflineno	scripts/config/lex.zconf.c	/^int zconflineno = 1;$/;"	v
+zconfout	scripts/config/lex.zconf.c	/^FILE *zconfin = (FILE *) 0, *zconfout = (FILE *) 0;$/;"	v
+zconfpop_buffer_state	scripts/config/lex.zconf.c	/^void zconfpop_buffer_state (void)$/;"	f
+zconfprint	scripts/config/zconf.tab.c	/^static void zconfprint(const char *err, ...)$/;"	f	file:
+zconfpush_buffer_state	scripts/config/lex.zconf.c	/^void zconfpush_buffer_state (YY_BUFFER_STATE new_buffer )$/;"	f
+zconfrealloc	scripts/config/lex.zconf.c	/^void *zconfrealloc  (void * ptr, yy_size_t  size )$/;"	f
+zconfrestart	scripts/config/lex.zconf.c	/^    void zconfrestart  (FILE * input_file )$/;"	f
+zconfset_debug	scripts/config/lex.zconf.c	/^void zconfset_debug (int  bdebug )$/;"	f
+zconfset_in	scripts/config/lex.zconf.c	/^void zconfset_in (FILE *  in_str )$/;"	f
+zconfset_lineno	scripts/config/lex.zconf.c	/^void zconfset_lineno (int  line_number )$/;"	f
+zconfset_out	scripts/config/lex.zconf.c	/^void zconfset_out (FILE *  out_str )$/;"	f
+zconftext	scripts/config/lex.zconf.c	/^char *zconftext;$/;"	v
+zconfwrap	scripts/config/lex.zconf.c	326;"	d	file:

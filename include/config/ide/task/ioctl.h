@@ -1,0 +1,1 @@
+#define CONFIG_IDE_TASK_IOCTL 1

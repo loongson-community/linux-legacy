@@ -1,0 +1,284 @@
+iriap_event.o: iriap_event.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/iriap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/iriap_event.h
+wrapper.o: wrapper.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irtty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/crc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap_frame.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda_device.h
+irlap_event.o: irlap_event.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap_event.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap_frame.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/qos.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/parameters.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda_device.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/fast/rr.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/debug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/ultra.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/dynamic/window.h)
+crc.o: crc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/crc.h
+irlmp.o: irlmp.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/random.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/qos.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/iriap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp_frame.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/cache/last/lsap.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/ultra.h)
+irqueue.o: irqueue.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irqueue.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irmod.h
+irsyms.o: irsyms.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/iriap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irias_object.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irttp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda_device.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/parameters.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/crc.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/debug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irtty.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sysctl.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irlan.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ircomm.h)
+qos.o: qos.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/parameters.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/qos.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/dynamic/window.h)
+irttp.o: irttp.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/unaligned.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/parameters.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irttp.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h)
+discovery.o: discovery.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/socket.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/discovery.h
+irlmp_frame.o: irlmp_frame.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp_frame.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/discovery.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/ultra.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/cache/last/lsap.h)
+af_irda.o: af_irda.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/socket.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sockios.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_arp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/net.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/iriap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irias_object.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irttp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/discovery.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/ultra.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/debug.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h)
+irda_device.o: irda_device.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_ether.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_arp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wireless.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/ioctls.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/pkt_sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda_device.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/wrapper.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/debug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irtty/sir.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/winbond/fir.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/sa1100/fir.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nsc/fir.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/toshiba/old.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/smc/ircc/fir.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/esi/dongle.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/tekram/dongle.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/actisys/dongle.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/girbil/dongle.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/litelink/dongle.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/old/belkin.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ep7211/ir.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mcp2120/dongle.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/kmod.h)
+irlap.o: irlap.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/random.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda_device.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irqueue.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp_frame.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap_frame.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/qos.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/debug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/ultra.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/dynamic/window.h)
+parameters.o: parameters.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/unaligned.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/parameters.h
+iriap.o: iriap.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/unaligned.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irttp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irias_object.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/iriap_event.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/iriap.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/debug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/ultra.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h)
+irias_object.o: irias_object.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/socket.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irias_object.h
+irlmp_event.o: irlmp_event.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp_frame.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp_event.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/debug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/ultra.h)
+irsysctl.o: irsysctl.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sysctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irias_object.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/debug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/fast/rr.h)
+irlap_frame.o: irlap_frame.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_ether.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/pkt_sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/sock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda_device.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap_frame.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/qos.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/irda/dynamic/window.h)
+timer.o: timer.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irtty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp_event.h
+irproc.o: irproc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/miscdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irda.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/irda/irlmp.h

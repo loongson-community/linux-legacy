@@ -1,0 +1,1 @@
+#define CONFIG_CPU_GODSON2 1

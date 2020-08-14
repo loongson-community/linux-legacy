@@ -1,0 +1,1 @@
+#define CONFIG_CPU_HAS_LLDSCD 1

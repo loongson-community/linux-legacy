@@ -1,0 +1,64 @@
+21142.o: 21142.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   tulip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h
+tulip.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/spinlock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/tulip/mmio.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/net/hw/flowcontrol.h)
+	@touch tulip.h
+interrupt.o: interrupt.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   tulip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/net/hw/flowcontrol.h)
+tulip_core.o: tulip_core.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   tulip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/etherdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mii.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ethtool.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/crc32.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/unaligned.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/net/hw/flowcontrol.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/tulip/mwi.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ddb5476.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ddb5477.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/mips/cobalt.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pm.h)
+pnic2.o: pnic2.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   tulip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h
+pnic.o: pnic.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   tulip.h
+eeprom.o: eeprom.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   tulip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/unaligned.h
+media.o: media.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mii.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   tulip.h
+timer.o: timer.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   tulip.h
+.PRECIOUS:	tulip.h \
+

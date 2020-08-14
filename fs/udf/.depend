@@ -1,0 +1,166 @@
+dir.o: dir.c \
+   udfdecl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   udf_i.h \
+   udf_sb.h
+fsync.o: fsync.c \
+   udfdecl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h
+crc.o: crc.c \
+   udfdecl.h
+ecma_167.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h
+	@touch ecma_167.h
+partition.o: partition.c \
+   udfdecl.h \
+   udf_sb.h \
+   udf_i.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/udf_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h
+lowlevel.o: lowlevel.c \
+   udfdecl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/cdrom.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/scsi/scsi.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/scsi/scsi_ioctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/udf_fs.h \
+   udf_sb.h
+udfend.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h
+	@touch udfend.h
+file.o: file.c \
+   udfdecl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/udf_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   udf_i.h \
+   udf_sb.h
+namei.o: namei.c \
+   udfdecl.h \
+   udf_i.h \
+   udf_sb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/quotaops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h
+directory.o: directory.c \
+   udfdecl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h
+symlink.o: symlink.c \
+   udfdecl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/udf_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stat.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pagemap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   udf_i.h
+inode.o: inode.c \
+   udfdecl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   udf_i.h \
+   udf_sb.h
+udfdecl.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/udf_fs.h \
+   ecma_167.h \
+   osta_udf.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/udf/fs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/udf/fs/module.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/udf_fs_i.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/udf_fs_sb.h \
+   udfend.h
+	@touch udfdecl.h
+super.o: super.c \
+   udfdecl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/blkdev.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stat.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/cdrom.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nls.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/udf_fs.h \
+   udf_sb.h \
+   udf_i.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/nls.h)
+misc.o: misc.c \
+   udfdecl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/udf_fs.h \
+   udf_i.h \
+   udf_sb.h
+truncate.o: truncate.c \
+   udfdecl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/udf_fs.h \
+   udf_i.h \
+   udf_sb.h
+osta_udf.h: \
+   ecma_167.h
+	@touch osta_udf.h
+udftime.o: udftime.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   udfdecl.h
+ialloc.o: ialloc.c \
+   udfdecl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/quotaops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/udf_fs.h \
+   udf_i.h \
+   udf_sb.h
+balloc.o: balloc.c \
+   udfdecl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/locks.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/quotaops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bitops.h \
+   udf_i.h \
+   udf_sb.h
+unicode.o: unicode.c \
+   udfdecl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/nls.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/udf_fs.h \
+   udf_sb.h
+.PRECIOUS:	ecma_167.h \
+	udfend.h \
+	udfdecl.h \
+	osta_udf.h \
+

@@ -1,0 +1,1 @@
+#define CONFIG_NB_ICT_BONITO 1

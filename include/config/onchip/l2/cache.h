@@ -1,0 +1,1 @@
+#define CONFIG_ONCHIP_L2_CACHE 1

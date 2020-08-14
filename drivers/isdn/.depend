@@ -1,0 +1,140 @@
+isdn_audio.o: isdn_audio.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isdn.h \
+   isdn_audio.h \
+   isdn_common.h
+isdn_tty.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isdn/tty/fax.h)
+	@touch isdn_tty.h
+isdn_x25iface.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wanrouter.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isdn.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/concap.h
+	@touch isdn_x25iface.h
+isdn_ppp.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ppp_defs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isdn_ppp.h
+	@touch isdn_ppp.h
+isdn_x25iface.o: isdn_x25iface.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/concap.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wanrouter.h \
+   isdn_x25iface.h
+isdn_net.o: isdn_net.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isdn.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/arp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/dst.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/net/pkt_sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/inetdevice.h \
+   isdn_common.h \
+   isdn_net.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isdn/ppp.h) \
+   isdn_ppp.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isdn/x25.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/concap.h \
+   isdn_concap.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ippp/filter.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/inet.h)
+isdn_concap.o: isdn_concap.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isdn.h \
+   isdn_x25iface.h \
+   isdn_net.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/concap.h \
+   isdn_concap.h
+isdn_common.o: isdn_common.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isdn.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/smp_lock.h \
+   isdn_common.h \
+   isdn_tty.h \
+   isdn_net.h \
+   isdn_ppp.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isdn/audio.h) \
+   isdn_audio.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isdn/diversion/module.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isdn/diversion.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isdn_divertif.h \
+   isdn_v110.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/devfs_fs_kernel.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isdn/ppp.h) \
+   avmb1/capicmd.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isdn/x25.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isdn/tty/fax.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/netdevices.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/devfs/fs.h)
+isdn_tty.o: isdn_tty.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isdn.h \
+   isdn_common.h \
+   isdn_tty.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isdn/audio.h) \
+   isdn_audio.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/devfs/fs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isdn/tty/fax.h) \
+   avmb1/capicmd.h
+isdn_v110.o: isdn_v110.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isdn.h \
+   isdn_v110.h
+isdn_bsdcomp.o: isdn_bsdcomp.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fcntl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/in.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/signal.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/bitops.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/byteorder.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_ether.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/inet.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/vmalloc.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ppp_defs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isdn.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isdn_ppp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ip.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tcp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/if_arp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ppp-comp.h \
+   isdn_ppp.h
+isdn_ppp.o: isdn_ppp.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isdn.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/poll.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ppp-comp.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ippp/filter.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/filter.h \
+   isdn_common.h \
+   isdn_ppp.h \
+   isdn_net.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isdn/mpp.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/isdn/ppp/vj.h)
+isdn_ttyfax.o: isdn_ttyfax.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isdn.h \
+   isdn_common.h \
+   isdn_tty.h \
+   isdn_ttyfax.h
+.PRECIOUS:	isdn_tty.h \
+	isdn_x25iface.h \
+	isdn_ppp.h \
+

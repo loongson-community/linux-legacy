@@ -1,0 +1,623 @@
+bkm_a4t.o: bkm_a4t.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   hscx.h \
+   jade.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   bkm_ax.h \
+   jade_irq.c \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h)
+asuscom.o: asuscom.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h \
+   hisax.h \
+   isac.h \
+   ipac.h \
+   hscx.h \
+   isdnl1.h \
+   hscx_irq.c
+ipacx.o: ipacx.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax_if.h \
+   hisax.h \
+   isdnl1.h \
+   ipacx.h
+arcofi.o: arcofi.c \
+   hisax.h \
+   isdnl1.h \
+   isac.h \
+   arcofi.h
+hisax_fcpcipnp.h: \
+   hisax_if.h \
+   hisax_isac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h
+	@touch hisax_fcpcipnp.h
+fsm.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h
+	@touch fsm.h
+ix1_micro.o: ix1_micro.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h \
+   hisax.h \
+   isac.h \
+   hscx.h \
+   isdnl1.h \
+   hscx_irq.c
+hisax.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/major.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/delay.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/signal.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mman.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wait.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isdnif.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tty.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/serial_reg.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/euro.h) \
+   l3dss1.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/ni1.h) \
+   l3ni1.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/testemu.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/16/0.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/16/3.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/telespci.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/avm/a1.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/avm/a1/pcmcia.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/fritzpci.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/elsa.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/ix1micror2.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/diehldiva.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/asuscom.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/teleint.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/sedlbauer.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/sportster.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/mic.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/netjet.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/hfcs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/hfc/pci.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/hfc/sx.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/amd7930.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/niccy.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/isurf.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/s0box.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/hstsaphir.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/bkm/a4t.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/sct/quadro.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/gazel.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/w6692.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/netjet/u.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/enternow/pci.h)
+	@touch hisax.h
+avm_a1.o: avm_a1.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   hscx.h \
+   isdnl1.h \
+   hscx_irq.c
+bkm_a8.o: bkm_a8.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   ipac.h \
+   hscx.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   bkm_ax.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h) \
+   hscx_irq.c
+sportster.o: sportster.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   hscx.h \
+   isdnl1.h \
+   hscx_irq.c
+isar.o: isar.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isar.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h
+callc.o: callc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   ../avmb1/capicmd.h
+avma1_cs.o: avma1_cs.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/cs_types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/cs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/cistpl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/ds.h
+hisax_isac.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   fsm.h \
+   hisax_if.h
+	@touch hisax_isac.h
+netjet.o: netjet.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   hscx.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ppp_defs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   netjet.h
+config.o: config.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/stddef.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel_stat.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/tqueue.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/elsa.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/avm/a1.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/avm/a1/pcmcia.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/fritzpci.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/16/3.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/s0box.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/16/0.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/telespci.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/ix1micror2.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/diehldiva.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/asuscom.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/teleint.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/sedlbauer.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/sportster.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/mic.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/netjet.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/hfcs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/hfc/pci.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/hfc/sx.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/amd7930.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/niccy.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/isurf.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/hstsaphir.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/bkm/a4t.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/sct/quadro.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/gazel.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/w6692.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/netjet/u.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/1tr6.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/ni1.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/euro.h) \
+   hisax_if.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/quadro.h)
+teles0.o: teles0.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isdnl1.h \
+   isac.h \
+   hscx.h \
+   hscx_irq.c
+isurf.o: isurf.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   isar.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h
+isdnl1.o: isdnl1.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isdnl1.h
+st5481_usb.o: st5481_usb.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   st5481.h
+amd7930_fn.o: amd7930_fn.c \
+   hisax.h \
+   isdnl1.h \
+   isac.h \
+   amd7930_fn.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h
+sedlbauer_cs.o: sedlbauer_cs.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/cs_types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/cs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/cistpl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/cisreg.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/ds.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/bus_ops.h
+hisax_debug.h: \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/debug.h)
+	@touch hisax_debug.h
+tei.o: tei.c \
+   hisax.h \
+   isdnl2.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/random.h
+l3_1tr6.o: l3_1tr6.c \
+   hisax.h \
+   l3_1tr6.h \
+   isdnl3.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h
+hisax_fcpcipnp.o: hisax_fcpcipnp.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kmod.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   hisax_fcpcipnp.h \
+   hisax_debug.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/debug.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hotplug.h)
+sedlbauer.o: sedlbauer.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   ipac.h \
+   hscx.h \
+   isar.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h \
+   hscx_irq.c \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h)
+niccy.o: niccy.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   hscx.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h \
+   hscx_irq.c \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h)
+jade.o: jade.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   hscx.h \
+   jade.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h
+teles3.o: teles3.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h \
+   hisax.h \
+   isac.h \
+   hscx.h \
+   isdnl1.h \
+   hscx_irq.c
+icc.o: icc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   icc.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h
+isdnhdlc.o: isdnhdlc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   isdnhdlc.h
+elsa_cs.o: elsa_cs.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ptrace.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timer.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/cs_types.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/cs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/cistpl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/cisreg.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/ds.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/pcmcia/bus_ops.h
+enternow_pci.o: enternow_pci.c \
+   hisax.h \
+   isac.h \
+   isdnl1.h \
+   amd7930_fn.h \
+   enternow.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ppp_defs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   netjet.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h)
+q931.o: q931.c \
+   hisax.h \
+   l3_1tr6.h
+st5481_hdlc.o: st5481_hdlc.c \
+   st5481_hdlc.h
+hisax_isac.o: hisax_isac.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   hisax_isac.h \
+   hisax_debug.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/debug.h)
+hfcscard.o: hfcscard.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h \
+   hisax.h \
+   hfc_2bds0.h \
+   isdnl1.h
+mic.o: mic.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   hscx.h \
+   isdnl1.h \
+   hscx_irq.c
+elsa.o: elsa.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   arcofi.h \
+   isac.h \
+   ipac.h \
+   hscx.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/serial.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/serial_reg.h \
+   elsa_ser.c \
+   hscx_irq.c \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h)
+nj_s.o: nj_s.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ppp_defs.h \
+   netjet.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h)
+s0box.o: s0box.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   hscx.h \
+   isdnl1.h \
+   hscx_irq.c
+elsa_ser.o: elsa_ser.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/serial.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/serial_reg.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/serial/nopause/io.h)
+fsm.o: fsm.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h
+l3dss1.o: l3dss1.c \
+   hisax.h \
+   isdnl3.h \
+   l3dss1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/no/keypad.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/no/sendcomplete.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/no/llc.h)
+diva.o: diva.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   hscx.h \
+   ipac.h \
+   ipacx.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h \
+   hscx_irq.c \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h)
+isdnl2.o: isdnl2.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isdnl2.h
+hfc_2bds0.o: hfc_2bds0.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   hfc_2bds0.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h
+w6692.o: w6692.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   w6692.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h)
+isdnl3.o: isdnl3.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isdnl3.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/euro.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/ni1.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/1tr6.h)
+avm_pci.o: avm_pci.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/apus.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h)
+lmgr.o: lmgr.c \
+   hisax.h
+telespci.o: telespci.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   hscx.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   hscx_irq.c \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h)
+hfc_sx.o: hfc_sx.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   hfc_sx.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/isapnp.h
+st5481_d.o: st5481_d.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   st5481.h
+cert.o: cert.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h
+l3ni1.o: l3ni1.c \
+   hisax.h \
+   isdnl3.h \
+   l3ni1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ctype.h
+hfc_pci.o: hfc_pci.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   hfc_pci.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h)
+gazel.o: gazel.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   hscx.h \
+   isdnl1.h \
+   ipac.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   hscx_irq.c \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h)
+st5481.h: \
+   isdnhdlc.h \
+   fsm.h \
+   hisax_if.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h \
+   hisax_debug.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/debug.h)
+	@touch st5481.h
+hisax_if.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/skbuff.h
+	@touch hisax_if.h
+st5481_init.o: st5481_init.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   st5481.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/hisax/debug.h)
+isac.o: isac.c \
+   hisax.h \
+   isac.h \
+   arcofi.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h
+hfc_2bs0.o: hfc_2bs0.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   hfc_2bs0.h \
+   isac.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h
+avm_a1p.o: avm_a1p.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   hscx.h \
+   isdnl1.h \
+   hscx_irq.c
+teleint.o: teleint.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   hfc_2bs0.h \
+   isdnl1.h
+st5481_b.o: st5481_b.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/usb.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/netdevice.h \
+   st5481.h
+saphir.o: saphir.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   isac.h \
+   hscx.h \
+   isdnl1.h \
+   hscx_irq.c
+hscx.o: hscx.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   hscx.h \
+   isac.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h
+nj_u.o: nj_u.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   hisax.h \
+   icc.h \
+   isdnl1.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/pci.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ppp_defs.h \
+   netjet.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/pci.h)
+.PRECIOUS:	hisax_fcpcipnp.h \
+	fsm.h \
+	hisax.h \
+	hisax_isac.h \
+	hisax_debug.h \
+	st5481.h \
+	hisax_if.h \
+

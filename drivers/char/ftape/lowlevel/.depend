@@ -1,0 +1,302 @@
+ftape_syms.o: ftape_syms.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   ../lowlevel/ftape-tracing.h \
+   ../lowlevel/ftape-init.h \
+   ../lowlevel/fdc-io.h \
+   ../lowlevel/ftape-read.h \
+   ../lowlevel/ftape-write.h \
+   ../lowlevel/ftape-io.h \
+   ../lowlevel/ftape-ctl.h \
+   ../lowlevel/ftape-rw.h \
+   ../lowlevel/ftape-bsm.h \
+   ../lowlevel/ftape-buffer.h \
+   ../lowlevel/ftape-format.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/no/trace/at/all.h)
+ftape-proc.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h
+	@touch ftape-proc.h
+ftape-ecc.h: \
+   ../lowlevel/ftape-bsm.h
+	@touch ftape-ecc.h
+fdc-io.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fdreg.h \
+   ../lowlevel/ftape-bsm.h
+	@touch fdc-io.h
+fdc-isr.o: fdc-isr.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/qic117.h \
+   ../lowlevel/ftape-tracing.h \
+   ../lowlevel/fdc-isr.h \
+   ../lowlevel/fdc-io.h \
+   ../lowlevel/ftape-ctl.h \
+   ../lowlevel/ftape-rw.h \
+   ../lowlevel/ftape-io.h \
+   ../lowlevel/ftape-calibr.h \
+   ../lowlevel/ftape-bsm.h
+ftape-format.o: ftape-format.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/qic117.h \
+   ../lowlevel/ftape-tracing.h \
+   ../lowlevel/ftape-io.h \
+   ../lowlevel/ftape-ctl.h \
+   ../lowlevel/ftape-rw.h \
+   ../lowlevel/ftape-ecc.h \
+   ../lowlevel/ftape-bsm.h \
+   ../lowlevel/ftape-format.h
+ftape-proc.o: ftape-proc.c \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/proc/fs.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/proc_fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/qic117.h \
+   ../lowlevel/ftape-io.h \
+   ../lowlevel/ftape-ctl.h \
+   ../lowlevel/ftape-proc.h \
+   ../lowlevel/ftape-tracing.h
+ftape-ecc.o: ftape-ecc.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   ../lowlevel/ftape-tracing.h \
+   ../lowlevel/ftape-ecc.h
+ftape-calibr.o: ftape-calibr.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/timex.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/timex.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   ../lowlevel/ftape-tracing.h \
+   ../lowlevel/ftape-calibr.h \
+   ../lowlevel/fdc-io.h
+ftape-bsm.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape-header-segment.h
+	@touch ftape-bsm.h
+fdc-io.o: fdc-io.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioport.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/interrupt.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/irq.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/qic117.h \
+   ../lowlevel/ftape-tracing.h \
+   ../lowlevel/fdc-io.h \
+   ../lowlevel/fdc-isr.h \
+   ../lowlevel/ftape-io.h \
+   ../lowlevel/ftape-rw.h \
+   ../lowlevel/ftape-ctl.h \
+   ../lowlevel/ftape-calibr.h \
+   ../lowlevel/fc-10.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/fdc/base.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/fdc/irq.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/fdc/dma.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/fdc/thr.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/fdc/max/rate.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/probe/fc10.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/mach2.h)
+ftape-read.o: ftape-read.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/qic117.h \
+   ../lowlevel/ftape-tracing.h \
+   ../lowlevel/ftape-read.h \
+   ../lowlevel/ftape-io.h \
+   ../lowlevel/ftape-ctl.h \
+   ../lowlevel/ftape-rw.h \
+   ../lowlevel/ftape-write.h \
+   ../lowlevel/ftape-ecc.h \
+   ../lowlevel/ftape-bsm.h
+ftape-rw.h: \
+   ../lowlevel/fdc-io.h \
+   ../lowlevel/ftape-init.h \
+   ../lowlevel/ftape-bsm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/unaligned.h
+	@touch ftape-rw.h
+ftape-bsm.o: ftape-bsm.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   ../lowlevel/ftape-tracing.h \
+   ../lowlevel/ftape-bsm.h \
+   ../lowlevel/ftape-ctl.h \
+   ../lowlevel/ftape-rw.h
+ftape_syms.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h
+	@touch ftape_syms.h
+ftape-io.o: ftape-io.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/sched.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/system.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtio.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/qic117.h \
+   ../lowlevel/ftape-tracing.h \
+   ../lowlevel/fdc-io.h \
+   ../lowlevel/ftape-io.h \
+   ../lowlevel/ftape-ctl.h \
+   ../lowlevel/ftape-rw.h \
+   ../lowlevel/ftape-write.h \
+   ../lowlevel/ftape-read.h \
+   ../lowlevel/ftape-init.h \
+   ../lowlevel/ftape-calibr.h
+ftape-setup.o: ftape-setup.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   ../lowlevel/ftape-tracing.h \
+   ../lowlevel/fdc-io.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/no/trace/at/all.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/fdc/base.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/fdc/irq.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/fdc/dma.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/fdc/thr.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/fdc/max/rate.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/probe/fc10.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/mach2.h)
+ftape-rw.o: ftape-rw.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/qic117.h \
+   ../lowlevel/ftape-tracing.h \
+   ../lowlevel/ftape-rw.h \
+   ../lowlevel/fdc-io.h \
+   ../lowlevel/ftape-init.h \
+   ../lowlevel/ftape-io.h \
+   ../lowlevel/ftape-ctl.h \
+   ../lowlevel/ftape-read.h \
+   ../lowlevel/ftape-ecc.h \
+   ../lowlevel/ftape-bsm.h
+ftape-ctl.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ioctl.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mtio.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape-vendors.h \
+   ../lowlevel/ftape-rw.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape-header-segment.h
+	@touch ftape-ctl.h
+ftape-init.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/linkage.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/signal.h
+	@touch ftape-init.h
+ftape-tracing.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/no/trace/at/all.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/no/trace.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/full/debug.h)
+	@touch ftape-tracing.h
+ftape-write.o: ftape-write.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/string.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/qic117.h \
+   ../lowlevel/ftape-tracing.h \
+   ../lowlevel/ftape-write.h \
+   ../lowlevel/ftape-read.h \
+   ../lowlevel/ftape-io.h \
+   ../lowlevel/ftape-ctl.h \
+   ../lowlevel/ftape-rw.h \
+   ../lowlevel/ftape-ecc.h \
+   ../lowlevel/ftape-bsm.h \
+   ../lowlevel/fdc-isr.h
+ftape-ctl.o: ftape-ctl.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mman.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/qic117.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/uaccess.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   ../lowlevel/ftape-tracing.h \
+   ../lowlevel/ftape-io.h \
+   ../lowlevel/ftape-ctl.h \
+   ../lowlevel/ftape-write.h \
+   ../lowlevel/ftape-read.h \
+   ../lowlevel/ftape-rw.h \
+   ../lowlevel/ftape-bsm.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/two/drives.h)
+ftape-io.h: \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/qic117.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape-vendors.h
+	@touch ftape-io.h
+fc-10.o: fc-10.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/io.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   ../lowlevel/ftape-tracing.h \
+   ../lowlevel/fdc-io.h \
+   ../lowlevel/fc-10.h
+ftape-init.o: ftape-init.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/module.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/version.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/errno.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/fs.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/kernel.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/signal.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/major.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/init.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/qic117.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/zftape.h) \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/zftape.h \
+   ../lowlevel/ftape-init.h \
+   ../lowlevel/ftape_syms.h \
+   ../lowlevel/ftape-io.h \
+   ../lowlevel/ftape-read.h \
+   ../lowlevel/ftape-write.h \
+   ../lowlevel/ftape-ctl.h \
+   ../lowlevel/ftape-rw.h \
+   ../lowlevel/fdc-io.h \
+   ../lowlevel/ftape-buffer.h \
+   ../lowlevel/ftape-proc.h \
+   ../lowlevel/ftape-tracing.h \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/nr/buffers.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/proc/fs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/proc/fs.h) \
+   $(wildcard /work/work/loongson/sict_cpci/linux-2.4-new/include/config/ft/no/trace/at/all.h)
+ftape-tracing.o: ftape-tracing.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   ../lowlevel/ftape-tracing.h
+ftape-buffer.o: ftape-buffer.c \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/segment.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/slab.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mm.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/mman.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/wrapper.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/asm/dma.h \
+   /work/work/loongson/sict_cpci/linux-2.4-new/include/linux/ftape.h \
+   ../lowlevel/ftape-rw.h \
+   ../lowlevel/ftape-read.h \
+   ../lowlevel/ftape-tracing.h
+.PRECIOUS:	ftape-proc.h \
+	ftape-ecc.h \
+	fdc-io.h \
+	ftape-bsm.h \
+	ftape-rw.h \
+	ftape_syms.h \
+	ftape-ctl.h \
+	ftape-init.h \
+	ftape-tracing.h \
+	ftape-io.h \
+

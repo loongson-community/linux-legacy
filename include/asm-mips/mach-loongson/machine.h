@@ -1,0 +1,37 @@
+/*
+ * Copyright (C) 2009 Lemote, Inc.
+ * Author: Wu Zhangjin <wuzhangjin@gmail.com>
+ *
+ * This program is free software; you can redistribute  it and/or modify it
+ * under  the terms of  the GNU General  Public License as published by the
+ * Free Software Foundation;  either version 2 of the  License, or (at your
+ * option) any later version.
+ */
+
+#ifndef __ASM_MACH_LOONGSON_MACHINE_H
+#define __ASM_MACH_LOONGSON_MACHINE_H
+
+#include <boot_param.h>
+
+#ifdef CONFIG_LEMOTE_FULOONG2E
+
+#define LOONGSON_MACHTYPE MACH_LEMOTE_FL2E
+
+#endif
+
+/* use fuloong2f as the default machine of LEMOTE_MACH2F */
+#ifdef CONFIG_LEMOTE_MACH2F
+
+#define LOONGSON_MACHTYPE MACH_LEMOTE_FL2F
+
+#endif
+
+#ifdef CONFIG_CPU_LOONGSON3
+#define LOONGSON_MACHTYPE MACH_LOONGSON3
+#endif
+
+#ifdef CONFIG_CPU_LOONGSON2H
+#define LOONGSON_MACHTYPE MACH_LOONGSON2H
+#endif
+
+#endif /* __ASM_MACH_LOONGSON_MACHINE_H */
